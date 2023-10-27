@@ -1,8 +1,6 @@
 console.log("mensajes recibidos");
 
-
 chrome.runtime.onMessage.addListener(gotMessage);
-
 
 function gotMessage(message) {
   console.log(message);
@@ -40,7 +38,7 @@ if (message=="Extra_mails") {
             asunto:Asunto,
                            
              }
-             chrome.runtime.sendMessage(msj_desde_office_mails)
+      chrome.runtime.sendMessage(msj_desde_office_mails)
       console.log("enviado =>")
       console.log(msj_desde_office_mails);      
 }

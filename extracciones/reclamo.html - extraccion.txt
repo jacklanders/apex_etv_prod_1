@@ -1,0 +1,4 @@
+  <form class="columna">
+          <label for="ticket_ms">TICKET MS:</label>
+          <input type="text" id="ticket_ms" value="-" >   
+        </form>   

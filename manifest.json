@@ -1,7 +1,7 @@
 
 {
   "manifest_version":2,
-  "name": "Para ICD",
+  "name": "ETV PROD.",
   
   "version": "3.0",
   "content_scripts": [
@@ -28,7 +28,7 @@
         "128": "images/get_started128.png"
       },
     "default_popup": "sketch/reclamos.html", 
-    "default_title": "Corp"
+    "default_title": "ETV"
     
   },
   

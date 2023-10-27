@@ -1,522 +1,109 @@
+<!--  ***************************** CODGIGO HTML*****************************
+//
+//
+//
+//
+// -->
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formularios en pestañas</title>
   <script type="text/javascript" src="p5.js"></script>
   <script type="text/javascript" src="p5.dom.js"></script>
-   <script src="reclamos.js"></script>
-   <link rel="stylesheet" href="reclamos.css">
+  <script src="reclamos.js"></script>
+  <link rel="stylesheet" href="reclamos.css">
 </head>
-
 <body>
   <div class="container">
-    <div class="tabs">
-      <button class="tab-btn"   id="btnIncidentes" name="1">Incidentes</button>
-      <button class="tab-btn"  id="btnSolicitudes" name="2">Otros</button>
+    <div class="tabs">  <!-- botones superiores -->
+      <button class="tab-btn" id="btnIncidentes" name="1">Incidentes</button>
+      <button class="tab-btn" id="btnSolicitudes" name="2">Otros</button>  
       <button class="tab-btn" id="btnTECO" name="3">TECO</button>
+      <button class="tab-btn" id="btnTOOLS" name="4">Herramientas</button>
     </div>
-    <div id="tab1" class="tab-content active">
-       <div class="inci">
-        <form class="columna1">
-            <label for="nombre">Referencia:</label>
-            <input type="text" id="Referencia" value="-" >
-    
-            <label for="nombre">Ticket:</label>
-            <input type="text" id="Ticket" value="-" >
-    
-            <label for="nombre">Contacto:</label>
-            <input type="text" id="Contacto" value="-" >
-    
-            <label for="nombre">Problema:</label>
-            <input type="text" id="Problema" value="-" >
-    
-            <label for="nombre">Disponibilidad:</label>
-            <input type="text" id="Disponibilidad" value="-" >  
-            <dt>Acceso a Terraza: </dt>    
-            <dl><select id="btTerraza">      
-                <option value= "SI">SI</option>
-                <option value="NO">NO</option>        
-                </select></dl>         
-          </form>
-        <form class="columna2">
-            <label for="nombre">Mail:</label>
-            <input type="text" id="mail" value="-" >
-    
-            <label for="nombre">Num. de OT:</label>
-            <input type="text" id="NumdeOT" value="-" >
-    
-            <label for="nombre">Tel:</label>
-            <input type="text" id="Tel" value="-" >
-    
-            <label for="nombre">Pruebas/Chequeos:</label>
-            <input type="text" id="Chequeos" value="-" >
-    
-            <label for="nombre">Documentacion:</label>
-            <input type="text" id="Documentacion" value="Credencial" >      
-            <dt> COVID</dt> 
-                <dl>
-                <select id="btCOVID">
-                  <option value="NO">NO</option>
-                  <option value= "SI">SI</option>        
-                  </select></dl>
-          </form>
-        <div>
-            <input type="submit" value="Up datos" id="updatos" name="tab_ICD" >
-            <input type="submit" value="Copiar" id="boton1">
-            <input type="submit" value="Borrar" id="boton2">      
-        </div>
-     
-      </div>
-      <div>
-        <dl>
-          <select id="btdano" class="modern">    
-            <option value= "nulo">Seleccionar daño</option>       
-            <option value= "Caido">Caido</option>
-            <option value= "Cortes">Cortes</option>  
-            <option value= "Masivo">Masivo</option>              
-            </select>
-        </dl>
-          <dt>
-            <div id="btn_inc">
-              <div id="nulo"></div>   <!-- para que funciones los select cuando estan vacios--> 
-                <div id="Caido" class="class_opc">
-                  <input type="submit" value="Servicio" id="rt-serv-Caido" name="CMD-INT">
-                    <input type="submit" value="ruta Caido" id="rtCaido" name="RECLAMOS CORPORATIVOS \ CONECTIVIDAD \ TOTAL \ NO NAVEGA">
-                    
-                </div>
-                <div id="Cortes" class="class_opc">
-                  <input type="submit" value="Servicio" id="rt-serv-Cortes" name="CMD-INT">
-                    <input type="submit" value="ruta Cortes" id="rtCortes" name="RECLAMOS CORPORATIVOS \ CONECTIVIDAD \ PARCIAL \ PÉRDIDA DE PAQUETES">
-                    
-                </div>
-                <div id="Masivo" class="class_opc">
-                  <input type="submit" value="Servicio" id="rt-serv-Masivo" name="CMD-INT">
-                    <input type="submit" value="ruta Masivo" id="rtmasivo"  name="RECLAMOS CORPORATIVOS \ CONECTIVIDAD \ TOTAL \ SIN SERVICIO">
-                    
-                </div>
-            </div>
-          </dt>
-
-       </div>
-     
-     
-       
-     
-    </div>
-    <div id="tab2" class="tab-content">
-    
-      <select id="opciones" class="modern">
-        <option value="nulo">Selecciona una opción</option>
-        <option value="adelanto"> Adelanto</option>
-        <option value="ErAg"> Error Agenda</option>
-        <option value="config"> Config </option>
-        <option value="ipfija"> Fijar IP </option>
-        <option value="lentitud"> Reclamos lentitud </option>
-        <option value="toip">TolP  </option>
-        <option value="extrmail"> Extr de mails </option>     
-      </select>
-
-      <div id="otros_tab2">
-        
-        <div id="adelanto" class="class_opc">            
-            <dl>  <input type="submit" value="Servicio" id="rt-serv-adelanto" name="CMD-INT">
-            <input type="submit" value="Ruta Adela" id="rtadelanto" name="REQUERIMIENTOS CORPORATIVOS \ CONECTIVIDAD \ MDAYD-SOLICITUD DE ADELANTO"> </dl>
-            <dt> <input type="submit" value="Detalle" id="detalleadel" name="Estimados, ¿podrían verificar si es posible adelantar la vista de la OT en cuestión?">
-            <input type="submit" value="Grupo Propietario" id="GrProAdel" name="NCSN-MAD">  </dt>
-        </div>            
-        <div id="ErAg" class="class_opc">            
-            <dl>  <input type="submit" value="Servicio" id="rt-serv-ErAg" name="CMD-INT">
-            <input type="submit" value="Ruta ErAg" id="rtErAg" name="REQUERIMIENTOS CORPORATIVOS \ CONECTIVIDAD \ MDAYD-ERROR DE AGENDA"> </dl>
-            <dt> <input type="submit" value="Detalle" id="detalleErAg" name="Estimados, ¿podrían verificar si es posible dar agenda a la OT en cuestión ya que desde WFX arroja error?">
-            <input type="submit" value="Grupo Propietario" id="GrProErAg" name="NCSN-MAD" >  </dt>
-        </div>
-
-        <div id="config" class="class_opc">            
-            <dl>  <input type="submit" value="Servicio" id="rt-serv-config" name="CMD-INT" >
-            <input type="submit" value="Ruta Config" id="RtConfig" name="REQUERIMIENTOS CORPORATIVOS \ CONECTIVIDAD \ CONFIGURACIÓN DE CREDENCIALES"> </dl>
-        </div>
-        <div id="ipfija" class="class_opc">            
-            <dl>  <input type="submit" value="Servicio" id="rt-serv-ipfija" name="CMD-INT">
-            <input type="submit" value="Ruta ipfija" id="Rtipfija" name="REQUERIMIENTOS CORPORATIVOS \ CONECTIVIDAD \ CONFIGURACIÓN IP FIJA"> </dl>
-        </div>
-        <div id="lentitud" class="class_opc">
-            <form class="columna1">
-                <label for="nombre">MAC CM:</label>
-                <input type="text" id="MACCM" value="-" >
-                
-                <dl>El CM fue reiniciado?: 
-                  <select id="lent1">       
-                    <option value= "SI">SI</option> 
-                    <option value="NO">NO</option>       
-                    </select></dl>
-                <dl> El Modem es apto?:
-                  <select id="lent2">
-                        <option value= "SI">SI</option>
-                        <option value="NO">NO</option>        
-                    </select></dl>
-                <dl>Niveles del CM ok?:
-                  <select id="lent3">
-                       <option value= "SI">SI</option> 
-                       <option value="NO">NO</option>       
-                    </select></dl>
-              <dl>CM es docsis 3.1?:
-                  <select id="lent4">
-                            <option value= "SI">SI</option> 
-                            <option value="NO">NO</option>       
-                    </select>
-                </dl>
-                <dl>Problemas de edificio/nodo?:
-                  <select id="lent5">
-                    <option value="NO">NO</option>
-                    <option value= "SI">SI</option>        
-                    </select>
-                </dl>
-                <dl>Prueba de descarga desde:
-                      <select id="lent6">      
-                      <option value= "speedtest.net ">speedtest</option>
-                      <option value="sps.fibertel.com.ar">sps.fibertel</option>   
-                      
-                      </select>
-                      <input type="text" id="veltest"  placeholder="Medición" >
-                  </dl> 
-                  <dl>Cable ETH apto?:
-                    <select id="lent7">
-                               <option value= "SI">SI</option> 
-                               <option value="NO">NO</option>       
-                      </select> 
-                    </dl> 
-                  <dl>Config de placa de PC ok?: 
-                    <select id="lent8">
-                                <option value= "SI">SI</option>  
-                                <option value="NO">NO</option>      
-                      </select>
-                  </dl> 
-                     
-              </form>
-              <dl><input type="submit" value="Servicio" id="bntservLentitud" name="CMD-INT"> 
-                <input type="submit" value="Copiar" id="CopyLentitud"> 
-              </dl>
-              <dl><input type="submit" value=" Ruta Lentitud" id="bntRutaLentitud" name="RECLAMOS CORPORATIVOS \ CONECTIVIDAD \ PARCIAL \ LENTITUD"> 
-                <input type="submit" value="Borrar" id="BorrarLentitud"> 
-              </dl>
-        </div>
-
-        <div id="toip" class="class_opc"> 
-          <dl>
-            <input type="text" id="mac_TOIP" placeholder="MAC CM o SN ONT"> 
-            <input type="text" id="linea_TOIP" placeholder="Número de linea">      
-          </dl>
-  
-          <dl>Estado en Hades           
-            <select id="estado_en_hades">
-              <option value="verde">verde </option>
-              <option value="rojo">rojo</option>
-              <option value="gris">gris</option>
-            </select>
-          </dl>        
-          
-          <dl>Toma IP
-          <select id="toma_IP">
-            <option value="si">si</option>
-            <option value="no">no</option>
-          </select>
-        </dl> 
-          <div class="IP_TOIP" id="diIP_TOIP">
-            <input type="text" id="IP_TOIP" placeholder="IP" maxlength="15" style="max-width: 100px;">
-            <dt>Responde icmp?
-              <select id="gateway">
-                <option value="si">si</option>
-                <option value="no">no</option>
-              </select>
-            </dt>
-          </div>      
-          
-        <dl>Registrada en IMS?
-          <select id="Core_IMS">
-            <option value="Registrada">si</option>
-            <option value="no se encuentra en registrado en ims">no</option>
-          </select>
-        </dl>
-        <dl>Linea migrada o nueva?
-          <select id="toip_nuvo_o_migrad">
-            <option value="fue migrada">migrada</option>
-            <option value="línea mueva">linea nueva</option>
-          </select>
-        </dl>
-          <div id="cont_Siebel" class="cont_Siebel">
-            <dl>Estado en Siebel
-              <select id="Siebel">
-                <option value="aún figura activo en Siebel">activo</option>
-                <option value="figura dada de baja">baja</option>
-              </select>
-            </dl>
-          </div>
-        <dl> Fue reiniciado? 
-          <select id="fue_reiniciado">
-            <option value="si">si</option>
-            <option value="no">no</option>
-          </select>
-        </dl>
-          
-        <dl> Conectado en puerto correcto?
-          <select id="puerto_correcto">
-            <option value=" si, está conectado en Tel-1">si</option>
-            <option value="no">no</option>
-          </select>
-        </dl>
-          
-       <dl>PoA telefónico?
-        <select id="poa_toip">
-          <option value="si, y tampoco funciona">si</option>
-          <option value="no, no tiene otro telefono para probar">no</option>
-        </select>
-       </dl>
-       <dl>Otro cable rj11?
-        <select id="rj11_toip">
-          <option value="si, y tampoco funciona">si</option>
-          <option value="no, no tiene otro cable para probar">no</option>
-        </select>
-       </dl>
-        <dl>Volumen
-          <select id="volumen">
-            <option value="correcto">correcto </option>
-            <option value="está en mute">en mute</option>
-            <option value="tiene el volumen bajo.">No</option>
-          </select>
-        </dl>
-          
-        <dl>Firmware
-          <select id="Fiwmware_h">
-            <option value="es el correcto">correcto</option>
-            <option value="no se puede actualizar">no</option>
-          </select>
-        </dl>
-
-        <dl> Fue reset?
-          <select id="fue_reset">
-            <option value_="si">si</option>
-            <option value="no">no</option>
-          </select>
-        </dl>
-        <dl>
-          <input type="text" id="Contacto_TOIP" placeholder="Contacto"> 
-          <input type="text" id="Dispo_TOIP" placeholder="Disponibilidad">      
-        </dl>
-
-          <input type="submit" value="Copiar" id="cpy_toip" > </dl>
-      </div>
-        <div id="extrmail" class="class_opc">
-       
-       
-           <dl><input type="submit" value="Mails" id="bt-estrac-mails" name="bt-estrac-mails"> </dl>
-           <textarea name="Mails-extencion" id="mail_a_extraer-extencion" cols="50"  placeholder="Mails" ></textarea>
-        </div>
-
-      </div>
-    </div>
-    <div id="tab3" class="tab-content">
- 
-      <select id="opciones_tab3" class="modern">
-        <option value="nulo">Selecciona una opción</option>
-        <option value="cobrexicd"> Cobre por ICD</option>
-        <option value="btTLL">Solicitud TLL</option>
-        <option value="integra">Integra</option>
-        <option value="migracion">Migración<nav></nav></option>
-        
-      </select>
-      
-      <div id="teco_conten">
-
-        <div id="cobrexicd" class="class_opc">  
-          <form  class="columna1">
-            <label for="nombre">Problema:</label>
-            <input type="text" id="problxicd" value="-">
-
-            <label for="nombre">Prueba 1:</label>
-            <input type="text" id="pruebaxicd" value="-">
-
-            <dl><select id="POA-DA">      
-              <option value= "se POA pero sigue igual">POA</option>
-              <option value="se DA pero sigue igual">DA</option>        
-              </select>
-               Central?:
-             <select id="btcentralxsur"> 
-               <option value="sin central">NO</option>     
-               <option value= "con central">SI</option>             
-             </select></dl>
-
-            <label for="nombre">Prueba 2:</label>
-            <input type="text" id="prue2xicd" value="-">
-
-            <label for="nombre">Nombre de contacto:</label>
-            <input type="text" id="nomrexicd" value="-">
-
-            <label for="nombre">Tel de contaco:</label>
-            <input type="text" id="telxicd" value="-">
-
-            <label for="nombre">Dispo:</label>
-            <input type="text" id="Dispoxicd" value="-">
-
-            <label for="nombre">Documentacion:</label>
-            <input type="text" id="docxicd" value="Credencial">
-          </form>
-
-          <dl><input type="submit" value="Copiar" id="copyxicd">
-            <input type="submit" value="Borrar" id="Borrarxicd">
-          </dl>
-          <dl><input type="submit" value="Ruta" id="rutaxicd" name="RECLAMOS CORPORATIVOS \ VOZ \ TOTAL \ SIN TONO" > </dl>
-            
-        </div>
-
-        <div id="btTLL" class="class_opc">
-          <form class="columna1">
-            <label for="nombre">Linea:</label>
-            <input type="text" id="LineaTLL" value="-">
-          
-            <dl>Destino: <input type="checkbox" name="Linea_checkbox" id="Linea_checkbox1" value="es un fijo">Fijo
-          <input type="checkbox" name="Linea_checkbox" id="Linea_checkbox2"value="es un celular">Movil
-            
-            <input type="text" id="DestinoTLL" value="-"></dl>
-
-            <label for="nombre">Nro. de EQ:</label>
-            <input type="text" id="NumEQ" value="-">
-          </form> 
-
-          <dl> <input type="submit" value="Distro" id="DestinoMail" name="AsegClieVOZ@teco.com.ar"> 
-            <input type="submit" value="Asunto" id="AsunoTLL" name="asunto_TTL">
-           </dl>
-          <dl><input type="submit" value="Copiar" id="MailTLL" name="♪
-
-            Estimados, favor de activar la transferencia de llamadas a pedido del cliente.
-
-Línea: ♫;
-
-Línea destino: ☼ (→);
-
-Nro. EQ: ←;
-
-
-
-Desde ya muchas gracias por la gestión. 
-
-Saludos cordiales.">
-           <input type="submit" value="Borrar" id="BorrarTLL">
-          </dl>   
-        
-      </div>
-      <div id="integra" class="class_opc">
-       <div class="inci">
-        <form class="columna1">
-          <label >CUIT:</label>
-          <input type="text" id="integra_CUIT" required><br>
-      
-          <label >Referencia:</label>
-          <input type="text" id="integra_ref" required><br> 
-      
-          <label >Delta:</label>
-          <input type="text" id="integra_Delta"  required><br>
-
-          <label >Problema:</label>
-          <input type="text" id="integra_Problema"  required><br>
-
-          <label >Ciudad:</label>
-          <input type="text" id="integra_Ciudad"  required><br>          
-  
-          <label >Contacto:</label>
-          <input type="text" id="integra_Contacto" required><br>
-  
-          <label >Dispo:</label>
-          <input type="text" id="integra_dispo" required><br>                
-          
-         </form>
-     
-         <form class="columna2">
-        
-          <label >Razón social:</label>
-          <input type="text" id="integra_rs" required><br>
-      
-          <label >Servicio: </label>
-          <input type="text" id="integra_Servicio" required><br>
-      
-          <label >Vantive:</label>
-          <input type="text" id="integra_Vantive"  required><br>      
-            
-          <label >Calle: </label>
-          <input type="text" id="integra_Calle" required><br>
-
-          <label >Provincia:</label>
-          <input type="text" id="integra_Provincia" required><br>
-  
-          <label >Tel.:</label>
-          <input type="text" id="integra_tel" required><br>
-    
-          <label >Documentacion:</label>
-          <input type="text" id="integra_doc" value="Credencial"><br>      
-        
-         </form>
-        </div>
-         <div>
-          
-         
-         <dt> <input type="submit" value="Servicio" id="bt-integra-Servicio" name="FO-INTEG">
-          <input type="submit" value="Ruta" id="bt-integra-Ruta"name="RECLAMOS CORPORATIVOS \ CONECTIVIDAD \ TOTAL \ SIN SERVICIO">
-          <input type="submit" value="Update" id="bt-integra-Update" name="bt-integra-Update">
-          <input type="submit" value="Copiar" id="bt-integra-Copiar">
-        </dt>
-          <dl>
-          <input type="submit" value="Propietario" id="bt-integra-Propietario" name="NCSN-FO">
-          <input type="submit" value="Borrar" id="bt-integra-borrar">
-          </dl>
-         </div>
-        </div>
-      <div id="migracion" class="class_opc">
-        <dt>
-          <select   id="opciones_migraci_1" class="modern">
-            <option value="">Selecciona una opción</option>           
-            <option value="ventas #b">LG + XDSL</option>
-            <option value="migra1 #c">1 LG Sin XDSL</option>
-            <option value="migra2 #d">2 LG SIN XDSL</option>
-            <option value="ventas #e">3 o + LG Sin XDSL</option>
-            <option value="ventas #f">2 o + LG c/rotativas</option>
-            <option value="ventas #g">2 o + LG Centrex</option>
-          </select>
-        </dt>
-        <dt>
-          <select  id="opciones_migraci_2" class="modern">
-            <option value="" >Selecciona una opción</option>
-            <option value="#1">	Apagado de Central</option>
-            <option value="#2" >	Vandalismo declarado (Base)	</option>
-            <option value="#3" > Posee In No Repa (no declarado en base vandalismo)</option>
-          </select>
-        </dt>       
-       <dt>
-        Cobertura ToIP?: <input type="checkbox" name="cobertura_checkbox" id="cobertura_checkbox1" value="con cobertura de ToIP en la zona, ">SI 
-          <input type="checkbox" name="cobertura_checkbox" id="cobertura_checkbox2"  value="sin cobertura de ToIP en la zona, ">NO 
-        </dt>
-        <dt>
-         Con HFC/FTTH?: <input type="checkbox" name="HFC/FTTH_checkbox" id="HFC/FTTH_checkbox1" value="con HFC/FTTH en la misma dirección, ">SI 
-          <input type="checkbox" name="HFC/FTTH_checkbox" id="HFC/FTTH_checkbox2"  value="sin HFC/FTTH en la misma dirección, ">NO 
-        </dt>
-          <div class="class_up_datos_migra">
-          <textarea  id="aca_va_el_text2" style="width: 314px; height: 145px; margin-top: 5%" ></textarea>
-          <input type="submit" name="bt_asunto_migra" id="ID_asunto" value="Asunto para ventas">
-          <input type="submit" name="bt_detalle_mail_migra" id="bt_detalle_mail_migra" value="Detalle mail">
-  
-        </div>
-       </div>
-      
-      </div> 
-      </div>
-    
-     
-
-    </div>
-  </div>
-
- 
-</body>
-
+    <div id="tab4" class="tab-content">
+      <div class="icd">
+        <form class="columna">
+          <label for="cuit">CUIT:</label>
+          <input type="text" id="cuit" value="-" >          
+        </form>
+        <form class="columna">
+          <label for="referencia">REF.:</label>
+          <input type="text" id="referencia" value="-" >
+        </form>
+        <form class="columna">
+          <label for="linea">LINEA:</label>
+          <input type="text" id="linea" value="-" >   
+        </form>  
+        <form class="columna">
+          <label for="ticket_in">TICKET IN:</label>
+          <input type="text" id="ticket_in" value="-" >   
+        </form> 
+        <hr>
+        <form class="columna">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" value="-" >    
+        </form>  
+        <form class="columna">
+          <label for="tel_contacto">Tel.Ct.:</label>
+          <input type="text" id="tel_contacto" value="-" >    
+        </form>  
+        <form class="columna">
+          <label for="mail">Mail:</label>
+          <input type="text" id="mail" value="-" >    
+        </form>  
+        <form class="columna">
+          <label for="domicilio">Domicilio:</label>
+          <input type="text" id="domicilio" value="-" >    
+        </form>  
+        <form class="columna">
+          <label for="disponibilidad">H - D:</label>
+          <input type="text" id="disponibilidad" value="08-16HS" >    
+        </form>   
+        <form class="columna">
+          <label for="btAcceso">Doc.Acc.:</label>    
+          <select id="btAcceso">      
+            <option value="SI">SI</option>
+            <option value="NO">NO</option>   
+          </select>     
+        </form>   
+        <form class="columna">
+          <label for="btTerraza">ToT:</label>    
+          <select id="btTerraza">      
+            <option value="SI">SI</option>
+            <option value="NO">NO</option>        
+          </select>    
+        </form>  
+        <form class="columna">
+          <label for="btCovid">Covid19:</label>    
+          <select id="btCovid">      
+            <option value="SI">SI</option>
+            <option value="NO">NO</option>        
+          </select>    
+        </form>  
+        <hr>
+        <form class="columna">
+          <label for="cm">CM MAC:</label>
+          <input type="text" id="cm" value="-" >    
+        </form>  
+        <form class="columna">
+          <label for="cpe_ip">CPE-IP:</label>
+          <input type="text" id="cpe_ip" value="-" >    
+        </form> 
+        <form class="columna">
+          <label for="nodo">NODO:</label>
+          <input type="text" id="nodo" value="-" >    
+        </form>  
+        <form class="columna">
+          <label for="ot">OT:</label>
+          <input type="text" id="ot" value="-" >    
+        </form>  
+        <hr>
+    </div>   <!-- finaliza tab4 -->
+  </div>     <!-- finaliza class="container" -->
+</body>      <!-- finaliza body -->
 </html>
+
+

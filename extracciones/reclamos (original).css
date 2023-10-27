@@ -1,0 +1,153 @@
+
+
+body {
+    background-color: #7a00c0;
+    color: #fff;
+    margin: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight:700;
+    height: fit-content;  
+
+  }
+  
+  
+  .container {
+   
+    padding: 20px;
+    max-width: fit-content;
+    border: 1px solid #ccc;  
+    line-height: 1.5;
+    padding: 0 1em;
+    background-color: #1a1a1a;
+    border-radius: 5px 5px 5px 5px ;
+    position: relative;
+    width: auto;
+    height: auto;
+
+  }
+  
+  .tabs {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .tab-btn {
+    flex: 1;
+    background-color: #525151;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+ 
+  }
+  
+  .tab-btn.active {
+    background-color: #1a1a1a;
+  }
+  
+
+  
+  .tab-content {
+    display: none;
+
+    margin-bottom:4%;
+  }
+  
+  .tab-content.active {
+    display: block;
+    
+  }
+
+  form {
+    margin-top: 2px;
+  }
+  
+  .inci {
+  
+    border-bottom: none;
+    line-height: 1.5;
+
+    width: 370px;
+    border-radius: 5px 5px 5px 5px ;
+    position: relative;
+    display:inline-block;
+  
+  }
+  .columna1 {
+    background: #1a1a1a; 
+    display:inline-block;
+    width:180px;
+
+  }
+  
+  .columna2 {
+    background: #1a1a1a;  
+    display:inline-block;
+    width:180px;
+  
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  input[type="text"]
+  {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    height:5px;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #7c03a1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px 2px;
+    border-radius: 5px;
+  }
+  
+
+  input[type="submit"]:active {
+                
+    background-color: rgb(76, 0, 255);
+    box-shadow: 0 0px #666;
+    transform: translateY(1px);
+}
+/* Estilo Moderno para el elemento select */
+select.modern {
+  width: 200px;
+  height: 35px;
+  margin: 4px 0px;
+  font-size: 14px;
+  border: 2px solid #c929fadc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+select.modern option {
+  font-size: 16px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.class_up_datos_migra  input{
+  display: block;
+  margin-top: 5%;
+}
+
+#lentitud .columna1{
+  width: 300px;
+}
+

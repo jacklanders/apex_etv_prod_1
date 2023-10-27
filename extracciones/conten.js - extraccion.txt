@@ -1,0 +1,57 @@
+<div id="tab4" class="tab-content">
+      <div class="Incidentes">
+        <form class="columna1">
+            <label for="nombre">CUIT:</label>
+            <input type="text" id="Cuit" value="-" >
+
+            <label for="nombre">Ticket:</label>
+            <input type="text" id="Ticket" value="-" >
+    
+            <label for="nombre">Contacto:</label>
+            <input type="text" id="Contacto" value="-" >
+    
+            <label for="nombre">Problema:</label>
+            <input type="text" id="Problema" value="-" >
+    
+            <label for="nombre">Disponibilidad:</label>
+            <input type="text" id="Disponibilidad" value="-" >  
+            <dt>Acceso a Terraza: </dt>    
+            <dl><select id="btTerraza">      
+                <option value= "SI">SI</option>
+                <option value="NO">NO</option>        
+                </select></dl>         
+          </form>
+        <form class="columna2">
+            <label for="nombre">Referencia:</label>
+            <input type="text" id="Referencia" value="-" >
+            
+            <label for="nombre">Ticket:</label>
+            <input type="text" id="Ticket" value="-" >
+
+            <label for="nombre">Mail:</label>
+            <input type="text" id="mail" value="-" >
+    
+            <label for="nombre">Num. de OT:</label>
+            <input type="text" id="NumdeOT" value="-" >
+    
+            <label for="nombre">Tel:</label>
+            <input type="text" id="Tel" value="-" >
+    
+            <label for="nombre">Pruebas/Chequeos:</label>
+            <input type="text" id="Chequeos" value="-" >
+    
+            <label for="nombre">Documentacion:</label>
+            <input type="text" id="Documentacion" value="Credencial" >      
+            <dt> COVID</dt> 
+                <dl>
+                <select id="btCOVID">
+                  <option value="NO">NO</option>
+                  <option value= "SI">SI</option>        
+                  </select></dl>
+          </form>
+          <form class="columna3"></form>
+           <label for="nombre">Linea:</label>
+           <input type="text" id="Linea" value="-" >
+
+
+          </form>
