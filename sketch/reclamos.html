@@ -15,16 +15,16 @@
   <script src="reclamos.js"></script>
   <link rel="stylesheet" href="reclamos.css">
 </head>
-<body>
-  <div class="container">
-    <div class="tabs">  <!-- botones superiores -->
-      <button class="tab-btn" id="btnIncidentes" name="1">Incidentes</button>
-      <button class="tab-btn" id="btnSolicitudes" name="2">Otros</button>  
-      <button class="tab-btn" id="btnTECO" name="3">TECO</button>
-      <button class="tab-btn" id="btnTOOLS" name="4">Herramientas</button>
-    </div>
-    <div id="tab4" class="tab-content">
-      <div class="icd">
+<body>                                                                        <!-- cuerpo html -->     
+  <div class="container">                                                     <!-- clasificacion de </div> || en este caso container -->     
+    <div class="tabs">                                                        <!-- botones superiores -->
+      <button class="tab-btn" id="btnIncidentes" name="1">Incidentes</button> <!-- button tab  - *-->
+      <button class="tab-btn" id="btnSolicitudes" name="2">Otros</button>     <!-- button tab  - *-->
+      <button class="tab-btn" id="btnTECO" name="3">TECO</button>             <!-- button tab  - *-->
+      <button class="tab-btn" id="btnICD_IN" name="4">ICD IN</button>         <!-- button tab 4 - ICD IN*-->
+    </div>                                                                    <!-- cierre del bloque </div> || en este caso container --> 
+    <div id="tab4" class="tab-content">                                       <!-- codigo tab 4 - ICD IN*-->
+      <div class="icd">                                                       <!-- botones input text || en este caso para gestionar incidentes --> 
         <form class="columna">
           <label for="cuit">CUIT:</label>
           <input type="text" id="cuit" value="-" >          
@@ -66,13 +66,13 @@
           <label for="btAcceso">Doc.Acc.:</label>    
           <select id="btAcceso">      
             <option value="SI">SI</option>
-            <option value="NO">NO</option>   
+            <option value="NO" selected>NO</option> <!-- Esta opción se seleccionará por defecto -->
           </select>     
-        </form>   
+        </form>
         <form class="columna">
           <label for="btTerraza">ToT:</label>    
           <select id="btTerraza">      
-            <option value="SI">SI</option>
+            <option value="SI" selected>SI</option> <!-- Esta opción se seleccionará por defecto -->
             <option value="NO">NO</option>        
           </select>    
         </form>  
@@ -80,16 +80,16 @@
           <label for="btCovid">Covid19:</label>    
           <select id="btCovid">      
             <option value="SI">SI</option>
-            <option value="NO">NO</option>        
+            <option value="NO" selected>NO</option> <!-- Esta opción se seleccionará por defecto -->
           </select>    
-        </form>  
+        </form>
         <hr>
         <form class="columna">
           <label for="cm">CM MAC:</label>
           <input type="text" id="cm" value="-" >    
         </form>  
         <form class="columna">
-          <label for="cpe_ip">CPE-IP:</label>
+          <label for="cpe_ip">CPE - IP:</label>
           <input type="text" id="cpe_ip" value="-" >    
         </form> 
         <form class="columna">
@@ -101,6 +101,7 @@
           <input type="text" id="ot" value="-" >    
         </form>  
         <hr>
+       
     </div>   <!-- finaliza tab4 -->
   </div>     <!-- finaliza class="container" -->
 </body>      <!-- finaliza body -->

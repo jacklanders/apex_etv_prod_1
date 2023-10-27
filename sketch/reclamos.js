@@ -118,7 +118,7 @@ function openTab(evt, tabName) {
     // 4-Agrega la clase "active" al botón de pestaña seleccionado (evt.currentTarget). Esto marca visualmente qué pestaña está activa.
     // 5-Guarda información sobre la pestaña activa en el almacenamiento local para que la selección persista incluso si se actualiza la página. La información incluye el nombre de la pestaña (nombre), el ID del contenido de la pestaña (idcontent), y el índice de la pestaña (indicetab).
 
-    function mostrar_select_de_pestañas() {                                        // Verificar si el objeto está presente en el localStorage
+function mostrar_select_de_pestañas() {                                        // Verificar si el objeto está presente en el localStorage
   if (localStorage.getItem('miArray') !== null) {                                  // Obtener el objeto de localStorage
     const miArray = JSON.parse(localStorage.getItem('miArray'));
     var de_tab1 = miArray.findIndex(function(objeto) {                             // Verificar cada propiedad del objeto
@@ -146,23 +146,6 @@ function openTab(evt, tabName) {
     // Si existe "selec_de_tab2", el valor de esa selección se asigna al campo de entrada con ID "opciones", y se muestra el contenido asociado.
     // Si existe "selec_de_tab3", el valor de esa selección se asigna al campo de entrada con ID "opciones_tab3", y se muestra el contenido asociado.
     // En resumen, esta función se utiliza para restaurar las selecciones previas realizadas en cada pestaña y mostrar el contenido relacionado con esas selecciones cuando se recarga la página o se vuelve a abrirla.
-
-
-// ***************************** BOTONES DE LA EXTENSION*****************************
-// - Botones superiores de la extension:
-//   Botones - este código escucha el evento "click" en cada uno de los botones con los 
-//   ID "btnIncidentes", "btnSolicitudes", "btnTECO" y "btnTOOLS". Cuando se hace clic en uno de
-//   estos botones, se llama a la función openTab y se pasa el evento (event) y el ID de la pestaña
-//   ('tab1', 'tab2', 'tab3', o 'tab4') como argumentos. Esto permite cambiar entre las pestañas 
-//   o secciones de la página cuando se hace clic en los botones correspondientes. 
-//   La función openTab se encargaría de realizar esta acción
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('btnIncidentes').addEventListener('click', function(event) {openTab(event, 'tab1');});
-  document.getElementById('btnSolicitudes').addEventListener('click', function(event) {openTab(event, 'tab2');});
-  document.getElementById('btnTECO').addEventListener('click', function(event) {openTab(event, 'tab3');});; 
-  document.getElementById('btnTOOLS').addEventListener('click', function(event) {openTab(event, 'tab4');});;
-}); 
-
 
 // ***************************** FUNCIONES ADICIONALES *****************************
 function mostrarBoton(id, id_class_elimi, clase, tab) {   
@@ -211,6 +194,61 @@ function seleccionarCheckbox(checkboxIndex, name) {
     checkbox.checked = (index + 1 === checkboxIndex); });
 }   // Función para seleccionar un checkbox
 
+function alcerrar() {  
+  //saved_inputs_in();
+  //save_inputs_pestaña2();
+  //saved_inputs_tll();
+  //save_panilla_sin_tono();
+  //saved_inputs_toip();
+  //saved_inputs_integra();
+  //saved_migracion();
+};  // Función alcerrar() - Llama a varias funciones que se encargan de guardar datos. 
+    // Estas funciones se utilizan para almacenar información en el almacenamiento local del navegador, 
+    // antes de que la página se cierre.
+
+// ***************************** CODGIO SECCION 1 -  *****************************
+// - Botones superiores de la extension:
+//   Botones - este código escucha el evento "click" en cada uno de los botones con los 
+//   ID "btnIncidentes", "btnSolicitudes", "btnTECO" y "btnTOOLS". Cuando se hace clic en uno de
+//   estos botones, se llama a la función openTab y se pasa el evento (event) y el ID de la pestaña
+//   ('tab1', 'tab2', 'tab3', o 'tab4') como argumentos. Esto permite cambiar entre las pestañas 
+//   o secciones de la página cuando se hace clic en los botones correspondientes. 
+//   La función openTab se encargaría de realizar esta acción
+
+// ***************************** CODGIO SECCION 2 -  *****************************
+// - Botones superiores de la extension:
+//   Botones - este código escucha el evento "click" en cada uno de los botones con los 
+//   ID "btnIncidentes", "btnSolicitudes", "btnTECO" y "btnTOOLS". Cuando se hace clic en uno de
+//   estos botones, se llama a la función openTab y se pasa el evento (event) y el ID de la pestaña
+//   ('tab1', 'tab2', 'tab3', o 'tab4') como argumentos. Esto permite cambiar entre las pestañas 
+//   o secciones de la página cuando se hace clic en los botones correspondientes. 
+//   La función openTab se encargaría de realizar esta acción
+
+// ***************************** CODGIO SECCION 3 -  *****************************
+// - Botones superiores de la extension:
+//   Botones - este código escucha el evento "click" en cada uno de los botones con los 
+//   ID "btnIncidentes", "btnSolicitudes", "btnTECO" y "btnTOOLS". Cuando se hace clic en uno de
+//   estos botones, se llama a la función openTab y se pasa el evento (event) y el ID de la pestaña
+//   ('tab1', 'tab2', 'tab3', o 'tab4') como argumentos. Esto permite cambiar entre las pestañas 
+//   o secciones de la página cuando se hace clic en los botones correspondientes. 
+//   La función openTab se encargaría de realizar esta acción
+
+// ***************************** CODGIO SECCION 4 - ICD IN *****************************
+// ***************************** BOTONES DE LA EXTENSION *****************************
+// - Botones superiores de la extension:
+//   Botones - este código escucha el evento "click" en cada uno de los botones con los 
+//   ID "btnIncidentes", "btnSolicitudes", "btnTECO" y "btnTOOLS". Cuando se hace clic en uno de
+//   estos botones, se llama a la función openTab y se pasa el evento (event) y el ID de la pestaña
+//   ('tab1', 'tab2', 'tab3', o 'tab4') como argumentos. Esto permite cambiar entre las pestañas 
+//   o secciones de la página cuando se hace clic en los botones correspondientes. 
+//   La función openTab se encargaría de realizar esta acción
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('btnIncidentes').addEventListener('click', function(event) {openTab(event, 'tab1');});
+  document.getElementById('btnSolicitudes').addEventListener('click', function(event) {openTab(event, 'tab2');});
+  document.getElementById('btnTECO').addEventListener('click', function(event) {openTab(event, 'tab3');});; 
+  document.getElementById('btnICD_IN').addEventListener('click', function(event) {openTab(event, 'tab4');});;
+}); 
+// ***************************** COPIAR CONTENIDO - MACRO APPLY *****************************
 function copiarContenido() {                                     
   var a = " || ";
   var input1 = document.getElementById("Referencia").value;
@@ -248,16 +286,7 @@ function copiarContenido() {
   });
 };  // Función para copiar el contenido de la planilla de incidente         
 
-function alcerrar() {  
-  //saved_inputs_in();
-  //save_inputs_pestaña2();
-  //saved_inputs_tll();
-  //save_panilla_sin_tono();
-  //saved_inputs_toip();
-  //saved_inputs_integra();
-  //saved_migracion();
-};  // Función alcerrar() - Llama a varias funciones que se encargan de guardar datos. 
-    // Estas funciones se utilizan para almacenar información en el almacenamiento local del navegador, 
-    // antes de que la página se cierre.
-                 
+
+
+
 

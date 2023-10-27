@@ -4,84 +4,100 @@
 //
 //
 */
-body {
-  background-color: #7a00c0;
-  color: #fff;
-  margin: 5px;
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  height: fit-content;
-}
-
-.container {
-  padding: 20px;
-  max-width: fit-content;
-  border: 1px solid #ccc;
-  line-height: 1.5;
-  padding: 0 1em;
-  background-color: #1a1a1a;
-  border-radius: 5px;
-  position: relative;
-  width: auto;
-  height: auto;
-}
-
-.tabs {
-  margin-bottom: 10px;
-  display: flex;
-}
-
-.tab-btn {
-  flex: 1;
-  background-color: #525151;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.tab-btn.active {
-  background-color: #1a1a1a;
-}
-
-.tab-content {
-  display: none;
-  margin-bottom: 4%;
-}
-
-.tab-content.active {
-  display: flex;
-  align-items: flex-start;
-}
-
-/* ***************************** CODGIGO 3 COLUMNAS PARALELO ******************************/
-.columna {
-  display: inline-block;
-  width: 22%; /* Ajusta el ancho según tus necesidades */
-  vertical-align: top; /* Alinea los elementos en la parte superior */
-} 
-
-.icd {
-  overflow: hidden; /* Para asegurarse de que el contenedor (.icd) rodee a las columnas */ 
-}
-
-/* Estilos para el separador HR */
-hr {
-  border: 0; /* Elimina el borde predeterminado del HR */
-  height: 1px; /* Define el grosor del separador */
-  background: #00fad0; /* Color de fondo del separador */
-  margin: 3px 0; /* Margen superior e inferior para espaciar el separador */
-}
-
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 12px; /* Ajusta el tamaño del texto según tus necesidades */
-  color: #01ffc8;
-}
+/* *********************** MAQUETEADO INICIAL*********************** */ /*INICIO */
+body {                              /*  */
+  background-color: #7a00c0;      /*  */
+  color: #fff;                    /*  */
+  margin: 5px;                      /*  */
+  font-family: sans-serif;          /*  */
+  font-size: 14px;                  /*  */
+  font-weight: 700;                 /*  */
+  height: fit-content;              /*  */
+}                                   /* ***********************  *********************** */
+/* *********************** Color del container *********************** */ 
+.container {                        /*  <div class="container"> */
+  min-width: 350px;                 /* Ancho mínimo de 300px */
+  max-width: 700px;                 /* Ancho máximo de 700px */
+  padding: 20px;                    /* Establece un relleno interior de 20 píxeles para el elemento con la clase "container".  */
+  /*max-width: fit-content; (desuso)/* Establece el ancho máximo del elemento al ancho mínimo requerido por su contenido.  */
+  border: 1px solid #ccc;         /* Agrega un borde sólido de 1 píxel con color #ccc (gris claro) alrededor del elemento.  */
+  line-height: 1.5;                 /* Establece la altura de línea en 1.5, lo que afecta el espaciado entre las líneas de texto dentro del elemento.  */
+  padding: 0 1em;                   /* Establece un relleno superior e inferior de 0 píxeles y un relleno izquierdo y derecho de 1 "em" (unidad de medida relativa basada en el tamaño de fuente). */ 
+  background-color: #1a1a1a;      /* Establece el color de fondo del elemento en #1a1a1a (un gris oscuro).  */
+  border-radius: 5px;               /* Aplica un radio de borde de 5 píxeles, lo que redondea las esquinas del elemento. */
+  position: relative;               /* Establece la posición del elemento como relativa, lo que permite controlar su posición con respecto a elementos secundarios.  */
+  width: auto;                      /* Permite que el ancho del elemento se ajuste automáticamente según su contenido. */
+  height: auto;                     /* Permite que la altura del elemento se ajuste automáticamente según su contenido.  */
+}                                   /* ***********************  *********************** */
+/* *********************** MAQUETEADO INICIAL*********************** *//*FIN*/
+/* *********************** Botones Superiores || seleccion de tareas *********************** *//*INICIO*/
+.tabs {                             /* BOTONES 1 - 2 - 3 - 4  */
+  margin-top: 5px;     /* (nuevo)   /* Agrega un margen superior de 10 píxeles entre el contenido del contenedor y los botones */
+  margin-bottom: 5px;               /* Establece un margen inferior de 5 (antes 10) píxeles para los elementos con la clase "tabs". (FIJO SIN DESPLEGAR)  */
+  display: flex;                    /* Convierte los elementos con la clase "tabs" en elementos flexibles, lo que les permite alinearse horizontalmente.  */
+}                                   /* ***********************  *********************** */
+.tab-btn {                          /* BOTONES 1 - 2 - 3 - 4   */
+  flex: 1;                          /* Los elementos con la clase "tab-btn" se expanden para ocupar todo el espacio disponible horizontalmente dentro de su contenedor.  */
+  background-color: #525151;      /* Establece el color de fondo del elemento en #525151 (un gris más oscuro).  */
+  color: #fff;                    /* ;Establece el color del texto en blanco.  */
+  border: none;                     /* Elimina cualquier borde alrededor del elemento.  */
+  padding: 10px;                    /* Establece un relleno de 10 píxeles para el elemento.  */
+  font-size: 10px;                  /* Establece el tamaño de fuente en 10 (antes 16) píxeles.  */
+  cursor: pointer;                  /* Cambia el cursor al icono de una mano cuando el mouse se coloca sobre el elemento, indicando que es interactivo.  */
+}                                   /* ***********************  *********************** */
+.tab-btn.active {                   /* Define un estilo específico para los elementos con la clase "tab-btn" */
+  background-color: #1a1a1a;      /* Que también tienen la clase "active". Cambia el color de fondo a #1a1a1a. */
+}                                   /* ***********************  *********************** */
+/* *********************** Botones Superiores || seleccion de tareas *********************** *//*FIN*/
+/* ************************* SubBotones Superiores || botones input text **************************//*INICIO*/                     
+.tab-content {                      /* Margen inferior a los sub botones (CUANDO SE DESPLIEGAN) */
+  display: none;                    /* Inicialmente, oculta los elementos con la clase "tab-content". */
+  margin-bottom: 5%;                /* Establece un margen inferior del 5% (antes 4%) para los elementos con la clase "tab-content".  */
+}                                   /* ***********************  *********************** */
+.tab-content.active {               /*  Define un estilo específico para los elementos con la clase "tab-content" que también tienen la clase "active"  */
+  display: flex;                    /*  Cambia su propiedad display a "flex", lo que los hace visibles */
+  align-items: flex-start;          /*  Establece "align-items: flex-start" lo que alinea sus elementos secundarios en la parte superior dentro del contenedor flexible.*/
+}                                   /* ***********************  *********************** */
+.columna {                          /* Columnas en paralelo */
+  display: inline-block;            /*   */
+  width: 22%;                       /* Ajusta el ancho según tus necesidades */
+  vertical-align: top;              /* Alinea los elementos en la parte superior */
+  margin-left: 2px;                 /* Agrega un margen derecho de 2px entre las columnas /*(n)*/
+  margin-right: 3px;                /* Agrega un margen derecho de 4px entre las columnas */
+  /*margin-bottom: 10%;             /* Margen inferior entre las columnas */
+  /*margin-top: 10px;               /* Margen superior entre las columnas */
+}                                   /* ***********************  *********************** */
+.icd {                              /* Para asegurarse de que el contenedor (.icd) */
+  overflow: hidden;                 /* rodee a las columnas */ 
+  background-color: #1a1a1a;     /* Color de fondo del espacio entre columnas  /*(n)*/
+  border-radius: 5px;              /*(n)                                              */
+  position: relative;              /*(n)                                              */
+}                                  /* ***********************  *********************** */
+/* ***************************** Linea HR divisoria ***************************** */
+hr {                                /* html ||  <hr> */
+  border: 0;                        /* Elimina el borde predeterminado del HR */
+  /* border: 1px solid #00fad0;     /* Elimina el borde predeterminado del HR /*(n)*/
+  height: 1px;                      /* Define el grosor del separador */
+  background: #00fad0;            /* Color de fondo del separador */
+  /*margin: 3px 0;                    /* Margen superior e inferior para espaciar el separador /*(desuso)*/
+  margin-top: 1px;                  /* Margen superior entre las columnas /*(n)*/
+  /*margin-bottom: 1px;             /* Margen superior entre las columnas /*(n)*/
+}                                   /* ***********************  *********************** */
+/* ************************* Tamaño del Texto  **************************/
+label {                             /* html || <label for="cuit">CUIT:</label> */ 
+  display: block;                   /*    */
+  margin-bottom: 5px;               /*    */
+  font-size: 12px;                  /* Ajusta el tamaño del texto según tus necesidades */
+  color: #01ffc8;                 /* color del texto || button input text */
+}                                   /* ***********************  *********************** */     
+/* ************************* Bloc de Notas **************************/
+.notepad {                          /* id="notepad" */
+  width: 300px;                     /* Ancho fijo de la extension */
+  resize: both;                     /* Permite redimensionar horizontal y verticalmente */
+  overflow: auto;                   /* Barras de desplazamiento si el contenido es demasiado grande */
+  height: 200px;                    /* Altura inicial (ajústala según tus necesidades) */
+}                                   /* ***********************  *********************** */
+/* ************************* SubBotones Superiores || botones input text **************************//*FIN*/                     
 
 input[type="text"] {
   width: 75%;
@@ -93,7 +109,7 @@ input[type="text"] {
   height: 5px;
   border-radius: 5px;
 }
-
+/* *************************  **************************/
 input[type="submit"] {
   background-color: #7c03a1;
   color: #fff;
@@ -104,7 +120,7 @@ input[type="submit"] {
   margin: 0px 2px;
   border-radius: 5px;
 }
-
+/* *************************  **************************/
 input[type="submit"]:active {
   background-color: rgb(76, 0, 255);
   box-shadow: 0 0px #666;

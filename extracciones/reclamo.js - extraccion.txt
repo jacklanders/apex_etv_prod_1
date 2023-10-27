@@ -1,0 +1,13 @@
+function autoAjustar(textarea) {
+  
+  textarea.style.height = 'auto'; // Restablecer la altura a automático
+  textarea.style.height = (textarea.scrollHeight) + 'px'; // Ajustar la altura según el contenido
+}
+
+  // Crear un elemento de textarea temporal para copiar el texto al portapapeles
+  var tempTextarea = document.createElement("textarea");
+  tempTextarea.value = concatenatedValue;
+  document.body.appendChild(tempTextarea);
+  tempTextarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempTextarea);
