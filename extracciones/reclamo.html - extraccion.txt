@@ -1,4 +1,44 @@
+//*************************************************************************************************************************++  
   <form class="columna">
           <label for="ticket_ms">TICKET MS:</label>
           <input type="text" id="ticket_ms" value="-" >   
         </form>   
+//*************************************************************************************************************************++
+//*************************************************************************************************************************++
+Puedes organizar tu código de la manera que prefieras para mantenerlo ordenado y legible. No hay ningún problema en repetir el código si estás asignando diferentes manejadores de eventos a botones con identificadores distintos, incluso si algunos de los manejadores son similares. De hecho, es una práctica común en desarrollo web tener bloques de código separados para diferentes secciones de una página.
+Sin embargo, si quieres optimizar tu código y evitar repetir el mismo código para los botones, podrías usar una única función para manejar el evento de clic de todos los botones y determinar la acción según el botón que se hizo clic. Por ejemplo:
+
+document.addEventListener('DOMContentLoaded', function() {
+  const buttons = document.querySelectorAll('.my-button-class');
+
+  buttons.forEach(function(button) {
+    button.addEventListener('click', function(event) {
+      const buttonId = button.id;
+
+      switch (buttonId) {
+        case 'btnIncidentes':
+          openTab(event, 'tab1');
+          break;
+        case 'btnSolicitudes':
+          openTab(event, 'tab2');
+          break;
+        case 'btnTECO':
+          openTab(event, 'tab3');
+          break;
+        case 'btnICD_IN':
+          openTab(event, 'tab4');
+          break;
+        // Agrega más casos según tus botones
+        default:
+          // Acción predeterminada o error si es necesario
+      }
+    });
+  });
+});
+Con esta estructura, puedes asignar la misma clase (my-button-class en este caso) a los botones y reducir la repetición de código. Simplemente agrega un caso para cada botón que deba realizar una acción específica.
+El enfoque que elijas dependerá de tus preferencias personales y de la estructura general de tu proyecto. Ambos métodos son válidos y funcionarán bien.
+//*************************************************************************************************************************++
+
+
+              
+              

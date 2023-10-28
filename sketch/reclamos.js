@@ -214,16 +214,9 @@ function alcerrar() {
 //   ('tab1', 'tab2', 'tab3', o 'tab4') como argumentos. Esto permite cambiar entre las pestañas 
 //   o secciones de la página cuando se hace clic en los botones correspondientes. 
 //   La función openTab se encargaría de realizar esta acción
-
-// ***************************** CODGIO SECCION 2 -  *****************************
-// - Botones superiores de la extension:
-//   Botones - este código escucha el evento "click" en cada uno de los botones con los 
-//   ID "btnIncidentes", "btnSolicitudes", "btnTECO" y "btnTOOLS". Cuando se hace clic en uno de
-//   estos botones, se llama a la función openTab y se pasa el evento (event) y el ID de la pestaña
-//   ('tab1', 'tab2', 'tab3', o 'tab4') como argumentos. Esto permite cambiar entre las pestañas 
-//   o secciones de la página cuando se hace clic en los botones correspondientes. 
-//   La función openTab se encargaría de realizar esta acción
-
+document.addEventListener('DOMContentLoaded', function() {  // - Boton superior 1 de la extension:
+  document.getElementById('btnICD_IN').addEventListener('click', function(event) {openTab(event, 'tab4');});
+}); 
 // ***************************** CODGIO SECCION 3 -  *****************************
 // - Botones superiores de la extension:
 //   Botones - este código escucha el evento "click" en cada uno de los botones con los 
@@ -232,9 +225,10 @@ function alcerrar() {
 //   ('tab1', 'tab2', 'tab3', o 'tab4') como argumentos. Esto permite cambiar entre las pestañas 
 //   o secciones de la página cuando se hace clic en los botones correspondientes. 
 //   La función openTab se encargaría de realizar esta acción
-
-// ***************************** CODGIO SECCION 4 - ICD IN *****************************
-// ***************************** BOTONES DE LA EXTENSION *****************************
+document.addEventListener('DOMContentLoaded', function() {  // - Boton superior 2 de la extension:
+  document.getElementById('btnSolicitudes').addEventListener('click', function(event) {openTab(event, 'tab4');});
+}); 
+// ***************************** CODGIO SECCION 2 -  *****************************
 // - Botones superiores de la extension:
 //   Botones - este código escucha el evento "click" en cada uno de los botones con los 
 //   ID "btnIncidentes", "btnSolicitudes", "btnTECO" y "btnTOOLS". Cuando se hace clic en uno de
@@ -242,12 +236,35 @@ function alcerrar() {
 //   ('tab1', 'tab2', 'tab3', o 'tab4') como argumentos. Esto permite cambiar entre las pestañas 
 //   o secciones de la página cuando se hace clic en los botones correspondientes. 
 //   La función openTab se encargaría de realizar esta acción
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('btnIncidentes').addEventListener('click', function(event) {openTab(event, 'tab1');});
-  document.getElementById('btnSolicitudes').addEventListener('click', function(event) {openTab(event, 'tab2');});
-  document.getElementById('btnTECO').addEventListener('click', function(event) {openTab(event, 'tab3');});; 
-  document.getElementById('btnICD_IN').addEventListener('click', function(event) {openTab(event, 'tab4');});;
+document.addEventListener('DOMContentLoaded', function() { // - Boton superior 3 de la extension:
+  document.getElementById('btnTECO').addEventListener('click', function(event) {openTab(event, 'tab2');});; 
 }); 
+
+// ***************************** CODGIO SECCION 1 - ICD IN *****************************
+// ***************************** BOTONES DE LA EXTENSION *****************************
+document.addEventListener('DOMContentLoaded', function() {  // - Boton superior 4 de la extension:
+  document.getElementById('btnIncidentes').addEventListener('click', function(event) {openTab(event, 'tab1');});; 
+}); 
+// ***************************** BLOC DE NOTAS - MACRO APPLY *****************************
+const notepad1 = document.getElementById("notepad1");      // JavaScript para controlar la visibilidad de los notepads 1 
+const notepad2 = document.getElementById("notepad2");      // JavaScript para controlar la visibilidad de los notepads 2
+
+notepad1.addEventListener('input', function() {
+  autoAjustar(notepad1); });
+notepad2.addEventListener('input', function() {
+  autoAjustar(notepad2); });
+
+const notepad2Container = document.querySelector('.notepad-2');
+function showNotepad2() {                                  // Lógica para controlar la visibilidad de notepad 2
+  notepad2Container.classList.add('visible'); 
+}
+function hideNotepad2() {
+  notepad2Container.classList.remove('visible');          // Lógica para cargar y modificar datos en notepad 2 (usando eventos de input)
+}
+function autoAjustar(textarea) {                         // Lógica para limpiar notepad 1 (por agregar)
+  textarea.style.height = 'auto';
+  textarea.style.height = (textarea.scrollHeight) + 'px';
+}
 // ***************************** COPIAR CONTENIDO - MACRO APPLY *****************************
 function copiarContenido() {                                     
   var a = " || ";
