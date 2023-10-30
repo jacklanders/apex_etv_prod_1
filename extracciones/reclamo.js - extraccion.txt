@@ -11,3 +11,73 @@ function autoAjustar(textarea) {
   tempTextarea.select();
   document.execCommand("copy");
   document.body.removeChild(tempTextarea);
+
+
+
+
+
+document.getElementById("botonExportar").addEventListener("click", cargarLibreriaSeleccionada);  // Asocia la función al botón "Exportar"
+document.getElementById("botonCargar").addEventListener("click", function() {                    // Otras funciones relacionadas con los botones, por ejemplo:
+  
+   var cuit = document.getElementById("cuit").value;                                                 // Obtener los valores de los input text
+   var referencia = document.getElementById("referencia").value;                                                 // Obtener los valores de los input text
+   var linea = document.getElementById("linea").value;                                                 // Obtener los valores de los input text
+   var ticket = document.getElementById("ticket_in").value;                                                 // Obtener los valores de los input text
+
+   var nombre = document.getElementById("nombre").value;                                                 // Obtener los valores de los input text
+   var tel = document.getElementById("tel_contacto").value;                                                 // Obtener los valores de los input text
+   var mail = document.getElementById("mail").value;                                                 // Obtener los valores de los input text
+   var domicilio = document.getElementById("domicilio").value;                                                 // Obtener los valores de los input text
+   var docAcceso = document.getElementById("btAcceso").value;
+   var tot = document.getElementById("btTerraza").value;
+   var covid = document.getElementById("btCovid").value;
+
+   var cm = document.getElementById("cm").value;                                                 // Obtener los valores de los input text
+   var cpe_ip= document.getElementById("cpe_ip").value;                                                 // Obtener los valores de los input text
+   var nodo = document.getElementById("nodo").value;
+   var ot = document.getElementById("ot").value;
+  
+   if (selectedValue === "nulo") {
+    document.getElementById("notepad2").value = "Selecciona una librería primero.";
+    return; }
+  var libreriaPredefinida = libreriasMensajes[selectedValue];                     // Obtén la librería predefinida
+  if (!libreriaPredefinida) {
+    document.getElementById("notepad2").value = "Librería no encontrada.";
+    return; }
+    if (selectedValue === "01.NO.NAVEGA.HFC-CCTV-(GC)") {("Cliente sin servicio. Se realiza monitoreo preventivo:\n\n" +
+                                                          "Assure: CM offline \n" +
+                                                          "Assure NXT: CM offline \n\n" +
+                                                          "Reinicio CM: NO \n" +
+                                                          "NXT: NO , CM NO levanta señal, se solicita al cliente chequear energia en sitio y reinicio general de los equipos.\n\n" +
+                                                          "IDPROD.: " + idproducto  + "\n" +
+                                                          "CM MAC: " + mac  + "\n" +
+                                                          "NODO: " + nodo + "\n" +
+                                                          "************************************\n" +
+                                                          "Nombre en SITE: " + nombre + "\n" +
+                                                          "Tel. Ct.: " + tel + "\n" +
+                                                          "Mail: " + mail + "\n" +
+                                                          "Domicilio: " + domicilio + "\n" +
+                                                          "************************************"); 
+                                                        }  
+
+    if (selectedValue === "01.NO.NAVEGA.HFC-CCTV-(GC)") {
+      document.getElementById("notepad2").value =         
+      "Cliente sin servicio. Se realiza monitoreo preventivo:\n\n" +
+      "Assure: CM offline \n" +
+      "Assure NXT: CM offline \n\n" +
+      "Reinicio CM: NO \n" +
+      "NXT: NO , CM NO levanta señal, se solicita al cliente chequear energia en sitio y reinicio general de los equipos.\n\n" +
+      "IDPROD.: " + idproducto  + "\n" +
+      "CM MAC: " + mac  + "\n" +
+      "NODO: " + nodo + "\n" +
+      "************************************\n" +
+      "Nombre en SITE: " + nombre + "\n" +
+      "Tel. Ct.: " + tel + "\n" +
+      "Mail: " + mail + "\n" +
+      "Domicilio: " + domicilio + "\n" +
+      "************************************"); 
+      }  
+
+  // Finalmente, actualiza el texto en notepad2
+  notepad2.value = textoOriginal;        
+     

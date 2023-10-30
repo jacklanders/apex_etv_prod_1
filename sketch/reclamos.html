@@ -14,17 +14,16 @@
   <script type="text/javascript" src="p5.dom.js"></script>
   <script src="reclamos.js"></script>
   <link rel="stylesheet" href="reclamos.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css">                      codigo CSS en desuso -->     
 </head>
 <body>                                                                        <!-- cuerpo HTML -->     
   <div class="container">                                                     <!-- Sw agrega el conteine de los botones-->     
     <div class="tabs">                                                        <!-- botones superiores -->
-     
       <button class="tab-btn" id="btnIncidentes" name="1">Incidentes</button>         <!-- button tab 4 - ICD IN*-->
       <button class="tab-btn" id="btnSolicitudes" name="2">Solicitudes</button>       <!-- button tab  - *-->
       <button class="tab-btn" id="btnFIBER" name="3">FIBER</button>                   <!-- button tab  - *-->
       <button class="tab-btn" id="btnTeco" name="4">TECO</button>                     <!-- button tab  - *-->
-      <button class="tab-btn" id="btnTools" name="5">EXTRAS</button>                     <!-- button tab  - *-->
+      <button class="tab-btn" id="btnTools" name="5">EXTRAS</button>                  <!-- button tab  - *-->
     </div>                                                                    <!-- cierre del bloque </div> || en este caso container --> 
     <div id="tab1" class="tab-content">                                       <!-- codigo tab 4 - ICD IN*-->
       <div class="botones">                                                   <!-- botones input text || en este caso para gestionar incidentes --> 
@@ -104,34 +103,34 @@
           <input type="text" id="ot" value="-" >    
         </form>                                                               <!-- Boton 4 - 16. OT --> 
         <hr>                                                                  <!-- 3 linea divisoria   --> 
-        <input type="submit" value="Copy Data" id="boton1">                   <!-- este boton copia el contenido de los input_tex al notepad 1 -->
-        <input type="submit" value="Pegar Data" id="boton2">                  <!-- este boton pega el contenido de los input_tex al notepad 1 -->
-        <input type="submit" value="Clean Notes" id="boton3">                 <!-- este boton borra el texto cargado en notepad 1 -->
-        <input type="submit" value="Clean All" id="boton4">                   <!-- este boton borra el texto cargado en input text y los notepad 1-2 -->
+        <input type="submit" value="Copiar Data" id="botonCopiarD">                   <!-- este boton copia el contenido de los input_tex al notepad 1 -->
+        <input type="submit" value="Subir Data" id="botonSubir">                  <!-- este boton pega el contenido de los input_tex al notepad 1 -->
+        <input type="submit" value="Clean Notes" id="botonCleanN">                 <!-- este boton borra el texto cargado en notepad 1 -->
+        <input type="submit" value="Clean All" id="botonCleanA">                   <!-- este boton borra el texto cargado en input text y los notepad 1-2 -->
         <div class="notepad-container">                                       <!-- Se agrega el conteiner de los notepads -->
           <div class="notepad notepad-1">                                     <!-- notepad 1 -->
             <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad 1 -->
             <textarea id="notepad1" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 50px; max-height: 370px;"></textarea>
           </div>                                                              <!-- finaliza notepad 1 -->
           <hr>                                                                <!-- 4 linea divisoria   --> 
-          <select id="incidentes" class="modern">                             <!-- selector de librerias macro -->   
+          <select id="librerias_incidentes" class="modern">                             <!-- selector de librerias macro -->   
             <option value="nulo">Selecciona una opción</option>
-            <option value="HFC_CCTV_(GC)">01. NO NAVEGA - HFC CCTV (GC)</option>
-            <option value="HFC_sin_OT">02. NO NAVEGA - HFC sin OT</option>
-            <option value="HFC_con_OT">03. NO NAVEGA - HFC con OT</option>
-            <option value="HFC_sin_CORTES">04. NO NAVEGA - HFC sin  CORTES</option>
-            <option value="HFC_con_CORTES">05. NO NAVEGA - HFC con CORTES</option>
+            <option value="01.NO.NAVEGA.HFC-CCTV-(GC)">01. NO NAVEGA - HFC CCTV (GC)</option>
+            <option value="02.NO.NAVEGA.HFC-sin-OT">02. NO NAVEGA - HFC sin OT</option>
+            <option value="03.NO.NAVEGA.HFC-con-OT">03. NO NAVEGA - HFC con OT</option>
+            <option value="04.NO.NAVEGA.HFC-sin-CORTES">04. NO NAVEGA - HFC sin  CORTES</option>
+            <option value="05.NO.NAVEGA.HFC-con-CORTES">05. NO NAVEGA - HFC con CORTES</option>
           </select>
           <div>                                                                <!-- botones para noteopa 2  --> 
-            <input type="submit" value="Exportar" id="boton5">                 <!-- este boton carga la libreria seleccionada en notepad 2 -->
-            <input type="submit" value="Cargar" id="boton6">                   <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad 2  -->
-            <input type="submit" value="Copiar" id="boton7">                   <!-- este boton copia el texto cargado en notepad 2 -->
-            <input type="submit" value="Limpiar" id="boton8">                  <!-- este boton borra el texto cargado en notepad 2 -->
+            <input type="submit" value="Exportar" id="botonExportar">          <!-- este boton carga la libreria seleccionada en notepad 2 -->
+            <input type="submit" value="Cargar" id="botonCargar">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad 2  -->
+            <input type="submit" value="Copiar" id="botonCopiar">              <!-- este boton copia el texto cargado en notepad 2 -->
+            <input type="submit" value="Limpiar" id="botonLimpiar">            <!-- este boton borra el texto cargado en notepad 2 -->
           <div>                                                                <!-- botones para noteopa 2  --> 
           <div class="notepad notepad-2">                                      <!-- notepad 2 -->
             <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad 2 -->
-            <textarea id="notepad2" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>
-          </div>                                                               <!-- finaliza notepad 2 -->
+            <textarea id="notepad2" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          </div>                                                               <!-- finaliza notepad 2 -->
+          <div id="output"></div>
         </div>  <!-- finaliza subconteiner bloc de notas 1-2--> 
       </div>    <!-- finaliza subbotones || subbotones ICD IN -->
     </div>      <!-- finaliza tab4 || subbotones ICD IN || bloc de notas 1-2--> 
