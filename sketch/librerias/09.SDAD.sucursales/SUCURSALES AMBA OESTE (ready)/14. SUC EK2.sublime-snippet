@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.EK2@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Lucrecia Arias  | SIN TEL CT.
+-Gerente:     Jorge Gomez     | 1165836569
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        103119960
+-Sucursal:    EK2
+-Domicilio:   Av. San Juan 2852, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.84
+IP SCO:  10.106.2.78
+PUERTO:  12
+IP WAN: 10.104.137.90 || 10.104.137.86
+FECHA DE ALTA: 01/02/2016
+
+]]></content>
+
+<tabTrigger>SUC: EK2 | 103119960 | 10.109.250.84 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

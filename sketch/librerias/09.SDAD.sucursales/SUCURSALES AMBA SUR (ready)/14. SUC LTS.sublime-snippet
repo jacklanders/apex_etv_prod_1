@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.LTS@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Estella Romero   | 1158097111
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        121281227
+-Sucursal:    LTS
+-Domicilio:   Formosa 653 - Ezeiza, Ezeiza, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.18
+IP SCO:  10.106.127.9
+PUERTO:  10
+IP WAN: 10.104.127.230 || 10.104.127.234
+FECHA DE ALTA: 28/04/2015
+
+]]></content>
+
+<tabTrigger>SUC: LTS | 121281227 | 10.109.244.18 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

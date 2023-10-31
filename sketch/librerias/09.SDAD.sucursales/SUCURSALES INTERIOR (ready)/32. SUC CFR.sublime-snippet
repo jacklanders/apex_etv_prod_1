@@ -1,0 +1,24 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CFR@ar.mcd.com	  
+-Mail SUP:    alejandra.bertoldi@ar.mcd.com
+-Supervisor:  Alejandra Bertoldi  | SIN TEL CT.
+-Gerente:     Fernando Chavez	  | SIN TEL CT.
+
+-Servicio:    Enlace de TECO
+-Ref.:        270423
+-Sucursal:    CFR
+-Domicilio:   Junin 385, Rosario, Santa Fé
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.117
+
+
+]]></content>
+
+<tabTrigger>SUC: CFR | 270423 | 10.109.252.117 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MAI@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com     
+-Director:    Gabriela Morey      | 1131651696
+-Supervisor:  Soledad Coelho      | 1136896580
+-Gerente:     Florencia Carloccia | 2342483795
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141697651
+-Sucursal:    MAI
+-Domicilio:   Av Maipu 1050, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.252.114
+IP SCO:  10.106.30.5
+PUERTO:  21
+IP WAN: 10.104.28.222 || 10.104.34.94
+FECHA DE ALTA: 04/11/2014
+
+]]></content>
+
+<tabTrigger>SUC: MAI | 141697651 | 10.107.252.114 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

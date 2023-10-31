@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CYM@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Soledad Coelho  | 1136896580
+-Gerente:     Javier Hidalgo  | 1124600727
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141919095
+-Sucursal:    CYM
+-Domicilio:   Av Cabildo 2523, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.249.108
+IP SCO:  10.106.9.2
+PUERTO:  12
+IP WAN: 10.104.213.6 || 10.104.124.102
+FECHA DE ALTA: 08/04/2014
+
+]]></content>
+
+<tabTrigger>SUC: CYM | 141919095 | 10.107.249.108 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CNG@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini    | 1137015885
+-Supervisor:  Vanesa Ghigliani    | 1169123989
+-Gerente:     Graciela Velazquez  | 1134702307
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103111736
+-Sucursal:    CNG
+-Domicilio:   CORRIENTES ,AV. /ALT/ 5230, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.137
+IP SCO:  GPON 10.111.224.2
+PUERTO:  0
+IP WAN: 10.104.41.202 || 10.104.41.206
+FECHA DE ALTA: 07/03/2016
+
+]]></content>
+
+<tabTrigger>SUC: CNG | 103111736 | 10.107.255.137 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

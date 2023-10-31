@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.AMN@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    rodrigo.michelena@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Rodrigo Michelena | 1156055529
+-Gerente:     Yamila Martinez   | 2996064940
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        194438514
+-Sucursal:    AMN 
+-Domicilio:   PERTICONE EUGENIO /ALT/ 545, BELGRANO, NEUQUEN
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.180
+IP SCO:  10.106.80.6
+PUERTO:  11
+IP WAN: 10.104.80.206 || 10.104.80.210
+FECHA DE ALTA: 29/06/2017
+
+]]></content>
+
+<tabTrigger>SUC: AMN | 194438514 | 10.109.244.180 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

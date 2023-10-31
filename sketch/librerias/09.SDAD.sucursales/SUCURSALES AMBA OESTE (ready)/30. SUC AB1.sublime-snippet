@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.AB1@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Luciana Piñeiro | 1163759307
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        120810567
+-Sucursal:    AB1
+-Domicilio:   CORRIENTES AV 3247, L FEDERAL, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.20
+IP SCO:  10.106.1.53
+PUERTO:  8
+IP WAN: 10104160134|10.104.160.130
+FECHA DE ALTA: 08/03/2019
+
+]]></content>
+
+<tabTrigger>SUC: AB1 | 120810567 | 10.107.254.20 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MOR@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    analia.alfonso@ar.mcd.com
+-Consultor:   Alan Haynes    | 1136938463
+-Supervisor:  Analia Alfonso | SIN TEL CT.
+-Gerente:     Yamila Pinto   | 1141578182
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        121395007 - 121395010
+-Sucursal:    MOR
+-Domicilio:   MITRE BARTOLOME ,AV. /ALT/ 2857, Moreno, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.108
+IP SCO:  10.106.154.4
+PUERTO:  11
+IP WAN: 10.104.154.242 || 10.104.154.238
+FECHA DE ALTA: 02/06/2016
+
+
+]]></content>
+
+<tabTrigger>SUC: MOR | 121395007 - 121395010 | 10.109.244.108 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PER@ar.mcd.com	  
+-Mail SUP:    sebastian.palaoro@ar.mcd.com
+-Supervisor:  Sebastian Palaoro  | SIN TEL CT.
+-Gerente:     Camila Cozzi	     | 3413532708
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103158705
+-Sucursal:    PER
+-Domicilio:   Av. Pellegrini 1402, Rosario, Santa Fe
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.234
+IP SCO:  10.106.91.9
+PUERTO:  12
+IP WAN: 10.104.104.138 || 10.104.104.142
+FECHA DE ALTA: 26/12/2017	
+
+]]></content>
+
+<tabTrigger>SUC: PER | 103158705 | 10.109.246.234 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

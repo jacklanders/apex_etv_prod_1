@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+Caso Nº 01: *GESTION DEL LLAMADO*      
+****************************************             
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº LIN.: 
+Nº TICKET:  
+Nº TICKET:  
+Nº TICKET:     
+N° iTracker: 
+N° iTickets:
+************************************
+Sin telefono, sin mail para validar estado del servicio. Se valida estado del servicio - - .
+
+Sin telefono de contacto. Se envia mail al cliente para validar estado del servicio.
+
+Se realiza saliente al numero - -, sin exito. Se envia mail al cliente para validar estado del servicio
+
+Se realiza saliente al numero - -. Nos atiende - - quien nos indica que el servicio se encuentra operativo. Se cierra caso.
+
+Se realiza saliente al numero - -. Nos atiende - - quien nos indica que la falla persiste.
+************************************
+]]></content>
+<tabTrigger>02.NUEVA GESTION</tabTrigger>
+<description>LLAMADA OUT</description>
+</snippet>

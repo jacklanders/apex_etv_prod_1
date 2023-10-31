@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: 
+CC: abuse-telecom@teco.com.ar | SoportePymesConectividad@teco.com.ar
+
+Asunto: IP enlistada xxxxxxxxx || CUIT:  || SS:
+Nro. Caso: 	
+************************************ 
+Estimado, buenas tardes.
+
+Continuando el seguimiento al caso de referencia, la problematica que nos plantea sobre los inconvenientes de acceso con nuestra webmail, nos hace referencia a problemas con accesos a hosts especificos. 
+
+Bajo esa casuistica, requerimos que nos remitan pruebas ping/tracert donde se vea reflajada la ip de origen y nuestra web mail de cloud office. Con dichas pruebas podremos realizar un analisis y/o tratamiento de la gestion solicitada.
+
+Ticket 14443186.
+
+Quedamos a disposicion.
+Saludos cordiales.
+************************************ 
+]]></content>
+
+<tabTrigger>04.MAIL ABUSE - SAHE - WEBMAIL (generico 3)</tabTrigger>
+<description>MAIL ABUSE</description>
+
+</snippet>

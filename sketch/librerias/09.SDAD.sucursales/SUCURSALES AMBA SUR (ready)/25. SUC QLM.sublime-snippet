@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.QLM@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Lorena Smit      | 1137016785
+-Gerente:     Celeste Torres   | 1135769176
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141731736
+-Sucursal:    QLM
+-Domicilio:   Rivadavia 124, Quilmes, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.39
+IP SCO:  10.106.129.10
+PUERTO:  19
+IP WAN: 10.104.129.66 || 10.104.57.198
+FECHA DE ALTA: 06/08/2014
+
+]]></content>
+
+<tabTrigger>SUC: QLM | 141731736 | 10.109.246.39 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.UN4@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Gimena Conte    | 1165102911
+-Gerente:     Natalia Martini | 1155797919
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103181029
+-Sucursal:    UN4 
+-Domicilio:   Paraná 3745, Martinez, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.242.59
+IP SCO:  10.106.5.60
+PUERTO:  0
+IP WAN: 10.104.158.78 || 10.104.158.74
+FECHA DE ALTA: 22/12/2017  
+
+]]></content>
+
+<tabTrigger>SUC: UN4 | 103181029 | 10.109.242.59 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

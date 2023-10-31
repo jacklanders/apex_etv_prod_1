@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:   LAR.CAC@ar.mcd.com	
+-Mail SUP:   adriana.bertoldi@ar.mcd.com
+-Supervisor: Adriana Bertoldi | SIN TEL CT.
+-Gerente:    Cecilia Chavez   | 3512441926
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103107835 - 146357264 
+-Sucursal:    CAC
+-Domicilio:   Avenida Colon Esq. Avellaneda 202, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.17
+IP SCO:  10.106.105.5
+PUERTO:  11
+IP WAN: 10.104.114.102 ||10.104.114.106 || 10.104.70.182
+FECHA DE ALTA: 21/04/2017
+
+]]></content>
+
+<tabTrigger>SUC: CAC | 103107835 - 146357264 | 10.109.240.17 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

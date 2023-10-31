@@ -1,0 +1,1040 @@
+***************************************
+***************************************
+              AMBA - NORTE
+***************************************
+***************************************
+SUC: AL8 01
+ 
+-Mail SUC:    LAR.AL8@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey    | 1131651696
+-Supervisor:  Gimena Conte      | 1165102911
+-Gerente:     Mauro Insaurralde | 1135131210
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141936464
+-Sucursal:    AL8
+-Domicilio:   AV DEL LIBERTADOR  2194, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.251.52
+IP SCO:  10.106.11.15
+PUERTO:  19
+IP WAN: 10.104.37.50 || 10.104.237.34
+FECHA DE ALTA: 29/05/2014  
+************************************
+************************************
+SUC: SIS 02
+
+-Mail SUC:    LAR.SIS@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Gimena Conte    | 1165102911
+-Gerente:     Marcedes Rey    | 1158268801
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141745152
+-Sucursal:    SIS
+-Domicilio:   Av Centenario 72, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.251.45
+IP SCO:  10.106.11.10
+PUERTO:  20
+IP WAN: 10.104.37.58 || 10.104.237.22
+FECHA DE ALTA: 04/11/2014
+************************************
+************************************
+SUC: TIG 03
+
+-Mail SUC:    LAR.TIG@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Gimena Conte   | 1165102911
+-Gerente:     Iris Sanchez   | 1160471885
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141938087
+-Sucursal:    TIG
+-Domicilio:   MITRE GRAL BARTOLOME /ALT/ 390, Tigre, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.247.130
+IP SCO:  10.106.11.15
+PUERTO:  3
+IP WAN: 10.104.37.114 || 10.104.237.30
+FECHA DE ALTA: 03/09/2014  
+************************************
+************************************
+SUC: UN4 04
+
+-Mail SUC:    LAR.UN4@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Gimena Conte    | 1165102911
+-Gerente:     Natalia Martini | 1155797919
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103181029
+-Sucursal:    UN4 
+-Domicilio:   Paraná 3745, Martinez, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.242.59
+IP SCO:  10.106.5.60
+PUERTO:  0
+IP WAN: 10.104.158.78 || 10.104.158.74
+FECHA DE ALTA: 22/12/2017  
+************************************
+************************************
+SUC: UN3 05
+
+-Mail SUC:    LAR.UN3@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Gimena Conte     | 1165102911
+-Gerente:     Florencia Aimone | 1130820800
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103180725
+-Sucursal:    UN3
+-Domicilio:   Paraná 3745, Martinez, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.242.57
+IP SCO:  10.106.5.60
+PUERTO:  0
+IP WAN: 10.104.158.54 || 10.104.158.58
+FECHA DE ALTA: 22/12/2017 
+************************************
+************************************
+SUC: SYT 06
+
+-Mail SUC:    LAR.SYT@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey      | 1131651696
+-Supervisor:  Gimena Conte        | 1165102911
+-Gerente:     Carolina de la Cruz | 1168178550
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141938957
+-Sucursal:    SYT
+-Domicilio:   TOMKINSON 2967, BECCAR, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.247.129
+IP SCO:  10.106.11.15
+PUERTO:  1
+IP WAN: 10.104.37.106
+FECHA DE ALTA: 10/09/2014
+************************************
+************************************
+SUC: ROL  07
+
+-Mail SUC:    LAR.ROL@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Gimena Conte    | 1165102911
+-Gerente:     Adriana Klipan  | 1165943980
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141944755
+-Sucursal:    ROL
+-Domicilio:   Vergara 50, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.227
+IP SCO:  10.106.56.13
+PUERTO:  8
+IP WAN: 10.104.146.126 || 10.104.164.2
+FECHA DE ALTA: 04/11/2014 
+************************************
+************************************
+SUC: ESC 08
+
+-Mail SUC:    LAR.ESC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Paula Garcia    | 1149690386
+-Gerente:     Micaela Aguilar | 1168880599
+
+-Servicio:    Enlace de TECO
+-Ref.:        959805 (MPLS) 959818 (INET).
+-Sucursal:    ESC
+-Domicilio:   25 de Mayo 1264, Escobar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: MPLS 10.105.166.38
+************************************
+************************************
+SUC: NOR 09
+
+-Mail SUC:    LAR.NOR@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com   
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Paula Garcia   | 1149690386
+-Gerente:     Manuel Soto    | 1167121441
+
+-Servicio:    Enlace de TECO
+-Ref.:        959808 - 959821
+-Sucursal:    NOR
+-Domicilio:   Ruta 27 y Nordelta, Nordelta, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.105.167.26 || 186.108.44.198
+************************************
+************************************
+SUC: R02 10
+
+-Mail SUC:    LAR.R02@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Paula Garcia    | 1149690386
+-Gerente:     Sofía Rodriguez  | 1133807634
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141732576
+-Sucursal:    R02
+-Domicilio:   MARCELO T DE ALVEAR 2956, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.253.9
+IP SCO:  10.106.147.15
+PUERTO:  22
+IP WAN: 10.104.147.30 || 10.104.147.142
+FECHA DE ALTA: 13/05/2014
+************************************
+************************************
+SUC: R9C 11
+
+-Mail SUC:    LAR.R9C@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com  
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Paula Garcia    | 1149690386
+-Gerente:     Matias Sosa     | 1128861296
+-Gerente:     Luciano Maiochi | 1134893157
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141932722
+-Sucursal:    R9C
+-Domicilio:   RUTA 9 KM 72,5, Campana, Buenos Aires
+
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.161
+IP SCO:  10.106.33.2
+PUERTO:  9
+IP WAN: 10.104.33.22 || 10.104.33.94
+FECHA DE ALTA: 15/08/2014  
+************************************
+************************************
+SUC: R9M 12
+
+-Mail SUC:    LAR.R9M@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com  
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Paula Garcia   | 1149690386
+-Gerente:     Barbara Salto  | 1160278082
+
+-Servicio:    Enlace de TECO
+-Ref.:        542407
+-Sucursal:    R9M
+-Domicilio:   Los Rosales sin número, entre las calles Los Claveles y Peñaloza, paraje “El Triángulo”, Ingeniero Maschwitz, Escobar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.70
+************************************
+************************************
+SUC: SIC   13
+
+-Mail SUC:    LAR.SIC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com 
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Paula Garcia         | 1149690386
+-Gerente:     Leonardo Bartolacci  | 1134848852
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141744653 
+-Sucursal:    SIC
+-Domicilio:   Blanco Encalada 404, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.251.53
+IP SCO:  10.106.11.10
+PUERTO:  21
+IP WAN: 10.104.37.54 || 10.104.237.26
+FECHA DE ALTA: 30/04/2014
+************************************   
+************************************
+SUC: SF2 14
+
+-Mail SUC:    LAR.SF2@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com    
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Jimena Montero  | 1121607853
+-Gerente:     Yanina Gramajo  | 1158556949
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103171269
+-Sucursal:    SF2
+-Domicilio:   Av Santa Fe 4280, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.90
+IP SCO:  10.111.223.2
+PUERTO:  0
+IP WAN: 10.104.152.98 || 10.104.152.102
+FECHA DE ALTA: 10/03/2016  
+************************************
+************************************
+SUC: BEL 15 
+
+-Mail SUC:    LAR.BEL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com    
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Jimena Montero   | 1121607853
+-Gerente:     Flavia Rivas Loz | 1140456662
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141936787
+-Sucursal:    BEL
+-Domicilio:   Av Cabildo 2254, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.224
+IP SCO:  10.106.9.10
+PUERTO:  10
+IP WAN: 10.104.213.10 || 10.104.124.110
+FECHA DE ALTA: 02/01/2017 
+************************************
+************************************
+SUC: PMJ 16
+
+-Mail SUC:    LAR.PMJ@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com     
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Jimena Montero  | 1121607853
+-Gerente:     Karen Garcia    | 1122973606
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103161342
+-Sucursal:    PMJ
+-Domicilio:   Av. Int. Bullrich 345 L.1006, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.82
+IP SCO:  10.111.223.2 
+PUERTO:  -
+IP WAN: 10.104.152.130 || 10.104.152.134
+FECHA DE ALTA: 05/08/2019
+************************************
+************************************
+SUC: SF5  17
+
+-Mail SUC:    LAR.SF5@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Jimena Montero  | 1121607853
+-Gerente:     Marcos Soria    | 1167447921
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141918382
+-Sucursal:    SF5
+-Domicilio:   Avenida 844 alt 2582, Solano, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.251.177
+IP SCO:  10.106.129.10
+PUERTO:  20
+IP WAN: 10.104.129.78 || 10.104.57.202
+FECHA DE ALTA: 23/08/2019
+************************************
+************************************
+SUC: CFL 18
+
+-Mail SUC:    LAR.CFL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com   
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Paula Garcia   | 1121607853
+-Gerente:     Vanesa Roldan  | 1153781643
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103108378
+-Sucursal:    CFL
+-Domicilio:   CABILDO ,AV. /ALT/ 756, CABA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.64
+IP SCO:  10.106.0.113
+PUERTO:  13
+IP WAN: 10.104.152.206 || 10.104.152.210
+FECHA DE ALTA: 22/04/2016  
+************************************
+************************************
+SUC: SGC  19
+
+-Mail SUC:    LAR.SGC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com   
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Jimena Montero   | 1121607853
+-Gerente:     Nathalia Salinas | 1168008336
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141946411
+-Sucursal:    SGC
+-Domicilio:   MAURE /ALT/ 1886, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.78
+IP SCO:  10.106.0.83
+PUERTO:  12
+IP WAN: 10.104.110.94 || 10.104.152.82
+FECHA DE ALTA: 11/02/2015
+************************************
+************************************
+SUC: AT1  20
+
+-Mail SUC:    LAR.AT1@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com   
+-Director:    Gabriela Morey    | 1131651696
+-Supervisor:  Jimena Montero    | 1121607853
+-Gerente:     Patricia Alderete | 1164923968
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103103506
+-Sucursal:    AT1
+-Domicilio:   Av. Triunvirato 4680, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.40
+IP SCO:  10.106.13.35
+PUERTO:  4
+IP WAN: 10.104.106.70 || 10.104.106.110
+FECHA DE ALTA: 14/01/2016
+************************************
+************************************
+SUC: SMG 21
+
+-Mail SUC:    LAR.SMG@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com  
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Yanina Colazo    | 1156626895
+-Gerente:     Leonardo Chavez  | 1150998427
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        147807081
+-Sucursal:    SMG
+-Domicilio:   PERON PTE JUAN D ,AV. /ALT/ 983, MUNIZ, Buenos Aires
+
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.125
+IP SCO:  10.106.154.4
+PUERTO:  20
+IP WAN: 10.104.179.46 || 10.104.179.50
+FECHA DE ALTA: 30/08/2019
+************************************
+************************************
+SUC: R8P 22
+
+-Mail SUC:    LAR.R8P@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Yanina Colazo   | 1156626895
+-Gerente:     Lorena Gonzalez | 1162868731
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        155525620
+-Sucursal:    R8P
+-Domicilio:   PANAMERICANA ,AU. /ALT/ 55000 /TO/ ARCOS /CU/ DORA, Pilar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.131
+IP SCO:  10.106.15.17
+PUERTO:  4
+IP WAN: 10.104.125.14 || 10.104.15.106
+FECHA DE ALTA: 12/08/2019  
+************************************
+************************************
+SUC: PIL 23
+ 
+-Mail SUC:    LAR.PIL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com    
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Yanina Colazo  | 1156626895
+-Gerente:     Barbara Heflin | 1156413510
+
+-Servicio:    Enlace de TASA
+-Ref.:        120822 - 1019304
+-Sucursal:    PIL
+-Domicilio:   Ex-Ruta 8 esq. Los Durazneros, Pilar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.96
+************************************
+************************************
+SUC: TOM 24
+
+-Mail SUC:    LAR.TOM@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com 
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Yanina Colazo  | 1156626895
+-Gerente:     Nuria Aguilera | 1124591888
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        150093744
+-Sucursal:    TOM
+-Domicilio:   CONSTITUYENTES ,AV. /ALT/ 1499, Capital Federal, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.135
+IP SCO:  10.106.15.57
+PUERTO:  9
+IP WAN: 10.104.125.54 || 10.104.125.50
+FECHA DE ALTA: 15/05/2018
+************************************
+************************************
+SUC: PIV 25
+
+-Mail SUC:    LAR.PIV@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com 
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Yanina Colazo  | 1156626895
+-Gerente:     Rocio Martinez | 1135004006
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        157607887
+-Sucursal:    PIV
+-Domicilio:   PANAMERICANA ,AU. /ALT/ 49000, Pilar, Buenos aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.248.12
+IP SCO:  10.106.15.17
+PUERTO:  22
+IP WAN: 10.104.125.74 IRS || 10.104.125.70 MPLS
+FECHA DE ALTA: 06/05/2018  
+************************************
+************************************
+SUC: PPJ  26
+
+-Mail SUC:    LAR.PPJ@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com  
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Yanina Colazo  | 1156626895
+-Gerente:     Yamila Urquiza | 1164369488
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103162311
+-Sucursal:    PPJ
+-Domicilio:   LAS MAGNOLIAS /ALT/ 754 /DE/ 2100, Capital Federal, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.146
+IP SCO:  10.106.15.57
+PUERTO:  14
+IP WAN: 10.104.125.146 || 10.104.125.138
+FECHA DE ALTA: 23/05/2018
+************************************
+************************************
+SUC: TIA  27 (averiguar, no datos)
+
+-Mail SUC:    LAR.TIA@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Yanina Colazo   | 1156626895
+-Gerente:     Ayelén Ferreira | 1166709201
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        
+-Sucursal:    TIA
+-Domicilio:   
+
+-Datos ENLACE:
+************************************
+************************************
+SUC: DOT 28
+
+-Mail SUC:    LAR.DOT@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Rodrigo Farrace  | 1149797294
+-Gerente:     Eliana Rodriguez | 3484409611
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141650595
+-Sucursal:    DOT
+-Domicilio:   NICOLAS DE VEDIA 3626 (DOT), CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.236
+IP SCO:  10.106.9.10
+PUERTO:  8
+IP WAN: 10.104.213.2 || 10.104.124.106
+FECHA DE ALTA: 05/01/2015
+************************************
+************************************
+SUC: ACA 29
+
+-Mail SUC:    LAR.ACA@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Rodrigo Farrace | 1149797294
+-Gerente:     Mónica Lezcano  | 1151550907
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141934672
+-Sucursal:    ACA
+-Domicilio:   Av Libertador 14719, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.252.70
+IP SCO:  10.106.5.29
+PUERTO:  12
+IP WAN:  10.104.28.226 - 10.104.151.74 || 10.104.158.36/30
+FECHA DE ALTA: 03/10/2014
+************************************
+************************************
+SUC: FEC 30
+
+-Mail SUC:    LAR.FEC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Rodrigo Farrace | 1149797294
+-Gerente:     Gimena Perez    | 1139351751
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        147175323
+-Sucursal:    FEC
+-Domicilio:   YRIGOYEN PTE H ,AV. /ALT/ 1646, SAN FERNANDO, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.247.156
+IP SCO:  10.106.147.29
+PUERTO:  1
+IP WAN: 10.104.237.158 || 10.104.237.154
+FECHA DE ALTA: 12/10/2017
+************************************
+************************************
+SUC: SFW 31
+
+-Mail SUC:    LAR.SFW@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Rodrigo Farrace | 1149797294
+-Gerente:     Ana Valiente    | 1132396802
+
+
+-Servicio:    Enlace de TECO
+-Ref.:        259001
+-Sucursal:    SFW
+-Domicilio:   Calle Bancalari (sin numero) entre Ruta 202 y Uruguay, San fernando, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.120
+************************************
+************************************
+SUC: OLI 32
+
+-Mail SUC:    LAR.OLI@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Yanina Colazo  | 1149797294
+-Gerente:     Julieta Blanco | 1168602825
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141729434
+-Sucursal:    OLI
+-Domicilio:   AV DEL LIBERTADOR 2803 , Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.252.68
+IP SCO:  10.106.30.6
+PUERTO:  5
+IP WAN: 10.104.34.218 || 10.104.34.106
+FECHA DE ALTA: 12/01/2014
+************************************
+************************************
+SUC: MA2  33
+
+-Mail SUC:    LAR.MA2@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Rodrigo Farrace | 1149797294
+-Gerente:     Fabricio Di Dio | 1168372086
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141933877
+-Sucursal:    MA2
+-Domicilio:   Av Maipu 2779, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.252.106
+IP SCO:  10.106.30.4
+PUERTO:  22
+IP WAN: 10.104.151.42 || 10.104.34.110
+FECHA DE ALTA: 21/11/2014 
+************************************
+************************************
+SUC: SOL  34
+
+-Mail SUC:    LAR.SOL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Rodrigo Farrace | 1149797294
+-Gerente:     Fernando Yoma   | 1159026997
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141938637
+-Sucursal:    SOL
+-Domicilio:   IRIGOYEN DR BERNARDO DE /ALT/ 2647, Boulogne, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.226
+IP SCO:  10.106.56.13
+PUERTO:  3
+IP WAN: 10.104.146.122 || 10.104.164.4/30
+FECHA DE ALTA: 03/10/2014 
+************************************
+************************************
+SUC: NUN 35
+
+-Mail SUC:    LAR.NUN@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Soledad Coelho   | 1136896580
+-Gerente:     Gimena Carloccia | 1133606412
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141942666
+-Sucursal:    NUN
+-Domicilio:   Av del Libertador 7112, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.231
+IP SCO:  10.106.9.25
+PUERTO:  16
+IP WAN: 10.104.213.158 || 10.104.76.118
+FECHA DE ALTA: 28/11/2014
+************************************
+************************************
+SUC: MAI 36
+
+-Mail SUC:    LAR.MAI@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com     
+-Director:    Gabriela Morey      | 1131651696
+-Supervisor:  Soledad Coelho      | 1136896580
+-Gerente:     Florencia Carloccia | 2342483795
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141697651
+-Sucursal:    MAI
+-Domicilio:   Av Maipu 1050, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.252.114
+IP SCO:  10.106.30.5
+PUERTO:  21
+IP WAN: 10.104.28.222 || 10.104.34.94
+FECHA DE ALTA: 04/11/2014
+************************************
+************************************
+SUC: COL 37
+
+-Mail SUC:    LAR.COL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Soledad Coelho  | 1136896580
+-Gerente:     Mabel Olea      | 1130996017
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141937839
+-Sucursal:    COL
+-Domicilio:   Federico Lacroze 3496 , CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.121
+IP SCO:  10.106.0.61
+PUERTO:  23
+IP WAN: 10.104.101.50 -  10.104.101.226 || 10.104.152.114
+FECHA DE ALTA: 03/10/2014
+************************************
+************************************
+SUC: CYM 38
+
+-Mail SUC:    LAR.CYM@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Soledad Coelho  | 1136896580
+-Gerente:     Javier Hidalgo  | 1124600727
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141919095
+-Sucursal:    CYM
+-Domicilio:   Av Cabildo 2523, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.249.108
+IP SCO:  10.106.9.2
+PUERTO:  12
+IP WAN: 10.104.213.6 || 10.104.124.102
+FECHA DE ALTA: 08/04/2014
+************************************
+************************************
+SUC: BEU 39
+
+-Mail SUC:    LAR.BEU@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Soledad Coelho | 1136896580
+-Gerente:     Ailin Castaño  | 1168570392
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103106842
+-Sucursal:    BEU
+-Domicilio:   Av. Monroe 1655 esq. Arribeños L.1, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.229
+IP SCO:  10.111.222.2  
+PUERTO:  -
+IP WAN: 10.104.124.118 || 10.104.124.122
+FECHA DE ALTA: 29/02/2016
+************************************
+************************************
+SUC: ELC  40
+
+-Mail SUC:    LAR.ELC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Soledad Coelho  | 1136896580
+-Gerente:     Marina Monzon   | 1162620020
+-Gerente:     Roberto Olivero | 1162620020
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141919550
+-Sucursal:    ELC
+-Domicilio:   Av Elcano 3240, CABA, CABA
+ 
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.253.99
+IP SCO:  10.106.0.15
+PUERTO:  6
+IP WAN: 10.104.101.46 || 10.104.152.106
+FECHA DE ALTA: 01/09/2014
+************************************
+************************************
+SUC: WOC  41
+
+-Mail SUC:    LAR.WOC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey    | 1131651696
+-Supervisor:  Soledad Coelho    | 1136896580
+-Gerente:     Betiana Maldonado | 1159283119
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103183356
+-Sucursal:    WOC
+-Domicilio:   Av. Constituyentes 6020, CABA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.48
+IP SCO:  10.106.13.24
+PUERTO:  16
+IP WAN: 10.104.106.154 || 10.104.106.158
+FECHA DE ALTA: 29/08/2017
+************************************
+************************************
+SUC: CGP 42
+
+-Mail SUC:    LAR.CGP@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com  
+-Director:    Gabriela Morey        | 1131651696
+-Supervisor:  Jimena Santa Marinha  | 1166852398
+-Gerente:     Juan González         | 1169742766
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141946101
+-Sucursal:    CGP
+-Domicilio:   San Martin 421, Villa Lynch, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.154
+IP SCO:  10.106.153.9
+PUERTO:  3
+IP WAN: 10.104.64.126 || 10.104.157.154
+FECHA DE ALTA: 23/10/2018
+************************************
+************************************
+SUC: BAL 43
+
+-Mail SUC:    LAR.BAL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com      
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Victoria Segovia     | 1128775079
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141649165
+-Sucursal:    BAL
+-Domicilio:   Bvd Ballester 4771, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.152
+IP SCO:  10.106.153.6
+PUERTO:  3
+IP WAN: 10104153202 || 10.104.157.150
+FECHA DE ALTA: 19/06/2018
+************************************
+************************************
+SUC: FCT 44
+
+-Mail SUC:    LAR.FCT@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com  
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Jimena Sarrabayruse  | 1137735955
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103120284
+-Sucursal:    FCT
+-Domicilio:   WHITE GUILLERMO /ALT/ 4500, Munro, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.241
+IP SCO:  10.106.56.17
+PUERTO:  6
+IP WAN: 10.104.164.38 || 10.104.164.42
+FECHA DE ALTA: 23/06/2017
+************************************
+************************************
+SUC: SMB 45
+
+-Mail SUC:    LAR.SMB@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com   
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Florencia Pugliese   | 1123258251
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141747527
+-Sucursal:    SMB
+-Domicilio:   Ricardo Balbin 2549, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.148
+IP SCO:  10.106.153.6
+PUERTO:  6
+IP WAN: 10.104.153.174 || 10.104.157.164/30
+FECHA DE ALTA: 19/06/2018
+************************************
+************************************
+SUC: SMP 46
+
+-Mail SUC:    LAR.SMP@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com  
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Carla Glasser        | 1157313105
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103176821
+-Sucursal:    SMP
+-Domicilio:   Belgrano 3641, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.180
+IP SCO:  10.106.153.18
+PUERTO:  14
+IP WAN: 10.104.157.194 || 10.104.157.198
+FECHA DE ALTA: 15/02/2016
+************************************
+************************************
+SUC: CUE  47
+
+-Mail SUC:    LAR.CUE@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com  
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Sabrina Pachelo      | 1161865512
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141933245
+-Sucursal:    CUE  
+-Domicilio:   Cuenca 3224, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.253.57
+IP SCO:  10.106.14.3
+PUERTO:  8
+IP WAN: 10.104.42.90 || 10.104.118.46
+FECHA DE ALTA: 04/04/2014
+************************************
+************************************
+SUC: SMJ  48
+
+-Mail SUC:    LAR.SMJ@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com  
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Aldana Córdoba       | 1155734829
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103152507
+-Sucursal:    SMJ
+-Domicilio:   San Lorenzo 3773 L.1056, Martinez, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.176
+IP SCO:  10.106.153.18
+PUERTO:  11
+IP WAN: 10.104.157.178 || 10.104.157.182
+FECHA DE ALTA: 17/03/2016
+************************************

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.DOT@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Rodrigo Farrace  | 1149797294
+-Gerente:     Eliana Rodriguez | 3484409611
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141650595
+-Sucursal:    DOT
+-Domicilio:   NICOLAS DE VEDIA 3626 (DOT), CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.236
+IP SCO:  10.106.9.10
+PUERTO:  8
+IP WAN: 10.104.213.2 || 10.104.124.106
+FECHA DE ALTA: 05/01/2015
+
+]]></content>
+
+<tabTrigger>SUC: DOT | 141650595 | 10.107.254.236 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

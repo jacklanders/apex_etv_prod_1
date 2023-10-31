@@ -1,0 +1,23 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: VentasPymes@teco.com.ar
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: 
+Nro. Caso: 	
+************************************ 
+Estimados, buenos días.
+
+Agradecemos información y celeridad en la gestión del caso.
+
+Quedamos a disposición.
+Saludos cordiales.
+************************************ 
+]]></content>
+
+<tabTrigger>01.MAIL SOPORTE PYMES - VENTAS (ND)</tabTrigger>
+<description>MAIL IN-SO-PY</description>
+
+</snippet>

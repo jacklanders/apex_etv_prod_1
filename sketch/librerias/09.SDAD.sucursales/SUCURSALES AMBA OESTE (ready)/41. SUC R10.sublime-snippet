@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.R10@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT. 
+-Gerente:     Hernan Moreno       | 1133892387
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141733144
+-Sucursal:    R10
+-Domicilio:   AV Rivadavia 2199, CABA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.209
+IP SCO:  10.106.3.161
+PUERTO:  7
+IP WAN: 10.104.207.26 || 10.104.75.138
+FECHA DE ALTA: 10/10/2014
+
+]]></content>
+
+<tabTrigger>SUC: R10 | 141733144 | 10.109.240.209 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

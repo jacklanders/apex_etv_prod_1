@@ -1,0 +1,16 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente se comunica por deco con fallas. Se realiza pruebas recalculo: Recalculo de parametros TV - INIT CAT TV. Deco presenta inconvenientes con la visualizacion de la grilla/acceso/reproduccion del contenido.
+
+Estimados, escalamos el caso para solicitar feedback del inconveniente actual del deco.
+  
+IDPROD.: 
+MAC DECO:
+************************************ 
+]]></content>
+
+<tabTrigger>18.ICD IN - DECO NOC</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

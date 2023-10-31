@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+Caso Nº 01: *GESTION DEL LLAMADO*                  
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº LIN.: 
+Nº TICKET:  
+Nº TICKET:  
+Nº TICKET:     
+N° iTracker: 
+N° iTickets:
+************************************
+Nombre en SITE: 
+Tel. Ct.: 
+Mail: 
+H-D: L-V / 08-16HS
+Doc. Acc.: NO
+ToT: SI
+Covid-19: NO 
+Domicilio:     
+************************************
+
+************************************
+]]></content>
+<tabTrigger>05.GESTION clean new</tabTrigger>
+<description>models versions</description>
+</snippet>

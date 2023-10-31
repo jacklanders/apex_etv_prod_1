@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.NUN@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Soledad Coelho   | 1136896580
+-Gerente:     Gimena Carloccia | 1133606412
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141942666
+-Sucursal:    NUN
+-Domicilio:   Av del Libertador 7112, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.231
+IP SCO:  10.106.9.25
+PUERTO:  16
+IP WAN: 10.104.213.158 || 10.104.76.118
+FECHA DE ALTA: 28/11/2014
+
+]]></content>
+
+<tabTrigger>SUC: NUN | 141942666 | 10.107.254.231 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

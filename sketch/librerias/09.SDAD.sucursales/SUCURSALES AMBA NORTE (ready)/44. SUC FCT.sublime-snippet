@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.FCT@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com  
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Jimena Sarrabayruse  | 1137735955
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103120284
+-Sucursal:    FCT
+-Domicilio:   WHITE GUILLERMO /ALT/ 4500, Munro, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.241
+IP SCO:  10.106.56.17
+PUERTO:  6
+IP WAN: 10.104.164.38 || 10.104.164.42
+FECHA DE ALTA: 23/06/2017
+
+]]></content>
+
+<tabTrigger>SUC: FCT | 103120284 | 10.107.255.241 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

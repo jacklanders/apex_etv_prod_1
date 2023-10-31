@@ -1,0 +1,24 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente se comunica por falla de mail/webmail. Se verifica:
+Nick AR:
+NSLookUP: 
+Panel COF:
+BaseIN.:
+
+Dominio (reclamado):
+Webmail (reclamado):
+
+Usuario (admin):
+contraseña:
+contraseña (nueva):
+
+Se validan los datos del cliente. Se solicita en formato adjunto via mail, el rebote/fallo suscitado.
+************************************  
+]]></content>
+
+<tabTrigger>27.ICD IN - CLOUD registrado</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

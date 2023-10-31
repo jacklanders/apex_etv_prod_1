@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.R9M@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com  
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Paula Garcia   | 1149690386
+-Gerente:     Barbara Salto  | 1160278082
+
+-Servicio:    Enlace de TECO
+-Ref.:        542407
+-Sucursal:    R9M
+-Domicilio:   Los Rosales sin número, entre las calles Los Claveles y Peñaloza, paraje “El Triángulo”, Ingeniero Maschwitz, Escobar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.70
+
+]]></content>
+
+<tabTrigger>SUC: R9M | 542407 | 10.109.252.70 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

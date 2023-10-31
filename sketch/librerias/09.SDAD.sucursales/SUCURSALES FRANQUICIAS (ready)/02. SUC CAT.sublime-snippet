@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CAT@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    analia.alfonso@ar.mcd.com
+-Consultor:   Alan Haynes      | 1136938463
+-Supervisor:  Analia Alfonso   | SIN TEL CT.
+-Gerente:     Flavia Gutierrez | 1166086333
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103108100
+-Sucursal:    CAT
+-Domicilio:   SANTA ROSA /ALT/ 1503, Castelar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.243.8
+IP SCO:  10.106.155.5
+PUERTO:  13
+IP WAN: 10.104.18.210 || 10.104.18.214
+FECHA DE ALTA: 28/08/2016 
+
+]]></content>
+
+<tabTrigger>SUC: CAT | 103108100 | 10.109.243.8 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

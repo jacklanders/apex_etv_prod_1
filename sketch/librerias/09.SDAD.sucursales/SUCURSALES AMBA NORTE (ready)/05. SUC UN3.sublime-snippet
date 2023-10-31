@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.UN3@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Gimena Conte     | 1165102911
+-Gerente:     Florencia Aimone | 1130820800
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103180725
+-Sucursal:    UN3
+-Domicilio:   Paraná 3745, Martinez, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.242.57
+IP SCO:  10.106.5.60
+PUERTO:  0
+IP WAN: 10.104.158.54 || 10.104.158.58
+FECHA DE ALTA: 22/12/2017 
+
+]]></content>
+
+<tabTrigger>SUC: UN3 | 103180725 | 10.109.242.57 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

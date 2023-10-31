@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PHY@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Lucrecia Arias      | SIN TEL CT.
+-Gerente:     Marianela Ferreyra  | 1166049514
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        232761607  
+-Sucursal:    PHY 
+-Domicilio:   AV CORDOBA 2135, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.254.131
+IP SCO:  10.106.6.36
+PUERTO:  13
+IP WAN: 10.105.138.90 || 10.105.150.158
+FECHA DE ALTA: 25/09/2019
+
+]]></content>
+
+<tabTrigger>SUC: PHY | 232761607 | 10.109.254.131 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

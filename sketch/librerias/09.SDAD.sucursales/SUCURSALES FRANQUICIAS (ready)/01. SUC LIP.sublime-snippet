@@ -1,0 +1,29 @@
+ <snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.LIP@ar.mcd.com	
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    -
+-Consultor:   Alan Haynes     | 1136938463
+-Supervisor:  - | -
+-Gerente:     Ariel Rodriguez | 1132356880
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        232764497 - 290104046
+-Sucursal:    LIP
+-Domicilio:   QUARANTA LUIS ,AV. 3598, Posadas, Misiones
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.76
+IP SCO:  10.106.86.8
+PUERTO:  2
+IP WAN: 10.105.149.44 || 10.105.149.46
+FECHA DE ALTA: 22/10/2019  
+
+]]></content>
+
+<tabTrigger>SUC: LIP | 232764497 - 290104046 | 10.106.251.52 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

@@ -1,0 +1,53 @@
+************************************
+Nombre en SITE: 
+Tel. Ct.: 
+Mail: 
+Domicilio: 
+************************************
+Cliente indica caida del servicio. Se realiza monitoreo preventivo:
+IDPROD.:  || CUIT:
+
+NXT: CM caido/degradado. Masivo sin alertar en OPEN.
+
+Nodo (NXT): se verifica valores fuera de parametros, en varios equipos dentro del CMTS. Se le informa al cliente, posible daño externo en zona y se manda consulta MAIL para corroborar estado del servicio.
+************************************
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+*GESTION DEL LLAMADO*      
+*GESTION TICKET* 
+*GESTION CAMPANA OT* 
+*GESTION SOPORTE PYMES*
+*GESTION RECOMENDADOS PYMES* 
+*GESTION SOPORTE* 
+*GESTION RECOMENDADOS* 
+*GESTION MONITOREO PREVENTIVO* 
+*GESTION SDAD*  
+*GESTION ABUSE* 
+*GESTION CAMBIO IP* 
+****************************************  
+- CUIT:        - TICKET:  || 
+- IDPROD.:     - TICKET:     
+- REF.:        - iTracker: 
+- LIN.:        - iTickets:
+- OT:          - NODO:
+****************************************             
+************************************
+Para: 
+CC:
+
+Asunto: 
+N° Caso: 
+************************************
+
+**********************
+- Nombre en SITE:    - Tel. Ct.:
+- Mail:              - H-D: L-V / 08-16HS
+- Doc. Acc.: NO      - ToT: SI
+- Covid-19: NO       - Domicilio: 
+
+- CM MAC:
+- NODO:
+- ORDEN:
+**********************
+****************************************

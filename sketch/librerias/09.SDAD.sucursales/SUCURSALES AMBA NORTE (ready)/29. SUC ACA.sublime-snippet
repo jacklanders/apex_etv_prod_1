@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.ACA@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Rodrigo Farrace | 1149797294
+-Gerente:     Mónica Lezcano  | 1151550907
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141934672
+-Sucursal:    ACA
+-Domicilio:   Av Libertador 14719, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.252.70
+IP SCO:  10.106.5.29
+PUERTO:  12
+IP WAN:  10.104.28.226 - 10.104.151.74 || 10.104.158.36/30
+FECHA DE ALTA: 03/10/2014
+
+]]></content>
+
+<tabTrigger>SUC: ACA | 141934672 | 10.107.252.70 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

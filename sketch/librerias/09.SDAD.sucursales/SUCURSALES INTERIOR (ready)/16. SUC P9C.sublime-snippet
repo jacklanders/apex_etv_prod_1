@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.P9C@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Liz Coronel      | 3512393912
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141729949
+-Sucursal:    P9C
+-Domicilio:   25 de Mayo 52, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.253.238
+IP SCO:  10.106.105.3
+PUERTO:  17
+IP WAN: 10.104.70.126 || 10.104.114.66
+FECHA DE ALTA: 19/12/2014
+]]></content>
+
+<tabTrigger>SUC: P9C | 141729949 | 10.106.253.238 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

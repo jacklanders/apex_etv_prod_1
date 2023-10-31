@@ -1,0 +1,957 @@
+***************************************
+***************************************
+              AMBA - OESTE
+***************************************
+***************************************
+SUC: ATA 01
+
+-Mail SUC:    LAR.ATA@ar.mcd.com	
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Sabrina Molina     | 1125791162
+
+-Servicio:   Enlace de TASA
+-Ref.:       120764 - 1019306
+-Sucursal:   ATA
+-Domicilio:  Camino de Cintura y Crovara, La Tablada, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.71
+***************************************
+***************************************
+SUC: SJ2 02
+
+-Mail SUC:    LAR.SJ2@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Maite Juarez       | 1154175605
+
+-Servicio:   Enlace de TASA
+-Ref.:       120737 - 1019302     
+-Sucursal:   SJ2
+-Domicilio:  Ignacio Arieta 3474, San Justo, Buenos Aires 
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.82 
+***************************************
+***************************************
+SUC: SJU 03
+
+-Mail SUC:    LAR.SJU@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Soledad Gonzalez   | 1159035765
+
+-Servicio:   Enlace de TASA
+-Ref.:       120760 - 1019298
+-Sucursal:   SJU
+-Domicilio:  Ignacio Arieta 3025, San Justo, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.85
+***************************************
+***************************************
+SUC: MER 04
+
+-Mail SUC:    LAR.MER@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Yesica Bruzzi      | 1161620294
+-Gerente:     Jacqueline Denis   | 1162373418
+
+-Servicio:   Enlace de FiberCorp
+-Ref.:       150073330
+-Sucursal:   MER
+-Domicilio:  SAN MARTIN LIB GRAL ,AV. /ALT/ 756, MERLO, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.124
+IP SCO:  10.106.154.2
+PUERTO:  26
+IP WAN:  10.104.179.42 || 10.104.179.38
+FECHA DE ALTA: 02/09/2019
+***************************************
+***************************************
+SUC: LFR 05
+
+-Mail SUC:    LAR.LFR@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Sergio Crea        | 1158102764
+
+-Servicio:   Enlace de TASA
+-Ref.:       120559 - 1019301
+-Sucursal:   LFR
+-Domicilio:  Ruta 21 e Ingeniero Luque, Laferrere, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.77
+***************************************
+***************************************
+SUC: SJS 06
+
+-Mail SUC:    LAR.SJS@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Pilar Maguna       | 1163788820
+
+-Servicio:   Enlace de TASA
+-Ref.:       120800 - 1019297
+-Sucursal:   SJS
+-Domicilio:  Juan Manuel de Rosas 3910 San Justo - San Justo Shopping , San Justo, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.84   
+***************************************
+***************************************
+SUC: SJW 07
+
+-Mail SUC:    LAR.SJW@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Noemi Ibañez       | 1161268727
+
+-Servicio:   Enlace de TASA
+-Ref.:       120783 - 1019299
+-Sucursal:   SJW
+-Domicilio:  Camino de Cintura y Provincias Unidas, San Justo, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.86
+***************************************
+***************************************
+SUC: AR2 08
+
+-Mail SUC:    LAR.AR2@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Lucrecia Arias | SIN TEL CT.
+-Gerente:     Graciela Vicentela  | 1137673497
+
+-Servicio:   Enlace de FiberCorp
+-Ref.:       103101567
+-Sucursal:   AR2
+-Domicilio:  RIVADAVIA ,AV. /ALT/ 5108, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.93
+IP SCO:  10.106.12.2
+PUERTO:  18
+IP WAN:  10.104.162.22 || 10.104.162.26
+FECHA DE ALTA: 26/04/2017
+***************************************
+***************************************
+SUC: AR4 09
+
+-Mail SUC:    LAR.AR4@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Lucrecia Arias  | SIN TEL CT.
+-Gerente:     Daniela Peralta | 1155720856
+
+-Servicio:   Enlace de FiberCorp
+-Ref.:       121320569 - 121320571
+-Sucursal:   AR4
+-Domicilio:  RIVADAVIA ,AV. /ALT/ 4515, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.19
+IP SCO:  10.106.1.41
+PUERTO:  19
+IP WAN:  10.104.160.122 || 10.104.160.126
+FECHA DE ALTA: 12/02/2019
+***************************************
+***************************************
+SUC: AR7 10
+
+-Mail SUC:    LAR.AR7@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Lucrecia Arias  | SIN TEL CT.
+-Gerente:     Romina Silva    | 1160593105
+
+-Servicio:   Enlace de FiberCorp
+-Ref.:       103102542
+-Sucursal:   AR7
+-Domicilio:  Av. Rivadavia 5730, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.85
+IP SCO:  10.106.12.27
+PUERTO:  24
+IP WAN: 10.104.113.242 || 10.104.113.234
+FECHA DE ALTA: 31/07/2019  
+***************************************
+***************************************
+SUC: PHY 11 
+
+-Mail SUC:    LAR.PHY@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Lucrecia Arias      | SIN TEL CT.
+-Gerente:     Marianela Ferreyra  | 1166049514
+
+-Servicio:  Enlace de FiberCorp 
+-Ref.:      232761607  
+-Sucursal:  PHY 
+-Domicilio: AV CORDOBA 2135, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.254.131
+IP SCO:  10.106.6.36
+PUERTO:  13
+IP WAN: 10.105.138.90 || 10.105.150.158
+FECHA DE ALTA: 25/09/2019
+***************************************
+***************************************
+SUC: FLO 12
+
+-Mail SUC:    LAR.FLO@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Lucrecia Arias      | SIN TEL CT.
+-Gerente:     Lorena De Francesco | 1137718042
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        141652172
+-Sucursal:    FLO
+-Domicilio:   Av Rivadavia 7302, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.253.20
+IP SCO:  10.106.12.24
+PUERTO:  2
+IP WAN: 10.104.39.98 || 10.104.112.38
+FECHA DE ALTA: 14/05/2014
+***************************************
+***************************************
+SUC: FLS 13
+
+-Mail SUC:    LAR.FLS@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Lucrecia Arias  | SIN TEL CT.
+-Gerente:     Daniel Crea     | 1158120250
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        103144859
+-Sucursal:    FLS
+-Domicilio:   Av. Rivadavia 6620, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.94
+IP SCO:  10.106.12.2
+PUERTO:  19
+IP WAN: 10.104.162.34 || 10.104.162.30
+FECHA DE ALTA: 14/12/2017
+***************************************
+***************************************
+SUC: EK2 14
+
+-Mail SUC:    LAR.EK2@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Lucrecia Arias  | SIN TEL CT.
+-Gerente:     Jorge Gomez     | 1165836569
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        103119960
+-Sucursal:    EK2
+-Domicilio:   Av. San Juan 2852, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.84
+IP SCO:  10.106.2.78
+PUERTO:  12
+IP WAN: 10.104.137.90 || 10.104.137.86
+FECHA DE ALTA: 01/02/2016
+***************************************
+***************************************
+SUC: CYJ 15
+
+-Mail SUC:    LAR.CYJ@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Lucrecia Arias  | SIN TEL CT. 
+-Gerente:     Carlos Galvan   | 1133659037
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        141650276
+-Sucursal:    CYJ
+-Domicilio:   Av Cordoba 2039, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.251.15
+IP SCO:  10.106.6.7
+PUERTO:  17
+IP WAN: 10.104.77.90 || 10.104.159.130
+FECHA DE ALTA: 24/04/2014
+***************************************
+***************************************
+SUC: AR3 16
+
+-Mail SUC:    LAR.AR3@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Sonia Casiva    | SIN TEL CT.
+-Gerente:     Johana Palacios | 1130543943
+-Gerente:     Jesus C         | 1130543943
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        141648055
+-Sucursal:    AR3
+-Domicilio:   Av Rivadavia 14350, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.188
+IP SCO:  10.106.10.23
+PUERTO:  16
+IP WAN: 10.104.61.150 - 10.104.116.86
+FECHA DE ALTA: 28/08/2019
+***************************************
+***************************************
+SUC: AR6 17
+
+-Mail SUC:    LAR.AR6@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Sonia Casiva    | SIN TEL CT.
+-Gerente:     Brenda Tozzi    | 1155892196
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        141648767
+-Sucursal:    AR6
+-Domicilio:   Av Rivadavia 16335, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.187
+IP SCO:  10.106.10.23
+PUERTO:  17
+IP WAN: 10.104.61.142 - 10.104.116.90
+FECHA DE ALTA: 28/08/2019
+***************************************
+***************************************
+SUC: DEV 18
+
+-Mail SUC:    LAR.DEV@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi   | 1148701011
+-Supervisor:  Sonia Casiva      | SIN TEL CT.
+-Gerente:     Agustin Salgueiro | 1130316508
+-Gerente:     Miguel Cuella     | 1127493784
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        103119363
+-Sucursal:    DEV
+-Domicilio:   Francisco Beiro 5275/79 esq. Lope de Vega, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.241.240
+IP SCO:  10.106.14.17
+PUERTO:  15
+IP WAN: 10.104.118.58 || 10.104.118.54
+FECHA DE ALTA: 11/2/2016
+***************************************
+***************************************
+SUC: PBJ 19
+
+-Mail SUC:    LAR.PBJ@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Sonia Casiva    | SIN TEL CT.
+-Gerente:     Leandro Varela  | 1157341162
+
+-Servicio:    Enlace de TASA
+-Ref.:        120564 - 1019296
+-Sucursal:    PBJ
+-Domicilio:   Av. Francisco Fernandez de la Cruz 4602 L.1005, CABA, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.111
+***************************************
+***************************************
+SUC: MTD 20
+
+-Mail SUC:    LAR.MTD@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Sonia Casiva    | SIN TEL CT.
+-Gerente:     Brian Fernandez | 1168300232
+-Gerente:     Vanesa Oliva    | 1134985194
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141728967
+-Sucursal:    MTD
+-Domicilio:   Av  Juan Bautista Alberdi 7450, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.44
+IP SCO:  10.106.136.17
+PUERTO:  9
+IP WAN: 10.104.136.206 || 10.104.161.26
+FECHA DE ALTA: 29/08/2017
+***************************************
+***************************************
+SUC: DEN 21
+
+-Mail SUC:    LAR.DEN@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Sonia Casiva    | SIN TEL CT.
+-Gerente:     Camila Ibañez   | 1125791162
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103118947
+-Sucursal:    DEN
+-Domicilio:   Jose Pedro Varela 4866, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.241.241
+IP SCO:  10.106.14.17
+PUERTO:  10
+IP WAN: 10.104.118.62 || 10.104.118.66
+FECHA DE ALTA: 12/02/2016
+***************************************
+***************************************
+SUC: PLS 22
+
+-Mail SUC:    LAR.PLS@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Sonia Casiva    | SIN TEL CT.
+-Gerente:     Brenda Ibañez   | 1166544088
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103160208
+-Sucursal:    PLS
+-Domicilio:   FALCON CNEL RAMON L /ALT/ 7115 /DE/ 105, CABA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.135
+IP SCO:  10.106.136.37
+PUERTO:  9
+IP WAN: 10.104.161.54 || 10.104.161.58
+FECHA DE ALTA: 29/08/2017
+***************************************
+***************************************
+SUC: HLG 23
+
+-Mail SUC:    LAR.HLG@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi  | 1148701011
+-Supervisor:  Paula Ayre       | SIN TEL CT.
+-Gerente:     Antonela Vergara | 1173657586
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141692724
+-Sucursal:    HLG
+-Domicilio:   DR ARTURO JAURETCHE 978, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.250.6
+IP SCO:  10.106.155.4
+PUERTO:  7
+IP WAN: 10.104.18.70 || 10.104.18.194
+FECHA DE ALTA: 29/08/2019
+***************************************
+***************************************
+SUC: CAS 24
+
+-Mail SUC:    LAR.CAS@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Paula Ayre      | SIN TEL CT.
+-Gerente:     Belen Neyra     | 1131204805
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141649639
+-Sucursal:    CAS
+-Domicilio:   Urquiza 4785, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.251.67
+IP SCO:  10.106.150.10
+PUERTO:  22
+IP WAN: 10.104.150.22 || 10.104.59.106
+FECHA DE ALTA: 02/09/2019
+***************************************
+***************************************
+SUC: PAL 25
+
+-Mail SUC:    LAR.PAL@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi  | 1148701011
+-Supervisor:  Paula Ayre       | SIN TEL CT.
+-Gerente:     Antonella Miño   | 1130342659
+-Gerente:     Mariana Veron    | 1130342659
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        141920458
+-Sucursal:    PAL
+-Domicilio:   Bvd San Martin 3099, Palomar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.251.74
+IP SCO:  10.106.150.10
+PUERTO:  23
+IP WAN: 10.104.150.26 ||  10.104.150.74
+FECHA DE ALTA: 05/11/2014
+***************************************
+***************************************
+SUC: COC 26
+
+-Mail SUC:    LAR.COC@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Paula Ayre      | SIN TEL CT.
+-Gerente:     Mariana Muzante | 1161532294
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103112459
+-Sucursal:    COC
+-Domicilio:   COMESANA EDUARDO /ALT/ 4056, Caseros, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.248.202
+IP SCO:  10.106.150.12
+PUERTO:  11
+IP WAN: 10.104.59.126 || 10.104.59.130
+FECHA DE ALTA: 02/09/2019
+***************************************
+***************************************
+SUC: MRJ 27
+
+-Mail SUC:    LAR.MRJ@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Paula Ayre      | SIN TEL CT.
+-Gerente:     Rosana Gonzalez | 1130656127
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103152507
+-Sucursal:    MRJ
+-Domicilio:   Bvd Juan M de Rosas 658, Moron, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.243.6
+IP SCO:  10.106.155.5
+PUERTO:  8
+IP WAN: 10.104.18.198 || 10.104.18.202
+FECHA DE ALTA: 29/08/2019
+***************************************
+***************************************
+SUC: MRN 28
+
+-Mail SUC:    LAR.MRN@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Paula Ayre      | SIN TEL CT.
+-Gerente:     Nerea Collazo   | 1153252170
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141728330
+-Sucursal:    MRN
+-Domicilio:   Belgrano 149, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.176
+IP SCO:  10.106.10.23
+PUERTO:  18
+IP WAN: 10.104.61.146 || 10.104.115.14
+FECHA DE ALTA: 30/08/2019
+***************************************
+***************************************
+SUC: MRE 29
+
+-Mail SUC:    LAR.MRE@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Paula Ayre      | SIN TEL CT.
+-Gerente:     Dalma Muruaga   | 1140410391
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103152148
+-Sucursal:    MRE
+-Domicilio:   9 DE JULIO 56, Moron, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.242.192
+IP SCO:  10.106.10.25
+PUERTO:  24
+IP WAN: 10.104.116.94  || 10.104.116.98
+FECHA DE ALTA: 22/12/2017
+***************************************
+***************************************
+SUC: AB1 30
+
+-Mail SUC:    LAR.AB1@ar.mcd.com    
+-Mail SUC:    LAR.AB3@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Luciana Piñeiro | 1163759307
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        120810567
+-Sucursal:    AB1
+-Domicilio:   CORRIENTES AV 3247, L FEDERAL, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.20
+IP SCO:  10.106.1.53
+PUERTO:  8
+IP WAN: 10104160134|10.104.160.130
+FECHA DE ALTA: 08/03/2019
+***************************************
+***************************************
+SUC: AB3 31
+
+-Mail SUC:    LAR.AB1@ar.mcd.com    
+-Mail SUC:    LAR.AB3@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Luciana Piñeiro | 1163759307
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        120811936
+-Sucursal:    AB3
+-Domicilio:   CORRIENTES ,AV. /ALT/ 3247 /DE/ 1001, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.31
+IP SCO:  10.111.220.2
+PUERTO:  GPON
+FECHA DE ALTA: 14/02/2019
+***************************************
+***************************************
+SUC: AB2 32
+
+-Mail SUC:    LAR.AB2@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi  | 1148701011
+-Supervisor:  Glenda Farias    | SIN TEL CT.
+-Gerente:     Barbara Caggiano | 1144061769
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        120811005
+-Sucursal:    AB2
+-Domicilio:   CORRIENTES ,AV. /ALT/ 3247 /DE/ 1001, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.29
+IP SCO:  10.111.220.2
+PUERTO:  GPON
+IP WAN: 10.104.160.226|10.104.160.230
+FECHA DE ALTA: 12/02/2019
+***************************************
+***************************************
+SUC: AP1 33
+
+-Mail SUC:    LAR.AP1@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Nicolás Medina  | 1161084099
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141647724
+-Sucursal:    AP1
+-Domicilio:   Av Pueyrredon 230, CABA, CABA
+
+- Datos ENLACE:
+IP MgMT MPLS: 10.107.252.128
+IP SCO:  10.106.1.7
+PUERTO:  11
+IP WAN: 10.104.26.126 || 10.104.160.58
+FECHA DE ALTA: 24/04/2014
+***************************************
+***************************************
+SUC: CHE 34
+
+-Mail SUC:    LAR.CHE@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Adriana Porcel  | 1136350765
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141649828
+-Sucursal:    CHE
+-Domicilio:   Av Cordoba 3831, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.251.135
+IP SCO:  10.106.61.10
+PUERTO:  12
+IP WAN: 10.104.145.202 || 10.104.143.14
+FECHA DE ALTA: 13/10/2017
+***************************************
+***************************************
+SUC: MED 35
+
+-Mail SUC:    LAR.MED@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi  | 1148701011
+-Supervisor:  Glenda Farias    | SIN TEL CT.
+-Gerente:     Ayelén Vecchi    | 1131631402
+-Gerente:     Florencia Muller | 1131631402
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103151322
+-Sucursal:    MED
+-Domicilio:   Corrientes 3952, Caba, Buenos Aires
+
+-Datos ENLACE:
+"IP MgMT MPLS: 10.107.254.15
+IP SCO:  10.106.1.29
+PUERTO:  14
+IP WAN: 10.104.160.68 || 10.104.160.70
+FECHA DE ALTA: 15/08/2017
+***************************************
+***************************************
+SUC: AR5 36
+
+-Mail SUC:    LAR.AR5@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi  | 1148701011
+-Supervisor:  Glenda Farias    | SIN TEL CT.
+-Gerente:     Marifer Villalba | SIN TEL CT.
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141648479
+-Sucursal:    AR5
+-Domicilio:   Av Rivadavia 3145, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.251.181
+IP SCO:  10.106.1.42
+PUERTO:  11
+IP WAN: 10.104.26.122 - 10.104.160.30
+FECHA DE ALTA: 09/12/2015
+***************************************
+***************************************
+SUC: SM1 37
+
+-Mail SUC:    LAR.SM1@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Yanina Cabrer   | 1128437303
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        122014475 - 122014476
+-Sucursal:    SM1
+-Domicilio:   SAN MARTIN ,AV. /ALT/ 2860, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.149
+IP SCO:  10.103.7.5
+PUERTO:  4
+IP WAN: 10.104.41.242 || 10.104.41.246
+FECHA DE ALTA: 09/06/2016
+***************************************
+***************************************
+SUC: LAV 38
+
+-Mail SUC:    LAR.LAV@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT.
+-Gerente:     Nahuel Huss         | 1144360807
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        153301901
+-Sucursal:    LAV
+-Domicilio:   LAVALLE /ALT/ 964, Capital Federal, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.174
+IP SCO:  10.106.3.129
+PUERTO:  13
+IP WAN: 10.104.234.118 || 10.104.234.122
+FECHA DE ALTA: 20/2/2020
+***************************************
+***************************************
+SUC: TRU 39
+
+-Mail SUC:    LAR.TRU@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT.
+-Gerente:     Patricia Cruz       | 1130509113
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141917313
+-Sucursal:    TRU
+-Domicilio:   Av Corrientes 992, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.249.156
+IP SCO:  10.106.3.161
+PUERTO:  5
+IP WAN: 10.104.207.18 || 10.104.200.22
+FECHA DE ALTA: 04/08/2014
+***************************************
+***************************************
+SUC: LPZ 40
+
+-Mail SUC:    LAR.LPZ@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT.
+-Gerente:     Veronica Biasoli    | 1156362420
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141696695
+-Sucursal:    LPZ
+-Domicilio:   Av Corrientes 1650, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.249.152
+IP SCO:  10.106.3.161
+PUERTO:  8
+IP WAN: 10.104.207.30 y 10.104.208.10 || 10.104.200.18
+FECHA DE ALTA: 23/09/2014
+***************************************
+***************************************
+SUC: R10 41
+
+-Mail SUC:    LAR.R10@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT. 
+-Gerente:     Hernan Moreno       | 1133892387
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141733144
+-Sucursal:    R10
+-Domicilio:   AV Rivadavia 2199, CABA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.209
+IP SCO:  10.106.3.161
+PUERTO:  7
+IP WAN: 10.104.207.26 || 10.104.75.138
+FECHA DE ALTA: 10/10/2014
+***************************************
+***************************************
+SUC: LAR 42
+
+-Mail SUC:    LAR.LAR@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT.
+-Gerente:     Maira Hernández     | 1153245055
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103146922
+-Sucursal:    LAR
+-Domicilio:   Larrea 1573, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.162
+IP SCO:  10.106.6.36 
+PUERTO:  22
+IP WAN: 10.104.159.126 || 10.104.159.122
+FECHA DE ALTA: 05/08/2019
+***************************************
+***************************************
+SUC: RCV 43
+
+-Mail SUC:    LAR.RCV@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT.
+-Gerente:     Sabrina Roa         | 1161440700
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        153303553
+-Sucursal:    RCV
+-Domicilio:   LOPEZ VICENTE /ALT/ 2008, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.181
+IP SCO:  10.111.232.2
+PUERTO:  0
+IP WAN: 10.104.175.174 || 10.104.175.170
+FECHA DE ALTA: 09/11/2017
+***************************************
+***************************************
+SUC: AEP 44
+
+-Mail SUC:    LAR.AEP@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT.
+-Gerente:     Facundo Garberoglio | 1165545896
+
+-Servicio:    Enlace de TECO
+-Ref.:        789310
+-Sucursal:    AEP
+-Domicilio:   Av. Costanera Rafael Obligado s/n, CABA, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.115
+***************************************
+
+
+
+  
+   
+     
+    
+  
+  
+  

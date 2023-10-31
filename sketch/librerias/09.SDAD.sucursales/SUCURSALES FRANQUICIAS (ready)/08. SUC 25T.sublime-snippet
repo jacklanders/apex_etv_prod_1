@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.25T@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    federico.castellote@ar.mcd.com
+-Consultor:   Alan Haynes         | 1136938463
+-Supervisor:  Federico Castellote | 3814027233
+-Gerente:     Ruben Ruiz          | 3815779844
+
+-Servicio:    Enlace de TECO
+-Ref.:        258940
+-Sucursal:    25T
+-Domicilio:   25 de Mayo 398, Tucuman, Tucuman
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.64  
+
+]]></content>
+
+<tabTrigger>SUC: 25T | 258940 | 10.109.252.64 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

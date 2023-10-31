@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PMJ@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com     
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Jimena Montero  | 1121607853
+-Gerente:     Karen Garcia    | 1122973606
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103161342
+-Sucursal:    PMJ
+-Domicilio:   Av. Int. Bullrich 345 L.1006, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.82
+IP SCO:  10.111.223.2 
+PUERTO:  -
+IP WAN: 10.104.152.130 || 10.104.152.134
+FECHA DE ALTA: 05/08/2019
+
+]]></content>
+
+<tabTrigger>SUC: PMJ | 103161342 | 10.107.255.82 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

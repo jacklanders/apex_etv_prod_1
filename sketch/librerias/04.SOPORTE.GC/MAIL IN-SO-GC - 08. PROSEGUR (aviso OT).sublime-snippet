@@ -1,0 +1,24 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para:
+CC: SoporteGrandesEmpresasConectividad@teco.com.ar 
+
+Asunto: PROSEGUR || REFERENCIA: || TICKET:
+Nro. Caso: 	
+************************************ 
+Estimados, buenos noches.
+
+Procedemos a generar la orden - -, a fin de que se realicen las tareas correctivas correspondientes. La misma se deberá coordinar por medio del grupo de Whatsapp de Contingencia con nuestros referentes técnicos.
+
+Ticket en seguimiento .
+
+Quedamos a disposicion.
+************************************ 
+]]></content>
+
+<tabTrigger>08.MAIL SOPORTE GC - PROSEGUR (OT aviso)</tabTrigger>
+<description>MAIL IN-SO-GC</description>
+
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.LAR@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT.
+-Gerente:     Maira Hernández     | 1153245055
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103146922
+-Sucursal:    LAR
+-Domicilio:   Larrea 1573, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.162
+IP SCO:  10.106.6.36 
+PUERTO:  22
+IP WAN: 10.104.159.126 || 10.104.159.122
+FECHA DE ALTA: 05/08/2019
+
+]]></content>
+
+<tabTrigger>SUC: LAR | 103146922 | 10.109.250.162 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

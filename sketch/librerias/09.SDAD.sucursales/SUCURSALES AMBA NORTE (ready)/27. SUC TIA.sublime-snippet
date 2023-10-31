@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.TIA@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Yanina Colazo   | 1156626895
+-Gerente:     Ayelén Ferreira | 1166709201
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        1026282
+-Sucursal:    TIA
+-Domicilio:   Luis GarcÍa 1398 y Montevideo, Tigre
+
+-Datos ENLACE:
+SN_IP SCO: 209.13.133.241
+SN_IP_WAN: 10.111.249.62
+
+IP MPLS: 209.13.133.241
+IP local: 10.111.249.62
+
+]]></content>
+
+<tabTrigger>SUC: TIA | 1026282 | 209.13.133.241 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

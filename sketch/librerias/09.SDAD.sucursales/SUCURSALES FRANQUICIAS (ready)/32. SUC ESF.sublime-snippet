@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.ESF@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    pablo.schek@ar.mcd.com  
+-Consultor:   Ariel Perez     | 1137016395
+-Supervisor:  Pablo Schek     | SIN TEL CT.
+-Gerente:     Danisa Mossiman | 3425224143
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141651309
+-Sucursal:    ESF
+-Domicilio:   Av San Martin 2702, Santa fe, Santa fe  
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.249.10
+IP SCO:  10.106.98.5
+PUERTO:  22
+IP WAN: 10.104.98.102 || 10.104.98.226
+FECHA DE ALTA: 28/05/2014
+
+]]></content>
+
+<tabTrigger>SUC: ESF | 141651309 | 10.106.249.10 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

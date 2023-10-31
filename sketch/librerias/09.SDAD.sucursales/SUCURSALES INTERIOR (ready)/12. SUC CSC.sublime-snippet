@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CSC@ar.mcd.com	 
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente:     Brenda Soppe     | 3518581785
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103118278
+-Sucursal:    CSC
+-Domicilio:   GOYCOCHEA JOSE /ALT/ 2851 /DE/ L110, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.102
+IP SCO:  10.106.71.2
+PUERTO:  18
+IP WAN: 10.104.71.190 || 10.104.71.194
+FECHA DE ALTA: 27/12/2017
+
+]]></content>
+
+<tabTrigger>SUC: CSC | 103118278 | 10.109.240.102 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

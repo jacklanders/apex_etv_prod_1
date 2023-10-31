@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.WOC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey    | 1131651696
+-Supervisor:  Soledad Coelho    | 1136896580
+-Gerente:     Betiana Maldonado | 1159283119
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103183356
+-Sucursal:    WOC
+-Domicilio:   Av. Constituyentes 6020, CABA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.48
+IP SCO:  10.106.13.24
+PUERTO:  16
+IP WAN: 10.104.106.154 || 10.104.106.158
+FECHA DE ALTA: 29/08/2017
+
+]]></content>
+
+<tabTrigger>SUC: WOC | 103183356 | 10.107.254.48 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

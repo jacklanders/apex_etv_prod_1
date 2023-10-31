@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.BEL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com    
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Jimena Montero   | 1121607853
+-Gerente:     Flavia Rivas Loz | 1140456662
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141936787
+-Sucursal:    BEL
+-Domicilio:   Av Cabildo 2254, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.224
+IP SCO:  10.106.9.10
+PUERTO:  10
+IP WAN: 10.104.213.10 || 10.104.124.110
+FECHA DE ALTA: 02/01/2017 
+
+]]></content>
+
+<tabTrigger>SUC: BEL | 141936787 | 10.107.254.224 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

@@ -1,0 +1,382 @@
+***************************************
+***************************************
+             FRANQUICIAS 1
+***************************************
+***************************************
+SUC: LIP 01
+
+-Mail SUC:    LAR.LIP@ar.mcd.com	
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    -
+-Consultor:   Alan Haynes     | 1136938463
+-Supervisor:  - | -
+-Gerente:     Ariel Rodriguez | 1132356880
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        232764497
+-Sucursal:    LIP
+-Domicilio:   QUARANTA LUIS ,AV. 3598, Posadas, Misiones
+
+-Datos ENLACE:
+IP MgMT MPLS: 
+IP SCO:  10.106.86.8
+PUERTO:  2
+IP WAN: 10.105.149.44 || 10.105.149.46
+FECHA DE ALTA: 22/10/2019  
+***************************************
+***************************************
+***************************************
+SUC: CAT 02
+
+-Mail SUC:    LAR.CAT@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    analia.alfonso@ar.mcd.com
+-Consultor:   Alan Haynes      | 1136938463
+-Supervisor:  Analia Alfonso   | SIN TEL CT.
+-Gerente:     Flavia Gutierrez | 1166086333
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103108100
+-Sucursal:    CAT
+-Domicilio:   SANTA ROSA /ALT/ 1503, Castelar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.243.8
+IP SCO:  10.106.155.5
+PUERTO:  13
+IP WAN: 10.104.18.210 || 10.104.18.214
+FECHA DE ALTA: 28/08/2016 
+***************************************
+***************************************
+SUC: LUJ 03
+
+-Mail SUC:    LAR.LUJ@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    analia.alfonso@ar.mcd.com
+-Consultor:   Alan Haynes     | 1136938463
+-Supervisor:  Analia Alfonso  | SIN TEL CT.
+-Gerente:     Pablo Arredondo | 1165649293
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141697215
+-Sucursal:    LUJ
+-Domicilio:   San Martin 191, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.249.5
+IP SCO:  10.106.148.2
+PUERTO:  6
+IP WAN: 10.104.148.22 || 10.104.148.58
+FECHA DE ALTA: 21/05/2014 
+***************************************
+***************************************
+SUC: MO2 04
+
+-Mail SUC:    LAR.MO2@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    analia.alfonso@ar.mcd.com
+-Consultor:   Alan Haynes    | 1136938463
+-Supervisor:  Analia Alfonso | SIN TEL CT.
+-Gerente:     Nadia Zelaya   | 1165736893
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        119704248 - 119704251
+-Sucursal:    MO2
+-Domicilio:   VICTORICA ,AV. /ALT/ 1128 , Moreno, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.105
+IP SCO:  10.106.154.7
+PUERTO:  19
+IP WAN: 10.104.154.206 || 10.104.154.202
+FECHA DE ALTA: 31/03/2016  
+***************************************
+***************************************
+SUC: MOR 05
+
+-Mail SUC:    LAR.MOR@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    analia.alfonso@ar.mcd.com
+-Consultor:   Alan Haynes    | 1136938463
+-Supervisor:  Analia Alfonso | SIN TEL CT.
+-Gerente:     Yamila Pinto   | 1141578182
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        121395007 - 121395010
+-Sucursal:    MOR
+-Domicilio:   MITRE BARTOLOME ,AV. /ALT/ 2857, Moreno, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.108
+IP SCO:  10.106.154.4
+PUERTO:  11
+IP WAN: 10.104.154.242 || 10.104.154.238
+FECHA DE ALTA: 02/06/2016
+***************************************
+***************************************
+***************************************
+SUC: DIT 06
+
+-Mail SUC:    LAR.DIT@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    federico.castellote@ar.mcd.com
+-Consultor:   Alan Haynes         | 1136938463
+-Supervisor:  Federico Castellote | 3814027233
+-Gerente:     Erika Costilla      | 3816526526
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        917420-959826
+-Sucursal:    DIT
+-Domicilio:   AV. BELGRANO 4658, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.255.150
+IP SCO:  GE8/0/0.1265
+PUERTO:  -
+IP WAN: 10.104.118.2 || 10.105.139.130
+FECHA DE ALTA: 04/04/2018 
+***************************************
+***************************************
+SUC: LIT 07
+
+-Mail SUC:    LAR.LIT@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    federico.castellote@ar.mcd.com
+-Consultor:   Alan Haynes         | 1136938463
+-Supervisor:  Federico Castellote | 3814027233
+-Gerente:     Miguel Cardenas     | 3815573366
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        959813
+-Sucursal:    LIT
+-Domicilio:   ALSINA 3340, Tucuman, Tucuman
+
+-Datos ENLACE:
+IP MgMT MPLS: 186.108.35.105 
+IP SCO:  UND2MU
+PUERTO:   GE1/0/8
+IP WAN: 172.118.15.242 
+FECHA DE ALTA: 12/05/2022 
+***************************************
+***************************************
+SUC: 25T 08
+
+-Mail SUC:    LAR.25T@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    federico.castellote@ar.mcd.com
+-Consultor:   Alan Haynes         | 1136938463
+-Supervisor:  Federico Castellote | 3814027233
+-Gerente:     Ruben Ruiz          | 3815779844
+
+-Servicio:    Enlace de TECO
+-Ref.:        258940
+-Sucursal:    25T
+-Domicilio:   25 de Mayo 398, Tucuman, Tucuman
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.64  
+***************************************
+***************************************
+SUC: PJT 09
+
+-Mail SUC:    LAR.PJT@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    federico.castellote@ar.mcd.com
+-Consultor:   Alan Haynes         | 1136938463
+-Supervisor:  Federico Castellote | 3814027233
+-Gerente:     Rodrigo Montero     | 3816448135
+
+-Servicio:    Enlace de TECO
+-Ref.:        276156
+-Sucursal:    PJT
+-Domicilio:   Centro Comercial Portal Tucumán, Local Nro. 1119, Av. Fermín Cariola 42, Localidad de Yerba Buena, Tucuman, Tucuman
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.69  
+***************************************
+***************************************
+***************************************
+SUC: ALS 10
+
+-Mail SUC:    LAR.ALS@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    mauro.rivero@ar.mcd.com
+-Consultor:   Alan Haynes  | 1136938463
+-Supervisor:  Mauro Rivero | 3874492170
+-Gerente:     Matias Flor  | 3875758574
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103099670
+-Sucursal:    ALS
+-Domicilio:   ALBERDI JUAN BAUTISTA /ALT/ 25, Salta, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.248.7
+IP SCO:  10.106.96.3
+PUERTO:  2
+IP WAN: 10.104.96.106|| 10.104.96.102
+FECHA DE ALTA: 31/03/2016  
+***************************************
+***************************************
+SUC: SNS 11
+
+-Mail SUC:    LAR.SNS@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    mauro.rivero@ar.mcd.com 
+-Consultor:   Alan Haynes     | 1136938463
+-Supervisor:  Mauro Rivero    | 3874492170
+-Gerente:     Gisela Ferreyra | 3876112812
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103177424
+-Sucursal:    SNS
+-Domicilio:   TOLEDO VIRREY ,AV. /ALT/ 702 /DE/ 10, Salta, Salta
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.248.8
+IP SCO:  10.106.96.3
+PUERTO:  3
+IP WAN: 10.104.96.114 || 10.104.96.110
+FECHA DE ALTA: 08/04/2016  
+***************************************
+***************************************
+SUC: LIS 12
+
+-Mail SUC:    LAR.LIS@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    mauro.rivero@ar.mcd.com 
+-Consultor:   Alan Haynes  | 1136938463
+-Supervisor:  Mauro Rivero | 3874492170
+-Gerente:     Alba Carpio  | 3876056830
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141957646
+-Sucursal:    LIS
+-Domicilio:   TAVELLA MONS ,AV. /ALT/ 1, Salta, Salta
+
+-Datos ENLACE:
+IP MgMT MPLS:  10.109.248.21
+IP SCO:  10.106.96.4
+PUERTO:  2
+IP WAN: 10.104.96.230 || 10.104.96.226
+FECHA DE ALTA: 05/08/2016 
+***************************************
+***************************************
+***************************************
+SUC: SDE 13 (VERIFICAR DATOS)
+
+-Mail SUC:    LAR.SDE@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    -
+-Consultor:   Alan Haynes  | 1136938463
+-Supervisor:  - | -
+-Gerente:     Victor Olmos | 3512384571
+
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        
+-Sucursal:    SDE
+-Domicilio:   
+
+-Datos ENLACE:
+***************************************
+***************************************
+***************************************
+SUC: RES 14
+
+-Mail SUC:    LAR.RES@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    -
+-Consultor:   Alan Haynes         | 1136938463
+-Supervisor:  - | -
+-Gerente:     Santiago Echeverria | 3624780400
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        143908099
+-Sucursal:    RES
+-Domicilio:   Sarmiento 2610 - Resistencia, Resistencia, Chaco
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.137
+IP SCO:  10.106.88.3
+PUERTO:  4
+IP WAN: 10.104.133.106 || 10.104.133.114
+FECHA DE ALTA: 11/09/2016 
+***************************************
+***************************************
+SUC: JUC 15
+
+-Mail SUC:    LAR.JUC@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    -
+-Consultor:   Alan Haynes | 1136938463
+-Supervisor:  - | -
+-Gerente:     Belén Ramos | 3794888248
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103147692
+-Sucursal:    JUC
+-Domicilio:   JUNIN /ALT/ 1034, Corrientes, Corrientes
+
+-Datos ENLACE:
+IP MgMT MPLS: 
+IP SCO:  10.106.194.7
+PUERTO:  18
+IP WAN: 10.105.152.86|| 10.105.137.56
+FECHA DE ALTA: 07/11/2019
+***************************************
+***************************************
+***************************************
+SUC: SMC 16
+
+-Mail SUC:    LAR.SMC@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    fernando.castineira@ar.mcd.com
+-Consultor:   Alan Haynes          | 1136938463
+-Supervisor:  Fernando Castiñeiras | 1151753927
+-Gerente:     Federico Moran       | 1165592740
+
+-Servicio:    Enlace de TASA
+-Ref.:        120762 - 1019303
+-Sucursal:    SMC
+-Domicilio:   Ruta 8 y Ruta 202, San Miguel, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.89  
+**************************************
+***************************************
+SUC: SM2 17
+
+-Mail SUC:    LAR.SM2@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    fernando.castineira@ar.mcd.com
+-Consultor:   Alan Haynes          | 1136938463
+-Supervisor:  Fernando Castiñeiras | 1151753927
+-Gerente:     Adriana Contrera     | 1165917226
+
+-Servicio:    Enlace de TASA
+-Ref.:        131208 - 1019305
+-Sucursal:    SM2
+-Domicilio:   Perón 1522/24/26, San Miguel, San Miguel, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.87   
+***************************************
+***************************************
+SUC: SM3 18
+
+-Mail SUC:    LAR.SM3@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    fernando.castineira@ar.mcd.com
+-Consultor:   Alan Haynes          | 1136938463
+-Supervisor:  Fernando Castiñeiras | 1151753927
+-Gerente:     Natasha Rohr         | 1169625075
+
+-Servicio:    Enlace de TASA
+-Ref.:        1005571
+-Sucursal:    SM3
+-Domicilio:   Ruta 8 y Ruta 202 Shopping Terrazas de Mayo Local 101, San Miguel, San Miguel, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.88
+***************************************

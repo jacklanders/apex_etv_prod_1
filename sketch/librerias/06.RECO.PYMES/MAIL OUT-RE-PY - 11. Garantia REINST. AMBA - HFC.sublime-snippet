@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: DECB2BIND-Service@teco.com.ar
+CC: DECB2BIND-AltasAMBA@teco.com.ar | RecomendadosSoportePymes@teco.com.ar
+
+Asunto:  Garantia reinstalacion - HFC || CUIT:  || IDPRODUCTO:  || TICKET: 
+Nro. Caso: 		
+************************************ 
+Estimados, buenas tardes.
+
+Bajo OT , observamos que personal tecnico en sitio solicita pasar la orden a garantia de reinstalacion. Del lado del cliente, posterior a la instalacion del cable modem, no se ah podido hacer uso correctamente del servicio. ¿Nos podrian actualizar novedades respecto a la gestion?
+
+
+ 
+Estamos al aguardo de sus comentarios y mantenemos el seguimiento sobre el ticket .
+
+Quedamos a disposicion.
+************************************
+]]></content>
+
+<tabTrigger>11.MAIL RECOMENDADOS - Garantia REINST. AMBA - HFC</tabTrigger>
+<description>MAIL OUT-RE-PY</description>
+
+</snippet>

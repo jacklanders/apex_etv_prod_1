@@ -1,0 +1,28 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SMM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Brisa Ferraris       | 2235671271
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103175757
+-Sucursal:    SMM
+-Domicilio:   San Martin 2543, Mar Del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.82
+IP SCO:  10.106.197.14
+PUERTO:  6
+IP WAN: 10.104.121.78 || 10.104.121.74
+FECHA DE ALTA: 21/03/2016
+]]></content>
+
+<tabTrigger>SUC: SMM | 103175757 | 10.109.244.82 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

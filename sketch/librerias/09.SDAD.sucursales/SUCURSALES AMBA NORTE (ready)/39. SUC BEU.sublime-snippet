@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.BEU@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Soledad Coelho | 1136896580
+-Gerente:     Ailin Castaño  | 1168570392
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103106842
+-Sucursal:    BEU
+-Domicilio:   Av. Monroe 1655 esq. Arribeños L.1, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.229
+IP SCO:  10.111.222.2  
+PUERTO:  -
+IP WAN: 10.104.124.118 || 10.104.124.122
+FECHA DE ALTA: 29/02/2016
+
+]]></content>
+
+<tabTrigger>SUC: BEU | 103106842 | 10.107.254.229 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

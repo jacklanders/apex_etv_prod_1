@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.GCR@ar.mcd.com	  
+-Mail SUP:    sebastian.palaoro@ar.mcd.com
+-Supervisor:  Sebastian Palaoro  | SIN TEL CT.
+-Gerente:     Cintia Escobar     | 3416757125
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141652482
+-Sucursal:    GCR
+-Domicilio:   Av Cordoba 1001, Rosario, Rosario
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.2
+IP SCO:  10.106.91.5
+PUERTO:  11
+IP WAN: 10.104.91.242  || 10.104.104.128/30 
+FECHA DE ALTA: 15/12/2014
+
+]]></content>
+
+<tabTrigger>SUC: GCR | 141652482 | 10.109.240.2 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.COC@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Paula Ayre      | SIN TEL CT.
+-Gerente:     Mariana Muzante | 1161532294
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103112459
+-Sucursal:    COC
+-Domicilio:   COMESANA EDUARDO /ALT/ 4056, Caseros, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.248.202
+IP SCO:  10.106.150.12
+PUERTO:  11
+IP WAN: 10.104.59.126 || 10.104.59.130
+FECHA DE ALTA: 02/09/2019
+
+]]></content>
+
+<tabTrigger>SUC: COC | 103112459 | 10.109.248.202 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

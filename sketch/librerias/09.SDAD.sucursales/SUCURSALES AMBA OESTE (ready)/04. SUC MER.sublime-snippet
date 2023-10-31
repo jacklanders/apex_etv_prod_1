@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MER@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Yesica Bruzzi      | 1161620294
+-Gerente:     Jacqueline Denis   | 1162373418
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        150073330
+-Sucursal:    MER
+-Domicilio:   SAN MARTIN LIB GRAL ,AV. /ALT/ 756, MERLO, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.124
+IP SCO:  10.106.154.2
+PUERTO:  26
+IP WAN:  10.104.179.42 || 10.104.179.38
+FECHA DE ALTA: 02/09/2019
+
+]]></content>
+
+<tabTrigger>SUC: MER | 150073330 | 10.109.244.124 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.GAF@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    pablo.schek@ar.mcd.com  
+-Consultor:   Ariel Perez | 1137016395
+-Supervisor:  Pablo Schek | SIN TEL CT.
+-Gerente:     Nair Chacur | 3425120250
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103145491
+-Sucursal:    GAF 
+-Domicilio:   SAN MARTIN /ALT/ 2139 , Santa Fe, Santa Fe
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.248.51
+IP SCO:  10.106.98.6
+PUERTO:  8
+IP WAN: 10.104.165.26 || 10.104.165.30
+FECHA DE ALTA: 25/04/2016
+
+]]></content>
+
+<tabTrigger>SUC: GAF | 103145491 | 10.109.248.51 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

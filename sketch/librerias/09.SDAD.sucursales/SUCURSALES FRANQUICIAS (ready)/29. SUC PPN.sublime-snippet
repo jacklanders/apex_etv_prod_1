@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PPN@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    rodrigo.michelena@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Rodrigo Michelena | 1156055529
+-Gerente:     Silvina Coñequeo  | 2995900801
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        130740297
+-Sucursal:    PPN
+-Domicilio:   ANTARTIDA ARGENTINA /ALT/ 1100, NEUQUEN, NEUQUEN
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.187
+IP SCO:  10.106.80.2
+PUERTO:  25
+IP WAN: 10.104.79.118 || 10.109.244.180
+FECHA DE ALTA: 02/08/2017
+
+]]></content>
+
+<tabTrigger>SUC: PPN | 130740297 | 10.109.244.180 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

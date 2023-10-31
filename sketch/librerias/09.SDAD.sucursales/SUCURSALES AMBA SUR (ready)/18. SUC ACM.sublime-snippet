@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.ACM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Yanina Baccon        | 2236354277
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103094010
+-Sucursal:    ACM
+-Domicilio:   Constitución 3950 , Mar Del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.78
+IP SCO:  10.106.197.14
+PUERTO:  3
+IP WAN: 10.104.121.50|| 10.104.121.54
+FECHA DE ALTA: 23/03/2016
+
+]]></content>
+
+<tabTrigger>SUC: ACM | 103094010 | 10.109.244.78 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

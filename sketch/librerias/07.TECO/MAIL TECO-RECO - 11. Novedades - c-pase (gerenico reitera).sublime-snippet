@@ -1,0 +1,24 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: DRC_PE_COBRE@teco.com.ar
+CC: RecomendadosSoportePymes@teco.com.ar
+
+Asunto: Seguimiento TELECOM || LINEA: || CUIT:  || TICKET:
+Nro. Caso: 	
+************************************ 
+Estimados, buenos tardes.
+
+Bajo registro ICDxxxxxxx, verificamos la derivacion "  ". La misma pendiente de actualizacion desde el dia 00/00. ¿Cuentan con un ETR de solución o la línea no es reparable?, ¿Quedan tareas pendientes desde su área?. Favor de remitirnos las novedades que cuenten a disposicion, ya que el cliente se encuentra reiterando el llamado.
+
+Estamos al aguardo de sus comentarios. Mantenemos el seguimiento bajo ticket . 
+
+Quedamos a disposición.
+************************************ 
+]]></content>
+
+<tabTrigger>11.MAIL TECO - c-pase (critico-reitera)</tabTrigger>
+<description>MAIL OUT-TECO-RECO</description>
+
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SM2@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    fernando.castineira@ar.mcd.com
+-Consultor:   Alan Haynes          | 1136938463
+-Supervisor:  Fernando Castiñeiras | 1151753927
+-Gerente:     Adriana Contrera     | 1165917226
+
+-Servicio:    Enlace de TASA
+-Ref.:        131208 - 1019305
+-Sucursal:    SM2
+-Domicilio:   Perón 1522/24/26, San Miguel, San Miguel, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.87   
+
+]]></content>
+
+<tabTrigger>SUC: SM2 | 131208 - 1019305 | 10.109.252.87 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

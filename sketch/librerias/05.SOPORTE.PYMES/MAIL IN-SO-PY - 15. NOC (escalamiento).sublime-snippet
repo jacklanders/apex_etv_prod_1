@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para:
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: 
+Nro. Caso: 	
+************************************ 
+Estimados, buenas noches.
+
+Agradecemos la informacion brindada. El caso ya se encuentra escalado con nuestro NOC para su verificacion. A la brevedad estaremos actualizando novedades.
+
+Mantenemos el seguimiento bajo ticket .
+
+Quedamos a disposición.
+Saludos cordiales.
+************************************ 
+]]></content>
+
+<tabTrigger>15.MAIL SOPORTE PYMES - NOC (escalamiento)</tabTrigger>
+<description>MAIL IN-SO-PY</description>
+
+</snippet>

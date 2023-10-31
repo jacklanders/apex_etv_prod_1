@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.50L@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.peralta@ar.mcd.com	
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Peralta   | 1165081375
+-Gerente:     Carina Turpaul   | 2216087274
+
+-Servicio:    Enlace de TASA
+-Ref.:        120545 - 1019300
+-Sucursal:    50L 
+-Domicilio:   Calle 50 N°642 esq. calle 8, La Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.104
+
+]]></content>
+
+<tabTrigger>SUC: 50L | 120545 - 1019300 | 10.106.251.52 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

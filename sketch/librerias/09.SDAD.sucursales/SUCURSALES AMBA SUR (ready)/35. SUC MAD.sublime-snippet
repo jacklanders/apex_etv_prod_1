@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MAD@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini    | 1137015885
+-Supervisor:  Ignacio Priolo      | 1167832158
+-Gerente:     Franco Archidiacono | 1126577982
+
+-Servicio:    Enlace de TASA
+-Ref.:        1001096 - 1019295
+-Sucursal:    MAD
+-Domicilio:   Alicia M. de Justo 1190, CABA, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.94
+
+]]></content>
+
+<tabTrigger>SUC: MAD | 1001096 - 1019295 | 10.109.252.94 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

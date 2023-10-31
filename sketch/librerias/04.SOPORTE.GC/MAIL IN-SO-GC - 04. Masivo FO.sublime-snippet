@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para:
+CC: SoporteGrandesEmpresasConectividad@teco.com.ar 
+
+Asunto: 
+Nro. Caso: 	
+************************************ 
+Estimados, buenas noches.
+ 
+Respecto el avance del caso, les informamos que el servicio se encuentra actualmente afectado por un inconveniente de tipo general sobre nuestra red de Fibre Optica. Si bien nos encontramos con un plazo demorado, nuestros referentes técnicos ya se encuentran trabajando en sitio. Estaremos informando novedades resolutivas con la mayor celeridad posible
+
+Se mantiene el seguimiento bajo incidencia .
+
+Quedamos atentos a sus comentarios.
+Saludos cordiales.
+************************************ 
+]]></content>
+
+<tabTrigger>04.MAIL SOPORTE GC - MASIVO FO</tabTrigger>
+<description>MAIL IN-SO-GC</description>
+
+</snippet>

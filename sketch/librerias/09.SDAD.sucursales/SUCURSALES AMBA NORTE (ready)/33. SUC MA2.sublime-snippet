@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MA2@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Rodrigo Farrace | 1149797294
+-Gerente:     Fabricio Di Dio | 1168372086
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141933877
+-Sucursal:    MA2
+-Domicilio:   Av Maipu 2779, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.252.106
+IP SCO:  10.106.30.4
+PUERTO:  22
+IP WAN: 10.104.151.42 || 10.104.34.110
+FECHA DE ALTA: 21/11/2014 
+
+]]></content>
+
+<tabTrigger>SUC: MA2 | 141933877 | 10.107.252.106 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

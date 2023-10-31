@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.ACL@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.peralta@ar.mcd.com
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Martin Peralta    | 1165081375
+-Gerente:     Sebastian Alvarez | 1158091428
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        127283847 - 127283848 
+-Sucursal:    ACL
+-Domicilio:   CENTENARIO ,AV. /ALT/ 2744, La Plata, La Plata
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.241.194
+IP SCO:  10.106.152.2
+PUERTO:  16
+IP WAN: 10.104.19.46|| 10.104.19.42
+FECHA DE ALTA: 13/10/2016
+
+]]></content>
+
+<tabTrigger>SUC: ACL | 127283847 - 127283848 | 10.109.241.194 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

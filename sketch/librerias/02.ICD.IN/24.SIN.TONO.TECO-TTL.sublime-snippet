@@ -1,0 +1,15 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente AB ,solicita transferencia de llamadas. Se toman datos y se escala por mail.
+
+Linea origen:
+Linea destino:
+Nro: EQ.:
+ 
+]]></content>
+
+<tabTrigger>23.ICD IN - SIN TONO - TECO TTL</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

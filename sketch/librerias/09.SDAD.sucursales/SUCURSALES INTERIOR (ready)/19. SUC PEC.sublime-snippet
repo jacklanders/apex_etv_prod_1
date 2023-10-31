@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PEC@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Fabian Puleio    | 3512527111
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103158163
+-Sucursal:    PEC
+-Domicilio:   YRIGOYEN HIPOLITO ,AV. 590 , Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.251.2
+IP SCO:  10.106.105.5
+PUERTO:  16
+IP WAN: 10.104.114.142 || 10.104.114.146
+FECHA DE ALTA: 25/04/2016	
+
+]]></content>
+
+<tabTrigger>SUC: PEC | 103158163 | 10.109.251.2 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

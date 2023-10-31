@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MED@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi  | 1148701011
+-Supervisor:  Glenda Farias    | SIN TEL CT.
+-Gerente:     Ayelén Vecchi    | 1131631402
+-Gerente:     Florencia Muller | 1131631402
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103151322
+-Sucursal:    MED
+-Domicilio:   Corrientes 3952, Caba, Buenos Aires
+
+-Datos ENLACE:
+"IP MgMT MPLS: 10.107.254.15
+IP SCO:  10.106.1.29
+PUERTO:  14
+IP WAN: 10.104.160.68 || 10.104.160.70
+FECHA DE ALTA: 15/08/2017
+
+]]></content>
+
+<tabTrigger>SUC: MED | 103151322 | 10.107.254.15 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

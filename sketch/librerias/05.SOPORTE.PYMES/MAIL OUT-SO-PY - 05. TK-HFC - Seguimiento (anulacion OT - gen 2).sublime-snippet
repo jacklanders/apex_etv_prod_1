@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para:
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: Seguimiento TELECOM || CUIT:  || IDPRODUCTO:  || TICKET: 
+Nro. Caso: 	
+************************************ 
+Estimados, buenas noches.
+
+Nos encontramos realizando el seguimiento sobre el servicio en referencia. ¿Cómo perciben el mismo actualmente? Ya que, desde nuestros monitoreos verificamos que el enlace bajo cm mac: , se encuentra operativo y con uptime de x días, x horas. 
+
+En base a lo informado, la orden técnica reservada para el día xx de xxxxx se encuentra, de momento, anulada. Estaremos atentos a sus comentarios.
+
+Ticket en seguimiento . 
+
+Quedamos a disposición.
+Saludos cordiales.-
+************************************ 
+]]></content>
+
+<tabTrigger>05.MAIL SOPORTE PYMES - HFC-SEGUIMIENTO (anulacion OT - gen 2)</tabTrigger>
+<description>MAIL OUT-SO-PY</description>
+
+</snippet>

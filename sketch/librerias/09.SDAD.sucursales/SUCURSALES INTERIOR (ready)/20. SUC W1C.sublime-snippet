@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.W1C@ar.mcd.com	  
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato     | SIN TEL CT.
+-Gerente:     Natalia Fernandez | 3512527111
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103182553
+-Sucursal:    W1C
+-Domicilio:   YADAROLA MAURICIO /ALT/ 1699 /DE/ 2/3, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.65
+IP SCO:  10.106.73.2
+PUERTO:  17
+IP WAN: 10.104.73.22 || 10.104.73.26
+FECHA DE ALTA: 25/07/2016	
+]]></content>
+
+<tabTrigger>SUC: W1C | 103182553 | 10.109.240.65 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

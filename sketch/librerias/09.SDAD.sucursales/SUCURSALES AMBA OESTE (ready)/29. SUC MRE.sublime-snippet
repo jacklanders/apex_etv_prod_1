@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MRE@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Paula Ayre      | SIN TEL CT.
+-Gerente:     Dalma Muruaga   | 1140410391
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103152148
+-Sucursal:    MRE
+-Domicilio:   9 DE JULIO 56, Moron, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.242.192
+IP SCO:  10.106.10.25
+PUERTO:  24
+IP WAN: 10.104.116.94  || 10.104.116.98
+FECHA DE ALTA: 22/12/2017
+
+]]></content>
+
+<tabTrigger>SUC: MRE | 103152148 | 10.109.242.192 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

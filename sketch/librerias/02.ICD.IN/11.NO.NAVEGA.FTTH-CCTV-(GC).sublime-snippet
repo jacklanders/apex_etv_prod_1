@@ -1,0 +1,14 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente sin servicio. Se realiza monitoreo preventivo:
+
+Symphonica: 
+CCIP: "sin sesion" -  - Lost-Carrier		 
+Cliente no esta en el sitio. Se le explica y/o solicita que desde el domicilio se comunique previo a realizar reinicios y reseteos de ONT segun corresponda.
+************************************  ]]></content>
+
+<tabTrigger>11.ICD IN - NO NAVEGA - FTTH CCTV</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

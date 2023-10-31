@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.NOR@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com   
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Paula Garcia   | 1149690386
+-Gerente:     Manuel Soto    | 1167121441
+
+-Servicio:    Enlace de TECO
+-Ref.:        959808 - 959821
+-Sucursal:    NOR
+-Domicilio:   Ruta 27 y Nordelta, Nordelta, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.105.167.26 || 186.108.44.198
+
+]]></content>
+
+<tabTrigger>SUC: NOR | 959808 - 959821 | 10.105.167.26 - 186.108.44.198 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

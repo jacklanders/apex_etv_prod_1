@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.AP2@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Vanesa Ghigliani | 1169123989
+-Gerente:     Franco Narvaez   | 1158679133
+
+-Servicio:    Enlace de TASA
+-Ref.:        
+-Sucursal:    AP2
+-Domicilio:   
+
+-Datos ENLACE:
+
+
+]]></content>
+
+<tabTrigger>SUC: AP2 | SIN DATOS | DEL ENLACE |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

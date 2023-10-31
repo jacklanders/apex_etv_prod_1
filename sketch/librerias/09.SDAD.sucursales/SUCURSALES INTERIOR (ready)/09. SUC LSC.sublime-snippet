@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.LSC@ar.mcd.com	
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente:     Rocio Alcaraz    | 3512603435
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103146618
+-Sucursal:    LSC
+-Domicilio:   LIBERTAD /ALT/ 1100 , Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.66
+IP SCO:  10.106.73.2 
+PUERTO:  18
+IP WAN: 10.104.73.34 || 10.104.73.38
+FECHA DE ALTA: 26/05/2016	
+]]></content>
+
+<tabTrigger>SUC: LSC | 103146618 | 10.109.240.66 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

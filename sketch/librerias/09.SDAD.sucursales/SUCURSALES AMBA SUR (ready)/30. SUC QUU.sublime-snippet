@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.QUU@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Lorena Smit       | 1137016785
+-Gerente:     Stefannie Hurtado | 1137677708
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        122335736 - 122335746
+-Sucursal:    QUU
+-Domicilio:   OLAVARRIA /ALT/ 180, Quilmes, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.228
+IP SCO:  10.106.129.34
+PUERTO:  7
+IP WAN: 10.104.170.14 || 10.104.170.18
+FECHA DE ALTA: 09/06/2016
+
+]]></content>
+
+<tabTrigger>SUC: QUU | 122335736 - 122335746 | 10.109.250.228 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

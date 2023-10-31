@@ -1,0 +1,18 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente se encuentra con todas sus casillas afectadas (), no puede enviar/recibir mails.  Se le informa masivo en curso: 
+
+admin -  
+cloud office  -
+cloud office  -
+
+CUIT: 
+IDPROD.: 
+ 
+]]></content>
+
+<tabTrigger>29.ICD IN - CLOUD masivo</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

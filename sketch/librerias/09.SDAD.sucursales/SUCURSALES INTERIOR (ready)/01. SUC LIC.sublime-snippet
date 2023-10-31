@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.LIC@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | 
+-Gerente:     Abril Ferreyra   | 3518040323}
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        122334818 - 122334826
+-Sucursal:    LIC
+-Domicilio:   GARAT DAMIAN /ALT/ 3255, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.106
+IP SCO:  10.106.71.14
+PUERTO:  4
+IP WAN: 10.104.71.234 || 10.104.71.230
+FECHA DE ALTA: 09/06/2016
+
+]]></content>
+
+<tabTrigger>SUC: LIC | 122334818 - 122334826 | 10.109.240.106 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

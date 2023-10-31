@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.COL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Soledad Coelho  | 1136896580
+-Gerente:     Mabel Olea      | 1130996017
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141937839
+-Sucursal:    COL
+-Domicilio:   Federico Lacroze 3496 , CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.121
+IP SCO:  10.106.0.61
+PUERTO:  23
+IP WAN: 10.104.101.50 -  10.104.101.226 || 10.104.152.114
+FECHA DE ALTA: 03/10/2014
+
+]]></content>
+
+<tabTrigger>SUC: COL | 141937839 | 10.106.254.121 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

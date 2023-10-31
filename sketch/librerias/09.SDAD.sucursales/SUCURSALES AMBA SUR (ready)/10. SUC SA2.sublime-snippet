@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SA2@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini   | 1137015885
+-Supervisor:  Martin Roberts     | 1128688944
+-Gerente:     Cristian Fernandez | 1138308971
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141945093
+-Sucursal:    SA2
+-Domicilio:   Av guemes 897 Local 2, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.180
+IP SCO:  10.106.128.3
+PUERTO:  17
+IP WAN: 10.104.212.42 || 10.106.212.162
+FECHA DE ALTA: 30/05/2014
+
+]]></content>
+
+<tabTrigger>SUC: SA2 | 141945093 | 10.106.254.180 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

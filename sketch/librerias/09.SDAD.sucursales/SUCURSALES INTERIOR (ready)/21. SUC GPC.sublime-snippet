@@ -1,0 +1,28 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.GPC@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Franco Perez     | 3513877108
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        69596385
+-Sucursal:    GPC
+-Domicilio:   PAZ GRAL ,AV. /ALT/ 134, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.253.239
+IP SCO:  10.106.105.3
+PUERTO:  17
+IP WAN: 10.104.114.58 || 10.104.70.130
+FECHA DE ALTA: 08/03/2016
+
+
+]]></content>
+
+<tabTrigger>SUC: GPC | 69596385 | 10.106.253.239 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

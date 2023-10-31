@@ -1,0 +1,20 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente sin servicio. Se realiza monitoreo preventivo:
+
+Linea:
+Symphonica:
+CCIP: 
+
+Reinicio ONT:
+Reset ONT: 
+
+Se le indica al cliente que se le remite via mail, una grilla de pruebas/chequeos a realizar por su parte. Con las mismas se iniciara el analisis del ToIP.
+  
+]]></content>
+
+<tabTrigger>13.ICD IN - NO NAVEGA - FTTH ToIP</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

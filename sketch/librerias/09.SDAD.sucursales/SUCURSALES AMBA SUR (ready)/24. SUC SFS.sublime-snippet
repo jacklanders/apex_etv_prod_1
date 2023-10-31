@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SFS@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Lorena Smit          | 1137016785
+-Gerente:     Elizabeth Pantaleone | 1163542800
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141918382
+-Sucursal:    SFS 
+-Domicilio:   Avenida 844 alt 2582, Solano, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.251.177
+IP SCO:  10.106.129.10
+PUERTO:  20
+IP WAN: 10.104.129.78 || 10.104.57.202
+FECHA DE ALTA: 23/08/201
+
+]]></content>
+
+<tabTrigger>SUC: SFS | 141918382 | 10.106.251.177 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente REF.: se comunica por caida del enlace. Se realiza monitoreo preventivo:
+
+Se verifica SCO sin enlace. Se agregan datos del alta del enlace (delfos) y se le informa al cliente del tratamiento del caso
+************************************
+IP WAN:
+IP SCO:
+port SCO:
+
+MAC equipo: 
+
+]]></content>
+
+<tabTrigger>25.ICD IN - INTERNET DEDICADO sin link SCO</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

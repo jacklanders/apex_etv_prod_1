@@ -1,0 +1,28 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SPC@ar.mcd.com	
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente: 	  Daniela Carrera  | 3513294745 
+-Gerente:     Fabiana Salvador | 3513294745
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103178238
+-Sucursal:    SPC
+-Domicilio:   VELEZ SARSFIELD ,AV. /ALT/ 361 /DE/ 337, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.19
+IP SCO:  10.106.105.5
+PUERTO:  12
+IP WAN: 10.104.114.118 || 10.104.114.122
+FECHA DE ALTA: 05/05/2016	
+
+]]></content>
+
+<tabTrigger>SUC: SPC | 103178238 | 10.109.240.19 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para:
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: 
+Nro. Caso: 	
+************************************ 
+Estimados, buenas tardes
+
+Agradecemos los datos brindados. Nos encontramos monitoreando el servicio bajo MAC: y verificamos que se encuentra operativo hace -- días. El enlace no presenta degradacion en los registros, pero puede existir una saturación. Vemos que tiene un equipo particular con MAC: , conectado por detrás del cable modem. 
+
+Favor de realizar un reinicio de todos los equipos mencionados, una vez llevado a cabo esta tarea, favor de probar el funcionamiento. De persistir la falla remitirnos nuevamente la consulta.
+
+Dejamos registro del caso bajo ticket .
+
+Quedamos a disposición.
+Saludos cordiales.
+************************************ 
+]]></content>
+
+<tabTrigger>10.MAIL SOPORTE PYMES - ENLACE UP (cpe particular) </tabTrigger>
+<description>MAIL IN-SO-PY</description>
+
+</snippet>

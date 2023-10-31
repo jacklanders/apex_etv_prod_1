@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.ELC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    soledad.coelho@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Soledad Coelho  | 1136896580
+-Gerente:     Marina Monzon   | 1162620020
+-Gerente:     Roberto Olivero | 1162620020
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141919550
+-Sucursal:    ELC
+-Domicilio:   Av Elcano 3240, CABA, CABA
+ 
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.253.99
+IP SCO:  10.106.0.15
+PUERTO:  6
+IP WAN: 10.104.101.46 || 10.104.152.106
+FECHA DE ALTA: 01/09/2014
+
+]]></content>
+
+<tabTrigger>SUC: ELC | 141919550 | 10.107.253.99 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

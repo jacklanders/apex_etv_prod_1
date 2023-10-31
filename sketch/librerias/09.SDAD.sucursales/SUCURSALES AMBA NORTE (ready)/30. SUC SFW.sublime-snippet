@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SFW@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Rodrigo Farrace | 1149797294
+-Gerente:     Ana Valiente    | 1132396802
+
+-Servicio:    Enlace de TECO
+-Ref.:        259001
+-Sucursal:    SFW
+-Domicilio:   Calle Bancalari (sin numero) entre Ruta 202 y Uruguay, San fernando, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.120
+
+]]></content>
+
+<tabTrigger>SUC: SFW | 259001 | 10.109.252.120 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

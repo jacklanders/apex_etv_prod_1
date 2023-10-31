@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.R26@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    agustin.monzon@ar.proveedor-mcd.com
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Agustin Monzón    | 3484512232
+-Gerente:     Micaela Figueredo | 1121915619
+
+-Servicio:   Enlace de FiberCorp 
+-Ref.:       142600009
+-Sucursal:   R26 
+-Domicilio:  12 DE OCTUBRE /ALT/ 2662, Capital Federal, Capital Federal 
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.133
+IP SCO:  10.106.15.17
+PUERTO:  13
+IP WAN: 10.104.125.34/30 IRS || 10.104.125.34/30 MPLS
+FECHA DE ALTA: 01/05/2018
+
+]]></content>
+
+<tabTrigger>SUC: R26 | 142600009 | 10.109.245.133 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

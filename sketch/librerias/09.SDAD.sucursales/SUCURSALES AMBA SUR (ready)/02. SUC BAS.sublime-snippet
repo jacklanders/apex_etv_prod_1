@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.BAS@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Carla Hernandez  | 1151617612
+-Gerente:     Karina Tiribe    | 1162416866
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103104310
+-Sucursal:    BAS
+-Domicilio:   YRIGOYEN HIPOLITO ,AV. /ALT/ 13298 /DE/ 202/, ADROGUE, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.249.44
+IP SCO:  10.106.130.6
+PUERTO:  8
+IP WAN: 10.104.130.154 || 10.104.130.150
+FECHA DE ALTA: 02/08/2016
+
+]]></content>
+
+<tabTrigger>SUC: BAS | 103104310 | 10.109.249.44 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

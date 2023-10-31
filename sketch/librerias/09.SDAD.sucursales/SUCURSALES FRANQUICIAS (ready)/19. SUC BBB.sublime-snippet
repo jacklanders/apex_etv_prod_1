@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.BBB@ar.mcd.com	
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    diego.vaccarino@ar.mcd.com
+-Consultor:   Ariel Perez     | 1137016395
+-Supervisor:  Diego Vaccarino | 2914163898
+-Gerente:     Blas Molina     | 2914144441
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        103104913
+-Sucursal:    BBB
+-Domicilio:   BROWN /ALT/ 226, Bahia Blanca, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.206
+IP SCO:  10.106.64.7
+PUERTO:  14
+IP WAN: 10.104.64.242 || 10.104.64.238
+FECHA DE ALTA: 21/03/2016
+
+]]></content>
+
+<tabTrigger>SUC: BBB | 103104913 | 10.107.254.206 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

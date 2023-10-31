@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.R4C@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Franco Perez     | 3513877108
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141733783
+-Sucursal:    R4C
+-Domicilio:   GRANADEROS  200  1078, Rio Cuarto, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.248.236
+IP SCO:  10.106.89.10
+PUERTO:  21
+IP WAN: 10.104.89.26 || 10.104.89.106
+FECHA DE ALTA: 16/07/2014	
+
+]]></content>
+
+<tabTrigger>SUC: R4C | 141733783 | 10.106.248.236 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

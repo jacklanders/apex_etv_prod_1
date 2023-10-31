@@ -1,0 +1,16 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente con fallas en el servicio de cable. Se asigna OT
+
+IDPROD.: 
+************************************
+OT:
+NODO:
+
+]]></content>
+
+<tabTrigger>15.ICD IN - CATV con OT</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

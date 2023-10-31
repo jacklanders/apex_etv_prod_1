@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PIL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com    
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Yanina Colazo  | 1156626895
+-Gerente:     Barbara Heflin | 1156413510
+
+-Servicio:    Enlace de TASA
+-Ref.:        120822 - 1019304
+-Sucursal:    PIL
+-Domicilio:   Ex-Ruta 8 esq. Los Durazneros, Pilar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.96
+
+]]></content>
+
+<tabTrigger>SUC: PIL | 120822 - 1019304 | 10.109.252.96 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

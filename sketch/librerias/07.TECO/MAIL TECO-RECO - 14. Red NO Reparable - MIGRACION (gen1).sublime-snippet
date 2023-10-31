@@ -1,0 +1,74 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: VentaPymes@teco.com.ar
+CC: RecomendadosSoportePymes@teco.com.ar
+
+Asunto: RED no reparable || CUIT:  || AB:  || TICKET: 
+Nro. Caso: 	
+************************************ 
+Estimados, buenas noches.
+
+Referimos el siguiente caso para que puedan tomar contacto con el cliente de referencia. El mismo cuenta con la linea AB xxxxxxxxx afectada por vandalismo bajo INxxxxxx. El mismo se caratula como no reparable y por tal, ya no contara con el soporte tecnico bajo la infraestructura de cobre. En base a lo informado se debe iniciar el proceso de migracion de tecnologia. Para ello adjunto datos de contacto con el cliente:
+
+Nombre: 
+Ct. Tel.: 
+Mail: 
+Disponibilidad: 
+Domicilio:
+
+Damos por finaliza el seguimiento desde nuestra area de atencion tecnica y dejamos actualizado el registro bajo ticket .
+
+Quedamos a disposicion. 
+Saludos cordiales.
+************************************ 
+
+************************************
+Para: SupervisoresVentasCanalesB2B@teco.com.ar 
+CC: RecomendadosSoportePymes@teco.com.ar | ReferentesTecnicosCorporativo@teco.com.ar | ReferentesConectividadAdminB2B@teco.com.ar
+
+Asunto: RED no reparable || CUIT:  || AB:  || TICKET: 
+Nro. Caso: 	
+************************************ 
+Estimados, buenas noches.
+
+Referimos el siguiente caso para que puedan continuar el segumiento, sobre la migracion de la/s linea/S del cliente. La/s misma/s se caratulan como no reparable y por tal, ya no contaran con el soporte tecnico bajo la infraestructura de cobre.  En base a lo informado, adjunto datos de contacto con el cliente:
+
+Nombre: 
+Ct. Tel.: 
+Mail: 
+Disponibilidad: 
+Domicilio:
+
+Damos por finaliza el seguimiento desde nuestra area de atencion tecnica y dejamos actualizado el registro bajo ticket .
+
+Quedamos a disposicion. 
+Saludos cordiales.
+************************************ 
+
+************************************
+Para: 
+CC: SoportePymesConectividad@teco.com.ar |  VentaPymes@teco.com.ar
+
+Asunto: RED no reparable || CUIT:  || AB:  || TICKET: 
+Nro. Caso: 	
+************************************ 
+Estimados, buenas noches.
+
+Continuando el seguimiento al caso de referencia, nuestros referentes nos indican que la linea , ya no contara con soporte tecnico bajo la infraestructura de cobre. Por ello, le remitimos el siguiente mail, en pos de notificarle sobre el estado actual de su servicio. 
+
+Dejo en copia a nuestra area comercial, para que asi le puedan informar sobre la disponibilidad de migracion a otras tecnologias. Esto ultimo, en el caso de que desee conservar el numero de su linea fija.
+
+Ticket .
+
+Quedamos a disposicion.
+Saludos cordiales.
+************************************ 
+
+]]></content>
+
+<tabTrigger>14.MAIL TECO - Red NO reparable - MIGRACION (gen1)</tabTrigger>
+<description>MAIL OUT-TECO-RECO</description>
+
+</snippet>

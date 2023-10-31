@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CAN@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Vanesa Marcos    | 1151211014
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        233443202 - 233443204
+-Sucursal:    CAN
+-Domicilio:   CASTEX PROF M ,RUTA PROV. 181, Canning, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.37
+IP SCO:  10.106.127.14
+PUERTO:  5
+IP WAN: 10.105.133.16 || MPLS 10.105.133.18
+FECHA DE ALTA: 17/09/2019
+
+]]></content>
+
+<tabTrigger>SUC: CAN | 233443202 - 233443204 | 10.109.244.37 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

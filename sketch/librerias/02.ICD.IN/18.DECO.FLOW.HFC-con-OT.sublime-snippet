@@ -1,0 +1,17 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente se comunica por deco con fallas. Se realiza pruebas recalculo: Recalculo de parametros TV - INIT CAT TV. Deco no levanta señal, se asigna OT.
+
+IDPROD.: 
+MAC DECO:
+************************************  
+OT: 
+NODO:
+
+]]></content>
+
+<tabTrigger>17.ICD IN - DECO con OT</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: 
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: 
+Nro. Caso: 	
+************************************ 
+Estimado, buenas tardes.
+
+Gracias por contactarse con el área de atención corporativa. Hemos verificado los datos proporcionados y la línea afectada , corresponde al área de atencion hogar/residecial. Por lo tanto, queremos brindarle el numero 0800-555-3569, al cual debe contactarse para obtener soporte técnico a la mayor celeridad posible.
+
+Quedamos a disposición.
+Saludos cordiales.
+************************************ 
+]]></content>
+
+<tabTrigger>04.MAIL SOPORTE PYMES - RESIDENCIAL TECO</tabTrigger>
+<description>MAIL IN-SO-PY</description>
+
+</snippet>

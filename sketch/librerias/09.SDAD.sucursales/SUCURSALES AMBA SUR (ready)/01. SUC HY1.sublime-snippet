@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.HY1@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Carla Hernandez  | 1151617612
+-Gerente:     Sheila Torrico   | 1160392488 
+-Gerente:     Romina Novillo   | 1158420480
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141694254
+-Sucursal:    HY1
+-Domicilio:   Av Hipolito Yrigoyen 8230, Buenos Aires, Lomas de Zamora
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.92
+IP SCO:  10.106.131.17
+PUERTO:  3
+IP WAN: 10104131170 || 10.104.135.58
+FECHA DE ALTA: 27/08/2014
+
+]]></content>
+
+<tabTrigger>SUC: HY1 | 141694254 | 10.106.252.92 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

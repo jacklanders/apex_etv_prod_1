@@ -1,0 +1,786 @@
+************************************
+************************************
+Interior - CORDOBA
+************************************
+************************************
+SUC: LIC 01
+
+-Mail SUC:    LAR.LIC@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | 
+-Gerente:     Abril Ferreyra   | 3518040323}
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        122334818 - 122334826
+-Sucursal:    LIC
+-Domicilio:   GARAT DAMIAN /ALT/ 3255, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.106
+IP SCO:  10.106.71.14
+PUERTO:  4
+IP WAN: 10.104.71.234 || 10.104.71.230
+FECHA DE ALTA: 09/06/2016
+************************************
+SUC: DIC 02
+
+-Mail SUC:    LAR.DIC@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | SIN TEL CT.
+-Gerente:     Camila Quijada   | 3516547925
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        174929773
+-Sucursal:    DIC
+-Domicilio:   RODRIGUEZ DEL BUSTO /ALT/ 4086 /DE/ MAC, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.116
+IP SCO:  10.106.71.72
+PUERTO:  1
+IP WAN: 10.104.182.114 || 10.104.182.118
+FECHA DE ALTA: 08/01/2018
+************************************
+SUC: NVC 03
+
+-Mail SUC:    LAR.NVC@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | SIN TEL CT.
+-Gerente:     Susana Peludero  | 3513440858
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103153365
+-Sucursal:    NVC
+-Domicilio:   NUNEZ RAFAEL ,AV. /ALT/ 3987 , Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.104
+IP SCO:  10.106.71.14
+PUERTO:  2
+IP WAN: 10.104.71.210 || 10.104.71.214
+FECHA DE ALTA: 11/05/2016
+************************************
+SUC: CAC 04
+
+-Mail SUC:   LAR.CAC@ar.mcd.com	
+-Mail SUP:   adriana.bertoldi@ar.mcd.com
+-Supervisor: Adriana Bertoldi | SIN TEL CT.
+-Gerente:    Cecilia Chavez   | 3512441926
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103107835 - 146357264 
+-Sucursal:    CAC
+-Domicilio:   Avenida Colon Esq. Avellaneda 202, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.17
+IP SCO:  10.106.105.5
+PUERTO:  11
+IP WAN: 10.104.114.102 ||10.104.114.106 || 10.104.70.182
+FECHA DE ALTA: 21/04/2017
+************************************
+SUC: W2C 05
+
+-Mail SUC:    LAR.W2C@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi   | SIN TEL CT.
+-Gerente:     Aylen Lopez	     | 3514599454
+-Gerente: 	  Elizabeth Gorosito | 3514599454 
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103182798
+-Sucursal:    W2C
+-Domicilio:   COLON ,AV. /ALT/ 6051, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.18
+IP SCO:  10.106.69.5
+PUERTO:  5
+IP WAN: 10.104.114.110 || 10.104.114.114
+FECHA DE ALTA: 30/06/2016
+************************************
+SUC: ANC 06
+
+-Mail SUC:    LAR.ANC@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi  |  SIN TEL CT.
+-Gerente:     Maximiliano Bazan | 3512081825
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103100840
+-Sucursal:    ANC
+-Domicilio:   Av. Rafael Nuñez 4764, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.103
+IP SCO:  10.106.71.14
+PUERTO:  1
+IP WAN: 10.104.71.202 || 10.104.71.206
+FECHA DE ALTA: 23/05/2016
+************************************
+SUC: VCP 07
+
+-Mail SUC:    LAR.VCP@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | SIN TEL CT.
+-Gerente:     Mathias Castro   | 3517416700
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141945913
+-Sucursal:    VCP
+-Domicilio:   PAZ GRAL /ALT/ 139, Villa Carlos Paz, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.241.128
+IP SCO:  10.106.192.10
+PUERTO:  6
+IP WAN: 10.104.29.14 || 10.104.29.34
+FECHA DE ALTA: 12/01/2014
+************************************
+SUC: L2C 08 (sin datos)
+
+-Mail SUC:    LAR.L2C@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | SIN TEL CT.
+-Gerente:     Florencia Rivero | 3512034096
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103146618
+-Sucursal:    L2C
+-Domicilio:   LIBERTAD /ALT/ 1100 , Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.66
+IP SCO:  10.106.73.2 
+PUERTO:  18
+IP WAN: 10.104.73.34 || 10.104.73.38
+FECHA DE ALTA: 26/05/2016	
+************************************
+************************************
+SUC: LSC 09
+
+-Mail SUC:    LAR.LSC@ar.mcd.com	
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente:     Rocio Alcaraz    | 3512603435
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103146618
+-Sucursal:    LSC
+-Domicilio:   LIBERTAD /ALT/ 1100 , Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.66
+IP SCO:  10.106.73.2 
+PUERTO:  18
+IP WAN: 10.104.73.34 || 10.104.73.38
+FECHA DE ALTA: 26/05/2016	
+************************************
+SUC: SPC 10
+
+-Mail SUC:    LAR.SPC@ar.mcd.com	
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente: 	  Daniela Carrera  | 3513294745 
+-Gerente:     Fabiana Salvador | 3513294745
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103178238
+-Sucursal:    SPC
+-Domicilio:   VELEZ SARSFIELD ,AV. /ALT/ 361 /DE/ 337, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.19
+IP SCO:  10.106.105.5
+PUERTO:  12
+IP WAN: 10.104.114.118 || 10.104.114.122
+FECHA DE ALTA: 05/05/2016	
+************************************	
+SUC: NCS 11
+
+-Mail SUC:    LAR.NCS@ar.mcd.com	
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente:     Belen Gaudiño    | 3515378763
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103152837
+-Sucursal:    NCS
+-Domicilio:   QUIROS DUARTE ,BVD. /ALT/ 1400 /DE/ 203, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.33
+IP SCO:  10.106.69.5
+PUERTO:  2
+IP WAN: IRS: 10.104.69.126 || MPLS:10.104.69.122
+FECHA DE ALTA: 08/11/2016
+************************************
+SUC: CSC 12
+
+-Mail SUC:    LAR.CSC@ar.mcd.com	 
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente:     Brenda Soppe     | 3518581785
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103118278
+-Sucursal:    CSC
+-Domicilio:   GOYCOCHEA JOSE /ALT/ 2851 /DE/ L110, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.102
+IP SCO:  10.106.71.2
+PUERTO:  18
+IP WAN: 10.104.71.190 || 10.104.71.194
+FECHA DE ALTA: 27/12/2017	
+************************************
+SUC: VAC 13
+
+-Mail SUC:    LAR.VAC@ar.mcd.com	
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente:     Gabriela Romero  | 3516371393
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103182113
+-Sucursal:    VAC
+-Domicilio:   Río de Janeiro N° 1.725, Villa Allende, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.248.161
+IP SCO:  10.106.58.2
+PUERTO:  10
+IP WAN: 10.104.105.18 || 10.104.105.26
+FECHA DE ALTA: 11/04/2016
+************************************
+************************************
+SUC: RVC 14
+
+-Mail SUC:    LAR.RVC@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato       | SIN TEL CT.
+-Gerente:     Yohana Kantzabedian | 3512421242
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103170960
+-Sucursal:    RVC
+-Domicilio:   Av Fuerza Aerea 2997 , Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.34
+IP SCO:  10.106.69.5
+PUERTO:  1
+IP WAN: 10.104.69.130 || 10.104.69.134
+FECHA DE ALTA: 26/05/2016
+************************************
+SUC: C2C 15
+
+-Mail SUC:    LAR.C2C@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato      | SIN TEL CT.
+-Gerente: 	  Florencia Ferreyra | 3541552527 
+-Gerente:     Melody Gutierrez   | 3541552527
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103107192
+-Sucursal:    C2C
+-Domicilio:   Av. Gral. Ohiggins 3691 - Cordoba, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.131
+IP SCO:  10.106.72.2
+PUERTO:  21
+IP WAN: 10.104.72.58 || 10.104.72.62
+FECHA DE ALTA: 28/04/2015	
+************************************	
+SUC: P9C 16
+
+-Mail SUC:    LAR.P9C@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Liz Coronel      | 3512393912
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141729949
+-Sucursal:    P9C
+-Domicilio:   25 de Mayo 52, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.253.238
+IP SCO:  10.106.105.3
+PUERTO:  17
+IP WAN: 10.104.70.126 || 10.104.114.66
+FECHA DE ALTA: 19/12/2014
+************************************
+SUC: PJC 17
+
+-Mail SUC:    LAR.PJC@ar.mcd.com	 
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Agustina Faas    | 3513892233
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        150601577
+-Sucursal:    PJC
+-Domicilio:   YOFRE ELIAS ,BVD. /ALT/ 1050, CORDOBA, CORDOBA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.134
+IP SCO:  10.106.72.3
+PUERTO:  3
+IP WAN: 10.104.72.30 || 10.104.72.118
+FECHA DE ALTA: 18/05/2017
+************************************
+SUC: R4C 18
+
+-Mail SUC:    LAR.R4C@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Franco Perez     | 3513877108
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141733783
+-Sucursal:    R4C
+-Domicilio:   GRANADEROS  200  1078, Rio Cuarto, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.248.236
+IP SCO:  10.106.89.10
+PUERTO:  21
+IP WAN: 10.104.89.26 || 10.104.89.106
+FECHA DE ALTA: 16/07/2014	
+************************************
+SUC: PEC 19
+
+-Mail SUC:    LAR.PEC@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Fabian Puleio    | 3512527111
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103158163
+-Sucursal:    PEC
+-Domicilio:   YRIGOYEN HIPOLITO ,AV. 590 , Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.251.2
+IP SCO:  10.106.105.5
+PUERTO:  16
+IP WAN: 10.104.114.142 || 10.104.114.146
+FECHA DE ALTA: 25/04/2016	
+************************************
+SUC: W1C 20
+
+-Mail SUC:    LAR.W1C@ar.mcd.com	  
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato     | SIN TEL CT.
+-Gerente:     Natalia Fernandez | 3512527111
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103182553
+-Sucursal:    W1C
+-Domicilio:   YADAROLA MAURICIO /ALT/ 1699 /DE/ 2/3, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.65
+IP SCO:  10.106.73.2
+PUERTO:  17
+IP WAN: 10.104.73.22 || 10.104.73.26
+FECHA DE ALTA: 25/07/2016	
+************************************
+SUC: GPC 21
+
+-Mail SUC:    LAR.GPC@ar.mcd.com	
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Franco Perez     | 3513877108
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        69596385
+-Sucursal:    GPC
+-Domicilio:   PAZ GRAL ,AV. /ALT/ 134, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.253.239
+IP SCO:  10.106.105.3
+PUERTO:  17
+IP WAN: 10.104.114.58 || 10.104.70.130
+FECHA DE ALTA: 08/03/2016
+************************************
+************************************
+Interior - MENDOZA
+************************************
+************************************
+SUC: CMZ 22
+
+-Mail SUC:    LAR.CMZ@ar.mcd.com	
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci | SIN TEL CT.
+-Gerente:     Leandro Micheli   | 2615578910
+
+-Servicio:    Enlace de TASA
+-Ref.:        120574 - 1019294
+-Sucursal:    CMZ
+-Domicilio:   Av. Colón 385, Mendoza, Mendoza
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.74
+************************************
+SUC: S2Z 23
+
+-Mail SUC:    LAR.S2Z@ar.mcd.com	 
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci | SIN TEL CT.
+-Gerente:     Camila García     | 2613618256
+
+-Servicio:    Enlace de TASA
+-Ref.:        120758
+-Sucursal:    S2Z
+-Domicilio:   Av. Acceso Este 3280 (Villa Nueva - Guaymallen), Mendoza, Mendoza
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.81
+************************************
+SUC: SMZ 24
+
+-Mail SUC:    LAR.SMZ@ar.mcd.com	
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci | SIN TEL CT.
+-Gerente:     Marcelo Menotti   |  2615964253
+
+-Servicio:    Enlace de TASA
+-Ref.:        120533
+-Sucursal:    SMZ
+-Domicilio:   Av. San Martín 1177, Mendoza, Mendoza
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.91
+************************************
+SUC: SSZ 25
+
+-Mail SUC:    LAR.SSZ@ar.mcd.com	
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci  | SIN TEL CT.
+-Gerente:     Vanesa Ibarra      | 2615793002
+
+-Servicio:    Enlace de TASA
+-Ref.:        120763
+-Sucursal:    SSZ
+-Domicilio:   Avenida San Martín 1202, Mendoza, Mendoza
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.92
+************************************
+SUC: PPZ 26
+
+-Mail SUC:    LAR.PPZ@ar.mcd.com	  
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci  | SIN TEL CT.
+-Gerente:     Ignacio Manoni     | 2616063372
+
+-Servicio:    Enlace de TASA
+-Ref.:        120614
+-Sucursal:    PPZ
+-Domicilio:   Ruta Panamericana 2655, Mendoza, Mendoza
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.79
+************************************
+SUC: BMZ 27
+
+-Mail SUC:    LAR.BMZ@ar.mcd.com	
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci | SIN TEL CT.
+-Gerente:     Lautaro Arce      | 2615183354
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        
+-Sucursal:    BMZ
+-Domicilio:   
+
+-Datos ENLACE:
+
+************************************
+SUC: LHZ 28
+
+-Mail SUC:    LAR.LHZ@ar.mcd.com	  
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci  | SIN TEL CT.
+-Gerente:     Luciana Ramírez    | 2612430186
+
+-Servicio:    Enlace de TASA
+-Ref.:        133026
+-Sucursal:    LHZ
+-Domicilio:   Centro Comercial Barraca Mall, Local Especial Fast Food, Las Cañas 1833, Guaymallén, Mendoza, Mendoza
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.73
+************************************
+SUC: TMZ 29
+
+-Mail SUC:    LAR.TMZ@ar.mcd.com	
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci  | SIN TEL CT.
+-Gerente:     FDaniela Andino    | 2615734348
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        
+-Sucursal:    TMZ
+-Domicilio:   
+
+-Datos ENLACE:
+
+************************************
+************************************
+Interior - SAN JUAN
+************************************
+************************************
+SUC: SJN 30
+
+-Mail SUC:    LAR.SJN@ar.mcd.com	  
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci  | SIN TEL CT.
+-Gerente:     Pablo Tejada       | 2644192405
+
+-Servicio:    Enlace de TASA
+-Ref.:        120617
+-Sucursal:    SJN
+-Domicilio:   Av. Libertador Oeste 1826 – San Juan – Pcia. de San Juan  (Patio Alvear), San Juan, San Juan
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.83
+************************************
+SUC: JN2 31
+
+-Mail SUC:    LAR.JN2@ar.mcd.com	
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci  | SIN TEL CT.
+-Gerente:     Johana Castro      | 2645542088
+
+-Servicio:    Enlace de TASA
+-Ref.:        1005143
+-Sucursal:    JN2
+-Domicilio:   Av. Ignacio De La Rosa 806 , San Juan, San Juan
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.75
+************************************
+************************************
+Interior - ROSARIO
+************************************
+************************************
+SUC: CFR 32
+
+-Mail SUC:    LAR.CFR@ar.mcd.com	  
+-Mail SUP:    alejandra.bertoldi@ar.mcd.com
+-Supervisor:  Alejandra Bertoldi  | SIN TEL CT.
+-Gerente:     Fernando Chavez	  | SIN TEL CT.
+
+-Servicio:    Enlace de TECO
+-Ref.:        270423
+-Sucursal:    CFR
+-Domicilio:   Junin 385, Rosario, Santa Fé
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.117
+************************************
+SUC: LIR 33
+
+-Mail SUC:    LAR.LIR@ar.mcd.com	
+-Mail SUP:    alejandra.bertoldi@ar.mcd.com
+-Supervisor:  Alejandra Bertoldi | SIN TEL CT.
+-Gerente:     Lara Garcia        | 3416282771
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        121394281
+-Sucursal:    LIR
+-Domicilio:   ORONO ,BVD. /ALT/ 5960 /DE/ MC, Rosario, Santa Fe
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.247.110
+IP SCO:  10106107224
+PUERTO:  13
+IP WAN: 10.104.94.122 || 10.104.94.126
+FECHA DE ALTA: 30/06/2016
+************************************
+SUC: SPR 34 
+
+-Mail SUC:    LAR.SPR@ar.mcd.com	  
+-Mail SUP:    alejandra.bertoldi@ar.mcd.com
+-Supervisor:  Alejandra Bertoldi  | SIN TEL CT.
+-Gerente:     Nair Baez           | 3413066639
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141915627
+-Sucursal:    SPR
+-Domicilio:   CORDOBA 1643, Rosario, Rosario
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.225
+IP SCO:  10.106.91.5
+PUERTO:  15
+IP WAN: 10.104.91.238 || 10.104.104.134
+FECHA DE ALTA: 22/12/2014
+************************************
+SUC: PBR 35 (sin datos)
+
+-Mail SUC:    LAR.PBR@ar.mcd.com	
+-Mail SUP:    alejandra.bertoldi@ar.mcd.com
+-Supervisor:  Alejandra Bertoldi  | SIN TEL CT.
+-Gerente:     Nerina Alegrini     | 3416908154
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        
+-Sucursal:    PBR
+-Domicilio:   
+
+-Datos ENLACE:
+
+************************************
+************************************
+SUC: PER 36
+
+-Mail SUC:    LAR.PER@ar.mcd.com	  
+-Mail SUP:    sebastian.palaoro@ar.mcd.com
+-Supervisor:  Sebastian Palaoro  | SIN TEL CT.
+-Gerente:     Camila Cozzi	     | 3413532708
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103158705
+-Sucursal:    PER
+-Domicilio:   Av. Pellegrini 1402, Rosario, Santa Fe
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.234
+IP SCO:  10.106.91.9
+PUERTO:  12
+IP WAN: 10.104.104.138 || 10.104.104.142
+FECHA DE ALTA: 26/12/2017	
+************************************
+SUC: VIR 37
+
+-Mail SUC:    LAR.VIR@ar.mcd.com	
+-Mail SUP:    sebastian.palaoro@ar.mcd.com
+-Supervisor:  Sebastian Palaoro | SIN TEL CT.
+-Gerente:     Carla Montero     | 3412764462
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141918043
+-Sucursal:    VIR
+-Domicilio:   PERON EVA 5880, Rosario, Rosario
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.248.80
+IP SCO:  10120107194
+PUERTO:  7
+IP WAN: 10.104.93.14 || 10.104.93.38
+FECHA DE ALTA: 28/04/2014
+************************************
+SUC: GCR 38
+
+-Mail SUC:    LAR.GCR@ar.mcd.com	  
+-Mail SUP:    sebastian.palaoro@ar.mcd.com
+-Supervisor:  Sebastian Palaoro  | SIN TEL CT.
+-Gerente:     Cintia Escobar     | 3416757125
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141652482
+-Sucursal:    GCR
+-Domicilio:   Av Cordoba 1001, Rosario, Rosario
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.2
+IP SCO:  10.106.91.5
+PUERTO:  11
+IP WAN: 10.104.91.242  || 10.104.104.128/30 
+FECHA DE ALTA: 15/12/2014
+************************************
+SUC: PJR 39
+
+-Mail SUC:    LAR.PJR@ar.mcd.com	
+-Mail SUP:    sebastian.palaoro@ar.mcd.com
+-Supervisor:  Sebastian Palaoro  | SIN TEL CT.
+-Gerente:     Micaela Fernandez  | 
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141730509
+-Sucursal:    PJR
+-Domicilio:   Nansen 323, Rosario, Rosario
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.248.115
+IP SCO:  10.106.92.10
+PUERTO:  6
+IP WAN: 10.104.92.18 || 10.104.92.94
+FECHA DE ALTA: 06/02/2015	
+************************************
+SUC: CCR 40
+
+-Mail SUC:    LAR.CCR@ar.mcd.com	
+-Mail SUP:    sebastian.palaoro@ar.mcd.com
+-Supervisor:  Sebastian Palaoro  | SIN TEL CT.
+-Gerente:     Anibal Ciganda     | 3412159051
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141733482
+-Sucursal:    CCR
+-Domicilio:   Vera Mujica 732, Rosario, Rosario 
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.251.153
+IP SCO:  10.106.90.5
+PUERTO:  16
+IP WAN: 10.104.90.74 || 10.104.89.98
+FECHA DE ALTA: 19/01/2015	
+************************************
+************************************
+Interior - BARILOCHE
+************************************
+*************************************
+SUC: BAR 41
+
+-Mail SUC:    LAR.BAR@ar.mcd.com	
+-Mail SUP:    sebastian.palaoro@ar.mcd.com
+-Supervisor:  Sebastian Palaoro  | SIN TEL CT.
+-Gerente:     Franco Batalla     | 1126422893
+
+-Servicio:    Enlace de TASA
+-Ref.:        122655 - 1019293
+-Sucursal:    BAR
+-Domicilio:   Mitre 161 , Bariloche, Rio Negro
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.72
+*************************************
+************************************
+Interior - CORRIENTES
+************************************
+*************************************
+SUC: CSR 42
+ 
+-Mail SUC:    LAR.CSR@ar.mcd.com	
+-Mail SUP:    alejandra.bertoldi@ar.mcd.com
+-Supervisor:  Alejandra Bertoldi  | SIN TEL CT.
+-Gerente:     Ofelia Haidar       | 3795049711
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103118509
+-Sucursal:    CSR
+-Domicilio:   CENTENARIO ,AV. 3535, Corrientes, Corrientes
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.241.160
+IP SCO:  10.106.194.2
+PUERTO:  14
+IP WAN: 10.104.194.46 || 10.104.194.50
+FECHA DE ALTA: 18/12/2017
+************************************
+
+
+
+		
+		
+
+
+
+

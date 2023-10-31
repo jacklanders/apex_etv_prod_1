@@ -1,0 +1,19 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente REF.: se comunica por caida del enlace. Se realiza monitoreo preventivo:
+
+Se verifica SCO con enlace. Se le solicita al cliente reinicio de equipos y de persistir fallo, pruebas PING/TRACERT de manera directa para corroborar la falta del servicio. Adicionalmente que nos remita dichas pruebas via mail, a fin de continuar el tratamiento del caso.
+************************************
+IP WAN:
+IP SCO:
+port SCO:
+
+MAC equipo:
+
+]]></content>
+
+<tabTrigger>26.ICD IN - INTERNET DEDICADO con link SCO</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

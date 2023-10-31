@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CTN@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Vanesa Ghigliani  | 1169123989
+-Gerente:     Alejandra Bruno   | 1168002791
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103118726
+-Sucursal:    CTN
+-Domicilio:   BRASIL 1174/8, CABA, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.81
+IP SCO:  10.106.2.9
+PUERTO:  2
+IP WAN: 10.104.137.74 || 10.104.137.70
+FECHA DE ALTA: 01/02/2016
+
+]]></content>
+
+<tabTrigger>SUC: CTN | 103118726 | 10.109.250.81 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

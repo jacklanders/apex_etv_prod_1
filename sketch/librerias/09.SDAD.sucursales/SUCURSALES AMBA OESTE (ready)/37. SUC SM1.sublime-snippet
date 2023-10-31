@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SM1@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Yanina Cabrer   | 1128437303
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        122014475 - 122014476
+-Sucursal:    SM1
+-Domicilio:   SAN MARTIN ,AV. /ALT/ 2860, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.149
+IP SCO:  10.103.7.5
+PUERTO:  4
+IP WAN: 10.104.41.242 || 10.104.41.246
+FECHA DE ALTA: 09/06/2016
+
+]]></content>
+
+<tabTrigger>SUC: SM1 | 122014475 - 122014476 | 10.107.255.149 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

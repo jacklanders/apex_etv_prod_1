@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PNM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Patricio Gimenez     | 1126645663
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141730949
+-Sucursal:    PNM
+-Domicilio:   Bunge 662, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.253.161
+IP SCO:  10.106.85.9
+PUERTO:  4
+IP WAN: 10.104.85.14 - 10.104.84.50
+FECHA DE ALTA: 26/11/2015
+
+]]></content>
+
+<tabTrigger>SUC: PNM | 141730949 | 10.107.253.161 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

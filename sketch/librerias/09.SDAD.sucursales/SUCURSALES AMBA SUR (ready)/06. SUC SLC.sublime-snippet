@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SLC@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini   | 1137015885
+-Supervisor:  Carla Hernandez    | 1151617612
+-Gerente:     Julieta Valenzuela | 1167468446
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103175215
+-Sucursal:    SLC
+-Domicilio:   ANTARTIDA ARGENTINA ,AV. /ALT/ 703, LAVALLOL, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.243.146
+IP SCO:  10.106.131.21
+PUERTO:  8
+IP WAN: 10.104.135.94 || 10.104.135.98 
+FECHA DE ALTA: 22/08/2019
+
+]]></content>
+
+<tabTrigger>SUC: SLC | 103175215 | 10.109.243.146 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

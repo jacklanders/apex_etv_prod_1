@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.BAL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com      
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Victoria Segovia     | 1128775079
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141649165
+-Sucursal:    BAL
+-Domicilio:   Bvd Ballester 4771, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.152
+IP SCO:  10.106.153.6
+PUERTO:  3
+IP WAN: 10104153202 || 10.104.157.150
+FECHA DE ALTA: 19/06/2018
+
+]]></content>
+
+<tabTrigger>SUC: BAL | 141649165 | 10.106.254.152 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

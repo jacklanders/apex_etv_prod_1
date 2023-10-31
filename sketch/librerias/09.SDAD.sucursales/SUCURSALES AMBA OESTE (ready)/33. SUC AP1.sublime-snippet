@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.AP1@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Nicolás Medina  | 1161084099
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141647724
+-Sucursal:    AP1
+-Domicilio:   Av Pueyrredon 230, CABA, CABA
+
+- Datos ENLACE:
+IP MgMT MPLS: 10.107.252.128
+IP SCO:  10.106.1.7
+PUERTO:  11
+IP WAN: 10.104.26.126 || 10.104.160.58
+FECHA DE ALTA: 24/04/2014
+
+]]></content>
+
+<tabTrigger>SUC: AP1 | 141647724 | 10.107.252.128 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Estimados, buenas tardes.
+
+Tomamos contacto con XXXXX al numero , quien nos indica que la caída del enlace, fue debido a un corte de energía eléctrica en sitio. Dado que actualmente ya se encuentran con el servicio reestablecido en la sucursal, @Agustin Alejandro Sassone, ¿Requieren de alguna otra intervención de nuestra parte?
+
+Ticket .
+
+Quedamos a disposición.
+Saludos cordiales.        
+
+]]></content>
+
+<tabTrigger>01.MAIL SDAD - Corte de Energia (UP)</tabTrigger>
+<description>MAIL SDAD-CLIENTE</description>
+
+</snippet>

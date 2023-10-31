@@ -1,0 +1,24 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: monitoreodered@teco.com.ar
+CC: RecomendadosSoportePymes@teco.com.ar
+
+Asunto: Posible masivo || CUIT: || IDPRODUCTO: || TICKET:
+Nro. Caso: 	
+************************************ 
+Estimados, buenas tardes.              
+
+Favor de verificar idproducto: con mac: , bajo el nodo: . Actualmente no contamos con un IN de referencia alertado en OPEN, pero se observa que el nodo se encuentra con valores fuera de parametros a nivel SNR.
+
+Ticket en seguimiento . 
+
+Quedamos a disposicion
+************************************ 
+]]></content>
+
+<tabTrigger>15.MAIL RECOMENDADOS - MASIVO CONSULTA MDR</tabTrigger>
+<description>MAIL OUT-RE-PY</description>
+
+</snippet>

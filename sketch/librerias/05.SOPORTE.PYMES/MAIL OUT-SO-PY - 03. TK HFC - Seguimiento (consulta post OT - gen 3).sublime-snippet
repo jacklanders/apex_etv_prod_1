@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: 
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: Seguimiento TELECOM || CUIT:  || IDPRODUDCTO:  || TICKET: 
+Nro. Caso: 	
+************************************ 
+Estimada, buenas tardes.
+
+Nos encontramos reiterando la consulta sobre el servicio de referencia. Favor de remitirnos como lo percibe actualmente al mismo. Estaremos finalizando o continuando la gestión en base a sus comentarios.
+
+Ticket . 
+
+Quedamos a disposición.
+Saludos cordailes
+************************************ 
+]]></content>
+
+<tabTrigger>03.MAIL SOPORTE PYMES - HFC-SEGUIMIENTO (consulta post OT - gen 3)</tabTrigger>
+<description>MAIL OUT-SO-PY</description>
+
+</snippet>

@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+****************************************************
+\ \delfos\Grandes Clientes\Doc_Clientes - gestion 01
+****************************************************
+****************************************  
+- CUIT:               - TICKET:  || (gestion)
+- IDPROD.:            - TICKET:
+- REF.:               - TICKET:   
+- LIN.:               - TICKET:       
+- MAC:                - NODO:
+- OT:          
+- iTickets:           - iTracker: 
+****************************************            
+Cliente sin servicio. Se realiza monitoreo preventivo:
+
+Assure NXT: CM caido/operastivo 
+Reinicio CM: SI 
+
+NXT: NO, CM dañado, caido o con valores fuera de los parametros. Se agenda OT.  
+**********************
+- Nombre en SITE:    
+- Tel. Ct.:
+- Mail:              
+- H-D: L-V / 08-16HS
+- Doc. Acc.: NO      
+- ToT: SI
+- Covid-19: NO       
+- Domicilio: 
+
+- CM MAC:
+- NODO:
+- ORDEN:
+**********************
+************************************
+]]></content>
+<tabTrigger>00.GESTION DIARIA - 4</tabTrigger>
+<description>GESTION GENERAL</description>
+</snippet>

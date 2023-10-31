@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SMB@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com   
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Florencia Pugliese   | 1123258251
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141747527
+-Sucursal:    SMB
+-Domicilio:   Ricardo Balbin 2549, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.148
+IP SCO:  10.106.153.6
+PUERTO:  6
+IP WAN: 10.104.153.174 || 10.104.157.164/30
+FECHA DE ALTA: 19/06/2018
+
+]]></content>
+
+<tabTrigger>SUC: SMB | 141747527 | 10.106.254.148 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

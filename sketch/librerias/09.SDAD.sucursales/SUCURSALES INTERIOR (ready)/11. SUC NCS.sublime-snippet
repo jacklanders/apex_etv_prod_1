@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.NCS@ar.mcd.com	
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente:     Belen Gaudiño    | 3515378763
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103152837
+-Sucursal:    NCS
+-Domicilio:   QUIROS DUARTE ,BVD. /ALT/ 1400 /DE/ 203, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.33
+IP SCO:  10.106.69.5
+PUERTO:  2
+IP WAN: IRS: 10.104.69.126 || MPLS:10.104.69.122
+FECHA DE ALTA: 08/11/2016
+]]></content>
+
+<tabTrigger>SUC: NCS | 103152837 | 10.109.240.33 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

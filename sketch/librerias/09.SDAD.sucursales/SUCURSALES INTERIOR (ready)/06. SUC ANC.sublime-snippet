@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.ANC@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi  |  SIN TEL CT.
+-Gerente:     Maximiliano Bazan | 3512081825
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103100840
+-Sucursal:    ANC
+-Domicilio:   Av. Rafael Nuñez 4764, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.103
+IP SCO:  10.106.71.14
+PUERTO:  1
+IP WAN: 10.104.71.202 || 10.104.71.206
+FECHA DE ALTA: 23/05/2016
+]]></content>
+
+<tabTrigger>SUC: ANC | 103100840 | 10.109.240.103 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

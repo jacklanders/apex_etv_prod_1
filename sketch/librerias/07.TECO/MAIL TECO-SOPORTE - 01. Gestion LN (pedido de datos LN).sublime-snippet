@@ -1,0 +1,23 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para:
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: Seguimiento TELECOM || LINEA: || CUIT:  || TICKET:
+Nro. Caso: 	
+************************************ 
+Estimados, bueno días.
+
+Agradecemos la información brindada. ¿Podría indicarnos el numero de línea afectada?. Con la misma, podremos ubicar o iniciar el reclamo pertinente. Actualmente bajo numero de CUIT -  - proporcionado, no hemos detectado servicio de telefonía fija activo.
+
+Aguardamos comentarios.
+Saludos cordiales.
+************************************ 
+]]></content>
+
+<tabTrigger>17.MAIL TECO - Faltan datos</tabTrigger>
+<description>MAIL IN-TECO-SOPORTE</description>
+
+</snippet>

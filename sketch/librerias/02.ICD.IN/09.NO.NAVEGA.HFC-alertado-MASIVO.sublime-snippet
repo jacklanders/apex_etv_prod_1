@@ -1,0 +1,16 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente se comunica por caida de servicio. Masivo alertado OPEN: 
+
+Se le informa al cliente daño externo en zona.
+
+CUIT:
+IDPROD.: 
+  
+]]></content>
+
+<tabTrigger>09.ICD IN - MASIVO - HFC alertado</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

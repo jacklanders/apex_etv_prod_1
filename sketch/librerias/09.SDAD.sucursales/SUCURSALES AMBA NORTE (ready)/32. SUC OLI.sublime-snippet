@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.OLI@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Yanina Colazo  | 1149797294
+-Gerente:     Julieta Blanco | 1168602825
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141729434
+-Sucursal:    OLI
+-Domicilio:   AV DEL LIBERTADOR 2803 , Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.252.68
+IP SCO:  10.106.30.6
+PUERTO:  5
+IP WAN: 10.104.34.218 || 10.104.34.106
+FECHA DE ALTA: 12/01/2014
+
+
+]]></content>
+
+<tabTrigger>SUC: OLI | 141729434 | 10.107.252.68 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

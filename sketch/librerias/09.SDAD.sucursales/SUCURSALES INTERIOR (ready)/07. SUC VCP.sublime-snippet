@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.VCP@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | SIN TEL CT.
+-Gerente:     Mathias Castro   | 3517416700
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141945913
+-Sucursal:    VCP
+-Domicilio:   PAZ GRAL /ALT/ 139, Villa Carlos Paz, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.241.128
+IP SCO:  10.106.192.10
+PUERTO:  6
+IP WAN: 10.104.29.14 || 10.104.29.34
+FECHA DE ALTA: 12/01/2014
+]]></content>
+
+<tabTrigger>SUC: VCP | 141945913 | 10.109.241.128 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

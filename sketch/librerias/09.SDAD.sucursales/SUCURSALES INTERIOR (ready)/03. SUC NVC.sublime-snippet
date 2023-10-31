@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.NVC@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | SIN TEL CT.
+-Gerente:     Susana Peludero  | 3513440858
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103153365
+-Sucursal:    NVC
+-Domicilio:   NUNEZ RAFAEL ,AV. /ALT/ 3987 , Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.104
+IP SCO:  10.106.71.14
+PUERTO:  2
+IP WAN: 10.104.71.210 || 10.104.71.214
+FECHA DE ALTA: 11/05/2016
+
+]]></content>
+
+<tabTrigger>SUC: NVC | 103153365 | 10.109.240.104 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

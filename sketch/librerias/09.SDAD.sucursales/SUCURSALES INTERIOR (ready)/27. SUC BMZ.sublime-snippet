@@ -1,0 +1,22 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.BMZ@ar.mcd.com	
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci | SIN TEL CT.
+-Gerente:     Lautaro Arce      | 2615183354
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        
+-Sucursal:    BMZ
+-Domicilio:   
+
+-Datos ENLACE:
+
+]]></content>
+
+<tabTrigger>SUC: BMZ | SIN DATOS | DEL ENLACE |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

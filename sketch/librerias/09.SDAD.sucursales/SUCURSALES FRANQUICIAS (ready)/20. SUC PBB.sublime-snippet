@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PBB@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    diego.vaccarino@ar.mcd.com
+-Consultor:   Ariel Perez     | 1137016395
+-Supervisor:  Diego Vaccarino | 2914163898
+-Gerente:     Micaela Gerardi | 2914270855
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103155525
+-Sucursal:    PBB
+-Domicilio:   Av. Sarmiento 2200, Bahia Blanca, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.210
+IP SCO:  10.106.64.7
+PUERTO:  18
+IP WAN: 10.104.64.254 || 10.104.64.250
+FECHA DE ALTA: 18/07/2016
+
+]]></content>
+
+<tabTrigger>SUC: PBB | 103155525 | 10.107.254.210 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

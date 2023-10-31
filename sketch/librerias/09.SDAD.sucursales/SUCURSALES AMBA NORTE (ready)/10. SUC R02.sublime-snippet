@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.R02@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com   
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Paula Garcia    | 1149690386
+-Gerente:     Sofía Rodriguez  | 1133807634
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141732576
+-Sucursal:    R02
+-Domicilio:   MARCELO T DE ALVEAR 2956, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.253.9
+IP SCO:  10.106.147.15
+PUERTO:  22
+IP WAN: 10.104.147.30 || 10.104.147.142
+FECHA DE ALTA: 13/05/2014
+
+]]></content>
+
+<tabTrigger>SUC: R02 | 141732576 | 10.106.253.9 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

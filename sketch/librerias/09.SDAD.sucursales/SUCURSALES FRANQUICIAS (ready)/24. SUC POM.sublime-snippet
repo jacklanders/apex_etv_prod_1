@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.POM@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    ezequiel.lombardi@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Ezequiel Lombardi | 11063521426
+-Gerente:     Jesús Maracara    | 1133436959
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141731395
+-Sucursal:    POM
+-Domicilio:   Saenz 943, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.250.185
+IP SCO:  10.106.2.60
+PUERTO:  22
+IP WAN: 10.104.100.90 || 10.104.137.66
+FECHA DE ALTA: 13/05/2014
+
+]]></content>
+
+<tabTrigger>SUC: POM | 141731395 | 10.107.250.185 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

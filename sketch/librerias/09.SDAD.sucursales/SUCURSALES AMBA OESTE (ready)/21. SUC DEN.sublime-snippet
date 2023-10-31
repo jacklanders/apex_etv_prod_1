@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.DEN@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Sonia Casiva    | SIN TEL CT.
+-Gerente:     Camila Ibañez   | 1125791162
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103118947
+-Sucursal:    DEN
+-Domicilio:   Jose Pedro Varela 4866, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.241.241
+IP SCO:  10.106.14.17
+PUERTO:  10
+IP WAN: 10.104.118.62 || 10.104.118.66
+FECHA DE ALTA: 12/02/2016
+
+]]></content>
+
+<tabTrigger>SUC: DEN | 103118947 | 10.109.241.241 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.LFR@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Sergio Crea        | 1158102764
+
+-Servicio:    Enlace de TASA
+-Ref.:        120559 - 1019301
+-Sucursal:    LFR
+-Domicilio:   Ruta 21 e Ingeniero Luque, Laferrere, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.77
+
+]]></content>
+
+<tabTrigger>SUC: LFR | 120559 - 1019301 | 10.109.252.77 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

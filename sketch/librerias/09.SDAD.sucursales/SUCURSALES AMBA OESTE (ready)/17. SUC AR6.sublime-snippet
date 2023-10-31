@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.AR6@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Sonia Casiva    | SIN TEL CT.
+-Gerente:     Brenda Tozzi    | 1155892196
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        141648767
+-Sucursal:    AR6
+-Domicilio:   Av Rivadavia 16335, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.187
+IP SCO:  10.106.10.23
+PUERTO:  17
+IP WAN: 10.104.61.142 - 10.104.116.90
+FECHA DE ALTA: 28/08/2019
+
+]]></content>
+
+<tabTrigger>SUC: AR6 | 141648767 | 10.106.252.187 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

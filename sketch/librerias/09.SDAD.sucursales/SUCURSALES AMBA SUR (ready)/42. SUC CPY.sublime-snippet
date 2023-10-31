@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CPY@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Vanesa Ghigliani  | 1169123989
+-Gerente:     Marcela Pavone    | 1150220782
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141945615
+-Sucursal:    CPY
+-Domicilio:   Av Scalarini Ortiz 2034, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.251.134
+IP SCO:  10.106.0.53
+PUERTO:  13
+IP WAN: 10.104.145.198 || 10.104.152.46
+FECHA DE ALTA: 03/09/2014
+
+]]></content>
+
+<tabTrigger>SUC: CPY | 141945615 | 10.107.251.134 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

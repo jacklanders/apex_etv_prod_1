@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CHE@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Adriana Porcel  | 1136350765
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141649828
+-Sucursal:    CHE
+-Domicilio:   Av Cordoba 3831, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.251.135
+IP SCO:  10.106.61.10
+PUERTO:  12
+IP WAN: 10.104.145.202 || 10.104.143.14
+FECHA DE ALTA: 13/10/2017
+
+]]></content>
+
+<tabTrigger>SUC: CHE | 141649828 | 10.107.251.135 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

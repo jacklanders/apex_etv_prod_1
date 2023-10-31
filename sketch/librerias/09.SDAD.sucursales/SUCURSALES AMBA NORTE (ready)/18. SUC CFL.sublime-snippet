@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CFL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com   
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Paula Garcia   | 1121607853
+-Gerente:     Vanesa Roldan  | 1153781643
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103108378
+-Sucursal:    CFL
+-Domicilio:   CABILDO ,AV. /ALT/ 756, CABA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.64
+IP SCO:  10.106.0.113
+PUERTO:  13
+IP WAN: 10.104.152.206 || 10.104.152.210
+FECHA DE ALTA: 22/04/2016  
+
+]]></content>
+
+<tabTrigger>SUC: CFL | 103108378 | 10.107.255.64 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

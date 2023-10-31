@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente AB , se comunica por falla de CM Arnet.
+CUIT:
+
+Linea:
+Cambio equipo:
+Central:
+Actor (prueba SUR):
+
+CCIP:
+Webni (reset port): SI
+Reinicio de CM: SI
+CCIP:
+
+Equipo arnet con cortes/fallas/sin servicio. Se asigna OT para revision.
+************************************  
+OT:   
+
+]]></content>
+
+<tabTrigger>20.ICD IN - NO NAVEGA - TECO ARNET con OT</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

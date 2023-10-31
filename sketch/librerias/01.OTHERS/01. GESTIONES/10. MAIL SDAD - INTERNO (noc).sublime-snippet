@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+Caso Nº 01: *GESTION SDAD*  
+SDAD NOC - SUC:          
+****************************************                  
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº TICKET:  
+Nº TICKET:  
+************************************
+Para: 
+CC:  hgmilicia@teco.com.ar | lmolveira@cv.fibercorp.com.ar | jlbruna@teco.com.ar | SDAD@teco.com.ar | csot_fo@teco.com.ar | csot_mda@teco.com.ar | csot_foconduccion@teco.com.ar | describano@teco.com.ar
+
+Asunto: ARCOS DORADOS || ICD:  || SUCURSAL: 
+N° Caso: 
+************************************
+
+************************************ 
+]]></content>
+<tabTrigger>10.NUEVA GESTION</tabTrigger>
+<description>MAIL SDAD - INTERNO (noc)</description>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.B31@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    yermina.gonzalez@ar.mcd.com 
+-Consultor:   Ariel Perez     | 1137016395
+-Supervisor:  Yermina Benitez | 3425249567
+-Gerente:     SIN GERENTE
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        919455
+-Sucursal:    B31
+-Domicilio:   BARRIO 31, RETIRO, Buenos Aires 
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.133
+IP SCO:  10.120.106.3
+PUERTO:  9
+IP WAN: 10.105.152.209||10.105.152.255
+FECHA DE ALTA: 12/4/2019
+
+]]></content>
+
+<tabTrigger>SUC: B31 | 919455 | 10.107.254.133 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	
+<content><![CDATA[ 
+
+**********************************
+Para: 
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: Seguimiento TELECOM || CUIT:  || IDPRODUDCTO:  || TICKET: 
+Nro. Caso: 	 
+**********************************
+Estimados, buenas noches.
+
+Nos encontramos realizando el seguimiento sobre el servicio FLOW en referencia. Les informamos que, la orden técnica reservada para el día xx de xxxxx se encuentra, de momento, anulada. 
+
+Por ello, queriamos validar con usted, ¿Cómo percibe el funcionamiento de los decodificadores actualmente? En caso de persistir algún tipo de falla, favor de remitirnos en detalle, los mismos. Estamos al aguardo de sus comentarios.
+
+Ticket .
+
+Quedamos a disposición.
+Saludos cordiales.-
+**********************************
+]]></content>
+
+<tabTrigger>14.MAIL SOPORTE PYMES - FLOW-SEGUIMIENTO (anulacion OT - gen 4)</tabTrigger>
+<description>MAIL OUT-SO-PY</description>
+
+</snippet>

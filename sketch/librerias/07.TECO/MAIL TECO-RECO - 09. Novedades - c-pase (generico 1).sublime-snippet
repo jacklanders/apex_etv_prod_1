@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: DRC_PE_COBRE@teco.com.ar
+CC: RecomendadosSoportePymes@teco.com.ar
+
+Asunto: Seguimiento TELECOM || LINEA: || CUIT:  || TICKET:
+Nro. Caso: 	 
+************************************ 
+Estimados, buenas noches.
+
+Bajo registro ICDxxxxxx, verificamos que aun se encuentran tareas pendientes para la linea AB de referencia. ¿Nos podrian actualizar novedades respecto al caso?.
+
+Ticket .
+
+Quedamos a disposicion.    
+************************************  
+
+]]></content>
+
+<tabTrigger>09.MAIL TECO - Novedades Masivo (posible 1)</tabTrigger>
+<description>MAIL OUT-TECO-RECO</description>
+
+</snippet>

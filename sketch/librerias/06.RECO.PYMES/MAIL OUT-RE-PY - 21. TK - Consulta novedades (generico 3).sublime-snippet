@@ -1,0 +1,24 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: 
+CC: RecomendadosSoportePymes@teco.com.ar | DRC_PE_COBRE@teco.com.ar
+
+Asunto: Consulta novedades || CUIT:  || TICKET:
+Nro. Caso: 	
+************************************ 
+Estimados, buenas noches.
+
+¿Contamos con novedades respecto al caso de referencia? Estamos atentos a sus comentarios.
+
+Ticket en seguimiento . 
+
+Quedamos a disposicion.
+************************************ 
+]]></content>
+
+<tabTrigger>21.MAIL RECOMENDADOS - Consulta novedades (generico 3)</tabTrigger>
+<description>MAIL OUT-RE-PY</description>
+
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.QUJ@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini    | 1137015885
+-Supervisor:  Lorena Smit         | 1137016785
+-Gerente:     Laura Aguirrezabala | 1149389431
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103168975
+-Sucursal:    QUJ
+-Domicilio:   Av. Calchaqui 3950, Quilmes, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.32
+IP SCO:  10.106.129.34
+PUERTO:  1
+IP WAN: 10.104.57.206 || 10.104.9.54
+FECHA DE ALTA: 18/02/2016
+
+]]></content>
+
+<tabTrigger>SUC: QUJ | 103168975 | 10.109.246.32 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

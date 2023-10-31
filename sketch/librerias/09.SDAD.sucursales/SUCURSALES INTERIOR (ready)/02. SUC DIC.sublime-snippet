@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.DIC@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | SIN TEL CT.
+-Gerente:     Camila Quijada   | 3516547925
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        174929773
+-Sucursal:    DIC
+-Domicilio:   RODRIGUEZ DEL BUSTO /ALT/ 4086 /DE/ MAC, Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.116
+IP SCO:  10.106.71.72
+PUERTO:  1
+IP WAN: 10.104.182.114 || 10.104.182.118
+FECHA DE ALTA: 08/01/2018
+
+]]></content>
+
+<tabTrigger>SUC: DIC | 174929773 | 10.109.240.116 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

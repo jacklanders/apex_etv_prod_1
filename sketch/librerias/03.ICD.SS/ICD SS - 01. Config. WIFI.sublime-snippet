@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente se comunica para cambiar config. wifi y contraseña
+
+IDPROD.:
+CM MAC:
+
+Wifi 2.4GHz:
+pass 2.4GHz:
+
+Wifi 5.8GHz:
+pass 5.8GHz:
+
+CM: se corrobora con cliente y queda operativo.
+************************************               
+Nombre en SITE: 
+Tel. Ct.: 
+Mail: 
+Domicilio:
+************************************
+]]></content>
+
+<tabTrigger>01.ICD SS - Config. WIFI</tabTrigger>
+<description>ICD SS</description>
+
+</snippet>

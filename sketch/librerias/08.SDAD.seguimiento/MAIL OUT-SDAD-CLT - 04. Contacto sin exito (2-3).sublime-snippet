@@ -1,0 +1,21 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Estimado Alejandro, buenas tardes.
+
+Continuando el seguimiento al caso de referencia, hemos intentado en varias oportunidades, el contacto telefonico con XXX y con XXX a los numeros xxxxxxxxx - xxxxxxxx; siendo todas ellas sin éxito.
+
+@Agustin Alejandro Sassone, ¿Nos podrian brindar otros teléfonos de contacto? Estaremos al aguardo de sus comentarios, a fin de continuar con las pruebas correspondientes sobre la sucursal " ".
+
+Ticket . 
+
+Quedamos a disposición.
+Saludos cordiales.
+
+]]></content>
+
+<tabTrigger>04.MAIL SDAD - Contacto sin exito (2-3)</tabTrigger>
+<description>MAIL SDAD-CLIENTE</description>
+
+</snippet>

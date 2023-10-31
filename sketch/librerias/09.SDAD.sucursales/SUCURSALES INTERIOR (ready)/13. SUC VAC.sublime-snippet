@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.VAC@ar.mcd.com	
+-Mail SUP:    daniel.garcia@ar.mcd.com
+-Supervisor:  German Garcia    | 3513679818
+-Gerente:     Gabriela Romero  | 3516371393
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103182113
+-Sucursal:    VAC
+-Domicilio:   Río de Janeiro N° 1.725, Villa Allende, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.248.161
+IP SCO:  10.106.58.2
+PUERTO:  10
+IP WAN: 10.104.105.18 || 10.104.105.26
+FECHA DE ALTA: 11/04/2016
+
+]]></content>
+
+<tabTrigger>SUC: VAC | 103182113 | 10.109.248.161 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

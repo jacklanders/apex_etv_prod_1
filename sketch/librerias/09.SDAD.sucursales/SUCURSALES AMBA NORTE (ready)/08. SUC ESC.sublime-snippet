@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.ESC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Paula Garcia    | 1149690386
+-Gerente:     Micaela Aguilar | 1168880599
+
+-Servicio:    Enlace de TECO
+-Ref.:        959805 (MPLS) 959818 (INET).
+-Sucursal:    ESC
+-Domicilio:   25 de Mayo 1264, Escobar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: MPLS 10.105.166.38
+
+]]></content>
+
+<tabTrigger>SUC: ESC | 959805 (MPLS) 959818 (INET) | 10.105.166.38 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

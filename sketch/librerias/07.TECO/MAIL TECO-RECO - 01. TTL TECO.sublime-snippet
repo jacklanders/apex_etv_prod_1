@@ -1,0 +1,33 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: AsegClieVOZ@teco.com.ar
+CC: RecomendadosSoportePymes@teco.com.ar
+
+Asunto: Solicitud desvio de llamadas || CUIT:  || AB:  || TICKET:  
+Nro. Caso: 	
+************************************ 
+Estimados, buenos dias.
+
+El cliente en referencia solicita el desvio de llamadas entrantes. Adjunto datos:
+
+Linea de Origen: 
+Linea de Destino:  - (fijo/celular) - empresa (claro/personal/movistar)
+
+Nro. EQ: 
+
+¿La línea origen es una rotativa? SI/NO
+¿Tiene bloqueo de llamadas salientes? SI/NO
+¿Tiene contratado el servicio de transferencias? SI/NO
+
+Mantenemos el seguimiento bajo ticket . 
+
+Aguardamos comentarios.
+************************************ 
+]]></content>
+
+<tabTrigger>01.MAIL TECO - TTL TECO</tabTrigger>
+<description>MAIL OUT-TECO-RECO</description>
+
+</snippet>

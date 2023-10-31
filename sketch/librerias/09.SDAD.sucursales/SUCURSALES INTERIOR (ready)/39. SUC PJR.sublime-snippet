@@ -1,0 +1,28 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PJR@ar.mcd.com	
+-Mail SUP:    sebastian.palaoro@ar.mcd.com
+-Supervisor:  Sebastian Palaoro  | SIN TEL CT.
+-Gerente:     Micaela Fernandez  | 
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141730509
+-Sucursal:    PJR
+-Domicilio:   Nansen 323, Rosario, Rosario
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.248.115
+IP SCO:  10.106.92.10
+PUERTO:  6
+IP WAN: 10.104.92.18 || 10.104.92.94
+FECHA DE ALTA: 06/02/2015	
+
+
+]]></content>
+
+<tabTrigger>SUC: PJR | 141730509 | 10.107.248.115 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

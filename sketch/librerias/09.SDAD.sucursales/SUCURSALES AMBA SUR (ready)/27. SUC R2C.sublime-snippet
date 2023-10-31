@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.R2C@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Lorena Smit      | 1137016785
+-Gerente:     Virginia Gomez   | 1138759447
+
+-Servicio:    Enlace de TASA
+-Ref.:        120568
+-Sucursal:    R2C
+-Domicilio:   Ruta 2 Km. 115, Chascomus, Buenos Aires
+ 
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.80
+
+]]></content>
+
+<tabTrigger>SUC: R2C | 120568 | 10.109.252.80 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

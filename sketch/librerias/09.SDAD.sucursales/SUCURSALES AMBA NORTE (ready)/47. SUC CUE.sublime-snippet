@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CUE@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com  
+-Director:    Gabriela Morey       | 1131651696
+-Supervisor:  Jimena Santa Marinha | 1166852398
+-Gerente:     Sabrina Pachelo      | 1161865512
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141933245
+-Sucursal:    CUE  
+-Domicilio:   Cuenca 3224, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.253.57
+IP SCO:  10.106.14.3
+PUERTO:  8
+IP WAN: 10.104.42.90 || 10.104.118.46
+FECHA DE ALTA: 04/04/2014
+
+]]></content>
+
+<tabTrigger>SUC: CUE | 141933245 | 10.106.253.57 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

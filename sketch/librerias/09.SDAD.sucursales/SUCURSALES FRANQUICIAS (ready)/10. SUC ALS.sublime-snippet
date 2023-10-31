@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.ALS@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    mauro.rivero@ar.mcd.com
+-Consultor:   Alan Haynes  | 1136938463
+-Supervisor:  Mauro Rivero | 3874492170
+-Gerente:     Matias Flor  | 3875758574
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103099670
+-Sucursal:    ALS
+-Domicilio:   ALBERDI JUAN BAUTISTA /ALT/ 25, Salta, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.248.7
+IP SCO:  10.106.96.3
+PUERTO:  2
+IP WAN: 10.104.96.106|| 10.104.96.102
+FECHA DE ALTA: 31/03/2016  
+
+]]></content>
+
+<tabTrigger>SUC: ALS | 103099670 | 10.109.248.7 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente se comunica por falla de mail. Se verifica:
+Nick AR:
+NSLookUP:
+Panel COF:
+BaseIN.:
+
+
+Dominio (reclamado):
+Webmail (reclamado):
+
+Usuario (admin):
+contraseña:
+contraseña (nueva):
+
+No se encuentra el dominio reclamado en nuestra base de datos. Se comunica al cliente canalizar de forma particuar el fallo suscitado, ya que no tiene contratado con nosotros el servicio.
+
+ 
+]]></content>
+
+<tabTrigger>28.ICD IN - CLOUD no registrado</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

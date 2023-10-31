@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MRJ@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Paula Ayre      | SIN TEL CT.
+-Gerente:     Rosana Gonzalez | 1130656127
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103152507
+-Sucursal:    MRJ
+-Domicilio:   Bvd Juan M de Rosas 658, Moron, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.243.6
+IP SCO:  10.106.155.5
+PUERTO:  8
+IP WAN: 10.104.18.198 || 10.104.18.202
+FECHA DE ALTA: 29/08/2019
+
+]]></content>
+
+<tabTrigger>SUC: MRJ | 103152507 | 10.109.243.6 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

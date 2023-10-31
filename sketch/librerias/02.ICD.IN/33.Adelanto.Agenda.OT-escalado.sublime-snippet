@@ -1,0 +1,16 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente solicita adelanto de OT.
+
+N° Ticket:
+N° OT:
+
+La agenda solicitada no se encuentra disponible en OPEN. Se comunica al cliente que se va escalar el caso, quedara pendiente de BASE y a confirmar.
+  
+]]></content>
+
+<tabTrigger>32.ICD IN - Adelanto-Agenda OT / escalado</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

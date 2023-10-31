@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SJ2@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    jacqueline.capitani@ar.mcd.com   
+-Director:    Alejandro Crupi    | 1148701011
+-Supervisor:  Jaqueline Capitani | 1165102911
+-Gerente:     Maite Juarez       | 1154175605
+
+-Servicio:    Enlace de TASA
+-Ref.:        120737 - 1019302     
+-Sucursal:    SJ2
+-Domicilio:   Ignacio Arieta 3474, San Justo, Buenos Aires 
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.82 
+
+]]></content>
+
+<tabTrigger>SUC: SJ2 | 120737 - 1019302 | 10.109.252.82 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: 
+CC: RecomendadosSoportePymes@teco.com.ar /  RecomendadosAdminCorporativo@teco.com.ar
+
+Asunto: 
+Nro. Caso: 	
+************************************ 
+Estimado, buenos días.
+
+Solicitamos desde ya las disculpas pertinentes, pero desde el área de soporte técnico no brindamos ese tipo de asistencia. Sumamos en copia a nuestro sector de administración, quienes continuaran con la gestión correspondiente.
+
+Quedamos a disposición.
+************************************ 
+]]></content>
+
+<tabTrigger>01.MAIL RECOMENDADOS - ADMIN (ND)</tabTrigger>
+<description>MAIL IN-RE-PY</description>
+
+</snippet>

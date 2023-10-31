@@ -1,0 +1,18 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente AB , se comunica por linea afectada.
+CUIT:
+
+Cambio equipo:
+Central:
+Actor (prueba SUR):
+
+Cliente no esta en sitio. Se le explica pruebas a realizar y remitir consulta una vez realizadas las mismas. De persistir fallo posteriormente, asignar OT.
+ 
+]]></content>
+
+<tabTrigger>21.ICD IN -  SIN TONO - TECO sin OT</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

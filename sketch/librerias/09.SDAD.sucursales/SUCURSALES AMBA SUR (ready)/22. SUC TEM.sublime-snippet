@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.TEM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:    Eugenia Pugliese      | 2236212943
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        107420091
+-Sucursal:    TEM
+-Domicilio:   SARMIENTO /ALT/ 2700 , Mar del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.75
+IP SCO:  10.106.42.2
+PUERTO:  24
+IP WAN: 10.104.103.122 || 10.104.103.78
+FECHA DE ALTA: 12/11/2015
+
+]]></content>
+
+<tabTrigger>SUC: TEM | 107420091 | 10.109.244.75 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

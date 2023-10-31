@@ -1,0 +1,24 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.JN2@ar.mcd.com	
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci  | SIN TEL CT.
+-Gerente:     Johana Castro      | 2645542088
+
+-Servicio:    Enlace de TASA
+-Ref.:        1005143
+-Sucursal:    JN2
+-Domicilio:   Av. Ignacio De La Rosa 806 , San Juan, San Juan
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.75
+
+
+]]></content>
+
+<tabTrigger>SUC: JN2 | 1005143 | 10.109.252.75 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.HLG@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi  | 1148701011
+-Supervisor:  Paula Ayre       | SIN TEL CT.
+-Gerente:     Antonela Vergara | 1173657586
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141692724
+-Sucursal:    HLG
+-Domicilio:   DR ARTURO JAURETCHE 978, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.250.6
+IP SCO:  10.106.155.4
+PUERTO:  7
+IP WAN: 10.104.18.70 || 10.104.18.194
+FECHA DE ALTA: 29/08/2019
+
+]]></content>
+
+<tabTrigger>SUC: HLG | 141692724 | 10.104.18.194 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

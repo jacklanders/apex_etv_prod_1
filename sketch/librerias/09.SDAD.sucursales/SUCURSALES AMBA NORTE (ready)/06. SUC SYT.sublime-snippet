@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SYT@ar.mcd.com	
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.conte@ar.mcd.com  
+-Director:    Gabriela Morey      | 1131651696
+-Supervisor:  Gimena Conte        | 1165102911
+-Gerente:     Carolina de la Cruz | 1168178550
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141938957
+-Sucursal:    SYT
+-Domicilio:   TOMKINSON 2967, BECCAR, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.247.129
+IP SCO:  10.106.11.15
+PUERTO:  1
+IP WAN: 10.104.37.106
+FECHA DE ALTA: 10/09/2014
+
+]]></content>
+
+<tabTrigger>SUC: SYT | 141938957 | 10.109.247.129 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

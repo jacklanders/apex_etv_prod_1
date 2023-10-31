@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SGC@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    jimena.montero@ar.mcd.com   
+-Director:    Gabriela Morey   | 1131651696
+-Supervisor:  Jimena Montero   | 1121607853
+-Gerente:     Nathalia Salinas | 1168008336
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141946411
+-Sucursal:    SGC
+-Domicilio:   MAURE /ALT/ 1886, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.78
+IP SCO:  10.106.0.83
+PUERTO:  12
+IP WAN: 10.104.110.94 || 10.104.152.82
+FECHA DE ALTA: 11/02/2015
+
+]]></content>
+
+<tabTrigger>SUC: SGC | 141946411 | 10.107.255.78 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

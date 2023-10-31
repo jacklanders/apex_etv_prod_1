@@ -1,0 +1,399 @@
+***************************************
+***************************************
+             FRANQUICIAS 2
+***************************************
+***************************************
+SUC: BBB 01
+
+-Mail SUC:    LAR.BBB@ar.mcd.com	
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    diego.vaccarino@ar.mcd.com
+-Consultor:   Ariel Perez     | 1137016395
+-Supervisor:  Diego Vaccarino | 2914163898
+-Gerente:     Blas Molina     | 2914144441
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        103104913
+-Sucursal:    BBB
+-Domicilio:   BROWN /ALT/ 226, Bahia Blanca, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.206
+IP SCO:  10.106.64.7
+PUERTO:  14
+IP WAN: 10.104.64.242 || 10.104.64.238
+FECHA DE ALTA: 21/03/2016
+***************************************
+***************************************
+SUC: PBB 02
+
+-Mail SUC:    LAR.PBB@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    diego.vaccarino@ar.mcd.com
+-Consultor:   Ariel Perez     | 1137016395
+-Supervisor:  Diego Vaccarino | 2914163898
+-Gerente:     Micaela Gerardi | 2914270855
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103155525
+-Sucursal:    PBB
+-Domicilio:   Av. Sarmiento 2200, Bahia Blanca, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.210
+IP SCO:  10.106.64.7
+PUERTO:  18
+IP WAN: 10.104.64.254 || 10.104.64.250
+FECHA DE ALTA: 18/07/2016
+***************************************
+***************************************
+***************************************
+SUC: EAD 03
+
+-Mail SUC:    LAR.EAD@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    ezequiel.lombardi@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Ezequiel Lombardi | 11063521426
+-Gerente:     Tamara Charro     | 1135523980
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103119743
+-Sucursal:    EAD
+-Domicilio:   Avenida Espora 611, Quilmes, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.249.43
+IP SCO:  10.106.130.6
+PUERTO:  5
+IP WAN: 10.104.130.134 || 10.104.130.138
+FECHA DE ALTA: 18/02/2016
+***************************************
+***************************************
+SUC: ERC 04
+
+-Mail SUC:    LAR.ERC@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    ezequiel.lombardi@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Ezequiel Lombardi | 11063521426
+-Gerente:     Estela Ibañez     | 1140697866
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141650867
+-Sucursal:    ERC 
+-Domicilio:   Av Entre Rios 2195, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.250.178
+IP SCO:  10.106.2.60
+PUERTO:  23
+IP WAN: 10.104.100.94 || 10.104.141.18
+FECHA DE ALTA: 29/04/2014
+***************************************
+***************************************
+SUC: LEZ 05
+
+-Mail SUC:    LAR.LEZ@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    ezequiel.lombardi@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Ezequiel Lombardi | 11063521426
+-Gerente:     Macarena Imicoz   | 1140697866
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141695895
+-Sucursal:    LEZ
+-Domicilio:   Av Martin Garcia 270 , CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.250.184
+IP SCO:  10.106.2.60
+PUERTO:  24
+IP WAN: 10.104.100.110 || 10.104.137.56/30
+FECHA DE ALTA: -
+***************************************
+***************************************
+SUC: POM 06
+
+-Mail SUC:    LAR.POM@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    ezequiel.lombardi@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Ezequiel Lombardi | 11063521426
+-Gerente:     Jesús Maracara    | 1133436959
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141731395
+-Sucursal:    POM
+-Domicilio:   Saenz 943, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.250.185
+IP SCO:  10.106.2.60
+PUERTO:  22
+IP WAN: 10.104.100.90 || 10.104.137.66
+FECHA DE ALTA: 13/05/2014
+***************************************
+***************************************
+***************************************
+SUC: PTP 07
+
+-Mail SUC:    LAR.PTP@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    hugo.zamparo@ar.mcd.com 
+-Consultor:   Ariel Perez  | 1137016395
+-Supervisor:  Hugo Zamparo |3434258121
+-Gerente:     SIN GERENTE
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103168128
+-Sucursal:    PTP
+-Domicilio:   ESPANA /ALT/ 1, Parana, Entre Rios
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.230
+IP SCO:  10.106.83.2
+PUERTO:  24
+IP WAN: 10.104.83.110 || 10.104.83.114
+FECHA DE ALTA: 22/04/2016
+***************************************
+***************************************
+***************************************
+SUC:  R26 08
+
+-Mail SUC:    LAR.R26@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    agustin.monzon@ar.proveedor-mcd.com
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Agustin Monzón    | 3484512232
+-Gerente:     Micaela Figueredo | 1121915619
+
+-Servicio:   Enlace de FiberCorp 
+-Ref.:       142600009
+-Sucursal:   R26 
+-Domicilio:  12 DE OCTUBRE /ALT/ 2662, Capital Federal, Capital Federal 
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.133
+IP SCO:  10.106.15.17
+PUERTO:  13
+IP WAN: 10.104.125.34/30 IRS || 10.104.125.34/30 MPLS
+FECHA DE ALTA: 01/05/2018
+***************************************
+***************************************
+SUC: TO2 09
+
+-Mail SUC:    LAR.TO2@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    agustin.monzon@ar.proveedor-mcd.com 
+-Consultor:   Ariel Perez    | 1137016395
+-Supervisor:  Agustin Monzón | 3484512232
+-Gerente:     Johana Cabrera | 1122671734
+
+-Servicio:    Enlace de TASA
+-Ref.:        120816 - 1019307
+-Sucursal:    TO2
+-Domicilio:   Constituyentes y Panamericana (RAMAL PILAR) , Tortuguitas, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.99
+***************************************
+***************************************
+***************************************
+SUC:  PON 10
+
+-Mail SUC:    LAR.PON@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    rodrigo.michelena@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Rodrigo Michelena | 1156055529
+-Gerente:     Sol Vergara       | 2996724828
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103161739
+-Sucursal:    PON
+-Domicilio:   LASTRA JUAN JULIAN /ALT/ 2400, Neuquen, Neuquen
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.180
+IP SCO:  10.106.80.2
+PUERTO:  17
+IP WAN: 10.104.80.218 || 10.104.80.214
+FECHA DE ALTA: 19/10/2017
+***************************************
+***************************************
+SUC:  PPN 11
+
+-Mail SUC:    LAR.PPN@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    rodrigo.michelena@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Rodrigo Michelena | 1156055529
+-Gerente:     Silvina Coñequeo  | 2995900801
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        130740297
+-Sucursal:    PPN
+-Domicilio:   ANTARTIDA ARGENTINA /ALT/ 1100, NEUQUEN, NEUQUEN
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.187
+IP SCO:  10.106.80.2
+PUERTO:  25
+IP WAN: 10.104.79.118 || 10.104.79.122
+FECHA DE ALTA: 02/08/2017
+***************************************
+***************************************
+SUC: ACN 12
+
+-Mail SUC:    LAR.ACN@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    rodrigo.michelena@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Rodrigo Michelena | 1156055529
+-Gerente:     Facundo Mena      | 2996341853
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141947117
+-Sucursal:    ACN
+-Domicilio:   RAMON DR LUIS /ALT/ 321, Neuquen, Neuquen
+
+-Datos ENLACE:
+"IP MgMT MPLS: 10.109.244.168
+IP SCO:  10.106.80.3
+PUERTO:  18
+IP WAN: 10.104.80.50 || 10.104.80.186
+FECHA DE ALTA: 15/04/2015
+***************************************
+***************************************
+SUC:  AMN 13
+
+-Mail SUC:    LAR.AMN@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    rodrigo.michelena@ar.mcd.com    
+-Consultor:   Ariel Perez       | 1137016395
+-Supervisor:  Rodrigo Michelena | 1156055529
+-Gerente:     Yamila Martinez   | 2996064940
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        194438514
+-Sucursal:    AMN 
+-Domicilio:   PERTICONE EUGENIO /ALT/ 545, BELGRANO, NEUQUEN
+
+-Datos ENLACE:
+"IP MgMT MPLS: 10.109.244.179
+IP SCO:  10.106.80.6
+PUERTO:  11
+IP WAN: 10.104.80.206 || 10.104.80.210
+FECHA DE ALTA: 29/06/2017
+***************************************
+***************************************
+***************************************
+SUC:  ESF 14
+
+-Mail SUC:    LAR.ESF@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    pablo.schek@ar.mcd.com  
+-Consultor:   Ariel Perez     | 1137016395
+-Supervisor:  Pablo Schek     | SIN TEL CT.
+-Gerente:     Danisa Mossiman | 3425224143
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141651309
+-Sucursal:    ESF
+-Domicilio:   Av San Martin 2702, Santa fe, Santa fe  
+
+-Datos ENLACE:
+"IP MgMT MPLS: 10.106.249.10
+IP SCO:  10.106.98.5
+PUERTO:  22
+IP WAN: 10.104.98.102 || 10.104.98.226
+FECHA DE ALTA: 28/05/2014
+***************************************
+***************************************
+SUC:  GAF 15
+
+-Mail SUC:    LAR.GAF@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    pablo.schek@ar.mcd.com  
+-Consultor:   Ariel Perez | 1137016395
+-Supervisor:  Pablo Schek | SIN TEL CT.
+-Gerente:     Nair Chacur | 3425120250
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103145491
+-Sucursal:    GAF 
+-Domicilio:   SAN MARTIN /ALT/ 2139 , Santa Fe, Santa Fe
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.248.51
+IP SCO:  10.106.98.6
+PUERTO:  8
+IP WAN: 10.104.165.26 || 10.104.165.30
+FECHA DE ALTA: 25/04/2016
+***************************************
+***************************************
+SUC:  GRF  (mig fiber datos) 16
+
+-Mail SUC:    LAR.GRF@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    pablo.schek@ar.mcd.com  
+-Consultor:   Ariel Perez    | 1137016395
+-Supervisor:  Pablo Schek    | SIN TEL CT.
+-Gerente:     Jonathan Recio | 3425249567
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        143711335
+-Sucursal:    GRF
+-Domicilio:   PUERTO DIQUE 1 /ALT/ 1, SANTA FE, SANTA FE
+
+-Datos ENLACE: 
+IP MgMT MPLS: 10.109.248.59/32
+IP SCO:  10.120.107.228
+PUERTO:  5
+IP WAN: 10.104.165.90 || 10.104.165.94
+FECHA DE ALTA: 18/05/2017
+***************************************
+***************************************
+SUC: TPF (no existen registros) 17
+
+-Mail SUC:    LAR.TPF@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    pablo.schek@ar.mcd.com  
+-Consultor:   Ariel Perez | 1137016395
+-Supervisor:  Pablo Schek | SIN TEL CT.
+-Gerente:     SIN GERENTE
+
+-Servicio:    
+-Ref.:        
+-Sucursal:    
+-Domicilio:   
+
+-Datos ENLACE:
+***************************************
+***************************************
+***************************************
+SUC: B31  18
+
+-Mail SUC:    LAR.B31@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    yermina.gonzalez@ar.mcd.com 
+-Consultor:   Ariel Perez     | 1137016395
+-Supervisor:  Yermina Benitez | 3425249567
+-Gerente:     SIN GERENTE
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        919455
+-Sucursal:    B31
+-Domicilio:   BARRIO 31, RETIRO, Buenos Aires 
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.133
+IP SCO:  10.120.106.3
+PUERTO:  9
+IP WAN: 10.105.152.209||10.105.152.255
+FECHA DE ALTA: 12/4/2019
+***************************************
+  
+    

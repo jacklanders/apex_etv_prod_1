@@ -1,0 +1,22 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PBR@ar.mcd.com	
+-Mail SUP:    alejandra.bertoldi@ar.mcd.com
+-Supervisor:  Alejandra Bertoldi  | SIN TEL CT.
+-Gerente:     Nerina Alegrini     | 3416908154
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        
+-Sucursal:    PBR
+-Domicilio:   
+
+-Datos ENLACE:
+
+]]></content>
+
+<tabTrigger>SUC: PBR | SIN DATOS | DEL ENLACE |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

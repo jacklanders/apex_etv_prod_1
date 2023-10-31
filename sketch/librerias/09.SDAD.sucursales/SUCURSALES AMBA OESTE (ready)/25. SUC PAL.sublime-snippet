@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PAL@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    paula.ayre@ar.mcd.com   
+-Director:    Alejandro Crupi  | 1148701011
+-Supervisor:  Paula Ayre       | SIN TEL CT.
+-Gerente:     Antonella Miño   | 1130342659
+-Gerente:     Mariana Veron    | 1130342659
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        141920458
+-Sucursal:    PAL
+-Domicilio:   Bvd San Martin 3099, Palomar, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.251.74
+IP SCO:  10.106.150.10
+PUERTO:  23
+IP WAN: 10.104.150.26 ||  10.104.150.74
+FECHA DE ALTA: 05/11/2014
+
+]]></content>
+
+<tabTrigger>SUC: PAL | 141920458 | 10.107.251.74 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

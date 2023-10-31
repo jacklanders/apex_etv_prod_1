@@ -1,0 +1,24 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SJN@ar.mcd.com	  
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci  | SIN TEL CT.
+-Gerente:     Pablo Tejada       | 2644192405
+
+-Servicio:    Enlace de TASA
+-Ref.:        120617
+-Sucursal:    SJN
+-Domicilio:   Av. Libertador Oeste 1826 – San Juan – Pcia. de San Juan  (Patio Alvear), San Juan, San Juan
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.83
+
+
+]]></content>
+
+<tabTrigger>SUC: SJN | 120617 | 10.109.252.83 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

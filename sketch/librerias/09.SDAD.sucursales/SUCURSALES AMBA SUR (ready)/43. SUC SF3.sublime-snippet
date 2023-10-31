@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SF3@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Vanesa Ghigliani | 1169123989
+-Gerente:     Sabrina Melian   | 1135837149
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103171526
+-Sucursal:    SF3
+-Domicilio:   Av. Santa Fe 2468/70, Caba, Buenos Aires
+ 
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.120
+IP SCO:  10.106.6.36
+PUERTO:  15
+IP WAN: 10.104.159.78 || 10.104.159.82
+FECHA DE ALTA: 05/08/2019
+
+]]></content>
+
+<tabTrigger>SUC: SF3 | 103171526 | 10.109.246.120 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

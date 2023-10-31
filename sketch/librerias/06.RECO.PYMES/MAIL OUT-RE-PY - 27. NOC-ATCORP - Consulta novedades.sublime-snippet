@@ -1,0 +1,26 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: noc-sc@teco.com.ar
+CC: RecomendadosSoportePymes@teco.com.ar
+
+Asunto: Razon Social: || CUIT: || REF: || TICKET:
+Nro. Caso: 	
+************************************ 
+Estimados, buenas noches.
+
+¿Tendrían alguna novedad del caso de referencia? El cliente se encuentra solicitando nuevamente avances. 
+
+Solicitamos nos puedan brindar de ser ser posible, un ETR con las novedades en el avance de la gestion y si aun quedan tareas pendientes.Esto ultimo a fin de mantener un correcto feedback de contención y/o actualizacion del caso.
+
+Ticket en seguimiento . 
+
+Quedamos a disposición.
+************************************ 
+]]></content>
+
+<tabTrigger>27.MAIL RECOMENDADOS - NOC-ATCORP (consulta novedades)</tabTrigger>
+<description>MAIL OUT-RE-PY</description>
+
+</snippet>

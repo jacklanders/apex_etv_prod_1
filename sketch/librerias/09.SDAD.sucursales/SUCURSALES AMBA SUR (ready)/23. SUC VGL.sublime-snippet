@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.VGL@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Belen Medina         | 1169634194
+
+-Servicio:    Enlace de TASA
+-Ref.:        124382 - 1019308
+-Sucursal:    VGL
+-Domicilio:   Avenida 3 472 (entre paseo 104 y 105), Villa Gesell, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.93
+
+]]></content>
+
+<tabTrigger>SUC: VGL | 124382 - 1019308 | 10.109.252.93 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

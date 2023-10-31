@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.FLO@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    lucrecia.arias@ar.mcd.com 
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Lucrecia Arias      | SIN TEL CT.
+-Gerente:     Lorena De Francesco | 1137718042
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        141652172
+-Sucursal:    FLO
+-Domicilio:   Av Rivadavia 7302, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.253.20
+IP SCO:  10.106.12.24
+PUERTO:  2
+IP WAN: 10.104.39.98 || 10.104.112.38
+FECHA DE ALTA: 14/05/2014
+
+]]></content>
+
+<tabTrigger>SUC: FLO | 141652172 | 10.107.253.20 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

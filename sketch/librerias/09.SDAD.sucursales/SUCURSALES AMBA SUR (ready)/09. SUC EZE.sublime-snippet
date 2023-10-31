@@ -1,0 +1,25 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.EZE@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Mauro Sosa       | 1168489555
+
+-Servicio:    Enlace de TECO
+-Ref.:        270430
+-Sucursal:    EZE
+-Domicilio:   Aeropuertos Argentina 2000 Terminal A, Ezeiza, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.66 
+
+]]></content>
+
+<tabTrigger>SUC: EZE | 270430 | 10.109.252.66 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

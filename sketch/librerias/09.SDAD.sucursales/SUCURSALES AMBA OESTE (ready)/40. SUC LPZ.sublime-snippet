@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.LPZ@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT.
+-Gerente:     Veronica Biasoli    | 1156362420
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141696695
+-Sucursal:    LPZ
+-Domicilio:   Av Corrientes 1650, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.249.152
+IP SCO:  10.106.3.161
+PUERTO:  8
+IP WAN: 10.104.207.30 y 10.104.208.10 || 10.104.200.18
+FECHA DE ALTA: 23/09/2014
+
+]]></content>
+
+<tabTrigger>SUC: LPZ | 141696695 | 10.107.249.152 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

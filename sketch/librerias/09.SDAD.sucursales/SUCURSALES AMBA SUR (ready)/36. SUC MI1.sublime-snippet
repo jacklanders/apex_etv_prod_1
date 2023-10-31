@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MI1@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Ignacio Priolo   | 1167832158
+-Gerente:     Julieta Taborda  | 
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141727642
+-Sucursal:    MI1
+-Domicilio:   av Mitre 639, Avellaneda, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.179
+IP SCO:  10.106.128.3
+PUERTO:  18
+IP WAN: 10.104.212.10 || 10.104.212.158
+FECHA DE ALTA: 03/11/2014
+
+]]></content>
+
+<tabTrigger>SUC: MI1 | 141727642 | 10.106.254.179 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

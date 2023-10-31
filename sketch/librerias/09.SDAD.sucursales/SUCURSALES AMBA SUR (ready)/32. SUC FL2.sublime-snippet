@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.FL2@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini   | 1137015885
+-Supervisor:  Ignacio Priolo     | 1167832158
+-Gerente:     Camila Fernandez   | 1135608850
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103143085
+-Sucursal:    FL2
+-Domicilio:   FLORIDA /ALT/ 281 , CABA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.165
+IP SCO:  10.106.3.176
+PUERTO:  5
+IP WAN: 10.104.220.90 || 10.104.220.94
+FECHA DE ALTA: 01/08/2019
+
+
+]]></content>
+
+<tabTrigger>SUC: FL2 | 103143085 | 10.109.250.165 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

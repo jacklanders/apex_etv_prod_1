@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.CFM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Agustina Gil Sosa    | 2236928232
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103108701
+-Sucursal:    CFM
+-Domicilio:   Av. Constitución 7656, Mar Del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.80
+IP SCO:  10.106.197.14
+PUERTO:  4
+IP WAN: 10.104.121.58 || 10.104.121.62
+FECHA DE ALTA: 23/03/2016
+
+]]></content>
+
+<tabTrigger>SUC: CFM | 103108701 | 10.109.244.80 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

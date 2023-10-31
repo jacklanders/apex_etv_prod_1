@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.LAV@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    alejandra.quinteros@ar.mcd.com  
+-Director:    Alejandro Crupi     | 1148701011
+-Supervisor:  Alejandro Quinteros | SIN TEL CT.
+-Gerente:     Nahuel Huss         | 1144360807
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        153301901
+-Sucursal:    LAV
+-Domicilio:   LAVALLE /ALT/ 964, Capital Federal, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.174
+IP SCO:  10.106.3.129
+PUERTO:  13
+IP WAN: 10.104.234.118 || 10.104.234.122
+FECHA DE ALTA: 20/2/2020
+
+]]></content>
+
+<tabTrigger>SUC: LAV | 153301901 | 10.109.246.174 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

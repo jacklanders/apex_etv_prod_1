@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.R9C@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    mariapaula.garcia@ar.mcd.com  
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Paula Garcia    | 1149690386
+-Gerente:     Matias Sosa     | 1128861296
+-Gerente:     Luciano Maiochi | 1134893157
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141932722
+-Sucursal:    R9C
+-Domicilio:   RUTA 9 KM 72,5, Campana, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.161
+IP SCO:  10.106.33.2
+PUERTO:  9
+IP WAN: 10.104.33.22 || 10.104.33.94
+FECHA DE ALTA: 15/08/2014  
+
+]]></content>
+
+<tabTrigger>SUC: R9C | 141932722 | 10.107.255.161 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

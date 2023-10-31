@@ -1,0 +1,34 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: DECSupervisores@teco.com.ar
+CC: RecomendadosSoportePymes@teco.com.ar
+
+Asunto: Seguimiento TELECOM || LINEA: || CUIT:  || TICKET:
+Nro. Caso: 	
+************************************ 
+Estimados, buenas tardes.
+
+El cliente de referencia tiene la linea sin tono con varias reagendas incumplidas. Así mismo el daño que representa la falta de servicio de cara al cliente es muy critico. Por ello nos encontramos solicitando la mayor celeridad posible, en el adelanto y/o aseguramiento de la OT: . 
+
+Nombre de persona en sitio:
+Tel. Contacto:
+Mail:
+Horarios y Días:
+Doc. Acceso:
+Acceso a techo o terraza:
+Covid-19:
+Domicilio:
+
+Estaremos al aguardo de novedades para brindar un correcto feedback con el cliente. Mantenemos el seguimiento bajo ticket . 
+
+Quedamos a disposicion.
+Saludos cordiales.
+************************************ 
+]]></content>
+
+<tabTrigger>02.MAIL TECO - Aseguramiento-Adelanto</tabTrigger>
+<description>MAIL OUT-TECO-RECO</description>
+
+</snippet>

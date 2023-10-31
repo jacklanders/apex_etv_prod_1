@@ -1,0 +1,30 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.AR3@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    sonia.casiva@ar.mcd.com 
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Sonia Casiva    | SIN TEL CT.
+-Gerente:     Johana Palacios | 1130543943
+-Gerente:     Jesus C         | 1130543943
+
+-Servicio:    Enlace de FiberCorp 
+-Ref.:        141648055
+-Sucursal:    AR3
+-Domicilio:   Av Rivadavia 14350, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.188
+IP SCO:  10.106.10.23
+PUERTO:  16
+IP WAN: 10.104.61.150 - 10.104.116.86
+FECHA DE ALTA: 28/08/2019
+
+]]></content>
+
+<tabTrigger>SUC: AR3 | 141648055 | 10.106.252.188 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

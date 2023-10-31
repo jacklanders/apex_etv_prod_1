@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+- CUIT:        - TICKET:  || 
+- IDPROD.:     - TICKET:     
+- REF.:        - iTracker: 
+- LIN.:        - iTickets:
+- OT:          - NODO:
+****************************************             
+************************************
+Para: 
+CC:
+
+Asunto: 
+N° Caso: 
+************************************
+
+**********************
+- Nombre en SITE:    - Tel. Ct.:
+- Mail:              - H-D: L-V / 08-16HS
+- Doc. Acc.: NO      - ToT: SI
+- Covid-19: NO       - Domicilio: 
+
+- CM MAC:
+- NODO:
+- ORDEN:
+**********************
+************************************
+]]></content>
+<tabTrigger>00.GESTION DIARIA - 3</tabTrigger>
+<description>GESTION GENERAL</description>
+</snippet>

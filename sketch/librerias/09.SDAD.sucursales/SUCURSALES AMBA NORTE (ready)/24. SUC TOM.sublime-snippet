@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.TOM@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    yanina.collazo@ar.mcd.com 
+-Director:    Gabriela Morey | 1131651696
+-Supervisor:  Yanina Colazo  | 1156626895
+-Gerente:     Nuria Aguilera | 1124591888
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        150093744
+-Sucursal:    TOM
+-Domicilio:   CONSTITUYENTES ,AV. /ALT/ 1499, Capital Federal, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.135
+IP SCO:  10.106.15.57
+PUERTO:  9
+IP WAN: 10.104.125.54 || 10.104.125.50
+FECHA DE ALTA: 15/05/2018
+
+]]></content>
+
+<tabTrigger>SUC: TOM | 150093744 | 10.109.245.135 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

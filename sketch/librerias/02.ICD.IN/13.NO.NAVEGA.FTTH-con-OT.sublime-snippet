@@ -1,0 +1,20 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente sin servicio. Se realiza monitoreo preventivo:
+
+Symphonica:
+CCIP: "sin sesion"
+
+Reset ONT: SI 
+CCIP: Equipo caido o con alguna falla fisica. Se asigna OT para reparacion o recambio de equipo.
+************************************ 
+OT:   
+NODO:
+
+]]></content>
+
+<tabTrigger>13.ICD IN - NO NAVEGA - FTTH con OT</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

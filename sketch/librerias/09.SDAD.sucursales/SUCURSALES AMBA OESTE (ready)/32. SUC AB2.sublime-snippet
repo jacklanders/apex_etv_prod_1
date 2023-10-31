@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.AB2@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi  | 1148701011
+-Supervisor:  Glenda Farias    | SIN TEL CT.
+-Gerente:     Barbara Caggiano | 1144061769
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        120811005
+-Sucursal:    AB2
+-Domicilio:   CORRIENTES ,AV. /ALT/ 3247 /DE/ 1001, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.29
+IP SCO:  10.111.220.2
+PUERTO:  GPON
+IP WAN: 10.104.160.226|10.104.160.230
+FECHA DE ALTA: 12/02/2019
+
+]]></content>
+
+<tabTrigger>SUC: AB2 | 120811005 | 10.107.254.29 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

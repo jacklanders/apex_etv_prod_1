@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.AB3@ar.mcd.com    
+-Mail DIR:    alejandro.crupi@ar.mcd.com
+-Mail SUP:    glenda.farias@ar.mcd.com    
+-Director:    Alejandro Crupi | 1148701011
+-Supervisor:  Glenda Farias   | SIN TEL CT.
+-Gerente:     Luciana Piñeiro | 1163759307
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        120811936
+-Sucursal:    AB3
+-Domicilio:   CORRIENTES ,AV. /ALT/ 3247 /DE/ 1001, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.31
+IP SCO:  10.111.220.2
+PUERTO:  GPON
+FECHA DE ALTA: 14/02/2019
+
+
+]]></content>
+
+<tabTrigger>SUC: AB3 | 120811936 | 10.107.254.31 |</tabTrigger>
+<description>SUC SDAD AMDA OESTE</description>
+
+</snippet>

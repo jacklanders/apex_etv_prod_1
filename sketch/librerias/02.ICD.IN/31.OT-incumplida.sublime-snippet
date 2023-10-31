@@ -1,0 +1,21 @@
+<snippet>
+	
+<content><![CDATA[ 
+Cliente se comunica por OT incumplida. 
+
+N° Ticket: 
+N° OT:
+CM Tecnicos:
+
+Se continua gestion brindando nueva reagenda.
+
+MAC CM:
+NODO:
+N° OT (nueva):
+  
+]]></content>
+
+<tabTrigger>30.ICD IN - OT incumplida</tabTrigger>
+<description>ICD IN</description>
+
+</snippet>

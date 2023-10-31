@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.SOL@ar.mcd.com    
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    rodrigo.farrace@ar.mcd.com 
+-Director:    Gabriela Morey  | 1131651696
+-Supervisor:  Rodrigo Farrace | 1149797294
+-Gerente:     Fernando Yoma   | 1159026997
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141938637
+-Sucursal:    SOL
+-Domicilio:   IRIGOYEN DR BERNARDO DE /ALT/ 2647, Boulogne, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.226
+IP SCO:  10.106.56.13
+PUERTO:  3
+IP WAN: 10.104.146.122 || 10.104.164.4/30
+FECHA DE ALTA: 03/10/2014 
+
+]]></content>
+
+<tabTrigger>SUC: SOL | 141938637 | 10.107.255.226 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PJC@ar.mcd.com	 
+-Mail SUP:    mario.volpato@ar.mcd.com
+-Supervisor:  Mario Volpato    | SIN TEL CT.
+-Gerente:     Agustina Faas    | 3513892233
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        150601577
+-Sucursal:    PJC
+-Domicilio:   YOFRE ELIAS ,BVD. /ALT/ 1050, CORDOBA, CORDOBA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.134
+IP SCO:  10.106.72.3
+PUERTO:  3
+IP WAN: 10.104.72.30 || 10.104.72.118
+FECHA DE ALTA: 18/05/2017
+
+]]></content>
+
+<tabTrigger>SUC: PJC | 150601577 | 10.109.240.134 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>

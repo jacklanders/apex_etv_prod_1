@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MO2@ar.mcd.com    
+-Mail CON:    alan.haynes@ar.mcd.com    
+-Mail SUP:    analia.alfonso@ar.mcd.com
+-Consultor:   Alan Haynes    | 1136938463
+-Supervisor:  Analia Alfonso | SIN TEL CT.
+-Gerente:     Nadia Zelaya   | 1165736893
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        119704248 - 119704251
+-Sucursal:    MO2
+-Domicilio:   VICTORICA ,AV. /ALT/ 1128 , Moreno, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.105
+IP SCO:  10.106.154.7
+PUERTO:  19
+IP WAN: 10.104.154.206 || 10.104.154.202
+FECHA DE ALTA: 31/03/2016  
+
+]]></content>
+
+<tabTrigger>SUC: MO2 | 119704248 - 119704251 | 10.109.244.105 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

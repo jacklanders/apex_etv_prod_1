@@ -1,0 +1,24 @@
+<snippet>
+	
+<content><![CDATA[ 
+************************************
+Para: DRC_PE_COBRE@teco.com.ar
+CC: RecomendadosSoportePymes@teco.com.ar
+
+Asunto: Seguimiento TELECOM || LINEA: || CUIT:  || TICKET:
+Nro. Caso: 	
+************************************ 
+Estimados, buenas tardes.
+
+Si bien comprendemos que el caso se encuentra afectado al incidente global  , ¿Contamos con un ETR de resolucion?. Estaremos al aguardo de sus comentarios. Esto ultimo a fin de poder brindar un correcto feedback resolutivo al cliente.
+
+Ticket .
+
+Quedamos a disposicion.
+************************************ 
+]]></content>
+
+<tabTrigger>13.MAIL TECO - Novedades Masivo (generico reitera)</tabTrigger>
+<description>MAIL OUT-TECO-RECO</description>
+
+</snippet>

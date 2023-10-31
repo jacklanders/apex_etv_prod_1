@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.MGE@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Carla Hernandez  | 1151617612
+-Gerente:     Ramiro Farrace   | 1141982807
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        115297315
+-Sucursal:    MGE
+-Domicilio:   BUENOS AIRES ,BVD. /ALT/ 136, Mte Grande, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.15
+IP SCO:  10.106.127.9
+PUERTO:  8
+IP WAN: 10.104.127.226 || 10.104.127.222
+FECHA DE ALTA: 28/03/2016
+
+]]></content>
+
+<tabTrigger>SUC: MGE | 115297315 | 10.109.244.15 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

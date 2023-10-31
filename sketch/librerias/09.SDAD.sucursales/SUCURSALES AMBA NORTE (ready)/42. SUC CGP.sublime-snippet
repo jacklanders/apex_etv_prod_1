@@ -1,0 +1,28 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail DIR:    gabriela.morey@ar.mcd.com
+-Mail SUP:    maria.santa@ar.mcd.com  
+-Director:    Gabriela Morey        | 1131651696
+-Supervisor:  Jimena Santa Marinha  | 1166852398
+-Gerente:     Juan González         | 1169742766
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141946101
+-Sucursal:    CGP
+-Domicilio:   San Martin 421, Villa Lynch, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.154
+IP SCO:  10.106.153.9
+PUERTO:  3
+IP WAN: 10.104.64.126 || 10.104.157.154
+FECHA DE ALTA: 23/10/2018
+
+]]></content>
+
+<tabTrigger>SUC: CGP | 141946101 | 10.107.254.154 |</tabTrigger>
+<description>SUC SDAD AMBA NORTE</description>
+
+</snippet>

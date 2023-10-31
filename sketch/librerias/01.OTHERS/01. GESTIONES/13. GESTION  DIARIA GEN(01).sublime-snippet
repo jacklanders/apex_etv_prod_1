@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+Caso Nº 01: *GESTION DEL LLAMADO*      
+****************************************         
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº LIN.: 
+Nº TICKET:  
+Nº TICKET:  
+Nº TICKET:     
+N° iTracker: 
+N° iTickets:
+************************************
+Nombre en SITE: 
+Tel. Ct.: 
+Mail: 
+H-D: L-V / 08-16HS
+Doc. Acc.: NO
+ToT: SI
+Covid-19: NO 
+Domicilio:     
+************************************
+Cliente sin servicio. Se realiza monitoreo preventivo:
+NXT: CM caido/desconectado/operativo
+
+Reinicio CM: SI 
+NXT: NO, CM dañado, caido o con valores fuera de los parametros. Se agenda OT. 
+
+CM MAC: 
+NODO: 
+OT:
+************************************ 
+]]></content>
+<tabTrigger>13. NUEVA GESTION</tabTrigger>
+<description>>GESTION DIARIA (01)generica</description>
+</snippet>

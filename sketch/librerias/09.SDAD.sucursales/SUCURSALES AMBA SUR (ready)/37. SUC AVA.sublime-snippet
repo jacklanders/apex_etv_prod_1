@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.AVA@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini    | 1137015885
+-Supervisor:  Ignacio Priolo      | 1167832158
+-Gerente:     Tatiana Gilardi     | 1162501107
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        107235603
+-Sucursal:    AVA
+-Domicilio:   GARDEL CARLOS /ALT/ 3950, Avellaneda, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.78
+IP SCO:  10.106.128.5
+PUERTO:  15
+IP WAN: 10.104.212.182 || 10.104.212.186
+FECHA DE ALTA: 31/07/2019
+
+]]></content>
+
+<tabTrigger>SUC: AVA | 107235603 | 10.107.254.78 |</tabTrigger>
+<description>SUC SDAD AMBA SUR</description>
+
+</snippet>

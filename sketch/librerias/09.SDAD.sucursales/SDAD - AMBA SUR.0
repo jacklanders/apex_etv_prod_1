@@ -1,0 +1,1074 @@
+***************************************
+*************************************** 
+              AMBA - SUR      
+***************************************
+***************************************
+SUC: HY1 01
+
+-Mail SUC:    LAR.HY1@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Carla Hernandez  | 1151617612
+-Gerente:     Sheila Torrico   | 1160392488 
+-Gerente:     Romina Novillo   | 1158420480
+
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141694254
+-Sucursal:    HY1
+-Domicilio:   Av Hipolito Yrigoyen 8230, Buenos Aires, Lomas de Zamora
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.92
+IP SCO:  10.106.131.17
+PUERTO:  3
+IP WAN: 10104131170 || 10.104.135.58
+FECHA DE ALTA: 27/08/2014
+************************************
+SUC: BAS 02
+
+-Mail SUC:    LAR.BAS@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Carla Hernandez  | 1151617612
+-Gerente:     Karina Tiribe    | 1162416866
+
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103104310
+-Sucursal:    BAS
+-Domicilio:   YRIGOYEN HIPOLITO ,AV. /ALT/ 13298 /DE/ 202/, ADROGUE, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.249.44
+IP SCO:  10.106.130.6
+PUERTO:  8
+IP WAN: 10.104.130.154 || 10.104.130.150
+FECHA DE ALTA: 02/08/2016
+************************************
+SUC: HY3 03
+
+-Mail SUC:    LAR.HY3@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Carla Hernandez  | 1151617612
+-Gerente:     Nancy Zamora     | 1131329903
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141695124
+-Sucursal:    HY3
+-Domicilio:   Av Hipolito Yrigoyen 7567, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.90
+IP SCO:  10.106.131.17
+PUERTO:  6
+IP WAN: 10104131158 || 10.104.135.62
+FECHA DE ALTA: 07/05/2014
+************************************
+SUC: PLL 04
+
+-Mail SUC:    LAR.PLL@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Carla Hernandez  | 1151617612
+-Gerente:     Luis Junior      | 1136189989
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141730742
+-Sucursal:    PLL
+-Domicilio:   FRANCISCO LAPRIDA  177, Lomas, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.91
+IP SCO:  10.106.131.21
+PUERTO:  12
+IP WAN: 10.104.131.166 || 10.104.135.66
+FECHA DE ALTA: 21/08/2019
+************************************
+SUC: TEC 05
+
+-Mail SUC:    LAR.TEC@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Carla Hernandez  | 1151617612
+-Gerente:     Erica Carpio     | 1166403143
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        122336571
+-Sucursal:    TEC
+-Domicilio:   YRIGOYEN HIPOLITO ,AV. /ALT/ 10699, TEMPERLEY, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.243.147
+IP SCO:  10.106.131.21
+PUERTO:  7
+IP WAN: 10.104.135.102 || 10.104.135.106
+FECHA DE ALTA: 26/12/2017
+************************************
+SUC: SLC 06
+
+-Mail SUC:    LAR.SLC@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini   | 1137015885
+-Supervisor:  Carla Hernandez    | 1151617612
+-Gerente:     Julieta Valenzuela | 1167468446
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103175215
+-Sucursal:    SLC
+-Domicilio:   ANTARTIDA ARGENTINA ,AV. /ALT/ 703, LAVALLOL, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.243.146
+IP SCO:  10.106.131.21
+PUERTO:  8
+IP WAN: 10.104.135.94 || 10.104.135.98 
+FECHA DE ALTA: 22/08/2019
+************************************
+SUC: MGE 07
+
+-Mail SUC:    LAR.MGE@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carla.hernandez@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Carla Hernandez  | 1151617612
+-Gerente:     Ramiro Farrace   | 1141982807
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        115297315
+-Sucursal:    MGE
+-Domicilio:   BUENOS AIRES ,BVD. /ALT/ 136, Mte Grande, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.15
+IP SCO:  10.106.127.9
+PUERTO:  8
+IP WAN: 10.104.127.226 || 10.104.127.222
+FECHA DE ALTA: 28/03/2016
+************************************
+SUC: 9JL 08
+
+-Mail SUC:    LAR.9JL@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Eileen Aversa    | 1164046395
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103085226
+-Sucursal:    9JL
+-Domicilio:   9 DE JULIO /ALT/ 1196, Lanus, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.243.82
+IP SCO:  10.106.132.21
+PUERTO:  21
+IP WAN: 10.104.211.162 || 10.104.211.166
+FECHA DE ALTA: 20/08/2019
+************************************
+SUC: EZE 09
+
+-Mail SUC:    LAR.EZE@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Mauro Sosa       | 1168489555
+
+-Servicio:    Enlace de TECO
+-Ref.:        270430
+-Sucursal:    EZE
+-Domicilio:   Aeropuertos Argentina 2000 Terminal A, Ezeiza, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.66 
+************************************
+SUC: SA2 10
+
+-Mail SUC:    LAR.SA2@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini   | 1137015885
+-Supervisor:  Martin Roberts     | 1128688944
+-Gerente:     Cristian Fernandez | 1138308971
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141945093
+-Sucursal:    SA2
+-Domicilio:   Av guemes 897 Local 2, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.180
+IP SCO:  10.106.128.3
+PUERTO:  17
+IP WAN: 10.104.212.42 || 10.106.212.162
+FECHA DE ALTA: 30/05/2014
+************************************
+SUC: CAN 11 
+
+-Mail SUC:    LAR.CAN@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Vanesa Marcos    | 1151211014
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        233443202 - 233443204
+-Sucursal:    CAN
+-Domicilio:   CASTEX PROF M ,RUTA PROV. 181, Canning, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.37
+IP SCO:  10.106.127.14
+PUERTO:  5
+IP WAN: 10.105.133.16 || MPLS 10.105.133.18
+FECHA DE ALTA: 17/09/2019
+************************************
+SUC: HY2 12
+
+-Mail SUC:    LAR.HY2@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Anabela Cañete   | 1122720632
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141694743
+-Sucursal:    HY2
+-Domicilio:   Av Hipolito Yrigoyen 4475, Lanus, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.252.158
+IP SCO:  10.106.132.8
+PUERTO:  9
+IP WAN: 10104132186 || 10.104.211.130
+FECHA DE ALTA: 20/08/2019
+************************************
+SUC: EZ2 13 (VERIFICAR)
+
+-Mail SUC:    LAR.EZ2@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Roxana Orellana  | 1131583367
+
+-Servicio:    Enlace de TASA
+-Ref.:        1016604
+-Sucursal:    EZ2
+-Domicilio:   Aeropuertos Argentina 2000 Zona Embarque, EZEIZA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 209.13.134.213
+************************************
+SUC: LTS 14
+
+-Mail SUC:    LAR.LTS@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Estella Romero   | 1158097111
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        121281227
+-Sucursal:    LTS
+-Domicilio:   Formosa 653 - Ezeiza, Ezeiza, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.18
+IP SCO:  10.106.127.9
+PUERTO:  10
+IP WAN: 10.104.127.230 || 10.104.127.234
+FECHA DE ALTA: 28/04/2015
+************************************
+SUC: SA3 15   (VERIFICAR NO DATOS)
+
+-Mail SUC:    LAR.SA3@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.roberts@ar.mcd.com 
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Roberts   | 1128688944
+-Gerente:     Javier Gonzalez  | SIN TEL CT.
+
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        
+-Sucursal:    SA3
+-Domicilio:   
+
+-Datos ENLACE:
+************************************
+SUC: PNM 16
+
+-Mail SUC:    LAR.PNM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Patricio Gimenez     | 1126645663
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141730949
+-Sucursal:    PNM
+-Domicilio:   Bunge 662, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.253.161
+IP SCO:  10.106.85.9
+PUERTO:  4
+IP WAN: 10.104.85.14 - 10.104.84.50
+FECHA DE ALTA: 26/11/2015
+************************************
+SUC: SMM 17
+
+-Mail SUC:    LAR.SMM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Brisa Ferraris       | 2235671271
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103175757
+-Sucursal:    SMM
+-Domicilio:   San Martin 2543, Mar Del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.82
+IP SCO:  10.106.197.14
+PUERTO:  6
+IP WAN: 10.104.121.78 || 10.104.121.74
+FECHA DE ALTA: 21/03/2016
+************************************
+SUC: ACM 18
+
+-Mail SUC:    LAR.ACM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Yanina Baccon        | 2236354277
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103094010
+-Sucursal:    ACM
+-Domicilio:   Constitución 3950 , Mar Del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.78
+IP SCO:  10.106.197.14
+PUERTO:  3
+IP WAN: 10.104.121.50|| 10.104.121.54
+FECHA DE ALTA: 23/03/2016
+************************************
+SUC: LGM 19
+
+-Mail SUC:    LAR.LGM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Natalia Moyano       | 2235923681
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103147692
+-Sucursal:    LGM
+-Domicilio:   Belgrano 3001, Mar del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.81
+IP SCO:  10.106.197.14
+PUERTO:  15
+IP WAN: 10.104.121.70|| 10.104.121.66
+FECHA DE ALTA: 24/08/2016
+************************************
+SUC: CFM 20
+
+-Mail SUC:    LAR.CFM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Agustina Gil Sosa    | 2236928232
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103108701
+-Sucursal:    CFM
+-Domicilio:   Av. Constitución 7656, Mar Del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.80
+IP SCO:  10.106.197.14
+PUERTO:  4
+IP WAN: 10.104.121.58 || 10.104.121.62
+FECHA DE ALTA: 23/03/2016
+************************************
+SUC: PRM 21
+
+-Mail SUC:    LAR.PRM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Florencia Farace     | 2235831832
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        121396049 - 121396051
+-Sucursal:    PRM
+-Domicilio:   PERALTA RAMOS E /ALT/ 5479, Mar del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.85
+IP SCO:  10.106.42.3
+PUERTO:  7
+IP WAN: 10.104.121.106 || 10.104.121.110
+FECHA DE ALTA: 07/07/2016
+************************************
+SUC: TEM 22
+
+-Mail SUC:    LAR.TEM@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:    Eugenia Pugliese      | 2236212943
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        107420091
+-Sucursal:    TEM
+-Domicilio:   SARMIENTO /ALT/ 2700 , Mar del Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.244.75
+IP SCO:  10.106.42.2
+PUERTO:  24
+IP WAN: 10.104.103.122 || 10.104.103.78
+FECHA DE ALTA: 12/11/2015
+************************************
+SUC: VGL 23
+
+-Mail SUC:    LAR.VGL@ar.mcd.com    
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    carolina.de@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Carolina de Vicentis | 1169832959
+-Gerente:     Belen Medina         | 1169634194
+
+-Servicio:    Enlace de TASA
+-Ref.:        124382 - 1019308
+-Sucursal:    VGL
+-Domicilio:   Avenida 3 472 (entre paseo 104 y 105), Villa Gesell, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.93
+************************************
+************************************
+SUC: SFS 24
+
+-Mail SUC:    LAR.SFS@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini     | 1137015885
+-Supervisor:  Lorena Smit          | 1137016785
+-Gerente:     Elizabeth Pantaleone | 1163542800
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141918382
+-Sucursal:    SFS 
+-Domicilio:   Avenida 844 alt 2582, Solano, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.251.177
+IP SCO:  10.106.129.10
+PUERTO:  20
+IP WAN: 10.104.129.78 || 10.104.57.202
+FECHA DE ALTA: 23/08/201
+************************************
+************************************
+SUC: QLM 25
+
+-Mail SUC:    LAR.QLM@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Lorena Smit      | 1137016785
+-Gerente:     Celeste Torres   | 1135769176
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141731736
+-Sucursal:    QLM
+-Domicilio:   Rivadavia 124, Quilmes, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.39
+IP SCO:  10.106.129.10
+PUERTO:  19
+IP WAN: 10.104.129.66 || 10.104.57.198
+FECHA DE ALTA: 06/08/2014
+************************************
+************************************
+SUC: MYB 26
+
+-Mail SUC:    LAR.MYB@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Lorena Smit      | 1137016785
+-Gerente:     Carolina Rivas   | 1164489993
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141729162
+-Sucursal:    MYB
+-Domicilio:   Brandsen 350, Buenos Aires, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.251.182
+IP SCO:  10.106.129.10
+PUERTO:  18
+IP WAN: 10.104.129.62 || 10.104.57.194
+FECHA DE ALTA: 07/05/2014
+************************************
+************************************
+SUC: R2C 27
+
+-Mail SUC:    LAR.R2C@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Lorena Smit      | 1137016785
+-Gerente:     Virginia Gomez   | 1138759447
+
+-Servicio:    Enlace de TASA
+-Ref.:        120568
+-Sucursal:    R2C
+-Domicilio:   Ruta 2 Km. 115, Chascomus, Buenos Aires
+ 
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.80
+************************************
+************************************
+SUC: R2G 28
+
+-Mail SUC:    LAR.R2G@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Lorena Smit      | 1137016785
+-Gerente:     Veronica Baez    | 1163542800
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        144114002
+-Sucursal:    R2G
+-Domicilio:   Calle 413 y Rda. Gutierrez, BERAZATEGUI, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.6
+IP SCO:  10.106.31.3
+PUERTO:  16
+IP WAN:  10.104.112.94 || 10.104.112.98
+FECHA DE ALTA: 23/08/2019
+************************************
+************************************
+SUC: QUJ 29
+
+-Mail SUC:    LAR.QUJ@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini    | 1137015885
+-Supervisor:  Lorena Smit         | 1137016785
+-Gerente:     Laura Aguirrezabala | 1149389431
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103168975
+-Sucursal:    QUJ
+-Domicilio:   Av. Calchaqui 3950, Quilmes, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.32
+IP SCO:  10.106.129.34
+PUERTO:  1
+IP WAN: 10.104.57.206 || 10.104.9.54
+FECHA DE ALTA: 18/02/2016
+************************************
+************************************
+SUC: QUU 30
+
+-Mail SUC:    LAR.QUU@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Lorena Smit       | 1137016785
+-Gerente:     Stefannie Hurtado | 1137677708
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        122335736 - 122335746
+-Sucursal:    QUU
+-Domicilio:   OLAVARRIA /ALT/ 180, Quilmes, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.228
+IP SCO:  10.106.129.34
+PUERTO:  7
+IP WAN: 10.104.170.14 || 10.104.170.18
+FECHA DE ALTA: 09/06/2016
+************************************
+************************************
+SUC: BER 31
+
+-Mail SUC:    LAR.BER@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    lorena.smit@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Lorena Smit      | 1137016785
+-Gerente:     Carla Rivero     | 1131542577
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103105914
+-Sucursal:    BER
+-Domicilio:   014 Pte Juan D Perón 4985, Berazategui, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.3
+IP SCO:  10.106.31.3
+PUERTO:  4
+IP WAN: 10.104.112.58 || 10.104.112.62
+FECHA DE ALTA: 17/12/2015
+************************************
+************************************
+SUC: FL2 32
+
+-Mail SUC:    LAR.FL2@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini   | 1137015885
+-Supervisor:  Ignacio Priolo     | 1167832158
+-Gerente:     Camila Fernandez   | 1135608850
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103143085
+-Sucursal:    FL2
+-Domicilio:   FLORIDA /ALT/ 281 , CABA, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.165
+IP SCO:  10.106.3.176
+PUERTO:  5
+IP WAN: 10.104.220.90 || 10.104.220.94
+FECHA DE ALTA: 01/08/2019
+************************************
+************************************
+SUC: LIM 33
+
+-Mail SUC:    LAR.LIM@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini   | 1137015885
+-Supervisor:  Ignacio Priolo     | 1167832158
+-Gerente:     Rocio Ostroviezqui | 1166833014
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141696274
+-Sucursal:    LIM
+-Domicilio:   Lima 667, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.249.151
+IP SCO:  10.106.3.161
+PUERTO:  9
+IP WAN: 10.104.207.34  || 10.104.200.14
+FECHA DE ALTA: 05/11/2014
+************************************
+************************************
+SUC: FLA 34
+
+-Mail SUC:    LAR.FLA@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Ignacio Priolo   | 1167832158
+-Gerente:     Sol Legresti     | 1150964567
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141651731
+-Sucursal:    FLA
+-Domicilio:   Florida 568, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.253.203
+IP SCO:  10.106.3.161
+PUERTO:  3
+IP WAN: 10.104.207.10 || 10.104.200.10
+FECHA DE ALTA: 05/08/2019
+************************************
+************************************
+SUC: MAD 35
+
+-Mail SUC:    LAR.MAD@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini    | 1137015885
+-Supervisor:  Ignacio Priolo      | 1167832158
+-Gerente:     Franco Archidiacono | 1126577982
+
+-Servicio:    Enlace de TASA
+-Ref.:        1001096 - 1019295
+-Sucursal:    MAD
+-Domicilio:   Alicia M. de Justo 1190, CABA, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.94
+************************************
+************************************
+SUC: MI1 36
+
+-Mail SUC:    LAR.MI1@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Ignacio Priolo   | 1167832158
+-Gerente:     Julieta Taborda  | 
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141727642
+-Sucursal:    MI1
+-Domicilio:   av Mitre 639, Avellaneda, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.106.254.179
+IP SCO:  10.106.128.3
+PUERTO:  18
+IP WAN: 10.104.212.10 || 10.104.212.158
+FECHA DE ALTA: 03/11/2014
+************************************
+************************************
+SUC: AVA 37
+
+-Mail SUC:    LAR.AVA@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini    | 1137015885
+-Supervisor:  Ignacio Priolo      | 1167832158
+-Gerente:     Tatiana Gilardi     | 1162501107
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        107235603
+-Sucursal:    AVA
+-Domicilio:   GARDEL CARLOS /ALT/ 3950, Avellaneda, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.254.78
+IP SCO:  10.106.128.5
+PUERTO:  15
+IP WAN: 10.104.212.182 || 10.104.212.186
+FECHA DE ALTA: 31/07/2019
+************************************
+************************************
+SUC: ACO 38
+
+-Mail SUC:    LAR.ACO@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    ignacio.priolo@ar.mcd.com
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Ignacio Priolo    | 1167832158
+-Gerente:     Sara Brea         | 1168601200
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103099058
+-Sucursal:    ACO
+-Domicilio:   Avenida Córdoba 1765, Retiro, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.217
+IP SCO:  10.106.6.36
+PUERTO:  18
+IP WAN: 10.104.159.90 || 10.104.159.94
+FECHA DE ALTA: 15/12/2015
+************************************
+************************************
+SUC: AP2 39 (VERIFICAR NO DATOS)
+
+-Mail SUC:    LAR.AP2@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Vanesa Ghigliani | 1169123989
+-Gerente:     Franco Narvaez   | 1158679133
+
+-Servicio:    Enlace de TASA
+-Ref.:        
+-Sucursal:    AP2
+-Domicilio:   
+
+-Datos ENLACE:
+************************************
+************************************
+SUC: CLH 40
+
+-Mail SUC:    LAR.CLH@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Vanesa Ghigliani  | 1169123989
+-Gerente:     Francisco Gondar  | 1162017628
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103109938
+-Sucursal:    CLH
+-Domicilio:   Av. Las Heras 3215/19, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.9
+IP SCO:  10.106.134.37
+PUERTO:  19
+IP WAN: 10.104.143.18 || 10.104.143.22
+FECHA DE ALTA: 11/01/2016"  
+************************************
+************************************
+SUC: CNG 41
+
+-Mail SUC:    LAR.CNG@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini    | 1137015885
+-Supervisor:  Vanesa Ghigliani    | 1169123989
+-Gerente:     Graciela Velazquez  | 1134702307
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103111736
+-Sucursal:    CNG
+-Domicilio:   CORRIENTES ,AV. /ALT/ 5230, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.255.137
+IP SCO:  GPON 10.111.224.2
+PUERTO:  0
+IP WAN: 10.104.41.202 || 10.104.41.206
+FECHA DE ALTA: 07/03/2016
+************************************
+************************************
+SUC: CPY 42
+ 
+-Mail SUC:    LAR.CPY@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Vanesa Ghigliani  | 1169123989
+-Gerente:     Marcela Pavone    | 1150220782
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        141945615
+-Sucursal:    CPY
+-Domicilio:   Av Scalarini Ortiz 2034, CABA, CABA
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.107.251.134
+IP SCO:  10.106.0.53
+PUERTO:  13
+IP WAN: 10.104.145.198 || 10.104.152.46
+FECHA DE ALTA: 03/09/2014
+************************************
+************************************
+SUC: SF3 43
+
+-Mail SUC:    LAR.SF3@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Vanesa Ghigliani | 1169123989
+-Gerente:     Sabrina Melian   | 1135837149
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103171526
+-Sucursal:    SF3
+-Domicilio:   Av. Santa Fe 2468/70, Caba, Buenos Aires
+ 
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.246.120
+IP SCO:  10.106.6.36
+PUERTO:  15
+IP WAN: 10.104.159.78 || 10.104.159.82
+FECHA DE ALTA: 05/08/2019
+************************************
+************************************
+SUC: SF6 44
+
+-Mail SUC:    LAR.SF6@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Vanesa Ghigliani  | 1169123989
+-Gerente:     Angeles Pomacusi  | 1164817020
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103172531
+-Sucursal:    SF6
+-Domicilio:   SANTA FE ,AV. /ALT/ 3684, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.12
+IP SCO:  10.111.228.2
+PUERTO:  0
+IP WAN: 10.104.143.54 || 10.104.143.58
+FECHA DE ALTA: 05/08/2019
+************************************
+************************************
+SUC: SFC 45
+
+-Mail SUC:    LAR.SFC@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Vanesa Ghigliani  | 1169123989
+-Gerente:     Agostina Dragone  | 1155052350
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103473219
+-Sucursal:    SFC
+-Domicilio:   SANTA FE ,AV. /ALT/ 1780, Retiro, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.160
+IP SCO:  10.106.6.36
+PUERTO:  19
+IP WAN: 10.104.159.98 || 10.104.159.102
+FECHA DE ALTA: 29/07/2019  
+************************************
+************************************
+SUC: CTN 46
+
+-Mail SUC:    LAR.CTN@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    vanesa.ghigliani@ar.mcd.com	
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Vanesa Ghigliani  | 1169123989
+-Gerente:     Alejandra Bruno   | 1168002791
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103118726
+-Sucursal:    CTN
+-Domicilio:   BRASIL 1174/8, CABA, Caba, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.250.81
+IP SCO:  10.106.2.9
+PUERTO:  2
+IP WAN: 10.104.137.74 || 10.104.137.70
+FECHA DE ALTA: 01/02/2016
+************************************
+************************************
+SUC: 50L 47
+
+-Mail SUC:    LAR.50L@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.peralta@ar.mcd.com	
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Peralta   | 1165081375
+-Gerente:     Carina Turpaul   | 2216087274
+
+-Servicio:    Enlace de TASA
+-Ref.:        120545 - 1019300
+-Sucursal:    50L 
+-Domicilio:   Calle 50 N°642 esq. calle 8, La Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.252.104
+************************************
+************************************
+SUC: A7L 48
+
+-Mail SUC:    LAR.A7L@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.peralta@ar.mcd.com	
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Peralta   | 1165081375
+-Gerente:     Daiana Bolaña    | 1121893339
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103085639
+-Sucursal:    A7L
+-Domicilio:   AVENIDA 7 Nro. 520  ENTRE CALLES 42 Y 43– LA PLATA, La Plata, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.243.179
+IP SCO:  10.106.140.19
+PUERTO:  24
+IP WAN: 10.104.62.238 || 10.104.62.246
+FECHA DE ALTA: 13/06/2016  
+************************************
+************************************
+SUC: LP2 49
+
+-Mail SUC:    LAR.LP2@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.peralta@ar.mcd.com
+-Director:    Sebastian Dubini | 1137015885
+-Supervisor:  Martin Peralta   | 1165081375
+-Gerente:     Sofia Chaparro   | 2216195909
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103149069
+-Sucursal:    LP2 
+-Domicilio:   BELGRANO GRAL ,CNO. /ALT/ 1606, Gonnet, Buenos Aires
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.241.196
+IP SCO:  10.106.152.2
+PUERTO:  17
+IP WAN: 10.104.19.54 || 10.104.19.50
+FECHA DE ALTA: 23/08/2019
+************************************
+************************************
+SUC: 47L 50
+
+-Mail SUC:    LAR.47L@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.peralta@ar.mcd.com	
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Martin Peralta    | 1165081375
+-Gerente:     Melina Ferreyra   | 2215708382
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103084571
+-Sucursal:    47L 
+-Domicilio:   047 /ALT/ 631, Capital Federal, Capital Federal
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.254.66
+IP SCO:  10106140213
+PUERTO:  19
+IP WAN: 10.104.167.2 IRS || 10.104.62.250 MPLS
+FECHA DE ALTA: 05/05/2018
+************************************
+************************************
+SUC: ACL 51
+
+-Mail SUC:    LAR.ACL@ar.mcd.com	
+-Mail DIR:    sebastian.dubini@ar.mcd.com
+-Mail SUP:    martin.peralta@ar.mcd.com
+-Director:    Sebastian Dubini  | 1137015885
+-Supervisor:  Martin Peralta    | 1165081375
+-Gerente:     Sebastian Alvarez | 1158091428
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        127283847 - 127283848 
+-Sucursal:    ACL
+-Domicilio:   CENTENARIO ,AV. /ALT/ 2744, La Plata, La Plata
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.241.194
+IP SCO:  10.106.152.2
+PUERTO:  16
+IP WAN: 10.104.19.46|| 10.104.19.42
+FECHA DE ALTA: 13/10/2016
+************************************

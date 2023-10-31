@@ -1,0 +1,29 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.PTP@ar.mcd.com    
+-Mail CON:    ariel.perez@ar.mcd.com      
+-Mail SUP:    hugo.zamparo@ar.mcd.com 
+-Consultor:   Ariel Perez  | 1137016395
+-Supervisor:  Hugo Zamparo |3434258121
+-Gerente:     SIN GERENTE
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103168128
+-Sucursal:    PTP
+-Domicilio:   ESPANA /ALT/ 1, Parana, Entre Rios
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.245.230
+IP SCO:  10.106.83.2
+PUERTO:  24
+IP WAN: 10.104.83.110 || 10.104.83.114
+FECHA DE ALTA: 22/04/2016
+
+]]></content>
+
+<tabTrigger>SUC: PTP | 103168128 | 10.109.245.230 |</tabTrigger>
+<description>SUC SDAD FRANQUICIAS</description>
+
+</snippet>

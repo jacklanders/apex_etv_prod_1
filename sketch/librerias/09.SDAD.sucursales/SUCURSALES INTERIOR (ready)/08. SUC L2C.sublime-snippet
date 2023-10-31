@@ -1,0 +1,28 @@
+<snippet>
+	
+<content><![CDATA[ 
+***************************************
+-Mail SUC:    LAR.L2C@ar.mcd.com	
+-Mail SUP:    adriana.bertoldi@ar.mcd.com
+-Supervisor:  Adriana Bertoldi | SIN TEL CT.
+-Gerente:     Florencia Rivero | 3512034096
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        103146618
+-Sucursal:    L2C
+-Domicilio:   LIBERTAD /ALT/ 1100 , Cordoba, Cordoba
+
+-Datos ENLACE:
+IP MgMT MPLS: 10.109.240.66
+IP SCO:  10.106.73.2 
+PUERTO:  18
+IP WAN: 10.104.73.34 || 10.104.73.38
+FECHA DE ALTA: 26/05/2016	
+
+
+]]></content>
+
+<tabTrigger>SUC: L2C | 103146618 | 10.109.240.66 |</tabTrigger>
+<description>SUC SDAD INTERIOR</description>
+
+</snippet>
