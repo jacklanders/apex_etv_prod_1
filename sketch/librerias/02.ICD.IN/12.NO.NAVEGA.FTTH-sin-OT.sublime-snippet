@@ -1,23 +1,13 @@
-<snippet>
-	
-<content><![CDATA[ 
-Cliente sin servicio. Se realiza monitoreo preventivo:
-
-Symphonica:
-CCIP: "sin sesion"
-
-Reset ONT: SI
-CCIP: Equipo levanta sesion, se le indica al cliente los datos de login:
+************************************
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | Domicilio: 
+***********************************
+Cliente indica sin servicio.  Monitoreo preventivo:
+CCIP: "sin sesion" | Reset ONT: SI | CCIP: Equipo levanta sesion, se le indica al cliente los datos de login:
 
 - GUI: http://192.168.1.1/admin.html 
 - Usuario: admin
 - Password: CalVxePV1!
 
-Se prueba con el cliente y ONT queda operativo. Se deja registro.
-  
-]]></content>
-
-<tabTrigger>12.ICD IN - NO NAVEGA - FTTH sin OT</tabTrigger>
-<description>ICD IN</description>
-
-</snippet>
+TB: se prueba navegacion del lado del cliente y ONT esta operativo.
+ONT MAC: 
+************************************

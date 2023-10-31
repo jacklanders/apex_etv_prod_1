@@ -1,13 +1,10 @@
 ************************************
-Cliente indica sin servicio. Monitoreo preventivo:
-NXT: CM caido/operativo con uptime: 
-Reinicio CM: NO/si
-
-TB: CM SIN ENLACE, se solicita al cliente chequear energia en sitio y reinicio general de los equipos.
-MAC CM:  | NODO: 
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | Domicilio: 
 ************************************
-- Nombre en SITE:  
-- Tel. Ct.:  
-- Mail:  
-- Domicilio: 
+Cliente indica sin servicio. Monitoreo preventivo:
+NXT: CM caido/operativo con uptime:  | Reinicio CM: NO/si
+
+
+TB: CM sin enlace, se solicita al cliente chequear energia en sitio y reinicio general de los equipos.
+MAC CM:  | NODO: 
 ************************************

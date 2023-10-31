@@ -1,17 +1,9 @@
+************************************  
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | Domicilio: 
 ************************************
-Nombre en SITE: 
-Tel. Ct.: 
-Mail: 
-Domicilio: 
-************************************
-Cliente sin servicio. Se realiza monitoreo preventivo:
+Cliente indica sin servicio. Monitoreo preventivo:
+NXT: CM caido/CM operativo con uptime:  | Reinicio CM: SI/NO | Reset CM: SI/NO 
 
-IDproducto:
-Linea:
-NXT: CM caido/CM operativo con uptime:  
-
-Reinicio CM:
-Reset CM: 
-
-Se le indica al cliente que se le remite via mail, una grilla de pruebas/chequeos a realizar por su parte. Con las mismas se iniciara el analisis del ToIP.
+TB: Se le indica al cliente que se le remite via mail, una grilla de pruebas/chequeos a realizar por su parte. Con las mismas se iniciara el analisis del ToIP.
+IDProducto: | ONT MAC:  | LINEA:  
 ************************************

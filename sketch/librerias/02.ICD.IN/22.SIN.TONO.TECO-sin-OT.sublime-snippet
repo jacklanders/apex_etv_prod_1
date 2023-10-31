@@ -1,18 +1,10 @@
-<snippet>
-	
-<content><![CDATA[ 
-Cliente AB , se comunica por linea afectada.
-CUIT:
+************************************
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | Domicilio:
+***********************************
+Cliente TECO AB, indica linea con fallas.
+Linea: | Cambio equipo: SI/NO | Central: SI/NO | Actor (prueba SUR): v= (cc) - v= (sc)
 
-Cambio equipo:
-Central:
-Actor (prueba SUR):
 
-Cliente no esta en sitio. Se le explica pruebas a realizar y remitir consulta una vez realizadas las mismas. De persistir fallo posteriormente, asignar OT.
- 
-]]></content>
+TB: Cliente no esta en sitio. Se le explica pruebas a realizar y remitir consulta, una vez realizadas las mismas. De persistir fallo posteriormente, asignar OT.
+***********************************
 
-<tabTrigger>21.ICD IN -  SIN TONO - TECO sin OT</tabTrigger>
-<description>ICD IN</description>
-
-</snippet>

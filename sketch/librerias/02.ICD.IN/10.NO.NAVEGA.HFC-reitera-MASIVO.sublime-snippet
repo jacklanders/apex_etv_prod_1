@@ -1,16 +1,8 @@
-<snippet>
-	
-<content><![CDATA[ 
-Cliente se comunica por caida de servicio. Masivo alertado OPEN: 
+************************************
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | Domicilio: 
+************************************
+Cliente indica sin servicio.  Monitoreo preventivo:
+NXT: CM caido | Masivo alertado OPEN: 
 
-Se le reitera la continuacion del daño con las novedades del caso.
-
-CUIT:
-IDPROD.: 
-  
-]]></content>
-
-<tabTrigger>10.ICD IN - MASIVO - HFC reitera</tabTrigger>
-<description>ICD IN</description>
-
-</snippet>
+Se le reitera la continuidad del daño, con las novedades del caso.
+************************************

@@ -1,21 +1,11 @@
-<snippet>
-	
-<content><![CDATA[ 
-Cliente se comunica por OT incumplida. 
+************************************
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | H-D: | Doc. Acc.:  | ToT:  | - Covid-19:  | Domicilio:        
+*********************************** 
+Cliente indica OT incumplida | viene del Ticket:  | OT: | CM Tecnicos:
+NXT: CM caido/operativo con uptime:  | Reinicio CM: SI
 
-N° Ticket: 
-N° OT:
-CM Tecnicos:
+TB. Se procede a consultar y validar en open, nueva agenda OT para el cliente.
+MAC CM:  | NODO:  | OT (nueva): 
+*********************************** 
 
-Se continua gestion brindando nueva reagenda.
 
-MAC CM:
-NODO:
-N° OT (nueva):
-  
-]]></content>
-
-<tabTrigger>30.ICD IN - OT incumplida</tabTrigger>
-<description>ICD IN</description>
-
-</snippet>

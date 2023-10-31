@@ -1,24 +1,12 @@
-<snippet>
-	
-<content><![CDATA[ 
-Cliente AB , se comunica por falla de CM Arnet.
-CUIT:
+************************************
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | Domicilio:
+***********************************
+Cliente TECO AB, indica falla con CM Arnet. Monitoreo preventivo:
+Linea: | Cambio equipo: SI/NO | Central: SI/NO | Actor (prueba SUR): v= (cc) - v= (sc)
+CCIP:  | Webni (reset port): SI/NO | Reinicio de CM: SI/NO
 
-Linea:
-Cambio equipo:
-Central:
-Actor (prueba SUR):
 
-CCIP:
-Webni (reset port): SI
-Reinicio de CM: SI
-CCIP:
+TB: CM arnet levanta sesion nuevamente, se prueba con cliente y esta operativo. Se deja registro.
+***********************************
 
-Equipo arnet levanta sesion nuevamente, se prueba con cliente y queda operativo. Se deja registro.
 
-]]></content>
-
-<tabTrigger>19.ICD IN - NO NAVEGA - TECO ARNET sin OT</tabTrigger>
-<description>ICD IN</description>
-
-</snippet>

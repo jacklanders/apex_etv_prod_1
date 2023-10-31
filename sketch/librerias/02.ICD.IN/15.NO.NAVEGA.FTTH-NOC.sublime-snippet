@@ -1,19 +1,11 @@
-<snippet>
-	
-<content><![CDATA[ 
-Cliente sin servicio. Se realiza monitoreo preventivo:
+************************************
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | Domicilio:
+***********************************
+Cliente indica sin servicio. Monitoreo preventivo:
+CCIP: "lost carrier" | Reset ONT: SI | CCIP: persiste la falla, error: "lost carrier". 
+ONT MAC:
 
-Symphonica:
-CCIP: "lost carrier"
+CSOT: Estimados, escalamos el caso para solicitar feedback por el inconveniente actual de la ONT.
+***********************************
 
-Reset ONT: SI
-CCIP: persiste la falla con error "lost carrier". 
 
-Estimados, escalamos el caso para solicitar feedback del inconveniente actual de la ONT.
-  
-]]></content>
-
-<tabTrigger>14.ICD IN - NO NAVEGA - FTTH NOC</tabTrigger>
-<description>ICD IN</description>
-
-</snippet>

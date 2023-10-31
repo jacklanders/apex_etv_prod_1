@@ -1,17 +1,11 @@
-<snippet>
-	
-<content><![CDATA[ 
-Cliente se comunica por deco con fallas. Se realiza pruebas recalculo: Recalculo de parametros TV - INIT CAT TV. Deco no levanta señal, se asigna OT.
+************************************
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | H-D: | Doc. Acc.:  | ToT:  | - Covid-19:  | Domicilio:        
+***********************************
+Cliente indica sin servicio. Monitoreo preventivo:
+OPEN: Deco con fallas | Pruebas recalculo: Recalculo de parametros TV / INIT CAT TV 
 
-IDPROD.: 
-MAC DECO:
+TB: Deco no levanta señal, se asigna OT.
+IDProducto: | SN DECO: 
 ************************************  
-OT: 
-NODO:
 
-]]></content>
 
-<tabTrigger>17.ICD IN - DECO con OT</tabTrigger>
-<description>ICD IN</description>
-
-</snippet>

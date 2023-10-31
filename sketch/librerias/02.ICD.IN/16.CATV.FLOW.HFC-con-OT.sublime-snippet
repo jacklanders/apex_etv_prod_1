@@ -1,16 +1,8 @@
-<snippet>
-	
-<content><![CDATA[ 
-Cliente con fallas en el servicio de cable. Se asigna OT
-
-IDPROD.: 
 ************************************
-OT:
-NODO:
+Nombre en SITE:  | Tel. Ct.:  | Mail:  | H-D: | Doc. Acc.:  | ToT:  | - Covid-19:  | Domicilio:        
+***********************************
+Cliente indica sin servicio. Monitoreo preventivo:
+Re-conexion coaxil: SI | Canales: lluvioso/pixelado/algunos si, otros no | Se agenda OT.
 
-]]></content>
-
-<tabTrigger>15.ICD IN - CATV con OT</tabTrigger>
-<description>ICD IN</description>
-
-</snippet>
+IDProducto: | NODO:  | OT:
+************************************
