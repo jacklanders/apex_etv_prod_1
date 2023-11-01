@@ -116,15 +116,6 @@ function seleccionarCheckbox(checkboxIndex, name) {
 // - *************************** Funciones Secundarios  **************************** -                                                                    -  
 // - *******************************  CODGIGO JAVASCRIPT *************************** -
 
-// - ***************************** BOTONES INPUT_TEXT  ***************************** -
-document.addEventListener('DOMContentLoaded', function() {  
-  // Despliega la extension. La misma es visible cuando esta lista!
-document.getElementById('btnIncidentes').addEventListener('click', function(event) { openTab(event, 'tab1'); });;   
-document.getElementById('btnSolicitudes').addEventListener('click', function(event) {openTab(event, 'tab2');});
-document.getElementById('btnFiber').addEventListener('click', function(event) {openTab(event, 'tab3');});
-document.getElementById('btnTeco').addEventListener('click', function(event) {openTab(event, 'tab4');});
-document.getElementById('btnTools').addEventListener('click', function(event) {openTab(event, 'tab5');});
-});
 
 
 

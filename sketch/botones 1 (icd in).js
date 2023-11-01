@@ -6,7 +6,7 @@
 // - ***************************** BOTONES INPUT_TEXT  ***************************** -
 document.addEventListener('DOMContentLoaded', function() {  
     // Despliega la extension. La misma es visible cuando esta lista!
-document.getElementById('btnIncidentes').addEventListener('click', function(event) { openTab(event, 'tab1'); });;   
+document.getElementById('btnIncidentes').addEventListener('click', function(event) { openTab(event, 'tab1'); });   
     // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
 // - ***************************** BOTONES INPUT_TEXT *****************************  -
 

@@ -1,0 +1,498 @@
+Listado de rutas de carpetas para el volumen SYSTEM
+El numero de serie del volumen es 2433-2104
+C:.
+³   2.PNG
+³   3.PNG
+³   arbol.txt
+³   content.js
+³   manifest.json
+³   README.md
+³   
+extracciones
+³       a recuperar.js
+³       reclamo.css - notas.txt
+³       reclamo.html - notas.txt
+³       reclamo.js - notas.txt
+³       reclamos (original).css
+³       reclamos (original).html
+³       reclamos (original).js
+³       
+images
+³       get_started128.png
+³       get_started16.png
+³       get_started32.png
+³       get_started48.png
+³       
+sketch
+    ³   botones 1 (icd in).js
+    ³   botones 2 (fiber).js
+    ³   botones 3 (teco).js
+    ³   p5.dom.js
+    ³   p5.js
+    ³   reclamos.css
+    ³   reclamos.html
+    ³   reclamos.js
+    ³   
+    librerias
+        01.OTHERS
+        ³   01.GESTIONES
+        ³   ³   ³   01. LLAMADA IN.sublime-snippet
+        ³   ³   ³   02. LLAMADA OUT.sublime-snippet
+        ³   ³   ³   03. MAIL TICKET.sublime-snippet
+        ³   ³   ³   04. MAIL SOPORTE PY IN.sublime-snippet
+        ³   ³   ³   05. MAIL SOPORTE GC IN.sublime-snippet
+        ³   ³   ³   06. MAIL RECOMENDADOS PY IN.sublime-snippet
+        ³   ³   ³   07. MAIL RECOMENDADOS GC IN.sublime-snippet
+        ³   ³   ³   08. MAIL SDAD (monitoreo preventivo).sublime-snippet
+        ³   ³   ³   09. MAIL SDAD - EXTERNO (cliente).sublime-snippet
+        ³   ³   ³   10. MAIL SDAD - INTERNO (noc).sublime-snippet
+        ³   ³   ³   11. MAIL ABUSE.sublime-snippet
+        ³   ³   ³   12. MAIL CAMBIO IP.sublime-snippet
+        ³   ³   ³   13. GESTION  DIARIA GEN(01).sublime-snippet
+        ³   ³   ³   14. GESTION  DIARIA GEN(14).sublime-snippet
+        ³   ³   ³   15. GESTION  DIARIA GEN(15).sublime-snippet
+        ³   ³   ³   16. GESTION TICKET GEN(25).sublime-snippet
+        ³   ³   ³   17. GESTION TICKET GEN(50).sublime-snippet
+        ³   ³   ³   18. GESTION OT GEN(20).sublime-snippet
+        ³   ³   ³   19. GESTION RECO GEN(15).sublime-snippet
+        ³   ³   ³   
+        ³   ³   models versions
+        ³   ³   ³       01. GESTION completa.sublime-snippet
+        ³   ³   ³       02. GESTION reducida.sublime-snippet
+        ³   ³   ³       03. GESTION libre.sublime-snippet
+        ³   ³   ³       04. GESTION clean.sublime-snippet
+        ³   ³   ³       05. GESTION clean new.sublime-snippet
+        ³   ³   ³       
+        ³   ³   new versions
+        ³   ³           00. GESTION DIARIA - 1.sublime-snippet
+        ³   ³           00. GESTION DIARIA - 2.sublime-snippet
+        ³   ³           00. GESTION DIARIA - 3.sublime-snippet
+        ³   ³           00. GESTION DIARIA - 4.sublime-snippet
+        ³   ³           00. GESTION MAIL.sublime-snippet
+        ³   ³           
+        ³   11. NOTES ICD
+        ³           Notas Mail ABUSE.sublime-snippet
+        ³           Notas Mail OT.sublime-snippet
+        ³           Notas Tickets iTICKETS.sublime-snippet
+        ³           Notas Tickets SS.sublime-snippet
+        ³           Notas Tickets TECO.sublime-snippet
+        ³           
+        02.ICD.IN
+        ³       01.NO.NAVEGA.HFC-CCTV-(GC).sublime-snippet
+        ³       02.NO.NAVEGA.HFC-sin-OT.sublime-snippet
+        ³       03.NO.NAVEGA.HFC-con-OT.sublime-snippet
+        ³       04.NO.NAVEGA.HFC-sin-CORTES.sublime-snippet
+        ³       05.NO.NAVEGA.HFC-con-CORTES.sublime-snippet
+        ³       06.NO.NAVEGA.HFC-reset-CM.sublime-snippet
+        ³       07.NO.NAVEGA.HFC-ToIP.sublime-snippet
+        ³       08.NO.NAVEGA.HFC-sin-alertar-MASIVO.sublime-snippet
+        ³       09.NO.NAVEGA.HFC-alertado-MASIVO.sublime-snippet
+        ³       10.NO.NAVEGA.HFC-reitera-MASIVO.sublime-snippet
+        ³       11.NO.NAVEGA.FTTH-CCTV-(GC).sublime-snippet
+        ³       12.NO.NAVEGA.FTTH-sin-OT.sublime-snippet
+        ³       13.NO.NAVEGA.FTTH-con-OT.sublime-snippet
+        ³       14.NO.NAVEGA.FTTH-ToIP.sublime-snippet
+        ³       15.NO.NAVEGA.FTTH-NOC.sublime-snippet
+        ³       16.CATV.FLOW.HFC-con-OT.sublime-snippet
+        ³       17.DECO.FLOW.HFC-sin-OT.sublime-snippet
+        ³       18.DECO.FLOW.HFC-con-OT.sublime-snippet
+        ³       19.DECO.FLOW.HFC-NOC.sublime-snippet
+        ³       20.NO.NAVEGA.TECO-ARNET-sin-OT.sublime-snippet
+        ³       21.NO.NAVEGA.TECO-ARNET-con-OT.sublime-snippet
+        ³       22.SIN.TONO.TECO-sin-OT.sublime-snippet
+        ³       23.SIN.TONO.TECO-con-OT.sublime-snippet
+        ³       24.SIN.TONO.TECO-TTL.sublime-snippet
+        ³       25.ENLACE.FIBRA-Integra-Hyperway.sublime-snippet
+        ³       26.INTERNET.DEDICADO-sin-link-SCO.sublime-snippet
+        ³       27.INTERNET.DEDICADO-con link SCO.sublime-snippet
+        ³       28.CLOUD.OFFICE-registrado.sublime-snippet
+        ³       29.CLOUD.OFFICE-no registrado.sublime-snippet
+        ³       30.CLOUD.OFFICE-masivo.sublime-snippet
+        ³       31.OT-incumplida.sublime-snippet
+        ³       32.OT.Adelanto.Agenda-sin escalar.sublime-snippet
+        ³       33.OT.Adelanto.Agenda-escalado.sublime-snippet
+        ³       
+        03.ICD.SS
+        ³       ICD SS - 01. Config. WIFI.sublime-snippet
+        ³       ICD SS - 02. Config NAT.sublime-snippet
+        ³       ICD SS - 03. Config BRIDGE.sublime-snippet
+        ³       ICD SS - 04. Config. IP FIJA.sublime-snippet
+        ³       ICD SS - 05. Adelanto-Agenda OT - escalado.sublime-snippet
+        ³       ICD SS - 06. Adelanto-Agenda OT - escalado.sublime-snippet
+        ³       
+        04.SOPORTE.GC
+        ³       MAIL IN-SO-GC - 01. Speech (sin ICD).sublime-snippet
+        ³       MAIL IN-SO-GC - 02. Contencion.sublime-snippet
+        ³       MAIL IN-SO-GC - 03. Masivo HFC.sublime-snippet
+        ³       MAIL IN-SO-GC - 04. Masivo FO.sublime-snippet
+        ³       MAIL IN-SO-GC - 05. Monitoreo UP (cctv).sublime-snippet
+        ³       MAIL IN-SO-GC - 06. Monitoreo DOWN (cctv).sublime-snippet
+        ³       MAIL IN-SO-GC - 07. NOC  (sin ETR).sublime-snippet
+        ³       MAIL IN-SO-GC - 08. PROSEGUR (aviso OT).sublime-snippet
+        ³       
+        05.SOPORTE.PYMES
+        ³       MAIL IN-SO-PY - 01. Ventas (ND).sublime-snippet
+        ³       MAIL IN-SO-PY - 02. Admin (ND).sublime-snippet
+        ³       MAIL IN-SO-PY - 03. Encuesta (ND).sublime-snippet
+        ³       MAIL IN-SO-PY - 04. Residencial TECO.sublime-snippet
+        ³       MAIL IN-SO-PY - 05. Residencial HFC.sublime-snippet
+        ³       MAIL IN-SO-PY - 06. Sin DATOS (FCL).sublime-snippet
+        ³       MAIL IN-SO-PY - 07. Enlace PE (generico 1).sublime-snippet
+        ³       MAIL IN-SO-PY - 08. Enlace PE (generico 2).sublime-snippet
+        ³       MAIL IN-SO-PY - 09. Enlace PE (contencion).sublime-snippet
+        ³       MAIL IN-SO-PY - 10. Enlace UP (cpe particular).sublime-snippet
+        ³       MAIL IN-SO-PY - 11. Enlace DOWN (planilla OT).sublime-snippet
+        ³       MAIL IN-SO-PY - 12. Enlace DOWN (agenda OT).sublime-snippet
+        ³       MAIL IN-SO-PY - 13. Enlace DOWN (reagenda OTl).sublime-snippet
+        ³       MAIL IN-SO-PY - 14.  Masivo HFC.sublime-snippet
+        ³       MAIL IN-SO-PY - 15. NOC (escalamiento).sublime-snippet
+        ³       MAIL IN-SO-PY - 16. NOC (pendiente).sublime-snippet
+        ³       MAIL IN-SO-PY - 17. NOC (sin ETR).sublime-snippet
+        ³       MAIL IN-SO-PY - 18. NOC (cloud-webmail).sublime-snippet
+        ³       MAIL OUT-SO-PY - 01. TK HFC - Seguimiento (consulta post OT - gen 1).sublime-snippet
+        ³       MAIL OUT-SO-PY - 02. TK HFC - Seguimiento (consulta post OT - gen 2).sublime-snippet
+        ³       MAIL OUT-SO-PY - 03. TK HFC - Seguimiento (consulta post OT - gen 3).sublime-snippet
+        ³       MAIL OUT-SO-PY - 04. TK-HFC - Seguimiento (anulacion OT - gen 1).sublime-snippet
+        ³       MAIL OUT-SO-PY - 05. TK-HFC - Seguimiento (anulacion OT - gen 2).sublime-snippet
+        ³       MAIL OUT-SO-PY - 06. TK HFC - Seguimiento (agenda OT - gen 1).sublime-snippet
+        ³       MAIL OUT-SO-PY - 07. TK HFC - Seguimiento (regenda OT - gen 1).sublime-snippet
+        ³       MAIL OUT-SO-PY - 08. TK HFC - Seguimiento (regenda OT - contencion).sublime-snippet
+        ³       MAIL OUT-SO-PY - 09. TK ToIP -  Seguimiento (pruebas - NOC).sublime-snippet
+        ³       MAIL OUT-SO-PY - 10. TK ToIP -  Seguimiento (agenda OT - NOC).sublime-snippet
+        ³       MAIL OUT-SO-PY - 11. TK  FLOW - Seguimiento (consulta SERV. - gen 1).sublime-snippet
+        ³       MAIL OUT-SO-PY - 12. TK  FLOW - Seguimiento (pruebas - gen 2).sublime-snippet
+        ³       MAIL OUT-SO-PY - 13. TK  FLOW - Seguimiento (consulta NOC - gen 3).sublime-snippet
+        ³       MAIL OUT-SO-PY - 14. TK  FLOW - Seguimiento (anulacion OT - gen 4).sublime-snippet
+        ³       MAIL OUT-SO-PY - 16. TK  CLOUD -  Seguimiento (consulta cuenta - gen 1).sublime-snippet
+        ³       MAIL OUT-SO-PY - 17. TK  CLOUD -  Seguimiento (carga registros - MX-SFP).sublime-snippet
+        ³       MAIL OUT-SO-PY - 18. TK  OTHERS -  Seguimiento (carga registros - gen 1).sublime-snippet
+        ³       MAIL OUT-SO-PY - 19. TK  OTHERS -  Seguimiento (carga reglas- gen 1).sublime-snippet
+        ³       MAIL OUT-SO-PY - 20 TK  GOL -  Seguimiento (consulta cuenta - gen 1).sublime-snippet
+        ³       MAIL OUT-SO-PY - 21. TK  GOL -  Seguimiento (carga registros - DNS).sublime-snippet
+        ³       MAIL OUT-SO-PY - 22. DMZ SAGEMCOM F@ST 5657.sublime-snippet
+        ³       MAIL OUT-SO-PY - 23. DMZ NOKIA G-240W-B.sublime-snippet
+        ³       MAIL OUT-SO-PY - 24. DMZ ARCADYAN PRV4439B.sublime-snippet
+        ³       MAIL OUT-SO-PY - 25. DMZ HUAWEI HG2845U.sublime-snippet
+        ³       MAIL OUT-SO-PY - 26. DMZ NOKIA G-2425G-B.sublime-snippet
+        ³       MAIL OUT-SO-PY - 27. DMZ Huawei HG8245W5-8T-V2.sublime-snippet
+        ³       MAIL OUT-SO-PY - 28. DMZ NOKIA G-240W-J.sublime-snippet
+        ³       
+        06.RECO.PYMES
+        ³       MAIL IN-RE-PY - 01. ADMIN (ND).sublime-snippet
+        ³       MAIL IN-RE-PY - 02. VENTAS (ND).sublime-snippet
+        ³       MAIL IN-RE-PY - 03. CLIENTE (ND).sublime-snippet
+        ³       MAIL IN-RE-PY - 04. NOVEDADES (generico 1).sublime-snippet
+        ³       MAIL IN-RE-PY - 05. NOVEDADES (generico 2).sublime-snippet
+        ³       MAIL IN-RE-PY - 06. AGRADECIMIENTO (generico 1).sublime-snippet
+        ³       MAIL IN-RE-PY - 07. AGRADECIMIENTO (generico 2).sublime-snippet
+        ³       MAIL IN-RE-PY - 08. CONTACTO CLIENTE (generico 1).sublime-snippet
+        ³       MAIL OUT-RE-PY - 01. Adel. AMBA - HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 02. Adel. INTERIOR - HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 03. Adel. Base Cobertura - HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 04.  Aseg. AMBA - HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 05.  Aseg. INTERIOR - HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 06. Aseg. Base Cobertura- HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 07. Adel. AMBA - FTTH.sublime-snippet
+        ³       MAIL OUT-RE-PY - 08. Adel. INTERIOR - FTTH.sublime-snippet
+        ³       MAIL OUT-RE-PY - 09. Aseg. AMBA - FTTH.sublime-snippet
+        ³       MAIL OUT-RE-PY - 10. Aseg. INTERIOR- FTTH.sublime-snippet
+        ³       MAIL OUT-RE-PY - 11. Garantia REINST. AMBA - HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 12. Garantia REINST. AMBA - FTTH.sublime-snippet
+        ³       MAIL OUT-RE-PY - 13. DespachoHFCB2B Interior - Error de agenda - HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 14. DECSupervisores - Error de agenda - FTTH.sublime-snippet
+        ³       MAIL OUT-RE-PY - 15. Masivo consulta MDR - HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 16. Masivo consulta BASE COBERTURA- HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 17. Masivos reiterados- HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 18. Masivo cerrado - HFC.sublime-snippet
+        ³       MAIL OUT-RE-PY - 19. TK - Consulta novedades (generico 1).sublime-snippet
+        ³       MAIL OUT-RE-PY - 20. TK - Consulta novedades (generico 2).sublime-snippet
+        ³       MAIL OUT-RE-PY - 21. TK - Consulta novedades (generico 3).sublime-snippet
+        ³       MAIL OUT-RE-PY - 22. TK - Consulta novedades  (reitera).sublime-snippet
+        ³       MAIL OUT-RE-PY - 23. TK - Consulta novedades (SIC).sublime-snippet
+        ³       MAIL OUT-RE-PY - 24. NOC-FO - Consulta novedades.sublime-snippet
+        ³       MAIL OUT-RE-PY - 25. NOC-MAD - Consulta novedades (gen1).sublime-snippet
+        ³       MAIL OUT-RE-PY - 26. NOC-MAD - Consulta novedades (gen2).sublime-snippet
+        ³       MAIL OUT-RE-PY - 27. NOC-ATCORP - Consulta novedades.sublime-snippet
+        ³       
+        07.TECO
+        ³       MAIL TECO-RECO - 01. TTL TECO.sublime-snippet
+        ³       MAIL TECO-RECO - 02. Aseguramiento - Adelanto.sublime-snippet
+        ³       MAIL TECO-RECO - 03. Aseguramiento - OT bloqueada.sublime-snippet
+        ³       MAIL TECO-RECO - 04. Novedades - c-pase (sin OT).sublime-snippet
+        ³       MAIL TECO-RECO - 05. Novedades - c-pase MDA.sublime-snippet
+        ³       MAIL TECO-RECO - 06. Novedades - c-pase PMS.sublime-snippet
+        ³       MAIL TECO-RECO - 07. Novedades - c-pase PMP.sublime-snippet
+        ³       MAIL TECO-RECO - 08. Novedades - c-pase PMP (error OT).sublime-snippet
+        ³       MAIL TECO-RECO - 09. Novedades - c-pase (generico 1).sublime-snippet
+        ³       MAIL TECO-RECO - 10. Novedades - c-pase (generico 2).sublime-snippet
+        ³       MAIL TECO-RECO - 11. Novedades - c-pase (gerenico reitera).sublime-snippet
+        ³       MAIL TECO-RECO - 12. Novedades Masivo (consulta).sublime-snippet
+        ³       MAIL TECO-RECO - 13. Novedades Masivo (reitera).sublime-snippet
+        ³       MAIL TECO-RECO - 14. Red NO Reparable - MIGRACION (gen1).sublime-snippet
+        ³       MAIL TECO-RECO - 15. Red NO Reparable - MIGRACION (gen2).sublime-snippet
+        ³       MAIL TECO-RECO - 16. Poste DA¥ADO - CAIDO.sublime-snippet
+        ³       MAIL TECO-RECO - 17. RR Luis Ferragut (TK).sublime-snippet
+        ³       MAIL TECO-SOPORTE - 01. Gestion LN (pedido de datos LN).sublime-snippet
+        ³       MAIL TECO-SOPORTE - 02. Gestion LN (1 Linea).sublime-snippet
+        ³       MAIL TECO-SOPORTE - 03. Gestion LN (2 o 3 Lineas).sublime-snippet
+        ³       MAIL TECO-SOPORTE - 04. Gestion LN (post OT).sublime-snippet
+        ³       MAIL TECO-SOPORTE - 05. Gestion TB (troubleshooting).sublime-snippet
+        ³       MAIL TECO-SOPORTE - 06. Gestion TB (pedido de datos TB).sublime-snippet
+        ³       
+        08.SDAD.seguimiento
+        ³       MAIL OUT-SDAD-CLT - 01. Corte de energia (UP).sublime-snippet
+        ³       MAIL OUT-SDAD-CLT - 02. Corte de energia (DOWN).sublime-snippet
+        ³       MAIL OUT-SDAD-CLT - 03. Contacto sin exito (1).sublime-snippet
+        ³       MAIL OUT-SDAD-CLT - 04. Contacto sin exito (2-3).sublime-snippet
+        ³       MAIL OUT-SDAD-CLT - 05. Contacto Meraki - Wifi.sublime-snippet
+        ³       MAIL OUT-SDAD-CLT - 06. MDA (enlace UP).sublime-snippet
+        ³       MAIL OUT-SDAD-RECO - 01. RR (ND).sublime-snippet
+        ³       MAIL OUT-SDAD-RECO - 02. FO (ND).sublime-snippet
+        ³       MAIL OUT-SDAD-RECO - 03. Meraki - WiFi.sublime-snippet
+        ³       
+        09.SDAD.sucursales
+        ³   ³   - DATOS
+        ³   ³   SDAD - AMBA NORTE.0
+        ³   ³   SDAD - AMBA OESTE.0
+        ³   ³   SDAD - AMBA SUR.0
+        ³   ³   SDAD - FRANQUICIAS 1.0
+        ³   ³   SDAD - FRANQUICIAS 2.0
+        ³   ³   SDAD - INTERIOR.0
+        ³   ³   
+        ³   SUCURSALES AMBA NORTE (ready)
+        ³   ³       01. SUC AL8.sublime-snippet
+        ³   ³       02. SUC SIS.sublime-snippet
+        ³   ³       03. SUC TIG.sublime-snippet
+        ³   ³       04. SUC UN4.sublime-snippet
+        ³   ³       05. SUC UN3.sublime-snippet
+        ³   ³       06. SUC SYT.sublime-snippet
+        ³   ³       07. SUC ROL.sublime-snippet
+        ³   ³       08. SUC ESC.sublime-snippet
+        ³   ³       09. SUC NOR.sublime-snippet
+        ³   ³       10. SUC R02.sublime-snippet
+        ³   ³       11. SUC R9C.sublime-snippet
+        ³   ³       12. SUC R9M.sublime-snippet
+        ³   ³       13. SUC SIC.sublime-snippet
+        ³   ³       14. SUC SF2.sublime-snippet
+        ³   ³       15. SUC BEL.sublime-snippet
+        ³   ³       16. SUC PMJ.sublime-snippet
+        ³   ³       17. SUC SF5.sublime-snippet
+        ³   ³       18. SUC CFL.sublime-snippet
+        ³   ³       19. SUC SGC.sublime-snippet
+        ³   ³       20. SUC AT1.sublime-snippet
+        ³   ³       21. SUC SMG.sublime-snippet
+        ³   ³       22. SUC R8P.sublime-snippet
+        ³   ³       23. SUC PIL.sublime-snippet
+        ³   ³       24. SUC TOM.sublime-snippet
+        ³   ³       25. SUC PIV.sublime-snippet
+        ³   ³       26. SUC PPJ.sublime-snippet
+        ³   ³       27. SUC TIA.sublime-snippet
+        ³   ³       28. SUC DOT.sublime-snippet
+        ³   ³       29. SUC ACA.sublime-snippet
+        ³   ³       30. SUC SFW.sublime-snippet
+        ³   ³       31. SUC FEC.sublime-snippet
+        ³   ³       32. SUC OLI.sublime-snippet
+        ³   ³       33. SUC MA2.sublime-snippet
+        ³   ³       34. SUC SOL.sublime-snippet
+        ³   ³       35. SUC NUN.sublime-snippet
+        ³   ³       36. SUC MAI.sublime-snippet
+        ³   ³       37. SUC COL.sublime-snippet
+        ³   ³       38. SUC CYM.sublime-snippet
+        ³   ³       39. SUC BEU.sublime-snippet
+        ³   ³       40. SUC ELC.sublime-snippet
+        ³   ³       41. SUC WOC.sublime-snippet
+        ³   ³       42. SUC CGP.sublime-snippet
+        ³   ³       43. SUC BAL.sublime-snippet
+        ³   ³       44. SUC FCT.sublime-snippet
+        ³   ³       45. SUC SMB.sublime-snippet
+        ³   ³       46. SUC SMP.sublime-snippet
+        ³   ³       47. SUC CUE.sublime-snippet
+        ³   ³       48. SUC SMJ.sublime-snippet
+        ³   ³       
+        ³   SUCURSALES AMBA OESTE (ready)
+        ³   ³       01. SUC ATA.sublime-snippet
+        ³   ³       02. SUC SJ2.sublime-snippet
+        ³   ³       03. SUC SJU.sublime-snippet
+        ³   ³       04. SUC MER.sublime-snippet
+        ³   ³       05. SUC LFR.sublime-snippet
+        ³   ³       06. SUC SJS.sublime-snippet
+        ³   ³       07. SUC SJW.sublime-snippet
+        ³   ³       08. SUC AR2.sublime-snippet
+        ³   ³       09. SUC AR4.sublime-snippet
+        ³   ³       10. SUC AR7.sublime-snippet
+        ³   ³       11. SUC PHY.sublime-snippet
+        ³   ³       12. SUC FLO.sublime-snippet
+        ³   ³       13. SUC FLS.sublime-snippet
+        ³   ³       14. SUC EK2.sublime-snippet
+        ³   ³       15. SUC CYJ.sublime-snippet
+        ³   ³       16. SUC AR3.sublime-snippet
+        ³   ³       17. SUC AR6.sublime-snippet
+        ³   ³       18. SUC DEV.sublime-snippet
+        ³   ³       19. SUC PBJ.sublime-snippet
+        ³   ³       20. SUC MTD.sublime-snippet
+        ³   ³       21. SUC DEN.sublime-snippet
+        ³   ³       22. SUC PLS.sublime-snippet
+        ³   ³       23. SUC HLG.sublime-snippet
+        ³   ³       24. SUC CAS.sublime-snippet
+        ³   ³       25. SUC PAL.sublime-snippet
+        ³   ³       26. SUC COC.sublime-snippet
+        ³   ³       27. SUC MRJ.sublime-snippet
+        ³   ³       28. SUC MRN.sublime-snippet
+        ³   ³       29. SUC MRE.sublime-snippet
+        ³   ³       30. SUC AB1.sublime-snippet
+        ³   ³       31. SUC AB3.sublime-snippet
+        ³   ³       32. SUC AB2.sublime-snippet
+        ³   ³       33. SUC AP1.sublime-snippet
+        ³   ³       34. SUC CHE.sublime-snippet
+        ³   ³       35. SUC MED.sublime-snippet
+        ³   ³       36. SUC ARS.sublime-snippet
+        ³   ³       37. SUC SM1.sublime-snippet
+        ³   ³       38. SUC LAV.sublime-snippet
+        ³   ³       39. SUC TRU.sublime-snippet
+        ³   ³       40. SUC LPZ.sublime-snippet
+        ³   ³       41. SUC R10.sublime-snippet
+        ³   ³       42. SUC LAR.sublime-snippet
+        ³   ³       43. SUC RCV.sublime-snippet
+        ³   ³       44. SUC AEP.sublime-snippet
+        ³   ³       
+        ³   SUCURSALES AMBA SUR (ready)
+        ³   ³       01. SUC HY1.sublime-snippet
+        ³   ³       02. SUC BAS.sublime-snippet
+        ³   ³       03. SUC HY3.sublime-snippet
+        ³   ³       04. SUC PLL.sublime-snippet
+        ³   ³       05. SUC TEC.sublime-snippet
+        ³   ³       06. SUC SLC.sublime-snippet
+        ³   ³       07. SUC MGE.sublime-snippet
+        ³   ³       08. SUC 9JL.sublime-snippet
+        ³   ³       09. SUC EZE.sublime-snippet
+        ³   ³       10. SUC SA2.sublime-snippet
+        ³   ³       11. SUC CAN.sublime-snippet
+        ³   ³       12. SUC HY2.sublime-snippet
+        ³   ³       13. SUC EZ2.sublime-snippet
+        ³   ³       14. SUC LTS.sublime-snippet
+        ³   ³       15. SUC SA3.sublime-snippet
+        ³   ³       16. SUC PNM.sublime-snippet
+        ³   ³       17. SUC SMM.sublime-snippet
+        ³   ³       18. SUC ACM.sublime-snippet
+        ³   ³       19. SUC LGM.sublime-snippet
+        ³   ³       20. SUC CFM.sublime-snippet
+        ³   ³       21. SUC PRM.sublime-snippet
+        ³   ³       22. SUC TEM.sublime-snippet
+        ³   ³       23. SUC VGL.sublime-snippet
+        ³   ³       24. SUC SFS.sublime-snippet
+        ³   ³       25. SUC QLM.sublime-snippet
+        ³   ³       26. SUC MYB.sublime-snippet
+        ³   ³       27. SUC R2C.sublime-snippet
+        ³   ³       28. SUC R2G.sublime-snippet
+        ³   ³       29. SUC QUJ.sublime-snippet
+        ³   ³       30. SUC QUU.sublime-snippet
+        ³   ³       31. SUC BER.sublime-snippet
+        ³   ³       32. SUC FL2.sublime-snippet
+        ³   ³       33. SUC LIM.sublime-snippet
+        ³   ³       34. SUC FLA.sublime-snippet
+        ³   ³       35. SUC MAD.sublime-snippet
+        ³   ³       36. SUC MI1.sublime-snippet
+        ³   ³       37. SUC AVA.sublime-snippet
+        ³   ³       38. SUC ACO.sublime-snippet
+        ³   ³       39. SUC AP2.sublime-snippet
+        ³   ³       40. SUC CLH.sublime-snippet
+        ³   ³       41. SUC CNG.sublime-snippet
+        ³   ³       42. SUC CPY.sublime-snippet
+        ³   ³       43. SUC SF3.sublime-snippet
+        ³   ³       44. SUC SF6.sublime-snippet
+        ³   ³       45. SUC SFC.sublime-snippet
+        ³   ³       46. SUC CTN.sublime-snippet
+        ³   ³       47. SUC 50L.sublime-snippet
+        ³   ³       48. SUC A7L.sublime-snippet
+        ³   ³       49. SUC LP2.sublime-snippet
+        ³   ³       50. SUC 47L.sublime-snippet
+        ³   ³       51. SUC ACL.sublime-snippet
+        ³   ³       
+        ³   SUCURSALES FRANQUICIAS (ready)
+        ³   ³       01. SUC LIP.sublime-snippet
+        ³   ³       02. SUC CAT.sublime-snippet
+        ³   ³       03. SUC LUJ.sublime-snippet
+        ³   ³       04. SUC MO2.sublime-snippet
+        ³   ³       05. SUC MOR.sublime-snippet
+        ³   ³       06. SUC DIT.sublime-snippet
+        ³   ³       07. SUC LIT.sublime-snippet
+        ³   ³       08. SUC 25T.sublime-snippet
+        ³   ³       09. SUC PJT.sublime-snippet
+        ³   ³       10. SUC ALS.sublime-snippet
+        ³   ³       11. SUC SNS.sublime-snippet
+        ³   ³       12. SUC LIS.sublime-snippet
+        ³   ³       13. SUC SDE.sublime-snippet
+        ³   ³       14. SUC RES.sublime-snippet
+        ³   ³       15. SUC JUC.sublime-snippet
+        ³   ³       16. SUC SMC.sublime-snippet
+        ³   ³       17. SUC SM2.sublime-snippet
+        ³   ³       18. SUC SM3.sublime-snippet
+        ³   ³       19. SUC BBB.sublime-snippet
+        ³   ³       20. SUC PBB.sublime-snippet
+        ³   ³       21. SUC EAD.sublime-snippet
+        ³   ³       22. SUC ERC.sublime-snippet
+        ³   ³       23. SUC LEZ.sublime-snippet
+        ³   ³       24. SUC POM.sublime-snippet
+        ³   ³       25. SUC PTP.sublime-snippet
+        ³   ³       26. SUC R26.sublime-snippet
+        ³   ³       27. SUC TO2.sublime-snippet
+        ³   ³       28. SUC PON.sublime-snippet
+        ³   ³       29. SUC PPN.sublime-snippet
+        ³   ³       30. SUC ACN.sublime-snippet
+        ³   ³       31. SUC AMN.sublime-snippet
+        ³   ³       32. SUC ESF.sublime-snippet
+        ³   ³       33. SUC GAF.sublime-snippet
+        ³   ³       34. SUC GRF.sublime-snippet
+        ³   ³       35. SUC TPF.sublime-snippet
+        ³   ³       36. SUC B31.sublime-snippet
+        ³   ³       
+        ³   SUCURSALES INTERIOR (ready)
+        ³           01. SUC LIC.sublime-snippet
+        ³           02. SUC DIC.sublime-snippet
+        ³           03. SUC NVC.sublime-snippet
+        ³           04. SUC CAC.sublime-snippet
+        ³           05. SUC W2C.sublime-snippet
+        ³           06. SUC ANC.sublime-snippet
+        ³           07. SUC VCP.sublime-snippet
+        ³           08. SUC L2C.sublime-snippet
+        ³           09. SUC LSC.sublime-snippet
+        ³           10. SUC SPC.sublime-snippet
+        ³           11. SUC NCS.sublime-snippet
+        ³           12. SUC CSC.sublime-snippet
+        ³           13. SUC VAC.sublime-snippet
+        ³           14. SUC RVC.sublime-snippet
+        ³           15. SUC C2C.sublime-snippet
+        ³           16. SUC P9C.sublime-snippet
+        ³           17. SUC PJC.sublime-snippet
+        ³           18. SUC R4C.sublime-snippet
+        ³           19. SUC PEC.sublime-snippet
+        ³           20. SUC W1C.sublime-snippet
+        ³           21. SUC GPC.sublime-snippet
+        ³           22. SUC CMZ.sublime-snippet
+        ³           23. SUC S2Z.sublime-snippet
+        ³           24. SUC SMZ.sublime-snippet
+        ³           25. SUC SSZ.sublime-snippet
+        ³           26. SUC PPZ.sublime-snippet
+        ³           27. SUC BMZ.sublime-snippet
+        ³           28. SUC LHZ.sublime-snippet
+        ³           29. SUC TMZ.sublime-snippet
+        ³           30. SUC SJN.sublime-snippet
+        ³           31. SUC JN2.sublime-snippet
+        ³           32. SUC CFR.sublime-snippet
+        ³           33. SUC LIR.sublime-snippet
+        ³           34. SUC SPR.sublime-snippet
+        ³           35. SUC PBR.sublime-snippet
+        ³           36. SUC PER.sublime-snippet
+        ³           37. SUC VIR.sublime-snippet
+        ³           38. SUC GCR.sublime-snippet
+        ³           39. SUC PJR.sublime-snippet
+        ³           40. SUC CCR.sublime-snippet
+        ³           41. SUC BAR.sublime-snippet
+        ³           42. SUC CSR.sublime-snippet
+        ³           
+        10.ABUSE
+                MAIL ABUSE - 01. PTR especifico (generico 1).sublime-snippet
+                MAIL ABUSE - 02. Acceso a HOST especifico (blacklist).sublime-snippet
+                MAIL ABUSE - 03. Acceso a HOST especifico - (paginas).sublime-snippet
+                MAIL ABUSE - 04. Acceso a HOST especifico - (webmail).sublime-snippet
+                
