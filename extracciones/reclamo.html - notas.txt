@@ -40,5 +40,16 @@ El enfoque que elijas dependerá de tus preferencias personales y de la estructu
 //*************************************************************************************************************************++
 
 
-              
-              
+    
+<div id="tab2" class="tab-content">                                       <!-- codigo tab 4 - ICD IN*-->
+  <div class="botones">                                                   <!-- botones input text || en este caso para gestionar incidentes --> 
+    <div class="notepad notepad-2">                                      <!-- notepad 2 -->
+      <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad 2 -->
+      <textarea id="notepad2" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+    </div>                                                               <!-- finaliza notepad 2 -->
+    <div id="output"></div>
+    <div>
+      <input type="button" value="Copiar" id="botonCopiar">              <!-- este boton copia el texto cargado en notepad 2 -->
+    </div>
+  <div>   
+<div>        

@@ -21,7 +21,7 @@
     <div class="tabs">                                                        <!-- botones superiores -->
       <button class="tab-btn" id="btnIncidentes" name="1">Incidentes</button>         <!-- button tab 4 - ICD IN*-->
       <button class="tab-btn" id="btnSolicitudes" name="2">Solicitudes</button>       <!-- button tab  - *-->
-      <button class="tab-btn" id="btnFIBER" name="3">FIBER</button>                   <!-- button tab  - *-->
+      <button class="tab-btn" id="btnFiber" name="3">FIBER</button>                   <!-- button tab  - *-->
       <button class="tab-btn" id="btnTeco" name="4">TECO</button>                     <!-- button tab  - *-->
       <button class="tab-btn" id="btnTools" name="5">EXTRAS</button>                  <!-- button tab  - *-->
     </div>                                                                    <!-- cierre del bloque </div> || en este caso container --> 
@@ -103,15 +103,15 @@
           <input type="text" id="ot" value="-" >    
         </form>                                                               <!-- Boton 4 - 16. OT --> 
         <hr>                                                                  <!-- 3 linea divisoria   --> 
-        <input type="submit" value="Copiar Data" id="botonCopiarD">                   <!-- este boton copia el contenido de los input_tex al notepad 1 -->
-        <input type="submit" value="Subir Data" id="botonSubir">                  <!-- este boton pega el contenido de los input_tex al notepad 1 -->
-        <input type="submit" value="Clean Notes" id="botonCleanN">                 <!-- este boton borra el texto cargado en notepad 1 -->
-        <input type="submit" value="Clean All" id="botonCleanA">                   <!-- este boton borra el texto cargado en input text y los notepad 1-2 -->
         <div class="notepad-container">                                       <!-- Se agrega el conteiner de los notepads -->
           <div class="notepad notepad-1">                                     <!-- notepad 1 -->
             <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad 1 -->
             <textarea id="notepad1" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 50px; max-height: 370px;"></textarea>
           </div>                                                              <!-- finaliza notepad 1 -->
+          <input type="submit" value="Copiar Data" id="botonCopiarD">                   <!-- este boton copia el contenido de los input_tex al notepad 1 -->
+          <input type="submit" value="Subir Data" id="botonSubir">                  <!-- este boton pega el contenido de los input_tex al notepad 1 -->
+          <input type="submit" value="Clean Notes" id="botonCleanN">                 <!-- este boton borra el texto cargado en notepad 1 -->
+          <input type="submit" value="Clean All" id="botonCleanA">                   <!-- este boton borra el texto cargado en input text y los notepad 1-2 -->
           <hr>                                                                <!-- 4 linea divisoria   --> 
           <select id="librerias_incidentes" class="modern">                             <!-- selector de librerias macro -->   
             <option value="nulo">Selecciona una opción</option>
@@ -149,19 +149,33 @@
             <option value="32.OT.Adelanto.Agenda-sin-escalar">32. OT - Adelanto/Agenda - sin escalar</option>
             <option value="33.OT.Adelanto.Agenda-escalado">33. OT - Adelanto/Agenda - escalado</option>
           </select>
+          <div class="notepad notepad-2">                                      <!-- notepad 2 -->
+            <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad 2 -->
+            <textarea id="notepad2" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+          </div>                                                               <!-- finaliza notepad 2 -->
+          <div id="output"></div>
           <div>                                                                <!-- botones para noteopa 2  --> 
             <input type="submit" value="Exportar" id="botonExportar">          <!-- este boton carga la libreria seleccionada en notepad 2 -->
             <input type="submit" value="Cargar" id="botonCargar">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad 2  -->
             <input type="submit" value="Copiar" id="botonCopiar">              <!-- este boton copia el texto cargado en notepad 2 -->
             <input type="submit" value="Limpiar" id="botonLimpiar">            <!-- este boton borra el texto cargado en notepad 2 -->
-          <div>                                                                <!-- botones para noteopa 2  --> 
-          <div class="notepad notepad-2">                                      <!-- notepad 2 -->
-            <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad 2 -->
-            <textarea id="notepad2" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          </div>                                                               <!-- finaliza notepad 2 -->
-          <div id="output"></div>
+          <div>                                                                <!-- botones para noteopa 2  -->         
         </div>  <!-- finaliza subconteiner bloc de notas 1-2--> 
+        <hr>                                                                 <!-- 5 linea divisoria   --> 
       </div>    <!-- finaliza subbotones || subbotones ICD IN -->
     </div>      <!-- finaliza tab4 || subbotones ICD IN || bloc de notas 1-2--> 
+    <div id="tab2" class="tab-content">                                       <!-- codigo tab 4 - ICD IN*-->
+      <div class="notepad-container">                                                   <!-- botones input text || en este caso para gestionar incidentes --> 
+        <div class="notepad notepad-2">                                      <!-- notepad 2 -->
+          <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad 2 -->
+          <textarea id="notepad2.Tab2" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+        </div>                                                               <!-- finaliza notepad 2 -->
+        <div id="output"></div>
+        <div>
+          <input type="button" value="Copiar" id="botonCopiar">              <!-- este boton copia el texto cargado en notepad 2 -->
+        </div>
+      </div>  
+    </div>
   </div>        <!-- finaliza conteiner de los botones superiores 1 - 2 - 3 - 4 -->
   <div class="footer">
     <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>

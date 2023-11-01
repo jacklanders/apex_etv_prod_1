@@ -1,0 +1,35 @@
+
+// - ***************************** BOTONES INPUT_TEXT  ***************************** -
+document.addEventListener('DOMContentLoaded', function() {  
+    // Despliega la extension. La misma es visible cuando esta lista!
+document.getElementById('btnIncidentes').addEventListener('click', function(event) { openTab(event, 'tab1'); });;   
+    // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
+// - ***************************** BOTONES INPUT_TEXT *****************************  -
+
+
+
+document.addEventListener('DOMContentLoaded', function() { // - Boton superior 3 de la extension:
+  document.getElementById('btnSolicitudes').addEventListener('click', function(event) {
+    openTab(event, 'tab2');
+  });
+
+
+// *************************************************  CODIGO SECCION 3 -  ************************************************* 
+document.addEventListener('DOMContentLoaded', function() {  // - Boton superior 2 de la extension:
+    document.getElementById('btnFiber').addEventListener('click', function(event) {openTab(event, 'tab3');});
+  }); 
+// *************************************************  CODIGO SECCION 3 -  ************************************************* 
+
+
+// *************************************************  CODIGO SECCION 4 -  ************************************************* 
+document.addEventListener('DOMContentLoaded', function() {  // - Boton superior 1 de la extension:
+  document.getElementById('btnTeco').addEventListener('click', function(event) {openTab(event, 'tab4');});
+}); 
+// *************************************************  CODIGO SECCION 4 -  ************************************************* 
+
+
+// *************************************************  CODIGO SECCION 5 -  ************************************************* 
+document.addEventListener('DOMContentLoaded', function() {  // - Boton superior 2 de la extension:
+  document.getElementById('btnTools').addEventListener('click', function(event) {openTab(event, 'tab5');});
+}); 
+// *************************************************  CODIGO SECCION 5 -  ************************************************* 
