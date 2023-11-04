@@ -33,8 +33,8 @@ function mostrar() {
   //load_tab3_migraciones();               // carga la funcion load_tab3_migraciones();  
   //autoAjustar(document.getElementById("mail_a_extraer-extencion"))
   //bt_disabled()                            // carga la funcion bt_disabled()     
-  openTab()     
-  mostrarBoton()
+  //openTab()     
+  //mostrarBoton()
 
   // detalle sobre la funcion:
   // - carga todas las funciones enumeradas   
@@ -79,6 +79,8 @@ function openTab(evt, tabName) {
   // Mostrar el contenido de la pestaña seleccionada
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.classList.add("active");
+
+
 
   // detalle sobre la funcion:
   // - La función openTab es la que se llama cuando haces clic en uno de los botones de pestañas 

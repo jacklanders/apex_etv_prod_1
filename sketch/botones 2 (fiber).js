@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() { // - Boton superior 3
 document.getElementById('btnSolicitudes').addEventListener('click', function(event) { openTab(event, 'tab2'); });
 
 // Get references to notepad2 in tab2
-const notepad2Tab2 = document.getElementById("notepad2Tab2");
+const notepad2Tab2 = document.getElementById("notepad2.Tab2");
   if (notepad2Tab2) {
     // JavaScript for controlling the visibility of notepad 2 in tab2
     notepad2Tab2.addEventListener('input', function() {
