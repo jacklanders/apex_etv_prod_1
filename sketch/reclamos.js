@@ -80,8 +80,6 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.classList.add("active");
 
-
-
   // detalle sobre la funcion:
   // - La función openTab es la que se llama cuando haces clic en uno de los botones de pestañas 
   // - (como se describe en el código anterior). Su objetivo principal es cambiar entre las pestañas
@@ -92,7 +90,7 @@ function openTab(evt, tabName) {
   // 4-Agrega la clase "active" al botón de pestaña seleccionado (evt.currentTarget). Esto marca visualmente qué pestaña está activa.
   // 5-Guarda información sobre la pestaña activa en el almacenamiento local para que la selección persista incluso si se actualiza la página. La información incluye el nombre de la pestaña (nombre), el ID del contenido de la pestaña (idcontent), y el índice de la pestaña (indicetab).
 }  
-// ******* Funcion Mostrar Boton ******* INICIO *******    
+// ******* Funcion MostrarBoton ******* INICIO *******    
 function mostrarBoton(id, id_class_elimi, clase, tab) {   
   var opciones = document.getElementById(id);
   var valorSeleccionado = opciones.value;
@@ -115,7 +113,7 @@ function seleccionarCheckbox(checkboxIndex, name) {
   checkboxes.forEach(function(checkbox, index) {
   checkbox.checked = (index + 1 === checkboxIndex); });
 }   
-// - *************************** Funciones Secundarios  **************************** -                                                                    -  
+// - *************************** Funciones Secundarios  **************************** -                                                                    
 // - *******************************  CODGIGO JAVASCRIPT *************************** -
 
 
