@@ -1,10 +1,10 @@
-/*   ***************************** CODGIGO CSS *****************************
+/* - ***************************** CODGIGO CSS ***************************** - 
 //
 //
 //
 //
 */
-/* *********************** MAQUETEADO INICIAL*********************** */ /*INICIO */
+/* - *********************** MAQUETA INICIAL*********************** */ /*INICIO */
 body {                              /*  */
   background-color: #7a00c0;      /*  */
   color: #fff;                    /*  */
@@ -20,7 +20,7 @@ body {                              /*  */
   max-width: 700px;                 /* Ancho máximo de 700px */
   padding: 20px;                    /* Establece un relleno interior de 20 píxeles para el elemento con la clase "container".  */
   /*max-width: fit-content; (desuso)/* Establece el ancho máximo del elemento al ancho mínimo requerido por su contenido.  */
-  border: 1px solid #ccc;         /* Agrega un borde sólido de 1 píxel con color #ccc (gris claro) alrededor del elemento.  */
+  border: 1px solid #00fad0;         /* Agrega un borde sólido de 1 píxel con color #ccc (gris claro) alrededor del elemento.  */
   line-height: 1.5;                 /* Establece la altura de línea en 1.5, lo que afecta el espaciado entre las líneas de texto dentro del elemento.  */
   padding: 0 1em;                   /* Establece un relleno superior e inferior de 0 píxeles y un relleno izquierdo y derecho de 1 "em" (unidad de medida relativa basada en el tamaño de fuente). */ 
   background-color: #1a1a1a;      /* Establece el color de fondo del elemento en #1a1a1a (un gris oscuro).  */
@@ -164,9 +164,11 @@ select.modern option {              /* COLOR PARA EL SELECTOR MACRO || al abrir 
 }                                   /* *************************  **************************/
 /* ************************* SubBotones Notepad || botones submit text **************************//*FIN*/                     
 .footer { /* ************************* Texto final **************************//*INICIO*/                     
-  font-size: 9px;                  /* Tamaño del texto */
+  font-size: 9px;                   /* Tamaño del texto */
   color: #00fad0;                 /* define el color del texto  */
   text-align: center;               /* Centra el texto */
-  margin-bottom: 0.5px;               /* Margen inferior del texto /*(n)*/
+  margin-bottom: 0.5px;             /* Margen inferior del texto /*(n)*/
 }        /* ************************* Texto final **************************//*FIN*/            
 /*   ***************************** CODGIGO CSS ******************************/
+
+

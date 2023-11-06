@@ -1,0 +1,40 @@
+/* #container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#left-panel {
+    width: 100px;
+}
+
+#center-panel {
+    flex-grow: 1;
+}
+
+
+#botonCargarLibreriaMail {
+    margin-left: 10px;
+}
+
+.main-selector {
+/*    width: 100px;                      /* define el ancho del selector */
+/*    height: 35px;                      /* define el alto del selector */
+/*    font-size: 12px;                   /* define el tamaño del texo */
+/*    border: 0px solid #f7f7f7;         /* define el color del borde del selector */
+/*    background-color: #424242d4;       /* define el color del fondo del relleno */
+/*    color: #fbeb95;                    /* define el color del texto del selector */
+/* }
+.sub-selector {
+    display: none;
+    width: 340px;                     /* define el ancho del selector */
+/*  height: 35px;                       /* define el alto del selector */
+/*  font-size: 12px;                    /* define el tamaño del texo */
+/*  border: 0px solid #f7f7f7;          /* define el color del borde del selector */
+/*  background-color: #424242d4;        /* define el color del fondo del relleno */
+/*  color: #fbeb95;                     /* define el color del texto del selector */
+/* }
+
+.notepad {
+    display: none;
+} */

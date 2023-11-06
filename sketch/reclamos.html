@@ -14,109 +14,141 @@
   <script type="text/javascript" src="p5.dom.js"></script>
   <script src="reclamos.js"></script>
   <link rel="stylesheet" href="reclamos.css">
-  <!-- <link rel="stylesheet" type="text/css" href="styles.css">                      codigo CSS en desuso -->     
+  <script src="botones1-icd-in-ss.js"></script>
+  <link rel="stylesheet" href="botones1-icd-in-ss.css">
 </head>
 <body>                                                                       <!-- cuerpo HTML -->     
   <div class="container">                                                    <!-- conteiner de los botones superiores 1 - 2 - 3 - 4 --> 
-    <div class="tabs">                                                       <!-- botones superiores -->
-      <button class="tab-btn" id="btnIncidentes" name="1">Incidentes</button>         <!-- button tab 4 - ICD IN*-->
-      <button class="tab-btn" id="btnSolicitudes" name="2">Solicitudes</button>       <!-- button tab  - *-->
-      <button class="tab-btn" id="btnFiber" name="3">FIBER</button>                   <!-- button tab  - *-->
-      <button class="tab-btn" id="btnTeco" name="4">TECO</button>                     <!-- button tab  - *-->
-      <button class="tab-btn" id="btnTools" name="5">EXTRAS</button>                  <!-- button tab  - *-->
-    </div>                                                                   <!-- cierre del bloque  tabs ||botones superiores de la extension --> 
-    <div id="tab1" class="tab-content">                                      <!-- codigo tab 1 - ICD IN*-->
-      <div class="botones">                                                   <!-- botones input text || en este caso para gestionar incidentes --> 
+    <div class="tabs">                                                       <!-- apertura del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | -->
+      <button class="tab-btn" id="btnTickets" name="1">TICKETS</button>      <!-- button tab1 - ICD IN-SS*-->
+      <button class="tab-btn" id="btnFiber" name="2">FIBER</button>          <!-- button tab2 - FIBER*-->
+      <button class="tab-btn" id="btnTeco" name="3">TECO</button>            <!-- button tab3 - TECO*-->
+      <button class="tab-btn" id="btnArcos" name="4">ARCOS</button>          <!-- button tab4 - ARCOS*-->
+      <button class="tab-btn" id="btnTools" name="5">EXTRAS</button>         <!-- button tab5 - EXTRAS*-->
+    </div>                                                                   <!-- cierre del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | --> 
+  </div>
+    <div id="tab1" class="tab-content">                                      <!-- codigo tab1 - ICD IN-SS*-->
+     <div class="container">                                                 <!-- conteiner tab 1 -->
+      <div class="botones_incidentes">                                       <!-- botones input text || IN-SS --> 
+        <!-- Botón de expansión de la primera sección -->
+        <span class="show-icon" id="toggle-section1">▼</span>
+        <!-- Sección 1 -->
+        <div id="section1" class="hidden-section">
         <form class="columna">
-          <label for="cuit">CUIT:</label>
-          <input type="text" id="cuit" value="-" >          
-        </form>                                                               <!-- Boton 4 - 1. CUIT --> 
+          <label for="cuit_tab1">CUIT:</label>
+          <input type="text" id="cuit_tab1" value="-" >          
+        </form>                                                               <!-- Boton 1 - 1. CUIT --> 
         <form class="columna">
-          <label for="referencia">REF.:</label>
-          <input type="text" id="referencia" value="-" >
-        </form>                                                               <!-- Boton 4 - 2. REF. --> 
+          <label for="referencia_tab1">REF.:</label>
+          <input type="text" id="referencia_tab1" value="-" >
+        </form>                                                               <!-- Boton 1 - 2. REF. --> 
         <form class="columna">
-          <label for="linea">LINEA:</label>
-          <input type="text" id="linea" value="-" >   
-        </form>                                                               <!-- Boton 4 - 3. LINEA --> 
+          <label for="linea_tab1">LINEA:</label>
+          <input type="text" id="linea_tab1" value="-" >   
+        </form>                                                               <!-- Boton 1 - 3. LINEA --> 
         <form class="columna">
-          <label for="ticket_in">TICKET IN:</label>
-          <input type="text" id="ticket_in" value="-" >   
-        </form>                                                               <!-- Boton 4 - 4. TICKET IN --> 
-        <hr>                                                                  <!-- 1 linea divisoria --> 
+          <label for="ticket_in_tab1">TICKET IN:</label>
+          <input type="text" id="ticket_in_tab1" value="-" >   
+        </form>                                                               <!-- Boton 1 - 4. TICKET IN --> 
+        </div>
+        <hr>                                                                    <!-- 1 linea divisoria --> 
+        <!-- Botón de expansión de la segunda sección -->
+        <span class="show-icon" id="toggle-section2">▼</span>
+        <!-- Sección 2 -->
+        <div id="section2" class="hidden-section">
         <form class="columna">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" value="-" >    
-        </form>                                                               <!-- Boton 4 - 5. Nombre --> 
+          <label for="nombre_tab1">Nombre:</label>
+          <input type="text" id="nombre_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 5. Nombre --> 
         <form class="columna">
-          <label for="tel_contacto">Tel.Ct.:</label>
-          <input type="text" id="tel_contacto" value="-" >    
-        </form>                                                               <!-- Boton 4 - 6. Tel.Contacto --> 
+          <label for="tel_contacto_tab1">Tel.Ct.:</label>
+          <input type="text" id="tel_contacto_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 6. Tel.Contacto --> 
         <form class="columna">
-          <label for="mail">Mail:</label>
-          <input type="text" id="mail" value="-" >    
-        </form>                                                               <!-- Boton 4 - 7. Mail --> 
+          <label for="mail_tab1">Mail:</label>
+          <input type="text" id="mail_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 7. Mail --> 
         <form class="columna">
-          <label for="domicilio">Domicilio:</label>
-          <input type="text" id="domicilio" value="-" >    
-        </form>                                                               <!-- Boton 4 - 8. Domicilio--> 
+          <label for="domicilio_tab1">Domicilio:</label>
+          <input type="text" id="domicilio_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 8. Domicilio--> 
         <form class="columna">
-          <label for="disponibilidad">H - D:</label>
-          <input type="text" id="disponibilidad" value="08-16HS" >    
-        </form>                                                               <!-- Boton 4 - 9. Disponibilidad --> 
+          <label for="disponibilidad_tab1">H - D:</label>
+          <input type="text" id="disponibilidad_tab1" value="08-16HS" >    
+        </form>                                                               <!-- Boton 1 - 9. Disponibilidad --> 
         <form class="columna">
-          <label for="btAcceso">Doc.Acc.:</label>    
-          <select id="btAcceso">      
+          <label for="btAcceso_tab1">Doc.Acc.:</label>    
+          <select id="btAcceso_tab1">      
             <option value="SI">SI</option>
             <option value="NO" selected>NO</option> <!-- Esta opción se seleccionará por defecto -->
           </select>     
-        </form>                                                               <!-- Boton 4 - 10. Doc. Acceso --> 
+        </form>                                                               <!-- Boton 1 - 10. Doc. Acceso --> 
         <form class="columna">
-          <label for="btTerraza">ToT:</label>    
-          <select id="btTerraza">      
+          <label for="btTerraza_tab1">ToT:</label>    
+          <select id="btTerraza_tab1">      
             <option value="SI" selected>SI</option> <!-- Esta opción se seleccionará por defecto -->
             <option value="NO">NO</option>        
           </select>    
-        </form>                                                               <!-- Boton 4 - 11. Techo o Terraza -->  
+        </form>                                                               <!-- Boton 1 - 11. Techo o Terraza -->  
         <form class="columna">
-          <label for="btCovid">Covid19:</label>    
-          <select id="btCovid">      
+          <label for="btCovid_tab1">Covid19:</label>    
+          <select id="btCovid_tab1">      
             <option value="SI">SI</option>
             <option value="NO" selected>NO</option> <!-- Esta opción se seleccionará por defecto -->
           </select>    
-        </form>                                                               <!-- Boton 4 - 12. Covid19 --> 
-        <hr>                                                                  <!-- 2 linea divisoria  --> 
+        </form>                                                               <!-- Boton 1 - 12. Covid19 --> 
+        </div>
+        <hr>                                                                    <!-- 2 linea divisoria  --> 
+        <!-- Botón de expansión de la tercera sección -->
+        <span class="show-icon" id="toggle-section3">▼</span>
+        <!-- Sección 3 -->
+        <div id="section3" class="hidden-section">
         <form class="columna">
-          <label for="cm">CM MAC:</label>
-          <input type="text" id="cm" value="-" >    
-        </form>                                                               <!-- Boton 4 - 13. CM MAC --> 
+          <label for="cm_tab1">CM MAC:</label>
+          <input type="text" id="cm_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 13. CM MAC --> 
         <form class="columna">
-          <label for="cpe_ip">CPE - IP:</label>
-          <input type="text" id="cpe_ip" value="-" >    
-        </form>                                                               <!-- Boton 4 - 14. CPE - IP --> 
+          <label for="nodo_tab1">NODO:</label>
+          <input type="text" id="nodo_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 14. NODO --> 
         <form class="columna">
-          <label for="nodo">NODO:</label>
-          <input type="text" id="nodo" value="-" >    
-        </form>                                                               <!-- Boton 4 - 15. NODO --> 
+          <label for="ot_tab1">OT:</label>
+          <input type="text" id="ot_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 15. OT --> 
+        </div>
+        <hr>                                                                    <!-- 3 linea divisoria   --> 
+        <!-- Botón de expansión de la cuarta sección -->
+        <span class="show-icon" id="toggle-section4">▼</span>
+        <!-- Sección 4 -->
+        <div id="section4" class="hidden-section">
         <form class="columna">
-          <label for="ot">OT:</label>
-          <input type="text" id="ot" value="-" >    
-        </form>                                                               <!-- Boton 4 - 16. OT --> 
-      </div>                                                                  <!-- finaliza botones input text  || sub-botones ICD IN -->
-      <hr>                                                                    <!-- 3 linea divisoria   --> 
-      <div class="notepad-container">                                         <!-- Se agrega el conteiner de los bloc de notas 1-2 -->
-        <div class="notepad notepad-1">                                       <!-- notepad 1 -->
+          <label for="cpe_mac_tab1">CPE - MAC:</label>
+          <input type="text" id="cpe_mac_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 16. CPE - MAC --> 
+        <form class="columna">
+          <label for="cpe_ip_tab1">CPE - IP:</label>
+          <input type="text" id="cpe_ip_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 17. CPE - IP -->  
+        <form class="columna">
+          <label for="cpe_model_tab1">CPE - MODEL:</label>
+          <input type="text" id="cpe_model_tab1" value="-" >    
+        </form>                                                               <!-- Boton 1 - 18. CPE - MODEL --> 
+        </div>                                                                <!-- finaliza seccion 4 || botones input text  -->
+        <hr>                                                                  <!-- 4 linea divisoria   --> 
+      </div>                                                                 <!-- finaliza botones input text -->
+      <div class="notepad-container-1">                                      <!-- conteiner bloc de notas 1-2 -->
+       <div class="notepad notepad-1">                                       <!-- notepad 1 -->
             <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad 1 -->
             <textarea id="notepad1" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 50px; max-height: 370px;"></textarea>
-        </div>                                                                <!-- finaliza notepad 1 -->
-        <div>                                                                 <!-- botones para noteopa 1  --> 
+       </div>                                                                <!-- finaliza notepad 1 -->
+       <div>                                                                 <!-- botones para notepad 1  --> 
           <input type="submit" value="Copiar Data" id="botonCopiarD">         <!-- este boton copia el contenido de los input_tex al notepad 1 -->
           <input type="submit" value="Subir Data" id="botonSubir">            <!-- este boton pega el contenido de los input_tex al notepad 1 -->
           <input type="submit" value="Clean Notes" id="botonCleanN">          <!-- este boton borra el texto cargado en notepad 1 -->
           <input type="submit" value="Clean All" id="botonCleanA">            <!-- este boton borra el texto cargado en input text y los notepad 1-2 -->
-        </div>                                                                <!-- finalzia botones para noteopa 1  -->         
-        <hr>                                                                  <!-- 4 linea divisoria   --> 
-        <select id="librerias_incidentes" class="modern">                     <!-- selector de librerias macro -->   
+       </div>                                                                <!-- finalzia botones para notepad 1  -->         
+       <hr>                                                                  <!-- 5 linea divisoria   --> 
+       <select id="librerias_incidentes" class="modern">                     <!-- selector de librerias macro -->   
             <option value="nulo">Selecciona una opción</option>
             <option value="01.NO.NAVEGA.HFC-CCTV-(GC)">01. NO NAVEGA - HFC CCTV (GC)</option>
             <option value="02.NO.NAVEGA.HFC-sin-OT">02. NO NAVEGA - HFC sin OT</option>
@@ -151,43 +183,143 @@
             <option value="31.OT-incumplida">31. OT - incumplida</option>
             <option value="32.OT.Adelanto.Agenda-sin-escalar">32. OT - Adelanto/Agenda - sin escalar</option>
             <option value="33.OT.Adelanto.Agenda-escalado">33. OT - Adelanto/Agenda - escalado</option>
-        </select>
-        <div class="notepad notepad-2">                                       <!-- notepad 2 -->
+       </select>
+       <div class="notepad notepad-2">                                       <!-- notepad 2 -->
             <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad 2 -->
             <textarea id="notepad2" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
-        </div>                                                                <!-- finaliza notepad 2 -->
-        <div id="output"></div>
-        <div>                                                                 <!-- botones para noteopa 2  --> 
+       </div>                                                                <!-- finaliza notepad 2 -->
+       <div id="output"></div>                                               <!-- salida de texto -->
+       <div>                                                                 <!-- botones para notepad 2  --> 
           <input type="submit" value="Exportar" id="botonExportar">          <!-- este boton carga la libreria seleccionada en notepad 2 -->
           <input type="submit" value="Cargar" id="botonCargar">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad 2  -->
           <input type="submit" value="Copiar" id="botonCopiar">              <!-- este boton copia el texto cargado en notepad 2 -->
           <input type="submit" value="Limpiar" id="botonLimpiar">            <!-- este boton borra el texto cargado en notepad 2 -->
-        </div>                                                                <!-- finaliza botones para noteopa 2  -->         
-        <hr>                                                                  <!-- 5 linea divisoria   --> 
-      </div>                                                                  <!-- finaliza conteiner bloc de notas 1-2--> 
-      <div class="footer">
-        <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
-      </div>  
-    </div>                                                                   <!-- finaliza tab1 - ICD IN* --> 
+       </div>                                                                <!-- finaliza botones para notepad 2  -->         
+       <hr>                                                                  <!-- 6 linea divisoria   --> 
+      </div>                                                                 <!-- finaliza conteiner bloc de notas 1-2--> 
+      <div class="footer">                                                   <!-- footer-->
+        <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>   <!-- footer-->
+      </div>                                                                 <!-- footer-->
+     </div>                                                                  <!-- finaliza conteiner tab1 --> 
+    </div>                                                                   <!-- finaliza tab1 - ICD IN-SS* --> 
 
-    <div id="tab2" class="tab-content">                                      <!-- codigo tab 2 - ICD SS*-->
-      <div class="notepad-container">                                        <!-- conteiner bloc de notas 2 || en este caso para gestionar solicitudes --> 
-        <div class="notepad notepad-2">                                      <!-- notepad 2 -->
-          <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad 2 -->
-          <textarea id="notepad2.Tab2" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
-        </div>                                                               <!-- finaliza notepad 2 -->
-        <div id="output"></div>                                              <!-- salida de texto -->
-        <div>                                                                <!-- botones notepad 2 -->
-          <input type="button" value="LimpiarTab2" id="botonLimpiarTab2">    <!-- este boton copia el texto cargado en notepad 2 -->
-        </div>                                                               <!-- finaliza botones notepad 2 -->
-      </div>                                                                 <!-- finaliza conteiner bloc de notas 2--> 
-      <div class="footer">
-        <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
-      </div>      
-    </div>                                                                   <!-- finaliza tab2 - ICD SS* --> 
-    
+    <div id="tab2" class="tab-content">                                      <!-- codigo tab 2 - MAILS FIBER*-->
+      <div class="container">                                                <!-- conteiner tab2 -->
+       <div class="botones_mails">                                           <!-- botones input text || en este caso para gestionar incidentes --> 
+        <form class="columna">
+          <label for="cuit_tab2">CUIT:</label>
+          <input type="text" id="cuit_tab2" value="-" >          
+        </form>                                                               <!-- Boton 4 - 1. CUIT --> 
+        <form class="columna">
+          <label for="referencia_tab2">REF.:</label>
+          <input type="text" id="referencia_tab2" value="-" >
+        </form>                                                               <!-- Boton 4 - 2. REF. --> 
+        <form class="columna">
+          <label for="linea_tab2">LINEA:</label>
+          <input type="text" id="linea_tab2" value="-" >   
+        </form>                                                               <!-- Boton 4 - 3. LINEA --> 
+        <form class="columna">
+          <label for="ticket_in_tab2">TICKET IN:</label>
+          <input type="text" id="ticket_in_tab2" value="-" >   
+        </form>                                                               <!-- Boton 4 - 4. TICKET IN --> 
+        <hr>                                                                  <!-- 1 linea divisoria --> 
+        <form class="columna">
+          <label for="nombre_tab2">Nombre:</label>
+          <input type="text" id="nombre_tab2" value="-" >    
+        </form>                                                               <!-- Boton 4 - 5. Nombre --> 
+        <form class="columna">
+          <label for="tel_contacto_tab2">Tel.Ct.:</label>
+          <input type="text" id="tel_contacto_tab2" value="-" >    
+        </form>                                                               <!-- Boton 4 - 6. Tel.Contacto --> 
+        <form class="columna">
+          <label for="mail_tab2">Mail:</label>
+          <input type="text" id="mail_tab2" value="-" >    
+        </form>                                                               <!-- Boton 4 - 7. Mail --> 
+        <form class="columna">
+          <label for="domicilio_tab2">Domicilio:</label>
+          <input type="text" id="domicilio_tab2" value="-" >    
+        </form>                                                               <!-- Boton 4 - 8. Domicilio--> 
+        <form class="columna">
+          <label for="disponibilidad_tab2">H - D:</label>
+          <input type="text" id="disponibilidad_tab2" value="08-16HS" >    
+        </form>                                                               <!-- Boton 4 - 9. Disponibilidad --> 
+        <form class="columna">
+          <label for="btAcceso_tab2">Doc.Acc.:</label>    
+          <select id="btAcceso_tab2">      
+            <option value="SI">SI</option>
+            <option value="NO" selected>NO</option> <!-- Esta opción se seleccionará por defecto -->
+          </select>     
+        </form>                                                               <!-- Boton 4 - 10. Doc. Acceso --> 
+        <form class="columna">
+          <label for="btTerraza_tab2">ToT:</label>    
+          <select id="btTerraza_tab2">      
+            <option value="SI" selected>SI</option> <!-- Esta opción se seleccionará por defecto -->
+            <option value="NO">NO</option>        
+          </select>    
+        </form>                                                               <!-- Boton 4 - 11. Techo o Terraza -->  
+        <form class="columna">
+          <label for="btCovid_tab2">Covid19:</label>    
+          <select id="btCovid_tab2">      
+            <option value="SI">SI</option>
+            <option value="NO" selected>NO</option> <!-- Esta opción se seleccionará por defecto -->
+          </select>    
+        </form>                                                               <!-- Boton 4 - 12. Covid19 --> 
+        <hr>                                                                  <!-- 2 linea divisoria  --> 
+        <form class="columna">
+          <label for="cm_tab2">CM MAC:</label>
+          <input type="text" id="cm_tab2" value="-" >    
+        </form>                                                               <!-- Boton 4 - 13. CM MAC --> 
+        <form class="columna">
+          <label for="cpe_ip_tab2">CPE - IP:</label>
+          <input type="text" id="cpe_ip_tab2" value="-" >    
+        </form>                                                               <!-- Boton 4 - 14. CPE - IP --> 
+        <form class="columna">
+          <label for="nodo_tab2">NODO:</label>
+          <input type="text" id="nodo_tab2" value="-" >    
+        </form>                                                               <!-- Boton 4 - 15. NODO --> 
+        <form class="columna">
+          <label for="ot_tab2">OT:</label>
+          <input type="text" id="ot_tab2" value="-" >    
+        </form>                                                               <!-- Boton 4 - 16. OT --> 
+       </div>                                                                <!-- finaliza botones input text  || sub-botones ICD IN -->
+       <hr>                                                                  <!-- 3 linea divisoria   -->                                              
+
+       <div id="left-panel">
+            <select id="mainSelector">
+                <option value="SoportePymes_in">SoportePymes - entrante</option>
+                <option value="SoportePymes_out">SoportePymes - saliente</option>
+                <option value="RecomendadosPymess_in">RecomendadosPymes - entrante</option>
+                <option value="RecomendadosPymess_out">RecomendadosPymes - saliente</option>
+                <option value="SoporteGC_in">SoporteGC - entrante</option>
+                <option value="SoporteGC_out">SoporteGC - saliente</option>
+                <option value="RecomendadosGC_in">RecomendadosGC - entrante</option>
+                <option value="RecomendadosGC_out">RecomendadosGC - saliente</option>
+            </select>
+            <input type="submit" value="Cargar Libreria Mail" id="botonCargarLibreriaMail"> 
+       </div>
+       <hr>                                                                  <!-- linea divisoria   -->   
+       <div id="right-panel">
+          <select id="subSelector" class="sub-selector">
+            <!-- Options for sub-selector will be populated via JavaScript -->
+          </select>
+          <div class="notepad notepad-3">
+             <textarea id="notepad3" class="notepad-textarea" style="width: 340px; max-width: 340px; height: 175px; max-height: 370px;"></textarea>
+          </div>
+          <div id="output"></div>
+          <div>                                                                 <!-- botones notepad 2 -->
+            <input type="submit" value="Cargar Mail" id="botonCargarMail"> 
+            <input type="submit" value="Limpiar" id="botonLimpiar_tab2">     <!-- este boton copia el texto cargado en notepad 2 -->
+          </div>                                                                <!-- finaliza botones notepad 2 -->
+          <hr>                                                                  <!-- linea divisoria   --> 
+       </div>
+       <div class="footer">
+         <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
+       </div>
+      </div>        
+    </div>                                                                   <!-- finaliza tab2 - MAIL FIBER* -->       
+
   </div>                                                                     <!-- finaliza conteiner de los botones superiores 1 - 2 - 3 - 4 -->
-</body>         <!-- finaliza body -->
+</body>                                                                      <!-- finaliza body -->
 </html>
 
 

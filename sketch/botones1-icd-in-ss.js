@@ -1,14 +1,48 @@
 // - *****************************  SECCION 1 - INCIDENTES ************************* -
 // -                                                                                 - 
-// -                  Codigo js del boton 1, de la extension: INCIDENTES             -  
+// -                  Codigo js del boton TICKETS, de la extension: ETV_PROD         -  
 // -                                                                                 -  
 // -                                                                                 -  
-// - ***************************** BOTONES INPUT_TEXT  ***************************** -
+// - ***************************** INICIO - INPUT_TEXT´S *************************** -
 document.addEventListener('DOMContentLoaded', function() {  
     // Despliega la extension. La misma es visible cuando esta lista!
-document.getElementById('btnIncidentes').addEventListener('click', function(event) { openTab(event, 'tab1'); });   
+document.getElementById('btnTickets').addEventListener('click', function(event) { openTab(event, 'tab1'); });   
     // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
-// - ***************************** BOTONES INPUT_TEXT *****************************  -
+// - ***************************** INICIO - INPUT_TEXT´S *************************** -
+
+
+
+// - ***************************** VENTANAS - INPUT_TEXT´S ************************* - 
+  // ******* Funcion toggleSection ******* INICIO *******    
+  function toggleSection(sectionId) {
+    var section = document.getElementById(sectionId);
+    var icon = section.previousElementSibling;
+  
+    if (section.style.display === 'none' || section.style.display === '') {
+        section.style.display = 'block';
+        icon.textContent = '▲'; // Cambia el icono a "arriba" cuando se muestra
+    } else {
+        section.style.display = 'none';
+        icon.textContent = '▼'; // Cambia el icono a "abajo" cuando se oculta
+    }
+  }
+  // Asigna manejadores de eventos a los botones de expansión
+  document.getElementById('toggle-section1').addEventListener('click', function() {
+    toggleSection('section1');
+  });
+
+  document.getElementById('toggle-section2').addEventListener('click', function() {
+    toggleSection('section2');
+  });
+
+  document.getElementById('toggle-section3').addEventListener('click', function() {
+    toggleSection('section3');
+  });
+
+  document.getElementById('toggle-section4').addEventListener('click', function() {
+    toggleSection('section4');
+  });
+// - ***************************** VENTANAS - INPUT_TEXT´S ************************* - 
 
 
 
@@ -26,27 +60,31 @@ function autoAjustar(textarea) {
 
 // ******* BOTON COPIAR DATA ******* INICIO *******    
 document.getElementById("botonCopiarD").addEventListener("click", function() { 
-    var cuit = document.getElementById("cuit").value;
-    var referencia = document.getElementById("referencia").value;
-    var linea = document.getElementById("linea").value;
-    var ticket_in = document.getElementById("ticket_in").value;
-    var nombre = document.getElementById("nombre").value;
-    var tel_contacto = document.getElementById("tel_contacto").value;
-    var mail = document.getElementById("mail").value;
-    var domicilio = document.getElementById("domicilio").value;
-    var disponibilidad = document.getElementById("disponibilidad").value;
-    var docAcceso = document.getElementById("btAcceso").value;
-    var tot = document.getElementById("btTerraza").value;
-    var covid = document.getElementById("btCovid").value;
-    var cm = document.getElementById("cm").value;
-    var cpe_ip = document.getElementById("cpe_ip").value;
-    var nodo = document.getElementById("nodo").value;
-    var ot = document.getElementById("ot").value;
+    var cuit = document.getElementById("cuit_tab1").value;
+    var referencia = document.getElementById("referencia_tab1").value;
+    var linea = document.getElementById("linea_tab1").value;
+    var ticket_in = document.getElementById("ticket_in_tab1").value;
+    var nombre = document.getElementById("nombre_tab1").value;
+    var tel_contacto = document.getElementById("tel_contacto_tab1").value;
+    var mail = document.getElementById("mail_tab1").value;
+    var domicilio = document.getElementById("domicilio_tab1").value;
+    var disponibilidad = document.getElementById("disponibilidad_tab1").value;
+    var docAcceso = document.getElementById("btAcceso_tab1").value;
+    var tot = document.getElementById("btTerraza_tab1").value;
+    var covid = document.getElementById("btCovid_tab1").value;
+    var cm = document.getElementById("cm_tab1").value;
+    var nodo = document.getElementById("nodo_tab1").value;
+    var ot = document.getElementById("ot_tab1").value;
+    var cpe_mac = document.getElementById("cpe_mac_tab1").value;
+    var cpe_ip = document.getElementById("cpe_ip_tab1").value;
+    var cpe_model = document.getElementById("cpe_model_tab1").value;
+
    
     // Concatena los valores de los campos de entrada con "||" como separador
     var clipboardText = cuit + " || " + referencia + " || " + linea + " || " + ticket_in + " || " +
        nombre + " || " + tel_contacto + " || " + mail + " || " + domicilio + " || " + disponibilidad + " || " +
-       docAcceso + " || " + tot + " || " + covid + " || " + cm + " || " + cpe_ip + " || " + nodo + " || " + ot;
+       docAcceso + " || " + tot + " || " + covid + " || " + cm + " || " + nodo + " || " + ot + " || " + 
+       cpe_mac + " || " + cpe_ip + " || " + cpe_model;
        
      // Asigna el contenido concatenado a notepad1
     var notepad1 = document.getElementById("notepad1");
@@ -59,22 +97,24 @@ document.getElementById("botonCopiarD").addEventListener("click", function() {
     var clipboardText = document.getElementById("notepad1").value; 
     var fields = clipboardText.split(" || "); 
     // Asigna los valores a los campos de entrada
-    document.getElementById("cuit").value = fields[0] || "-";
-    document.getElementById("referencia").value = fields[1] || "-";
-    document.getElementById("linea").value = fields[2] || "-";
-    document.getElementById("ticket_in").value = fields[3] || "-";
-    document.getElementById("nombre").value = fields[4] || "-";
-    document.getElementById("tel_contacto").value = fields[5] || "-";
-    document.getElementById("mail").value = fields[6] || "-";
-    document.getElementById("domicilio").value = fields[7] || "-";
-    document.getElementById("disponibilidad").value = fields[8] || "08-16HS";
-    document.getElementById("btAcceso").value = fields[9] || "NO";
-    document.getElementById("btTerraza").value = fields[10] || "SI";
-    document.getElementById("btCovid").value = fields[11] || "NO";
-    document.getElementById("cm").value = fields[12] || "-";
-    document.getElementById("cpe_ip").value = fields[13] || "-";
-    document.getElementById("nodo").value = fields[14] || "-";
-    document.getElementById("ot").value = fields[15] || "-";
+    document.getElementById("cuit_tab1").value = fields[0] || "-";
+    document.getElementById("referencia_tab1").value = fields[1] || "-";
+    document.getElementById("linea_tab1").value = fields[2] || "-";
+    document.getElementById("ticket_in_tab1").value = fields[3] || "-";
+    document.getElementById("nombre_tab1").value = fields[4] || "-";
+    document.getElementById("tel_contacto_tab1").value = fields[5] || "-";
+    document.getElementById("mail_tab1").value = fields[6] || "-";
+    document.getElementById("domicilio_tab1").value = fields[7] || "-";
+    document.getElementById("disponibilidad_tab1").value = fields[8] || "08-16HS";
+    document.getElementById("btAcceso_tab1").value = fields[9] || "NO";
+    document.getElementById("btTerraza_tab1").value = fields[10] || "SI";
+    document.getElementById("btCovid_tab1").value = fields[11] || "NO";
+    document.getElementById("cm_tab1").value = fields[12] || "-";
+    document.getElementById("nodo_tab1").value = fields[13] || "-";
+    document.getElementById("ot_tab1").value = fields[14] || "-";
+    document.getElementById("cpe_mac_tab1").value = fields[15] || "-";
+    document.getElementById("cpe_ip_tab1").value = fields[16] || "-";
+    document.getElementById("cpe_model_tab1").value = fields[17] || "-";
     });
 // ******* BOTON LIMPIAR NOTEPAD 1 ******* INICIO *******    
 document.getElementById("botonCleanN").addEventListener("click", function() { 
@@ -85,22 +125,24 @@ document.getElementById("botonCleanN").addEventListener("click", function() {
 // ******* BOTON LIMPIAR TODO ******* INICIO *******    
 document.getElementById("botonCleanA").addEventListener("click", function() { 
      // Limpia los campos de entrada
-     document.getElementById("cuit").value = "-";
-     document.getElementById("referencia").value = "-";
-     document.getElementById("linea").value = "-";
-     document.getElementById("ticket_in").value = "-";
-     document.getElementById("nombre").value = "-";
-     document.getElementById("tel_contacto").value = "-";
-     document.getElementById("mail").value = "-";
-     document.getElementById("domicilio").value = "-";
-     document.getElementById("disponibilidad").value = "08-16HS";
-     document.getElementById("btAcceso").value = "NO";
-     document.getElementById("btTerraza").value = "SI";
-     document.getElementById("btCovid").value = "NO";
-     document.getElementById("cm").value = "-";
-     document.getElementById("cpe_ip").value = "-";
-     document.getElementById("nodo").value = "-";
-     document.getElementById("ot").value = "-";
+     document.getElementById("cuit_tab1").value = "-";
+     document.getElementById("referencia_tab1").value = "-";
+     document.getElementById("linea_tab1").value = "-";
+     document.getElementById("ticket_in_tab1").value = "-";
+     document.getElementById("nombre_tab1").value = "-";
+     document.getElementById("tel_contacto_tab1").value = "-";
+     document.getElementById("mail_tab1").value = "-";
+     document.getElementById("domicilio_tab1").value = "-";
+     document.getElementById("disponibilidad_tab1").value = "08-16HS";
+     document.getElementById("btAcceso_tab1").value = "NO";
+     document.getElementById("btTerraza_tab1").value = "SI";
+     document.getElementById("btCovid_tab1").value = "NO";
+     document.getElementById("cm_tab1").value = "-";
+     document.getElementById("nodo_tab1").value = "-";
+     document.getElementById("ot_tab1").value = "-";
+     document.getElementById("cpe_mac_tab1").value = "-";
+     document.getElementById("cpe_ip_tab1").value = "-";
+     document.getElementById("cpe_model_tab1").value = "-";
    
      // Limpia los notepads
      var notepad1 = document.getElementById("notepad1");
@@ -152,24 +194,28 @@ document.getElementById("botonExportar").addEventListener("click", function() {
 // ******* BOTON CARGAR LIBRERIAS ******* INICIO *******    
 document.getElementById("botonCargar").addEventListener("click", function() { 
     var selectedValue = document.getElementById("librerias_incidentes").value;                  // Obtén el valor seleccionado nuevamente
-    var cuit = document.getElementById("cuit").value;                                           // Obtener los valores de los input text
-    var referencia = document.getElementById("referencia").value;                               // Obtener los valores de los input text
-    var linea = document.getElementById("linea").value;                                         // Obtener los valores de los input text
-    var ticket = document.getElementById("ticket_in").value;                                    // Obtener los valores de los input text
+    var cuit = document.getElementById("cuit_tab1").value;                                           // Obtener los valores de los input text
+    var referencia = document.getElementById("referencia_tab1").value;                               // Obtener los valores de los input text
+    var linea = document.getElementById("linea_tab1").value;                                         // Obtener los valores de los input text
+    var ticket = document.getElementById("ticket_in_tab1").value;                                    // Obtener los valores de los input text
     
-    var nombre = document.getElementById("nombre").value;                                       // Obtener los valores de los input text
-    var tel = document.getElementById("tel_contacto").value;                                    // Obtener los valores de los input text
-    var mail = document.getElementById("mail").value;                                           // Obtener los valores de los input text
-    var domicilio = document.getElementById("domicilio").value;  
-    var disponibilidad = document.getElementById("disponibilidad").value;                                 // Obtener los valores de los input text
-    var docAcceso = document.getElementById("btAcceso").value;                                  // Obtener los valores de los input text
-    var tot = document.getElementById("btTerraza").value;                                       // Obtener los valores de los input text
-    var covid = document.getElementById("btCovid").value;                                       // Obtener los valores de los input text
+    var nombre = document.getElementById("nombre_tab1").value;                                       // Obtener los valores de los input text
+    var tel = document.getElementById("tel_contacto_tab1").value;                                    // Obtener los valores de los input text
+    var mail = document.getElementById("mail_tab1").value;                                           // Obtener los valores de los input text
+    var domicilio = document.getElementById("domicilio_tab1").value;  
+    var disponibilidad = document.getElementById("disponibilidad_tab1").value;                       // Obtener los valores de los input text
+    var docAcceso = document.getElementById("btAcceso_tab1").value;                                  // Obtener los valores de los input text
+    var tot = document.getElementById("btTerraza_tab1").value;                                       // Obtener los valores de los input text
+    var covid = document.getElementById("btCovid_tab1").value;                                       // Obtener los valores de los input text
     
-    var cm = document.getElementById("cm").value;                                               // Obtener los valores de los input text                                      // Obtener los valores de los input text
-    var cpe_ip= document.getElementById("cpe_ip").value;                                        // Obtener los valores de los input text                                         // Obtener los valores de los input text
-    var nodo = document.getElementById("nodo").value;                                           // Obtener los valores de los input text
-    var ot = document.getElementById("ot").value;                                               // Obtener los valores de los input text
+    var cm = document.getElementById("cm_tab1").value;                                               // Obtener los valores de los input text     
+    var nodo = document.getElementById("nodo_tab1").value;                                           // Obtener los valores de los input text
+    var ot = document.getElementById("ot_tab1").value;                                               // Obtener los valores de los input text
+
+    var cpe_mac= document.getElementById("cpe_mac_tab1").value;                                        // Obtener los valores de los input text                                        
+    var cpe_ip= document.getElementById("cpe_ip_tab1").value;                                        // Obtener los valores de los input text                                        
+    var cpe_model= document.getElementById("cpe_model_tab1").value;                                        // Obtener los valores de los input text     
+
       
     var output = "";
     if (selectedValue === "nulo") {

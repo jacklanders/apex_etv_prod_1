@@ -1,0 +1,10 @@
+
+  .hidden-section {
+    display: none; /* Oculta las secciones de información por defecto */
+  }
+
+  .show-icon {
+    cursor: pointer;
+    float: right; /* Alinea a la derecha usando float */
+    
+  }

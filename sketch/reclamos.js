@@ -12,48 +12,17 @@ window.addEventListener("unload", alcerrar);
   // Escuchar el evento "beforeunload" para guardar los datos al cerrar la página
   // El evento "unload" se dispara justo antes de que la página se cierre. 
 
-document.write('<script src="botones 1 (icd in).js"></script>');
-  // Importa el archivo de funcionalidad incidentes
-document.write('<script src="botones 2 (fiber).js"></script>');
+document.write('<script src="botones1-icd-in-ss.js"></script>');
+  // Importa el archivo de funcionalidad incidentes - solicitudes
+document.write('<script src="botones2-fiber.js"></script>');
   // Importa el archivo de funcionalidad fiber
-document.write('<script src="botones 3 (teco).js"></script>');
-  // Importa el archivo de funcionalidad tecp
+document.write('<script src="botones3-teco.js"></script>');
+  // Importa el archivo de funcionalidad tecO
 // ******* Funcion mostrar ******* INICIO *******     
 function mostrar() { 
-  //borradodeclasses();                      // carga la funcion borradodeclasses(); 
-  //load_pestañas();                         // carga la funcion load_pestañas();
-  //mostrar_select_de_pestañas();            // carga la funcion mostrar_select_de_pestañas();   
-  //load_input_tab1();                     // carga la funcion la funcion Borrado de clases
-  //load_input_tab2();                     // carga la funcion oad_input_tab2(); 
-  //load_input_tab3_sin_tono();            // carga la funcion load_input_tab3_sin_tono(); 
-  //load_input_tab3_tll();                 // carga la funcion load_input_tab3_tll(); 
-  //load_input_tab4();                     // carga la funcion load_input_tab4();  
-  //load_inputs_toip();                    // carga la funcion Load_inputs_toip();   
-  //load_input_tab3_integra();             // carga la funcion Load_input_tab3_integra();      
-  //load_tab3_migraciones();               // carga la funcion load_tab3_migraciones();  
-  //autoAjustar(document.getElementById("mail_a_extraer-extencion"))
-  //bt_disabled()                            // carga la funcion bt_disabled()     
-  //openTab()     
-  //mostrarBoton()
-
-  // detalle sobre la funcion:
-  // - carga todas las funciones enumeradas   
 };   
 // ******* Funcion alcerrar ******* INICIO *******    
 function alcerrar() {  
-  //saved_inputs_in();
-  //save_inputs_pestaña2();
-  //saved_inputs_tll();
-  //save_panilla_sin_tono();
-  //saved_inputs_toip();
-  //saved_inputs_integra();
-  //saved_migracion();
-
-  // detalle sobre la funcion:
-  // - Llama a varias funciones que se encargan de guardar datos. 
-  // - Estas funciones se utilizan para almacenar información en el almacenamiento 
-  // - local del navegador, antes de que la página se cierre.
-  // Función para Llamar a varias funciones que se encargan de guardar datos.  
 };   
 // - ***************************** Funcion Principal ******************************* -
 
@@ -79,7 +48,12 @@ function openTab(evt, tabName) {
   // Mostrar el contenido de la pestaña seleccionada
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.classList.add("active");
-
+  
+  var info_de_pestaña = {
+    nombre: "tabs",
+    idcontent: tabName,
+    indicetab: parseInt(evt.currentTarget.name)
+  };
   // detalle sobre la funcion:
   // - La función openTab es la que se llama cuando haces clic en uno de los botones de pestañas 
   // - (como se describe en el código anterior). Su objetivo principal es cambiar entre las pestañas
@@ -113,6 +87,19 @@ function seleccionarCheckbox(checkboxIndex, name) {
   checkboxes.forEach(function(checkbox, index) {
   checkbox.checked = (index + 1 === checkboxIndex); });
 }   
+// ******* Funcion toggleSection ******* INICIO *******    
+function toggleSection(sectionId) {
+  var section = document.getElementById(sectionId);
+  var icon = section.previousElementSibling;
+
+  if (section.style.display === 'none' || section.style.display === '') {
+      section.style.display = 'block';
+      icon.textContent = '▲'; // Cambia el icono a "arriba" cuando se muestra
+  } else {
+      section.style.display = 'none';
+      icon.textContent = '▼'; // Cambia el icono a "abajo" cuando se oculta
+  }
+}
 // - *************************** Funciones Secundarios  **************************** -                                                                    
 // - *******************************  CODGIGO JAVASCRIPT *************************** -
 
