@@ -5,7 +5,7 @@ Cliente indica sin servicio. Monitoreo preventivo:
 CCIP:  | Reinicio ONT: SI/NO | Reset ONT: SI/NO
 
 TB: Se le indica al cliente que se le remite via mail, una grilla de pruebas/chequeos a realizar por su parte. Con las mismas se iniciara el analisis del ToIP.
-IDProducto: | ONT MAC:  | LINEA:  | MTA
+IDProducto: | ONT MAC:  | LINEA:  | MTA: 
 ***********************************
 
 

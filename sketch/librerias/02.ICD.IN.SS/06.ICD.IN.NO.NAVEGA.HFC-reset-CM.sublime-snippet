@@ -11,5 +11,5 @@ NXT: prueba ping: FALLIDA - uptime: NO - status: offline | Reset CM: SI
 - pass 5.8GHz:
 
 TB: Se reconfigura las credenciales WIFI, posterior al reseteo. Se prueba navegacion del lado del cliente y CM esta operativo.
-MAC CM:  | NODO: 
+CM MAC:  | NODO: 
 ************************************  
