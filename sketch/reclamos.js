@@ -54,15 +54,6 @@ function openTab(evt, tabName) {
     idcontent: tabName,
     indicetab: parseInt(evt.currentTarget.name)
   };
-  // detalle sobre la funcion:
-  // - La función openTab es la que se llama cuando haces clic en uno de los botones de pestañas 
-  // - (como se describe en el código anterior). Su objetivo principal es cambiar entre las pestañas
-  // - y realizar un seguimiento de cuál pestaña está activa. Aquí está el código con explicaciones:
-  // 1-Oculta todos los contenidos de pestañas al establecer el estilo display en "none" para cada elemento con la clase "tab-content". Esto asegura que solo se muestre el contenido de la pestaña seleccionada.
-  // 2-Remueve la clase "active" de todos los botones de pestañas (elementos con la clase "tab-btn"). Esto asegura que ningún botón esté marcado como activo.
-  // 3-Muestra el contenido de la pestaña seleccionada al establecer el estilo display en "block" para el elemento con el ID correspondiente a tabName. Esto resalta el contenido de la pestaña activa.
-  // 4-Agrega la clase "active" al botón de pestaña seleccionado (evt.currentTarget). Esto marca visualmente qué pestaña está activa.
-  // 5-Guarda información sobre la pestaña activa en el almacenamiento local para que la selección persista incluso si se actualiza la página. La información incluye el nombre de la pestaña (nombre), el ID del contenido de la pestaña (idcontent), y el índice de la pestaña (indicetab).
 }  
 // ******* Funcion MostrarBoton ******* INICIO *******    
 function mostrarBoton(id, id_class_elimi, clase, tab) {   
@@ -110,7 +101,6 @@ function toggleSection(sectionId) {
 
 
  
-
 
 
 

@@ -6,42 +6,13 @@
 // - ***************************** INICIO - INPUT_TEXT´S *************************** -
 document.addEventListener('DOMContentLoaded', function() {  
     // Despliega la extension. La misma es visible cuando esta lista!
-document.getElementById('btnTickets').addEventListener('click', function(event) { openTab(event, 'tab1'); });   
-    // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
+document.getElementById('btnTickets').addEventListener('click', function (event) {openTab(event, 'tab1');})    // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
 // - ***************************** INICIO - INPUT_TEXT´S *************************** -
 
 
 
+
 // - ***************************** VENTANAS - INPUT_TEXT´S ************************* - 
-  // ******* Funcion toggleSection ******* INICIO *******    
-  function toggleSection(sectionId) {
-    var section = document.getElementById(sectionId);
-    var icon = section.previousElementSibling;
-  
-    if (section.style.display === 'none' || section.style.display === '') {
-        section.style.display = 'block';
-        icon.textContent = '▲'; // Cambia el icono a "arriba" cuando se muestra
-    } else {
-        section.style.display = 'none';
-        icon.textContent = '▼'; // Cambia el icono a "abajo" cuando se oculta
-    }
-  }
-  // Asigna manejadores de eventos a los botones de expansión
-  document.getElementById('toggle-section1').addEventListener('click', function() {
-    toggleSection('section1');
-  });
-
-  document.getElementById('toggle-section2').addEventListener('click', function() {
-    toggleSection('section2');
-  });
-
-  document.getElementById('toggle-section3').addEventListener('click', function() {
-    toggleSection('section3');
-  });
-
-  document.getElementById('toggle-section4').addEventListener('click', function() {
-    toggleSection('section4');
-  });
 // - ***************************** VENTANAS - INPUT_TEXT´S ************************* - 
 
 

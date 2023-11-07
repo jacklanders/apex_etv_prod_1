@@ -17,7 +17,7 @@
   <script src="botones1-icd-in-ss.js"></script>
   <link rel="stylesheet" href="botones1-icd-in-ss.css">
 </head>
-<body>                                                                       <!-- cuerpo HTML -->     
+<body>                                                                       <!-- cuerpo HTML -->   
   <div class="container">                                                    <!-- conteiner de los botones superiores 1 - 2 - 3 - 4 --> 
     <div class="tabs">                                                       <!-- apertura del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | -->
       <button class="tab-btn" id="btnTickets" name="1">TICKETS</button>      <!-- button tab1 - ICD IN-SS*-->
@@ -30,10 +30,6 @@
     <div id="tab1" class="tab-content">                                      <!-- codigo tab1 - ICD IN-SS*-->
      <div class="container">                                                 <!-- conteiner tab 1 -->
       <div class="botones_incidentes">                                       <!-- botones input text || IN-SS --> 
-        <!-- Botón de expansión de la primera sección -->
-        <span class="show-icon" id="toggle-section1">▼</span>
-        <!-- Sección 1 -->
-        <div id="section1" class="hidden-section">
         <form class="columna">
           <label for="cuit_tab1">CUIT:</label>
           <input type="text" id="cuit_tab1" value="-" >          
@@ -50,12 +46,7 @@
           <label for="ticket_in_tab1">TICKET IN:</label>
           <input type="text" id="ticket_in_tab1" value="-" >   
         </form>                                                               <!-- Boton 1 - 4. TICKET IN --> 
-        </div>
-        <hr>                                                                    <!-- 1 linea divisoria --> 
-        <!-- Botón de expansión de la segunda sección -->
-        <span class="show-icon" id="toggle-section2">▼</span>
-        <!-- Sección 2 -->
-        <div id="section2" class="hidden-section">
+        <hr>                                                                  <!-- 1 linea divisoria --> 
         <form class="columna">
           <label for="nombre_tab1">Nombre:</label>
           <input type="text" id="nombre_tab1" value="-" >    
@@ -80,13 +71,13 @@
           <label for="btAcceso_tab1">Doc.Acc.:</label>    
           <select id="btAcceso_tab1">      
             <option value="SI">SI</option>
-            <option value="NO" selected>NO</option> <!-- Esta opción se seleccionará por defecto -->
+            <option value="NO" selected>NO</option>                           <!-- Esta opción se seleccionará por defecto -->
           </select>     
         </form>                                                               <!-- Boton 1 - 10. Doc. Acceso --> 
         <form class="columna">
           <label for="btTerraza_tab1">ToT:</label>    
           <select id="btTerraza_tab1">      
-            <option value="SI" selected>SI</option> <!-- Esta opción se seleccionará por defecto -->
+            <option value="SI" selected>SI</option>                           <!-- Esta opción se seleccionará por defecto -->
             <option value="NO">NO</option>        
           </select>    
         </form>                                                               <!-- Boton 1 - 11. Techo o Terraza -->  
@@ -94,15 +85,10 @@
           <label for="btCovid_tab1">Covid19:</label>    
           <select id="btCovid_tab1">      
             <option value="SI">SI</option>
-            <option value="NO" selected>NO</option> <!-- Esta opción se seleccionará por defecto -->
+            <option value="NO" selected>NO</option>                           <!-- Esta opción se seleccionará por defecto -->
           </select>    
         </form>                                                               <!-- Boton 1 - 12. Covid19 --> 
-        </div>
-        <hr>                                                                    <!-- 2 linea divisoria  --> 
-        <!-- Botón de expansión de la tercera sección -->
-        <span class="show-icon" id="toggle-section3">▼</span>
-        <!-- Sección 3 -->
-        <div id="section3" class="hidden-section">
+        <hr>                                                                  <!-- 2 linea divisoria  --> 
         <form class="columna">
           <label for="cm_tab1">CM MAC:</label>
           <input type="text" id="cm_tab1" value="-" >    
@@ -115,12 +101,7 @@
           <label for="ot_tab1">OT:</label>
           <input type="text" id="ot_tab1" value="-" >    
         </form>                                                               <!-- Boton 1 - 15. OT --> 
-        </div>
-        <hr>                                                                    <!-- 3 linea divisoria   --> 
-        <!-- Botón de expansión de la cuarta sección -->
-        <span class="show-icon" id="toggle-section4">▼</span>
-        <!-- Sección 4 -->
-        <div id="section4" class="hidden-section">
+        <hr>                                                                  <!-- 3 linea divisoria   --> 
         <form class="columna">
           <label for="cpe_mac_tab1">CPE - MAC:</label>
           <input type="text" id="cpe_mac_tab1" value="-" >    
@@ -133,7 +114,6 @@
           <label for="cpe_model_tab1">CPE - MODEL:</label>
           <input type="text" id="cpe_model_tab1" value="-" >    
         </form>                                                               <!-- Boton 1 - 18. CPE - MODEL --> 
-        </div>                                                                <!-- finaliza seccion 4 || botones input text  -->
         <hr>                                                                  <!-- 4 linea divisoria   --> 
       </div>                                                                 <!-- finaliza botones input text -->
       <div class="notepad-container-1">                                      <!-- conteiner bloc de notas 1-2 -->

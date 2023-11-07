@@ -366,3 +366,8 @@ Event Listeners de Botones: Hay un evento click configurado para el botón con e
 Event Listeners para Notepads: El código configura eventos input en notepad1 y notepad2. Cuando el usuario ingresa datos en estos elementos, se llama a la función autoAjustar para ajustar la altura del área de texto.
 Función cargarLibreriaSeleccionada: Esta función se llama cuando el usuario hace clic en el botón "Exportar". Su objetivo es cargar una librería seleccionada y mostrar su contenido en notepad2. El archivo de la librería se obtiene de la carpeta "librerias" según la selección del usuario.
 El código parece estar diseñado para funcionar con contenido en pestañas, el manejo de selecciones y la carga de datos en un área de texto. Asegúrate de que los elementos HTML y la estructura de carpetas coincidan con las rutas y los ID utilizados en el código para que funcione correctamente. Si tienes algún problema específico o preguntas adicionales, no dudes en comentarlos.
+
+
+<div id="tabButtonsContainer">
+      <!-- Aquí se agregarán los botones de pestañas -->
+    </div>
