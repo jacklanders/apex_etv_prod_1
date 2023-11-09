@@ -53,3 +53,33 @@ El enfoque que elijas dependerá de tus preferencias personales y de la estructu
     </div>
   <div>   
 <div>        
+
+
+<div id="left-panel">
+            <select id="mainSelector">
+                <option value="SoportePymes_in">SoportePymes - entrante</option>
+                <option value="SoportePymes_out">SoportePymes - saliente</option>
+                <option value="RecomendadosPymess_in">RecomendadosPymes - entrante</option>
+                <option value="RecomendadosPymess_out">RecomendadosPymes - saliente</option>
+                <option value="SoporteGC_in">SoporteGC - entrante</option>
+                <option value="SoporteGC_out">SoporteGC - saliente</option>
+                <option value="RecomendadosGC_in">RecomendadosGC - entrante</option>
+                <option value="RecomendadosGC_out">RecomendadosGC - saliente</option>
+            </select>
+            <input type="submit" value="Cargar Libreria Mail" id="botonCargarLibreriaMail"> 
+       </div>
+       <hr>                                                                  <!-- linea divisoria   -->   
+       <div id="right-panel">
+          <select id="subSelector" class="sub-selector">
+            <!-- Options for sub-selector will be populated via JavaScript -->
+          </select>
+          <div class="notepad notepad-3">
+             <textarea id="notepad3" class="notepad-textarea" style="width: 340px; max-width: 340px; height: 175px; max-height: 370px;"></textarea>
+          </div>
+          <div id="output"></div>
+          <div>                                                                 <!-- botones notepad 2 -->
+            <input type="submit" value="Cargar Mail" id="botonCargarMail"> 
+            <input type="submit" value="Limpiar" id="botonLimpiar_tab2">     <!-- este boton copia el texto cargado en notepad 2 -->
+          </div>                                                                <!-- finaliza botones notepad 2 -->
+          <hr>                                                                  <!-- linea divisoria   --> 
+       </div>

@@ -30,7 +30,10 @@
       <button class="tab-btn" id="btnArcos" name="4">ARCOS</button>          <!-- button tab4 - ARCOS*-->
       <button class="tab-btn" id="btnTools" name="5">EXTRAS</button>         <!-- button tab5 - EXTRAS*-->
     </div>                                                                   <!-- cierre del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | --> 
-  </div>
+
+
+
+  
     <div id="tab1" class="tab-content">                                      <!-- codigo tab1 - ICD IN-SS*-->
      <div class="container">                                                 <!-- conteiner tab 1 -->
       <div class="botones_incidentes">                                       <!-- botones input text || IN-SS --> 
@@ -194,6 +197,9 @@
      </div>                                                                  <!-- finaliza conteiner tab1 --> 
     </div>                                                                   <!-- finaliza tab1 - ICD IN-SS* --> 
 
+
+
+
     <div id="tab2" class="tab-content">                                      <!-- codigo tab 2 - MAILS FIBER*-->
       <div class="container">                                                <!-- conteiner tab2 -->
        <div class="botones_mails">                                           <!-- botones input text || en este caso para gestionar incidentes --> 
@@ -259,56 +265,101 @@
         <form class="columna">
           <label for="cm_tab2">CM MAC:</label>
           <input type="text" id="cm_tab2" value="-" >    
-        </form>                                                               <!-- Boton 4 - 13. CM MAC --> 
-        <form class="columna">
-          <label for="cpe_ip_tab2">CPE - IP:</label>
-          <input type="text" id="cpe_ip_tab2" value="-" >    
-        </form>                                                               <!-- Boton 4 - 14. CPE - IP --> 
+        </form>                                                               <!-- Boton 4 - 13. CM MAC -->                                                          <!-- Boton 4 - 14. CPE - IP --> 
         <form class="columna">
           <label for="nodo_tab2">NODO:</label>
           <input type="text" id="nodo_tab2" value="-" >    
-        </form>                                                               <!-- Boton 4 - 15. NODO --> 
+        </form>                                                               <!-- Boton 4 - 14. NODO --> 
         <form class="columna">
           <label for="ot_tab2">OT:</label>
           <input type="text" id="ot_tab2" value="-" >    
-        </form>                                                               <!-- Boton 4 - 16. OT --> 
+        </form>                                                               <!-- Boton 4 - 15. OT --> 
+        <hr>                                                                  <!-- 3 linea divisoria  --> 
+        <form class="columna">
+          <label for="cpe_mac_tab2">CPE - MAC:</label>
+          <input type="text" id="cpe_mac_tab2" value="-" >    
+        </form>                                                               <!-- Boton 1 - 16. CPE - MAC --> 
+        <form class="columna">
+          <label for="cpe_ip_tab2">CPE - IP:</label>
+          <input type="text" id="cpe_ip_tab2" value="-" >    
+        </form>                                                               <!-- Boton 1 - 17. CPE - IP -->  
+        <form class="columna">
+          <label for="cpe_model_tab2">CPE - MODEL:</label>
+          <input type="text" id="cpe_model_tab2" value="-" >    
+        </form>                                                               <!-- Boton 1 - 18. CPE - MODEL --> 
+        <hr>                                                                  <!-- 4 linea divisoria   --> 
        </div>                                                                <!-- finaliza botones input text  || sub-botones ICD IN -->
-       <hr>                                                                  <!-- 3 linea divisoria   -->                                              
+       
+       <div class="notepad-container-3">                                      <!-- conteiner bloc de notas 3-4 -->
+        <div class="notepad notepad-3">                                       <!-- notepad 3 -->
+             <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad 3 -->
+             <textarea id="notepad3" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 50px; max-height: 370px;"></textarea>
+        </div>                                                                <!-- finaliza notepad 3 -->
+        <div>                                                                 <!-- botones para notepad 3  --> 
+           <input type="submit" value="Copiar Data" id="botonCopiarD.tab2">         <!-- este boton copia el contenido de los input_tex al notepad 1 -->
+           <input type="submit" value="Subir Data" id="botonSubir.tab2">            <!-- este boton pega el contenido de los input_tex al notepad 1 -->
+           <input type="submit" value="Clean Notes" id="botonCleanN.tab2">          <!-- este boton borra el texto cargado en notepad 1 -->
+           <input type="submit" value="Clean All" id="botonCleanA.tab2">            <!-- este boton borra el texto cargado en input text y los notepad 1-2 -->
+        </div>                                                                <!-- finalzia botones para notepad 3  -->         
+        <hr>                                                                  <!-- 5 linea divisoria   --> 
+        <div class="subcontainer">
+         <button class="tab-btn" id="btnGC-entrante" name="5">SoporteGC - entrante</button>     
+         <button class="tab-btn" id="btnPY-entrante" name="6">SoportePymes - entrante</button>    
+         <button class="tab-btn" id="btnPY-saliente" name="7">SoportePymes - saliente</button>     
+         <button class="tab-btn" id="btnPY-tickets" name="8">SoportePymes - tickets</button>    
+         <button class="tab-btn" id="btnRE-saliente" name="9">RecomendadosPymes - entrante</button>    
+         <button class="tab-btn" id="btnRE-entrante" name="10">RecomendadosPymes - saliente</button>   
+         <button class="tab-btn" id="btnRE-tickets" name="11">RecomendadosPymes - tickets</button>     
+        </div>
+        <hr>                                                                  <!-- 6 linea divisoria   -->                                              
+        <select id="libreria_mail_gc_entranta" class="modern">                     <!-- selector de librerias macro -->   
+          <option value="nulo">Selecciona una opción</option>
+          <option value="01.ICD.IN.NO.NAVEGA.HFC-CCTV-(GC)">01. NO NAVEGA - HFC CCTV (GC)</option>
+          <option value="02.ICD.IN.NO.NAVEGA.HFC-sin-OT">02. NO NAVEGA - HFC sin OT</option>
+          <option value="03.ICD.IN.NO.NAVEGA.HFC-con-OT">03. NO NAVEGA - HFC con OT</option>
+          <option value="04.ICD.IN.NO.NAVEGA.HFC-sin-CORTES">04. NO NAVEGA - HFC sin  CORTES</option>
+          <option value="05.ICD.IN.NO.NAVEGA.HFC-con-CORTES">05. NO NAVEGA - HFC con CORTES</option>
+          <option value="06.ICD.IN.NO.NAVEGA.HFC-reset-CM">06. NO NAVEGA - HFC reset CM</option>
+          <option value="07.ICD.IN.NO.NAVEGA.HFC-ToIP">07. NO NAVEGA - HFC ToIP</option>
+          <option value="08.ICD.IN.NO.NAVEGA.HFC-sin-alertar-MASIVO">08. MASIVO - HFC sin alertar</option>
+          <option value="09.ICD.IN.NO.NAVEGA.HFC-alertado-MASIVO">09. MASIVO - HFC alertado</option>
+          <option value="10.ICD.IN.NO.NAVEGA.HFC-reitera-MASIVO">10. MASIVO - HFC reitera</option>
+          <option value="11.ICD.IN.NO.NAVEGA.FTTH-CCTV-(GC)">11. NO NAVEGA - FTTH CCTV</option>
+          <option value="12.ICD.IN.NO.NAVEGA.FTTH-sin-OT">12. NO NAVEGA - FTTH sin OT</option>
+          <option value="13.ICD.IN.NO.NAVEGA.FTTH-con-OT">13. NO NAVEGA - FTTH con OT</option>
+          <option value="14.ICD.IN.NO.NAVEGA.FTTH-ToIP">14. NO NAVEGA - FTTH ToIP</option>
+          <option value="15.ICD.IN.NO.NAVEGA.FTTH-NOC">15. NO NAVEGA - FTTH NOC</option>
+          <option value="16.ICD.IN.CATV.FLOW.HFC-con-OT">16. CATV FLOW - con OT</option>
+          <option value="17.ICD.IN.DECO.FLOW.HFC-sin-OT">17. DECO FLOW - sin OT</option>
+          <option value="18.ICD.IN.DECO.FLOW.HFC-con-OT">18. DECO FLOW - con OT</option>
+          <option value="19.ICD.IN.DECO.FLOW.HFC-NOC">19. DECO FLOW - NOC</option>
+          <option value="20.ICD.IN.NO.NAVEGA.TECO-ARNET-sin-OT">20. NO NAVEGA - TECO ARNET sin OT</option>
+        </select>
+        <div class="notepad notepad-4">                                       <!-- notepad 4 -->
+          <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad 4 -->
+          <textarea id="notepad4" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+        </div>                                                                <!-- finaliza notepad 4 -->
+        <div id="output"></div>                                               <!-- salida de texto -->
+        <div>                                                                 <!-- botones para notepad 4  --> 
+          <input type="submit" value="Exportar" id="botonExportar.tab2">          <!-- este boton carga la libreria seleccionada en notepad 2 -->
+          <input type="submit" value="Cargar" id="botonCargar.tab2">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad 2  -->
+          <input type="submit" value="Copiar" id="botonCopiar.tab2">              <!-- este boton copia el texto cargado en notepad 2 -->
+          <input type="submit" value="Limpiar" id="botonLimpiar.tab2">            <!-- este boton borra el texto cargado en notepad 2 -->
+        </div>     
 
-       <div id="left-panel">
-            <select id="mainSelector">
-                <option value="SoportePymes_in">SoportePymes - entrante</option>
-                <option value="SoportePymes_out">SoportePymes - saliente</option>
-                <option value="RecomendadosPymess_in">RecomendadosPymes - entrante</option>
-                <option value="RecomendadosPymess_out">RecomendadosPymes - saliente</option>
-                <option value="SoporteGC_in">SoporteGC - entrante</option>
-                <option value="SoporteGC_out">SoporteGC - saliente</option>
-                <option value="RecomendadosGC_in">RecomendadosGC - entrante</option>
-                <option value="RecomendadosGC_out">RecomendadosGC - saliente</option>
-            </select>
-            <input type="submit" value="Cargar Libreria Mail" id="botonCargarLibreriaMail"> 
-       </div>
-       <hr>                                                                  <!-- linea divisoria   -->   
-       <div id="right-panel">
-          <select id="subSelector" class="sub-selector">
-            <!-- Options for sub-selector will be populated via JavaScript -->
-          </select>
-          <div class="notepad notepad-3">
-             <textarea id="notepad3" class="notepad-textarea" style="width: 340px; max-width: 340px; height: 175px; max-height: 370px;"></textarea>
-          </div>
-          <div id="output"></div>
-          <div>                                                                 <!-- botones notepad 2 -->
-            <input type="submit" value="Cargar Mail" id="botonCargarMail"> 
-            <input type="submit" value="Limpiar" id="botonLimpiar_tab2">     <!-- este boton copia el texto cargado en notepad 2 -->
-          </div>                                                                <!-- finaliza botones notepad 2 -->
-          <hr>                                                                  <!-- linea divisoria   --> 
-       </div>
+
+
+
+       </div>                                                                 <!-- finaliza conteiner bloc de notas 3-4--> 
        <div class="footer">
-         <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
+        <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
        </div>
       </div>        
     </div>                                                                   <!-- finaliza tab2 - MAIL FIBER* -->       
 
+
+
+    
   </div>                                                                     <!-- finaliza conteiner de los botones superiores 1 - 2 - 3 - 4 -->
 </body>                                                                      <!-- finaliza body -->
 </html>
