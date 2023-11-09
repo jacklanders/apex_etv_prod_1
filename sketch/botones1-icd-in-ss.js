@@ -2,7 +2,12 @@
 // -                                                                                 - 
 // -                  Codigo js del boton TICKETS, de la extension: ETV_PROD         -  
 // -                                                                                 -  
-// -                                                                                 -  
+// -                                                                                 -
+// - *****************************  SECCION 1 - INCIDENTES ************************* -
+
+
+
+
 // - ***************************** INICIO - INPUT_TEXT´S *************************** -
 document.addEventListener('DOMContentLoaded', function() {  
     // Despliega la extension. La misma es visible cuando esta lista!
@@ -600,6 +605,5 @@ document.getElementById("botonLimpiar").addEventListener("click", function() {
     });
 });     
 // - ***************************** BLOC DE NOTAS - NOTEPAD 2 *********************** -
-// - *****************************  SECCION 1 - INCIDENTES ************************* -
    
    

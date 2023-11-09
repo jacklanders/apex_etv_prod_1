@@ -1,178 +1,227 @@
-/* - ***************************** CODGIGO CSS ***************************** - 
-//
-//
-//
-//
-*/
-/* - *********************** MAQUETA INICIAL*********************** */ /*INICIO */
-body {                              /*  */
+/*   *********************** CODGIGO CSS || COMENTARIOS ********************** */
+  /* background-color: #060606;             /*Color de fondo */
+  /* color: #fff;                           /* Color del texto */
+  /* margin: 5px;                           /* Márgenes */
+  /* font-family: sans-serif;               /* Fuente */
+  /* font-size: 14px;                       /* Tamaño de fuente */
+  /* font-weight: 700;                      /* Grosor de fuente */
+  /* height: fit-content;                   /* Altura basada en el contenido */
+  /* margin-bottom: 5px;                    /* Márgen inferior */
 
-  background-color: #060606;      /*  */
-  color: #fff;                    /*  */
-  margin: 5px;                      /*  */
-  
-  font-family: sans-serif;          /*  */
-  font-size: 14px;                  /*  */
-  font-weight: 700;                 /*  */
-  height: fit-content;              /*  */
+
+  /* min-width: 350px;                      /* Ancho mínimo */
+  /* max-width: 700px;                      /* Ancho máximo */
+  /* padding: 20px;                         /* Relleno interior */
+  /* border: 1px solid #00fad0;             /* Borde sólido */
+  /* line-height: 1.5;                      /* Altura de línea */
+  /* padding: 0 1em;                        /* Relleno superior e inferior y padding izquierdo y derecho */
+  /* background-color: #1a1a1a;             /* Color de fondo */
+  /* border-radius: 5px;                    /* Radio de borde */
+  /* position: relative;                    /* Posición relativa */
+  /* width: auto;                           /* Ancho automático */
+  /* height: auto;                          /* Altura automática */
+  /* margin-bottom: 3px;                    /* Márgen inferior */
+
+
+  /* margin-top: 5px;                       /* Márgen superior */
+  /* margin-bottom: 5px;                    /* Márgen inferior */
+  /* display: flex;                         /* Elementos flexibles */
+  /* flex: 1;                               /* Expansión en el espacio disponible */
+  /* background-color: #525151;             /* Color de fondo */
+  /* color: #fff;                           /* Color del texto */
+  /* border: none;                          /* Sin borde */
+  /* padding: 10px;                         /* Relleno */
+  /* font-size: 10px;                       /* Tamaño de fuente */
+  /* cursor: pointer;                       /* Cambio de cursor */
+  /* background-color: #1a1a1a;             /* Color de fondo */
+  /* display: none;                         /* Ocultar inicialmente */
+  /* display: flex;                         /* Mostrar como elementos flexibles */
+  /* align-items: flex-start;               /* Alineación de elementos secundarios en la parte superior */
+  /* display: inline-block;
+  /* width: 22%;
+  /* vertical-align: top;
+  /* margin-left: 2px;
+  /* margin-right: 3px;
+/*   *********************** CODGIGO CSS || COMENTARIOS ********************** */
+
+
+
+
+/* - ***************************** MAQUETA INICIAL ************************* - */
+body {                          /* Establece los estilos generales para el cuerpo de la página */
+  background-color: #060606; 
+  color: #fff;
+  margin: 5px; 
+  font-family: sans-serif; 
+  font-size: 14px; 
+  font-weight: 700; 
+  height: fit-content; 
   margin-bottom: 5px; 
+}
 
-}                                   /* ***********************  *********************** */
-/* *********************** Color del container *********************** */ 
-.container {                        /*  <div class="container"> */
-  min-width: 350px;                 /* Ancho mínimo de 300px */
-  max-width: 700px;                 /* Ancho máximo de 700px */
-  padding: 20px;                    /* Establece un relleno interior de 20 píxeles para el elemento con la clase "container".  */
-  /*max-width: fit-content; (desuso)/* Establece el ancho máximo del elemento al ancho mínimo requerido por su contenido.  */
-  border: 1px solid #00fad0;         /* Agrega un borde sólido de 1 píxel con color #ccc (gris claro) alrededor del elemento.  */
-  line-height: 1.5;                 /* Establece la altura de línea en 1.5, lo que afecta el espaciado entre las líneas de texto dentro del elemento.  */
-  padding: 0 1em;                   /* Establece un relleno superior e inferior de 0 píxeles y un relleno izquierdo y derecho de 1 "em" (unidad de medida relativa basada en el tamaño de fuente). */ 
-  background-color: #1a1a1a;      /* Establece el color de fondo del elemento en #1a1a1a (un gris oscuro).  */
-  border-radius: 5px;               /* Aplica un radio de borde de 5 píxeles, lo que redondea las esquinas del elemento. */
-  position: relative;               /* Establece la posición del elemento como relativa, lo que permite controlar su posición con respecto a elementos secundarios.  */
-  width: auto;                      /* Permite que el ancho del elemento se ajuste automáticamente según su contenido. */
-  height: auto;                     /* Permite que la altura del elemento se ajuste automáticamente según su contenido.  */
+.container {                    /* Estilos para el contenedor principal */
+  min-width: 350px; 
+  max-width: 700px; 
+  padding: 20px; 
+  border: 1px solid #00fad0; 
+  line-height: 1.5; 
+  padding: 0 1em; 
+  background-color: #1a1a1a; 
+  border-radius: 5px; 
+  position: relative; 
+  width: auto; 
+  height: auto; 
   margin-bottom: 3px; 
-
-}                                   /* ***********************  *********************** */
-/* *********************** MAQUETEADO INICIAL*********************** *//*FIN*/
-/* *********************** Botones Superiores || seleccion de tareas *********************** *//*INICIO*/
-.tabs {                             /* BOTONES 1 - 2 - 3 - 4  */
-  margin-top: 5px;     /* (nuevo)   /* Agrega un margen superior de 10 píxeles entre el contenido del contenedor y los botones */
-  margin-bottom: 5px;               /* Establece un margen inferior de 5 (antes 10) píxeles para los elementos con la clase "tabs". (FIJO SIN DESPLEGAR)  */
-  display: flex;                    /* Convierte los elementos con la clase "tabs" en elementos flexibles, lo que les permite alinearse horizontalmente.  */
-}                                   /* ***********************  *********************** */
-.tab-btn {                          /* BOTONES 1 - 2 - 3 - 4   */
-  flex: 1;                          /* Los elementos con la clase "tab-btn" se expanden para ocupar todo el espacio disponible horizontalmente dentro de su contenedor.  */
-  background-color: #525151;      /* Establece el color de fondo del elemento en #525151 (un gris más oscuro).  */
-  color: #fff;                    /* ;Establece el color del texto en blanco.  */
-  border: none;                     /* Elimina cualquier borde alrededor del elemento.  */
-  padding: 10px;                    /* Establece un relleno de 10 píxeles para el elemento.  */
-  font-size: 10px;                  /* Establece el tamaño de fuente en 10 (antes 16) píxeles.  */
-  cursor: pointer;                  /* Cambia el cursor al icono de una mano cuando el mouse se coloca sobre el elemento, indicando que es interactivo.  */
-}                                   /* ***********************  *********************** */
-.tab-btn.active {                   /* Define un estilo específico para los elementos con la clase "tab-btn" */
-  background-color: #1a1a1a;      /* Que también tienen la clase "active". Cambia el color de fondo a #1a1a1a. */
-}                                   /* ***********************  *********************** */
-/* *********************** Botones Superiores || seleccion de tareas *********************** *//*FIN*/
-/* ************************* SubBotones Superiores || botones input text **************************//*INICIO*/                     
-.tab-content {                      /* Margen inferior a los sub botones (CUANDO SE DESPLIEGAN) */
-  display: none;                    /* Inicialmente, oculta los elementos con la clase "tab-content". */
-}                                   /* ***********************  *********************** */
-.tab-content.active {               /*  Define un estilo específico para los elementos con la clase "tab-content" que también tienen la clase "active"  */
-  display: flex;                    /*  Cambia su propiedad display a "flex", lo que los hace visibles */
-  align-items: flex-start;          /*  Establece "align-items: flex-start" lo que alinea sus elementos secundarios en la parte superior dentro del contenedor flexible.*/
-}                                   /* ***********************  *********************** */
-.columna {                          /* Columnas en paralelo */
-  display: inline-block;            /*   */
-  width: 22%;                       /* Ajusta el ancho según tus necesidades */
-  vertical-align: top;              /* Alinea los elementos en la parte superior */
-  margin-left: 2px;                 /* Agrega un margen derecho de 2px entre las columnas /*(n)*/
-  margin-right: 3px;                /* Agrega un margen derecho de 4px entre las columnas */
-  /*margin-bottom: 10%;             /* Margen inferior entre las columnas */
-  /*margin-top: 10px;               /* Margen superior entre las columnas */
-}                                   /* ***********************  *********************** */
-.icd {                              /* Para asegurarse de que el contenedor (.icd) */
-  overflow: hidden;                 /* rodee a las columnas */ 
-  background-color: #1a1a1a;      /* Color de fondo del espacio entre columnas  /*(n)*/
-  border-radius: 5px;               /*(n)                                              */
-  position: relative;               /*(n)                                              */
-}                                   /* ***********************  *********************** */
-/* ***************************** Linea HR divisoria ***************************** */
-hr {                                /* html ||  <hr> */
-  border: 0;                        /* Elimina el borde predeterminado del HR */
-  /* border: 1px solid #00fad0;     /* Elimina el borde predeterminado del HR /*(n)*/
-  width: 350px;                     /* Define el grosor del separador */
-  height: 1px;                      /* Define el grosor del separador */
-  background: #00fad0;            /* Color de fondo del separador */
-  /*margin: 3px 0;                  /* Margen superior e inferior para espaciar el separador /*(desuso)*/
-  margin-top: 1px;                  /* Margen superior entre las columnas /*(n)*/
-  /*margin-bottom: 1px;             /* Margen superior entre las columnas /*(n)*/
-}                                   /* ***********************  *********************** */
-/* ************************* Tamaño del Texto  || SubBotones Titulos **************************/
-label {                             /* html || <label for="cuit">CUIT:</label> || modifica el texto en input_text*/ 
-  display: block;                   /*    */
-  margin-bottom: 5px;               /*    */
-  font-size: 12px;                  /* ajusta el tamaño del texto, en el titulo input_tex */
-  color: #01ffc8;                 /* define el color del texto, en el titulo input_text*/
-}                                   /* ***********************  *********************** */     
-input[type="text"] {                /* html || <label for="cuit">CUIT:</label> || modifica el texto en input_text*/ 
-  width: 75%;                       /* define el ancho de los cuadros, delimite espacio entre columnas */
-  padding: 10px;                    /* define el tamaño del cuadro input_text  */
-  margin-bottom: 8px;               /* define el margen inferior al cuadro */
-  background-color: #333;         /* define el color del fondo del cuadro */
-  color: #fff;                    /* define el color del texto  */
-  border: none;                     /*    */
-  font-size: 12px;                  /* Ajusta el tamaño del texto */
-  height: 5px;                      /* define el alto de los cuadros, delimite espacio entre columnas */
-  border-radius: 5px;               /* define que el cuadro sea curvo y en que porcentaje */
-}                                   /* ***********************  *********************** */   
-/* ************************* Bloc de Notas **************************/                       
-.notepad {                          /* id="notepad" */
-  min-width: 350px;                 /* Ancho mínimo */
-  max-width: 350px;                 /* Ancho máximo */
-  min-height: 45px;                 /* Altura mínima (ajusta según tus necesidades) */
-  max-height: auto;                 /* Altura máxima (ajusta según tus necesidades) */
-  background-color: #ffffff;      /* Color de fondo */
-  border: px solid #ccc;          /* Borde (primer relleno - color gris en el notepad)*/
-  border-radius: 5px;               /* Radio de borde para esquinas redondeadas (bordes redondeados externos del notepad)*/
-  padding: 5px;                     /* Relleno interior */
-  font-size: 16px;                  /* Tamaño de fuente */
-  color: #000000;                 /* Color de texto */
-  resize: initial;                  /* Permitir redimensionamiento */
-  overflow: auto;                   /* Barras de desplazamiento si el contenido es demasiado grande */
-  margin-bottom: 10px;              /* Margen inferiordel notepad/*(n)*/
-  margin-top: 8px;                  /* Margen superiordel notepad /*(n)*/
-  margin-left: 3px;                 /* Margen izquierdo del notepad /*(n)*/
-}                                   /* ***********************  *********************** */
-/* ************************* SubBotones Superiores || botones input text **************************//*FIN*/                     
-/* ************************* SubBotones Notepad || botones submit text **************************//*INICIO*/                     
-input[type="submit"] {              /* COLOR PARA LOS BOTONES MACRO */
-  background-color: #424242d4;    /* define el color del relleno del boton */
-  color: #fbeb95;                 /* define el color del texto del boton */
-  border: none;                     /* AVERIGUAR */
-  padding: 8px 12px;                /* define el tamaño de alto (8px) y andho (10px) del boton  */
-  font-size: 12px;                  /* define el tamaño del texto */
-  cursor: pointer;                  /* AVERIGUAR */
-  /*margin:5px 3px;                 /* define el margen de alto (5px) y andho (3px) entre botones */
-  margin-bottom: 3px;               /* Margen inferior del boton/*(n)*/
-  margin-top: 4px;                  /* Margen superiot del boton /*(n)*/
-  margin-left: 3px;                 /* Margen izquierdo del boton/*(n)*/
-  border-radius: 5px;               /* define que el boton sea curvo  */
-}                                   /* *************************  **************************/
-input[type="submit"]:active {       /* COLOR CUANDO SE ACTIVAN LOS BOTONES MACRO*/
-  background-color: #1a1a1a;      /* define el relleno del boton */
-  box-shadow: 0 0px #424242d4;    /* AVERIGUAR */
-  transform: translateY(1px);       /* AVERIGUAR*/
-}                                   /* *************************  **************************/
-select.modern {                     /* COLOR PARA EL SELECTOR MACRO || una vez que se selecciono una opcion*/
-  width: 340px;                     /* define el ancho del selector */
-  height: 35px;                     /* define el alto del selector */
-  /*margin: 5px 0px;                /* define el margen de alto (8px) y andho (0px) del selector */
-  margin-bottom: 7px;               /* Margen inferior del selector /*(n)*/
-  margin-top: 5px;                  /* Margen superior del selector /*(n)*/
-  margin-left: 3px;                 /* Margen izquierdo del selector  /*(n)*/
-  font-size: 12px;                  /* define el tamaño del texto del selector */
-  border: 2px solid #91955b;      /* define el color del borde del selector */
-  border-radius: 8px;               /* defino que el selector sea curvo */
-  background-color: #424242d4;    /* define el color del fondo del selector */
-  color: #fbeb95;                 /* define el color del texto del selector */
-}                                   /* *************************  **************************/
-select.modern option {              /* COLOR PARA EL SELECTOR MACRO || al abrir el selector */
-  width: 340px;                     /* define el ancho del selector */
-  height: 35px;                     /* define el alto del selector */
-  font-size: 12px;                  /* define el tamaño del texo */
-  border: 0px solid #f7f7f7;      /* define el color del borde del selector */
-  background-color: #424242d4;    /* define el color del fondo del relleno */
-  color: #fbeb95;                 /* define el color del texto del selector */
-}                                   /* *************************  **************************/
-/* ************************* SubBotones Notepad || botones submit text **************************//*FIN*/                     
-.footer { /* ************************* Texto final **************************//*INICIO*/                     
-  font-size: 10px;                   /* Tamaño del texto */
-  color: #00fad0;                 /* define el color del texto  */
-  text-align: center;               /* Centra el texto */
-  margin-bottom: 0.5px;             /* Margen inferior del texto /*(n)*/
-}        /* ************************* Texto final **************************//*FIN*/            
-/*   ***************************** CODGIGO CSS ******************************/
+}
+/* - ***************************** MAQUETA INICIAL ************************* - */
 
 
+
+
+/* - ************** Botones Superiores || seleccion de tareas ************** - */
+.tabs {                         /* Estilos para los botones superiores */
+  margin-top: 5px; 
+  margin-bottom: 5px; 
+  display: flex; 
+}
+.tab-btn {                      /* Estilos para los botones de pestañas */
+  flex: 1; 
+  background-color: #525151; 
+  color: #fff; 
+  border: none; 
+  padding: 10px; 
+  font-size: 10px; 
+  cursor: pointer; 
+}
+.tab-btn.active {               /* Estilos para el botón de pestaña activa */
+  background-color: #1a1a1a; 
+}
+.tab-content {                  /* Estilos para el contenido de las pestañas */
+  display: none; 
+}
+.tab-content.active {           /* Estilos para el contenido de pestañas activas */
+  display: flex; 
+  align-items: flex-start; 
+}
+.columna {                      /* Estilos para columnas en paralelo */
+  display: inline-block;
+  width: 22%;
+  vertical-align: top;
+  margin-left: 2px;
+  margin-right: 3px;
+}
+/* - ************** Botones Superiores || seleccion de tareas ************** - */
+
+
+
+
+/* - ************* Botones Inferiores || tarea seleccionada **************** - */
+.icd {                          /* Estilos para el contenedor de columnas */
+  overflow: hidden;
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  position: relative;
+}
+hr {                            /* Estilos para la línea divisoria HR */
+  border: 0;
+  width: 350px;
+  height: 1px;
+  background: #00fad0;
+  margin-top: 1px;
+}
+label {                         /* Estilos para etiquetas */
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #01ffc8;
+}
+input[type="text"] {            /*  para cuadros de texto */
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  height: 5px;
+  border-radius: 5px;
+}
+/* - ************* Botones Inferiores || tarea seleccionada **************** - */
+
+
+
+
+/* - ***********************  NOTEPAD || bloc de notas ********************* - */
+.notepad {                      /* Estilos para el bloc de notas */
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 45px;
+  max-height: auto;
+  background-color: #ffffff;
+  border: px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  color: #000000;
+  resize: initial;
+  overflow: auto;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+/* - ***********************  NOTEPAD || bloc de notas ********************* - */
+
+
+
+
+/* ********************** NOTEPAD || botones y selector ******************** - */                  
+input[type="submit"] {          /* Estilos para botones de envío */
+  background-color: #424242d4;
+  color: #fbeb95;
+  border: none;
+  padding: 8px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 3px;
+  margin-top: 4px;
+  margin-left: 3px;
+  border-radius: 5px;
+}
+input[type="submit"]:active {   /* Estilos para botones de envío activos */
+  background-color: #1a1a1a;
+  box-shadow: 0 0px #424242d4;
+  transform: translateY(1px);
+}
+select.modern {                 /* Estilos para selectores */
+  width: 340px;
+  height: 35px;
+  margin-bottom: 7px;
+  margin-top: 5px;
+  margin-left: 3px;
+  font-size: 12px;
+  border: 2px solid #91955b;
+  border-radius: 8px;
+  background-color: #424242d4;
+  color: #fbeb95;
+}
+select.modern option {          /*  para opciones de selectores */
+  width: 340px;
+  height: 35px;
+  font-size: 12px;
+  border: 0px solid #f7f7f7;
+  background-color: #424242d4;
+  color: #fbeb95;
+}
+/* ********************** NOTEPAD || botones y selector ******************** - */                  
+
+
+
+
+/* ***************************** PIE DE PAGINA ***************************** - */                  
+.footer {
+  font-size: 10px;
+  color: #00fad0;
+  text-align: center;
+  margin-bottom: 0.5px;
+}
+/* ***************************** PIE DE PAGINA ***************************** - */                  

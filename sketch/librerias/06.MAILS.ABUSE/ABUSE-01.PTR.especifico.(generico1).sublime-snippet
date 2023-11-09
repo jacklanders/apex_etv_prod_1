@@ -1,0 +1,21 @@
+************************************
+Para: 
+CC: abuse-telecom@teco.com.ar
+
+Asunto: IP enlistada xxxxxxxxx || CUIT:  || SS:
+Nro. Caso: 	
+************************************ 
+Estimado, buenas noches.
+
+Informamos que la dirección IP posee un registro genérico y no tiene cargado un PTR específico. De igual manera el PTR específico, solamente se utiliza, si van a usar la IP en un servidor de correos.
+
+Si bien se puede apreciar con la herramienta de Mxtoolbox que la IP, en efecto, se encuentran listadas, el criterio que dichas Blacklists aplican sobre una IP al momento de realizar el listado o deslistado es la carencia o la presencia de un registro PTR específico respectivamente.
+
+Dicho requisito es fundamental en el caso de que sobre una determinada IP opere un servidor de correo. Por el contrario, si sobre las IP: , no se maneja un servidor de ese tipo y tienen alojadas las cuentas en el servidor de algún proveedor de servicio de correo, el hecho de que la IP se encuentre en estas listas no debería afectar su capacidad para enviar correo.
+
+Estas listas, de hecho, conforman una barrera Anti-Spam que impide que un usuario malintencionado monte su propio servidor de correo sobre cualquier IP y que mande Spam a cualquier destinatario indiscriminadamente. De esta manera, solo las IPs autorizadas para mandar mails podrán hacerlo. Si tienen contratado el servicio de correo con un proveedor, la IP evaluada por los servidores de los destinatarios son justamente las de dicho proveedor y no las IP: , que Telecom les brinda para la navegación.
+
+Dejamos actualizaro el registro sobre la solicitud .
+
+Quedamos a diposicion.
+Saludos cordiales.

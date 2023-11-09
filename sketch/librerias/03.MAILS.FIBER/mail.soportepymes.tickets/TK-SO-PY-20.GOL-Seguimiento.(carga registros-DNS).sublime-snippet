@@ -1,0 +1,24 @@
+**********************************
+Para: 
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: Seguimiento TELECOM || CUIT:  || IDPRODUDCTO:  || TICKET: 
+Nro. Caso: 	 
+**********************************
+Estimados, buenas noches.
+
+Continuando el seguimiento al caso de referencia, desde nuestro NOC, nos remiten la resolucion sobre los inconvenientes suscitados en Gestion Online. Dicha gestion requiere de realizar la carga de los siguientes registros, en el apartado "Adminsitracion de DNS":
+
+IN MX  10 mx.fibercorp.com.ar.
+IN TXT    "v=spf1 mx ip4:201.212.2.128/27 ip4:181.30.31.8/29 ip4:181.30.31.32/27 ip4:24.232.0.0/24 -all"
+
+smtp IN CNAME mr.fibercorp.com.ar.
+imap IN A 201.212.2.136 
+pop  IN A 201.212.2.136
+
+En el caso de requerir asistencia respecto a la carga de los mismos, favor de darnos aviso. Estaremos atentos a sus comentarios.
+
+Ticket .
+
+Quedamos a disposicion.
+Saludos cordiales.-

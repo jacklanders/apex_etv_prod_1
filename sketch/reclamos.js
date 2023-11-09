@@ -3,21 +3,21 @@
 // -                                 Codigo js principal                             -  
 // -                                                                                 -  
 // -                                                                                 - 
-// - ***************************** Funcion Principal ******************************* -
-window.addEventListener("DOMContentLoaded", mostrar);
-  // Cargar función "Mostrar" cuando el contenido del documento esté listo
-  // El evento "DOMContentLoaded" se dispara cuando el HTML del documento se ha cargado y parseado,
-  // lo que significa que la página está lista para ser manipulada con JavaScript.
-window.addEventListener("unload", alcerrar);
-  // Escuchar el evento "beforeunload" para guardar los datos al cerrar la página
-  // El evento "unload" se dispara justo antes de que la página se cierre. 
+// - *******************************  CODGIGO JAVASCRIPT *************************** -
 
-document.write('<script src="botones1-icd-in-ss.js"></script>');
-  // Importa el archivo de funcionalidad incidentes - solicitudes
-document.write('<script src="botones2-fiber.js"></script>');
-  // Importa el archivo de funcionalidad fiber
-document.write('<script src="botones3-teco.js"></script>');
-  // Importa el archivo de funcionalidad tecO
+
+
+
+// - ***************************** Funcion Principal ******************************* -
+window.addEventListener("DOMContentLoaded", mostrar);              // Cargar función "Mostrar" cuando el contenido del documento esté listo
+                                                                   // El evento "DOMContentLoaded" se dispara cuando el HTML del documento se ha cargado y parseado,
+                                                                   // lo que significa que la página está lista para ser manipulada con JavaScript.
+window.addEventListener("unload", alcerrar);
+                                                                   // Escuchar el evento "beforeunload" para guardar los datos al cerrar la página
+                                                                   // El evento "unload" se dispara justo antes de que la página se cierre. 
+document.write('<script src="botones1-icd-in-ss.js"></script>');   // Importa el archivo de funcionalidad incidentes - solicitudes
+document.write('<script src="botones2-fiber.js"></script>');       // Importa el archivo de funcionalidad fiber
+document.write('<script src="botones3-teco.js"></script>');        // Importa el archivo de funcionalidad tecO
 // ******* Funcion mostrar ******* INICIO *******     
 function mostrar() { 
 };   
@@ -28,7 +28,7 @@ function alcerrar() {
 
 
 
-// - *************************** Funciones Secundarios  **************************** -
+// - *************************** Funcion Secundaria  **************************** -
 // ******* Funcion OpenTAB ******* INICIO *******    
 function openTab(evt, tabName) {   
   var i, tabcontent, tabbtn;
@@ -91,8 +91,7 @@ function toggleSection(sectionId) {
       icon.textContent = '▼'; // Cambia el icono a "abajo" cuando se oculta
   }
 }
-// - *************************** Funciones Secundarios  **************************** -                                                                    
-// - *******************************  CODGIGO JAVASCRIPT *************************** -
+// - *************************** Funcion Secundaria  **************************** -                                                                    
 
 
 
