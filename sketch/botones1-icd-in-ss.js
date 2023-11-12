@@ -8,17 +8,9 @@
 
 
 
-// - ***************************** INICIO - INPUT_TEXT´S *************************** -
+// - ********************************** INICIO   *********************************** -
 document.addEventListener('DOMContentLoaded', function() {  
-    // Despliega la extension. La misma es visible cuando esta lista!
-document.getElementById('btnTickets').addEventListener('click', function (event) {openTab(event, 'tab1');})    // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
-// - ***************************** INICIO - INPUT_TEXT´S *************************** -
-
-
-
-
-// - ***************************** VENTANAS - INPUT_TEXT´S ************************* - 
-// - ***************************** VENTANAS - INPUT_TEXT´S ************************* - 
+// - ********************************** INICIO   *********************************** -
 
 
 
@@ -34,8 +26,8 @@ function autoAjustar(textarea) {
     textarea.style.height = (textarea.scrollHeight) + 'px'; 
     } 
 
-// ******* BOTON COPIAR DATA ******* INICIO *******    
-document.getElementById("botonCopiarD").addEventListener("click", function() { 
+// ******* BOTON BAJAR DATA ******* INICIO *******    
+document.getElementById("botonBajarD").addEventListener("click", function() { 
     var cuit = document.getElementById("cuit_tab1").value;
     var referencia = document.getElementById("referencia_tab1").value;
     var linea = document.getElementById("linea_tab1").value;
@@ -68,6 +60,14 @@ document.getElementById("botonCopiarD").addEventListener("click", function() {
     // Ajusta la altura de notepad1 después de pegar los datos
     autoAjustar(notepad1);
     });
+// ******* BOTON COPIAR DATA ******* INICIO *******    
+document.getElementById("botonCopiarD").addEventListener("click", function() {  
+    var notepad1 = document.getElementById("notepad1");
+    notepad1.select();                                                  // Selecciona todo el texto en el notepad2
+    document.execCommand("copy");                                       // Copia el texto seleccionado al portapapeles
+    window.getSelection().removeAllRanges();                            // Deselecciona el texto para que no quede resaltado
+    alert("Texto copiado al portapapeles");                             // Puedes mostrar un mensaje indicando que el texto se copió al portapapeles  
+    });
 // ******* BOTON SUBIR DATA ******* INICIO *******    
  document.getElementById("botonSubir").addEventListener("click", function() { 
     var clipboardText = document.getElementById("notepad1").value; 
@@ -98,38 +98,6 @@ document.getElementById("botonCleanN").addEventListener("click", function() {
     notepad1.value = "";            // Borra el contenido de notepad1
     notepad1.style.height = 'auto'; // Restablece la altura de notepad1
     });
-// ******* BOTON LIMPIAR TODO ******* INICIO *******    
-document.getElementById("botonCleanA").addEventListener("click", function() { 
-     // Limpia los campos de entrada
-     document.getElementById("cuit_tab1").value = "-";
-     document.getElementById("referencia_tab1").value = "-";
-     document.getElementById("linea_tab1").value = "-";
-     document.getElementById("ticket_in_tab1").value = "-";
-     document.getElementById("nombre_tab1").value = "-";
-     document.getElementById("tel_contacto_tab1").value = "-";
-     document.getElementById("mail_tab1").value = "-";
-     document.getElementById("domicilio_tab1").value = "-";
-     document.getElementById("disponibilidad_tab1").value = "08-16HS";
-     document.getElementById("btAcceso_tab1").value = "NO";
-     document.getElementById("btTerraza_tab1").value = "SI";
-     document.getElementById("btCovid_tab1").value = "NO";
-     document.getElementById("cm_tab1").value = "-";
-     document.getElementById("nodo_tab1").value = "-";
-     document.getElementById("ot_tab1").value = "-";
-     document.getElementById("cpe_mac_tab1").value = "-";
-     document.getElementById("cpe_ip_tab1").value = "-";
-     document.getElementById("cpe_model_tab1").value = "-";
-   
-     // Limpia los notepads
-     var notepad1 = document.getElementById("notepad1");
-     var notepad2 = document.getElementById("notepad2");
-     notepad1.value = "";
-     notepad2.value = "";
-     // notepad1.style.height = 'auto';
-     // notepad2.style.height = 'auto';
-     // Oculta notepad2
-     notepad2.style.display = "none";
-    });   
 // ***************************** BLOC DE NOTAS - NOTEPAD 1 ************************** - 
 
 
@@ -590,7 +558,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         }     
         notepad2.value = output; 
     }); 
-// ******* BOTON COPIAR LIBRERIAS ******* INICIO *******    
+// ******* BOTON COPIAR NOTEPAD 2 ******* INICIO *******    
 document.getElementById("botonCopiar").addEventListener("click", function() {  
     var notepad2 = document.getElementById("notepad2");
     notepad2.select();                                                  // Selecciona todo el texto en el notepad2
@@ -598,11 +566,43 @@ document.getElementById("botonCopiar").addEventListener("click", function() {
     window.getSelection().removeAllRanges();                            // Deselecciona el texto para que no quede resaltado
     alert("Texto copiado al portapapeles");                             // Puedes mostrar un mensaje indicando que el texto se copió al portapapeles  
     });
-// ******* BOTON COPIAR LIBRERIAS ******* INICIO *******    
+// ******* BOTON LIMPIAR NOTEPAD 2 ******* INICIO *******    
 document.getElementById("botonLimpiar").addEventListener("click", function() {
     var notepad2 = document.getElementById("notepad2");
     notepad2.value = "";                                                // Borra el contenido del notepad2
     });
+// ******* BOTON LIMPIAR TODO ******* INICIO *******    
+document.getElementById("botonCleanA").addEventListener("click", function() { 
+    // Limpia los campos de entrada
+    document.getElementById("cuit_tab1").value = "-";
+    document.getElementById("referencia_tab1").value = "-";
+    document.getElementById("linea_tab1").value = "-";
+    document.getElementById("ticket_in_tab1").value = "-";
+    document.getElementById("nombre_tab1").value = "-";
+    document.getElementById("tel_contacto_tab1").value = "-";
+    document.getElementById("mail_tab1").value = "-";
+    document.getElementById("domicilio_tab1").value = "-";
+    document.getElementById("disponibilidad_tab1").value = "08-16HS";
+    document.getElementById("btAcceso_tab1").value = "NO";
+    document.getElementById("btTerraza_tab1").value = "SI";
+    document.getElementById("btCovid_tab1").value = "NO";
+    document.getElementById("cm_tab1").value = "-";
+    document.getElementById("nodo_tab1").value = "-";
+    document.getElementById("ot_tab1").value = "-";
+    document.getElementById("cpe_mac_tab1").value = "-";
+    document.getElementById("cpe_ip_tab1").value = "-";
+    document.getElementById("cpe_model_tab1").value = "-";
+  
+    // Limpia los notepads
+    var notepad1 = document.getElementById("notepad1");
+    var notepad2 = document.getElementById("notepad2");
+    notepad1.value = "";
+    notepad2.value = "";
+    // notepad1.style.height = 'auto';
+    // notepad2.style.height = 'auto';
+    // Oculta notepad2
+    notepad2.style.display = "none";
+    });      
 });     
 // - ***************************** BLOC DE NOTAS - NOTEPAD 2 *********************** -
    

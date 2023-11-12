@@ -33,3 +33,31 @@ document.addEventListener('DOMContentLoaded', function() {  // - Boton superior 
   document.getElementById('btnTools').addEventListener('click', function(event) {openTab(event, 'tab5');});
 }); 
 // *************************************************  CODIGO SECCION 5 -  ************************************************* 
+
+
+
+// ******* Funcion OpenTAB ******* INICIO *******    
+function openTab(evt, tabName) {
+  var i, tabcontent, tabbtn;
+
+  // Deshabilitar el botón "Return"
+  document.getElementById("btnreturn").disabled = true;
+
+  // Ocultar todos los contenidos de pestañas
+  tabcontent = document.getElementsByClassName("tab-content");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remover la clase "active" de todos los botones de pestañas
+  tabbtn = document.getElementsByClassName("tab-btn");
+  for (i = 0; i < tabbtn.length; i++) {
+    tabbtn[i].classList.remove("active");
+  }
+
+  // Mostrar el contenido de la pestaña seleccionada
+  if (tabName !== "return") {
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.classList.add("active");
+  }
+}

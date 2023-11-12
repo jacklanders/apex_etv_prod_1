@@ -1,0 +1,377 @@
+
+// - ********************************** INICIO   *********************************** -
+document.addEventListener('DOMContentLoaded', function() {                                                    
+// ******* Funcion CheckBOX ******* INICIO *******    
+function seleccionarCheckbox(checkboxIndex, name) {
+      var checkboxes = document.getElementsByName(name);
+      checkboxes.forEach(function(checkbox, index) {
+        checkbox.checked = (index + 1 === checkboxIndex);
+      });
+}   
+document.getElementById('btngestion_in_tab2').addEventListener('click', function (event) { openTab(event, 'tab_gestion_in');})    
+document.getElementById('btnlibrerias_fiber_tab2').addEventListener('click', function(event) { openTab(event, 'tab_librerias_fiber'); });      
+document.getElementById('btnreturn_tab2').addEventListener('click', function(event) { openTab(event, 'tab_return'); });          
+// ******* Funcion OpenTAB ******* INICIO *******    
+var activeTab = '';
+function openTab(evt, tabName) {
+      var i, tabcontent, tabbtn;
+    
+      // Hide all tabs
+      tabcontent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+    
+      // Remove the "active" class from all buttons
+      tabbtn = document.getElementsByClassName("tab-btn");
+      for (i = 0; i < tabbtn.length; i++) {
+        tabbtn[i].classList.remove("active");
+      }
+    
+      // Show the desired tab
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.classList.add("active");
+    
+      // Update the active tab variable
+      activeTab = tabName; 
+}
+document.getElementById('btngestion_in_tab2').addEventListener('click', function (event) { openTab(event, 'tab_gestion_in');})    
+document.getElementById('btnlibrerias_fiber_tab2').addEventListener('click', function(event) { openTab(event, 'tab_librerias_fiber'); });      
+document.getElementById('btnreturn_tab2').addEventListener('click', function (event) {
+      // When the "return" button is clicked, close all tabs and reset the state
+      var allTabs = ["tab_gestion_in", "tab_librerias_fiber", "tab_return"];
+      for (var i = 0; i < allTabs.length; i++) {
+        var tabElement = document.getElementById(allTabs[i]);
+        if (tabElement) {
+          tabElement.style.display = "none";
+        }
+      }
+    
+      // Remove the "active" class from all buttons
+      var tabbtn = document.getElementsByClassName("tab-btn");
+      for (var i = 0; i < tabbtn.length; i++) {
+        tabbtn[i].classList.remove("active");
+      }
+    
+      // Reset the active tab variable
+      activeTab = '';
+});
+// - ********************************** INICIO   *********************************** -
+
+
+
+
+
+
+
+
+
+
+// - ********************************** INICIO   *********************************** -
+document.addEventListener('DOMContentLoaded', function() {                                                    
+// ******* Funcion CheckBOX ******* INICIO *******    
+function seleccionarCheckbox(checkboxIndex, name) {
+      var checkboxes = document.getElementsByName(name);
+      checkboxes.forEach(function(checkbox, index) {
+        checkbox.checked = (index + 1 === checkboxIndex);
+      });
+}   
+document.getElementById('btngestion_in_tab2').addEventListener('click', function (event) { openTab(event, 'tab_gestion_in');})    
+document.getElementById('btnlibrerias_fiber_tab2').addEventListener('click', function(event) { openTab(event, 'tab_librerias_fiber'); });      
+document.getElementById('btnreturn_tab2').addEventListener('click', function (event) {
+      // When the "return" button is clicked, close all tabs and reset the state
+      var allTabs = ["tab_gestion_in", "tab_librerias_fiber", "tab_return"];
+      for (var i = 0; i < allTabs.length; i++) {
+        var tabElement = document.getElementById(allTabs[i]);
+        if (tabElement) {
+          tabElement.style.display = "none";
+        }
+      }
+    
+      // Remove the "active" class from all buttons
+      var tabbtn = document.getElementsByClassName("tab-btn");
+      for (var i = 0; i < tabbtn.length; i++) {
+        tabbtn[i].classList.remove("active");
+      }
+    
+      // Reset the active tab variable
+      activeTab = '';
+});
+// - ********************************** INICIO   *********************************** -
+
+
+
+
+
+
+
+
+
+// - ********************************** INICIO   *********************************** -
+document.addEventListener('DOMContentLoaded', function() {
+    var activeTab = '';
+
+    function openTab(tabName) {
+        var tabcontent = document.getElementsByClassName("tab-content");
+        for (var i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        var tabbtn = document.getElementsByClassName("tab-btn");
+        for (var i = 0; i < tabbtn.length; i++) {
+            tabbtn[i].classList.remove("active");
+        }
+
+        document.getElementById(tabName).style.display = "block";
+        document.querySelector('[data-tab="' + tabName + '"]').classList.add("active");
+        activeTab = tabName;
+    }
+
+    document.getElementById('btngestion_in_tab2').addEventListener('click', function (event) {
+        openTab('tab_gestion_in');
+    });
+
+    document.getElementById('btnlibrerias_fiber_tab2').addEventListener('click', function (event) {
+        openTab('tab_librerias_fiber');
+    });
+
+    document.getElementById('btnreturn_tab2').addEventListener('click', function (event) {
+        if (activeTab !== 'tab_return') {
+            openTab('tab_return');
+        }
+    });
+});
+// - ********************************** INICIO   *********************************** -
+
+
+
+
+
+
+
+
+
+
+// - ********************************** INICIO   *********************************** -
+document.addEventListener('DOMContentLoaded', function() {                                                    
+// ******* Funcion CheckBOX ******* INICIO *******    
+function seleccionarCheckbox(checkboxIndex, name) {
+      var checkboxes = document.getElementsByName(name);
+      checkboxes.forEach(function(checkbox, index) {
+        checkbox.checked = (index + 1 === checkboxIndex);
+      });
+}   
+// ******* Funcion OpenTAB ******* INICIO *******    
+var activeTab = '';
+function openTab(evt, tabName) {
+      var i, tabcontent, tabbtn;
+    
+      // Hide all tabs
+      tabcontent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+    
+      // Remove the "active" class from all buttons
+      tabbtn = document.getElementsByClassName("tab-btn");
+      for (i = 0; i < tabbtn.length; i++) {
+        tabbtn[i].classList.remove("active");
+      }
+    
+      // Show the desired tab
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.classList.add("active");
+    
+      // Update the active tab variable
+      activeTab = tabName; 
+}
+document.getElementById('btngestion_in_tab2').addEventListener('click', function (event) { openTab(event, 'tab_gestion_in');})    
+document.getElementById('btnlibrerias_fiber_tab2').addEventListener('click', function(event) { openTab(event, 'tab_librerias_fiber'); });      
+document.getElementById('btnreturn_tab2').addEventListener('click', function (event) {
+      // When the "return" button is clicked, close all tabs and reset the state
+      var allTabs = ["tab_gestion_in", "tab_librerias_fiber", "tab_return"];
+      for (var i = 0; i < allTabs.length; i++) {
+        var tabElement = document.getElementById(allTabs[i]);
+        if (tabElement) {
+          tabElement.style.display = "none";
+        }
+      }
+    
+      // Remove the "active" class from all buttons
+      var tabbtn = document.getElementsByClassName("tab-btn");
+      for (var i = 0; i < tabbtn.length; i++) {
+        tabbtn[i].classList.remove("active");
+      }
+    
+      // Reset the active tab variable
+      activeTab = '';
+});
+// - ********************************** INICIO   *********************************** -
+
+
+
+
+
+
+
+
+
+// ******* Funcion CheckBOX ******* INICIO *******    
+function seleccionarCheckbox(checkboxIndex, name) {
+      var checkboxes = document.getElementsByName(name);
+      checkboxes.forEach(function(checkbox, index) {
+        checkbox.checked = (index + 1 === checkboxIndex);
+      });
+}   
+// ******* Funcion OpenTAB ******* INICIO *******    
+var activeTab = '';
+function openTab(evt, tabName) {
+    var i, tabcontent, tabbtn;
+
+    // Hide all tabs
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Remove the "active" class from all buttons
+    tabbtn = document.getElementsByClassName("tab-btn");
+    for (i = 0; i < tabbtn.length; i++) {
+      tabbtn[i].classList.remove("active");
+    }
+
+    // Show the desired tab
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.classList.add("active");
+
+    // Update the active tab variable
+    activeTab = tabName;
+  }
+document.getElementById('btngestion_in_tab2').addEventListener('click', function (event) { openTab(event, 'tab_gestion_in');})    
+document.getElementById('btnlibrerias_fiber_tab2').addEventListener('click', function(event) { openTab(event, 'tab_librerias_fiber'); });      
+document.getElementById('btnreturn_tab2').addEventListener('click', function (event) {
+  // When the "return" button is clicked, close all tabs and reset the state
+  var allTabs = ["tab_gestion_in", "tab_librerias_fiber", "tab_return"];
+  for (var i = 0; i < allTabs.length; i++) {
+    var tabElement = document.getElementById(allTabs[i]);
+    if (tabElement) {
+      tabElement.style.display = "none";
+    }
+  }
+
+  // Remove the "active" class from all buttons
+  var tabbtn = document.getElementsByClassName("tab-btn");
+  for (var i = 0; i < tabbtn.length; i++) {
+    tabbtn[i].classList.remove("active");
+  }
+
+  // Reset the active tab variable
+  activeTab = '';
+ });
+// - ********************************** INICIO   *********************************** -
+
+// - ***************************** BLOC DE NOTAS - NOTEPAD 3 *********************** - 
+const notepad3 = document.getElementById("notepad3");                               
+if (notepad3) {
+    // JavaScript for controlling the visibility of notepad 2 in tab2
+    notepad3.addEventListener('input', function() {
+    autoAjustar(notepad3);
+    });
+function autoAjustar(textarea) {
+    textarea.style.height = 'auto';
+    textarea.style.height = (textarea.scrollHeight) + 'px';
+    }
+notepad3.style.display = "block";
+const botonLimpiar_tab2 = document.getElementById("botonLimpiar_tab2");  
+if (botonLimpiar_tab2) {
+    botonLimpiar_tab2.addEventListener("click", function() {
+    notepad3.value = ""; // Clear the content of notepad2 in tab2
+    });
+  }
+ }
+// ***************************** BLOC DE NOTAS - NOTEPAD 3 ************************** - 
+
+
+
+
+
+
+
+
+
+
+
+
+// - ********************************** INICIO   *********************************** -
+document.addEventListener('DOMContentLoaded', function() {                                                    
+// ******* Funcion CheckBOX ******* INICIO *******    
+function seleccionarCheckbox(checkboxIndex, name) {
+      var checkboxes = document.getElementsByName(name);
+      checkboxes.forEach(function(checkbox, index) {
+        checkbox.checked = (index + 1 === checkboxIndex);
+      });
+}   
+// ******* Funcion OpenTAB ******* INICIO *******    
+var activeTab = '';
+function openTab(evt, tabName) {
+      var i, tabcontent, tabbtn;
+    
+      // Hide all tabs
+      tabcontent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+    
+      // Remove the "active" class from all buttons
+      tabbtn = document.getElementsByClassName("tab-btn");
+      for (i = 0; i < tabbtn.length; i++) {
+        tabbtn[i].classList.remove("active");
+      }
+    
+      // Show the desired tab
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.classList.add("active");
+    
+      // Update the active tab variable
+      activeTab = tabName; 
+}
+document.getElementById('btngestion_in_tab2').addEventListener('click', function (event) { openTab(event, 'tab_gestion_in');})    
+document.getElementById('btnlibrerias_fiber_tab2').addEventListener('click', function(event) { openTab(event, 'tab_librerias_fiber'); });      
+document.getElementById('btnreturn_tab2').addEventListener('click', function (event) {
+      // When the "return" button is clicked, close all tabs and reset the state
+      var allTabs = ["tab_gestion_in", "tab_librerias_fiber", "tab_return"];
+      for (var i = 0; i < allTabs.length; i++) {
+        var tabElement = document.getElementById(allTabs[i]);
+        if (tabElement) {
+          tabElement.style.display = "none";
+        }
+      }
+    
+      // Remove the "active" class from all buttons
+      var tabbtn = document.getElementsByClassName("tab-btn");
+      for (var i = 0; i < tabbtn.length; i++) {
+        tabbtn[i].classList.remove("active");
+      }
+    
+      // Reset the active tab variable
+      activeTab = '';
+});
+// ******* Funcion MostrarBoton ******* INICIO *******    
+function mostrarBoton(id, id_class_elimi, clase, tab) {   
+  var opciones = document.getElementById(id);
+  var valorSeleccionado = opciones.value;
+
+  // Ocultar todos los botones
+  var id_sec = document.getElementById(id_class_elimi);
+  var botones = id_sec.getElementsByClassName(clase);
+  for (var i = 0; i < botones.length; i++) {
+    botones[i].style.display = "none";
+  }
+
+  // Mostrar el botón correspondiente a la opción seleccionada
+  if (valorSeleccionado !== 'nulo') {
+    document.getElementById(valorSeleccionado).style.display = "block";
+  }
+}; 
+// - ********************************** INICIO   *********************************** -
+

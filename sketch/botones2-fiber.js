@@ -8,79 +8,137 @@
 
 
 
-// - ***************************** INICIO - INPUT_TEXT´S *************************** -
+// - ********************************** INICIO   *********************************** -
 document.addEventListener('DOMContentLoaded', function() {                                                    
-    // Despliega la extension. La misma es visible cuando esta lista!
-    document.getElementById('btnFiber').addEventListener('click', function(event) { openTab(event, 'tab2'); }); // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
-// - ***************************** INICIO - INPUT_TEXT´S *************************** -
+  // Obtener referencias a los elementos del DOM
+  var tabGestionIn = document.getElementById("tab_gestion_in");
+  var tabLibreriasFiber = document.getElementById("tab_librerias_fiber");
+  var btnGestionIn = document.getElementById("btngestion_in_tab2");
+  var btnLibreriasFiber = document.getElementById("btnlibrerias_fiber_tab2");
+  var btnReturn = document.getElementById("btnreturn_tab2");
+
+  // Función para mostrar la pestaña de "Gestión In"
+  function mostrarGestionIn() {
+    tabGestionIn.style.display = "block";
+    tabLibreriasFiber.style.display = "none";
+  }
+  // Función para mostrar la pestaña de "Librerías Mail"
+  function mostrarLibreriasFiber() {
+    tabGestionIn.style.display = "none";
+    tabLibreriasFiber.style.display = "block";
+  }
+  // Función para cerrar ambas pestañas
+  function cerrarPestañas() {
+    tabGestionIn.style.display = "none";
+    tabLibreriasFiber.style.display = "none";
+  }
+  // Agregar oyentes de clic a los botones
+  btnGestionIn.addEventListener("click", mostrarGestionIn);
+  btnLibreriasFiber.addEventListener("click", mostrarLibreriasFiber);
+  btnReturn.addEventListener("click", cerrarPestañas);
 
 
-
-
-// - **************************** SELECTOR - LIBRERIAS MAIL ************************ - 
-const mainSelector = document.getElementById("mainSelector");
-const subSelector = document.getElementById("subSelector");
-const notepad = document.querySelector(".notepad-3");
-
-mainSelector.addEventListener("change", function () {
-    const selectedOption = mainSelector.value;
-    // You can customize the sub-options based on the selected value here
-    const subOptions = getSubOptions(selectedOption);
-    updateSubSelector(subOptions);
-});
-
-// ******* Funcion getSubOptions ******* INICIO *******    
-function getSubOptions(selectedOption) {
-    // Define sub-options based on the selected value
-    const subOptionsMap = {
-        "RecomendadosPymess_in": ["Consulta novedades 1", "Consulta novedades 2", "Consulta novedades 3"],
-        "RecomendadosPymess_out": ["Adelanta HFC - AMBA", "Adelanta FTTH - AMBA"],
-        // Add more sub-options for other mainSelector values
-    };
-
-    return subOptionsMap[selectedOption] || [];
-}
-// ******* Funcion updateSubSelector ******* INICIO *******    
-function updateSubSelector(subOptions) {
-    subSelector.innerHTML = "";
-    if (subOptions.length > 0) {
-        notepad.style.display = "block";
-        subOptions.forEach((option) => {
-            const optionElement = document.createElement("option");
-            optionElement.value = option;
-            optionElement.textContent = option;
-            subSelector.appendChild(optionElement);
-        });
-        subSelector.style.display = "block";
-    } else {
-        subSelector.style.display = "none";
-        notepad.style.display = "none";
-    }
-}
-// - **************************** SELECTOR - LIBRERIAS MAIL ************************ - 
+  // Mostrar "Gestión In" por defecto al cargar la página
+  mostrarGestionIn();
+});  
+// - ********************************** INICIO   *********************************** -
 
 
 
 
 // - ***************************** BLOC DE NOTAS - NOTEPAD 3 *********************** - 
-const notepad3 = document.getElementById("notepad3");                               
-if (notepad3) {
-    // JavaScript for controlling the visibility of notepad 2 in tab2
-    notepad3.addEventListener('input', function() {
+document.addEventListener('DOMContentLoaded', function() {                                                    
+const notepad3 = document.getElementById("notepad3");      
+    // JavaScript para controlar la visibilidad del notepads 3 
+const notepad3Container = document.querySelector('.notepad-3');
+notepad3.addEventListener('input', function() {   autoAjustar(notepad3); });
+function autoAjustar(textarea) {                          
+    // Lógica para limpiar notepad 3 (por agregar)
+    textarea.style.height = 'auto';
+    textarea.style.height = (textarea.scrollHeight) + 'px'; 
+    } 
+
+// ******* BOTON BAJAR DATA ******* INICIO *******    
+document.getElementById("botonBajarD.tab2").addEventListener("click", function() { 
+    var cuit = document.getElementById("cuit_tab2").value;
+    var referencia = document.getElementById("referencia_tab2").value;
+    var linea = document.getElementById("linea_tab2").value;
+    var ticket_in = document.getElementById("ticket_in_tab2").value;
+    var nombre = document.getElementById("nombre_tab2").value;
+    var tel_contacto = document.getElementById("tel_contacto_tab2").value;
+    var mail = document.getElementById("mail_tab2").value;
+    var domicilio = document.getElementById("domicilio_tab2").value;
+    var disponibilidad = document.getElementById("disponibilidad_tab2").value;
+    var docAcceso = document.getElementById("btAcceso_tab2").value;
+    var tot = document.getElementById("btTerraza_tab2").value;
+    var covid = document.getElementById("btCovid_tab2").value;
+    var cm = document.getElementById("cm_tab2").value;
+    var nodo = document.getElementById("nodo_tab2").value;
+    var ot = document.getElementById("ot_tab2").value;
+    var cpe_mac = document.getElementById("cpe_mac_tab2").value;
+    var cpe_ip = document.getElementById("cpe_ip_tab2").value;
+    var cpe_model = document.getElementById("cpe_model_tab2").value;
+
+   
+    // Concatena los valores de los campos de entrada con "||" como separador
+    var clipboardText = cuit + " || " + referencia + " || " + linea + " || " + ticket_in + " || " +
+       nombre + " || " + tel_contacto + " || " + mail + " || " + domicilio + " || " + disponibilidad + " || " +
+       docAcceso + " || " + tot + " || " + covid + " || " + cm + " || " + nodo + " || " + ot + " || " + 
+       cpe_mac + " || " + cpe_ip + " || " + cpe_model;
+       
+     // Asigna el contenido concatenado a notepad1
+    var notepad3 = document.getElementById("notepad3");
+    notepad3.value = clipboardText;
+    // Ajusta la altura de notepad1 después de pegar los datos
     autoAjustar(notepad3);
     });
-function autoAjustar(textarea) {
-    textarea.style.height = 'auto';
-    textarea.style.height = (textarea.scrollHeight) + 'px';
-    }
-notepad3.style.display = "block";
-const botonLimpiar_tab2 = document.getElementById("botonLimpiar_tab2");  
-if (botonLimpiar_tab2) {
-    botonLimpiar_tab2.addEventListener("click", function() {
-    notepad3.value = ""; // Clear the content of notepad2 in tab2
+// ******* BOTON COPIAR DATA ******* INICIO *******    
+document.getElementById("botonCopiarD.tab2").addEventListener("click", function() {  
+    var notepad3 = document.getElementById("notepad3");
+    notepad3.select();                                                  // Selecciona todo el texto en el notepad2
+    document.execCommand("copy");                                       // Copia el texto seleccionado al portapapeles
+    window.getSelection().removeAllRanges();                            // Deselecciona el texto para que no quede resaltado
+    alert("Texto copiado al portapapeles");                             // Puedes mostrar un mensaje indicando que el texto se copió al portapapeles  
     });
-  }
- }
-});   
+// ******* BOTON SUBIR DATA ******* INICIO *******    
+ document.getElementById("botonSubir.tab2").addEventListener("click", function() { 
+    var clipboardText = document.getElementById("notepad3").value; 
+    var fields = clipboardText.split(" || "); 
+    // Asigna los valores a los campos de entrada
+    document.getElementById("cuit_tab2").value = fields[0] || "-";
+    document.getElementById("referencia_tab2").value = fields[1] || "-";
+    document.getElementById("linea_tab2").value = fields[2] || "-";
+    document.getElementById("ticket_in_tab2").value = fields[3] || "-";
+    document.getElementById("nombre_tab2").value = fields[4] || "-";
+    document.getElementById("tel_contacto_tab2").value = fields[5] || "-";
+    document.getElementById("mail_tab2").value = fields[6] || "-";
+    document.getElementById("domicilio_tab2").value = fields[7] || "-";
+    document.getElementById("disponibilidad_tab2").value = fields[8] || "08-16HS";
+    document.getElementById("btAcceso_tab2").value = fields[9] || "NO";
+    document.getElementById("btTerraza_tab2").value = fields[10] || "SI";
+    document.getElementById("btCovid_tab2").value = fields[11] || "NO";
+    document.getElementById("cm_tab2").value = fields[12] || "-";
+    document.getElementById("nodo_tab2").value = fields[13] || "-";
+    document.getElementById("ot_tab2").value = fields[14] || "-";
+    document.getElementById("cpe_mac_tab2").value = fields[15] || "-";
+    document.getElementById("cpe_ip_tab2").value = fields[16] || "-";
+    document.getElementById("cpe_model_tab2").value = fields[17] || "-";
+    });
+// ******* BOTON LIMPIAR NOTEPAD 1 ******* INICIO *******    
+document.getElementById("botonCleanN.tab2").addEventListener("click", function() { 
+    var notepad3 = document.getElementById("notepad3");
+    notepad3.value = "";            // Borra el contenido de notepad1
+    notepad3.style.height = 'auto'; // Restablece la altura de notepad1
+    });
+});  
 // ***************************** BLOC DE NOTAS - NOTEPAD 3 ************************** - 
+
+
+
+
+// - ********************************* LIBRERIAS   ********************************** -
+
+// - ********************************* LIBRERIAS   ********************************** -
+
+
 // - *****************************  SECCION 2 - MAILS FIBER ************************* -
