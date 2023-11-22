@@ -11,35 +11,35 @@
 // - ********************************** INICIO   *********************************** -
 document.addEventListener('DOMContentLoaded', function() {                                                    
   // Obtener referencias a los elementos del DOM
-  var tabGestionIn = document.getElementById("tab_gestion_in");
+  var tabGestionFb = document.getElementById("tab_gestion_fb");
   var tabLibreriasFiber = document.getElementById("tab_librerias_fiber");
-  var btnGestionIn = document.getElementById("btngestion_in_tab2");
+  var btnGestionFb = document.getElementById("btngestion_fb_tab2");
   var btnLibreriasFiber = document.getElementById("btnlibrerias_fiber_tab2");
   var btnReturn = document.getElementById("btnreturn_tab2");
 
   // Función para mostrar la pestaña de "Gestión In"
-  function mostrarGestionIn() {
-    tabGestionIn.style.display = "block";
+  function mostrarGestionFb() {
+    tabGestionFb.style.display = "block";
     tabLibreriasFiber.style.display = "none";
   }
   // Función para mostrar la pestaña de "Librerías Mail"
   function mostrarLibreriasFiber() {
-    tabGestionIn.style.display = "none";
+    tabGestionFb.style.display = "none";
     tabLibreriasFiber.style.display = "block";
   }
   // Función para cerrar ambas pestañas
   function cerrarPestañas() {
-    tabGestionIn.style.display = "none";
+    tabGestionFb.style.display = "none";
     tabLibreriasFiber.style.display = "none";
   }
   // Agregar oyentes de clic a los botones
-  btnGestionIn.addEventListener("click", mostrarGestionIn);
+  btnGestionFb.addEventListener("click", mostrarGestionFb);
   btnLibreriasFiber.addEventListener("click", mostrarLibreriasFiber);
   btnReturn.addEventListener("click", cerrarPestañas);
 
 
-  // Mostrar "Gestión In" por defecto al cargar la página
-  mostrarGestionIn();
+  // Mostrar "Gestión Fb" por defecto al cargar la página
+  mostrarGestionFb();
 });  
 // - ********************************** INICIO   *********************************** -
 

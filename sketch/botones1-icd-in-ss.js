@@ -8,14 +8,46 @@
 
 
 
-// - ********************************** INICIO   *********************************** -
-document.addEventListener('DOMContentLoaded', function() {  
-// - ********************************** INICIO   *********************************** -
 
-
+// - ********************************** INICIO   *********************************** -
+document.addEventListener('DOMContentLoaded', function() {                                                    
+    // Obtener referencias a los elementos del DOM
+    var tabGestionIn = document.getElementById("tab_gestion_in");
+    var tabIncidentesSS = document.getElementById("tab_incidentes_ss");
+    var btnGestionIn = document.getElementById("btngestion_in_tab1");
+    var btnIncidentesSS = document.getElementById("btnlibrerias_incidentes_ss_tab1");
+    var btnReturn = document.getElementById("btnreturn_tab1");
+  
+    // Función para mostrar la pestaña de "Gestión In"
+    function mostrarGestionIn() {
+      tabGestionIn.style.display = "block";
+      tabIncidentesSS.style.display = "none";
+    }
+    // Función para mostrar la pestaña de "Incidentes SS"
+    function mostrarIncidentesSS() {
+        tabGestionIn.style.display = "none";
+        tabIncidentesSS.style.display = "block";
+    }
+    // Función para cerrar ambas pestañas
+    function cerrarPestañas() {
+      tabGestionIn.style.display = "none";
+      tabIncidentesSS.style.display = "none";
+    }
+    // Agregar oyentes de clic a los botones
+    btnGestionIn.addEventListener("click", mostrarGestionIn);
+    btnIncidentesSS.addEventListener("click", mostrarIncidentesSS);
+    btnReturn.addEventListener("click", cerrarPestañas);
+  
+  
+    // Mostrar "Gestión In" por defecto al cargar la página
+    mostrarGestionIn();
+  });  
+// - ********************************** INICIO   *********************************** -
+  
 
 
 // - ***************************** BLOC DE NOTAS - NOTEPAD 1 *********************** - 
+document.addEventListener('DOMContentLoaded', function() {                                                    
 const notepad1 = document.getElementById("notepad1");      
     // JavaScript para controlar la visibilidad del notepads 1 
 const notepad1Container = document.querySelector('.notepad-1');
@@ -98,12 +130,14 @@ document.getElementById("botonCleanN").addEventListener("click", function() {
     notepad1.value = "";            // Borra el contenido de notepad1
     notepad1.style.height = 'auto'; // Restablece la altura de notepad1
     });
+});   
 // ***************************** BLOC DE NOTAS - NOTEPAD 1 ************************** - 
 
 
 
 
 // ***************************** BLOC DE NOTAS - NOTEPAD 2 *************************  -
+document.addEventListener('DOMContentLoaded', function() {                                                    
 const notepad2 = document.getElementById("notepad2");      
     // JavaScript para controlar la visibilidad del notepad 2
 const notepad2Container = document.querySelector('.notepad-2');
