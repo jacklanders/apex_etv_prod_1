@@ -7,7 +7,6 @@
 
 
 
-
 // - ********************************** INICIO   *********************************** -
 document.addEventListener('DOMContentLoaded', function() {                                                    
   // Obtener referencias a los elementos del DOM
@@ -124,7 +123,7 @@ document.getElementById("botonCopiarD.tab2").addEventListener("click", function(
     document.getElementById("cpe_ip_tab2").value = fields[16] || "-";
     document.getElementById("cpe_model_tab2").value = fields[17] || "-";
     });
-// ******* BOTON LIMPIAR NOTEPAD 1 ******* INICIO *******    
+// ******* BOTON LIMPIAR NOTEPAD 3 ******* INICIO *******    
 document.getElementById("botonCleanN.tab2").addEventListener("click", function() { 
     var notepad3 = document.getElementById("notepad3");
     notepad3.value = "";            // Borra el contenido de notepad1
@@ -137,7 +136,35 @@ document.getElementById("botonCleanN.tab2").addEventListener("click", function()
 
 
 // - ********************************* LIBRERIAS   ********************************** -
+document.addEventListener('DOMContentLoaded', function() {                                                     
+  // Obtener todos los botones y selectores
+  const buttons = document.querySelectorAll('.tab-btn');
+  const selectors = document.querySelectorAll('select');
 
+  // Función para ocultar todos los selectores
+  function hideAllSelectors() {
+      selectors.forEach(selector => {
+          selector.style.display = 'none';
+      });
+  }
+
+  // Asignar eventos de clic a cada botón
+  buttons.forEach(button => {
+      button.addEventListener('click', function() {
+      // Ocultar todos los selectores al hacer clic en un botón
+      hideAllSelectors();
+
+      // Obtener el ID del selector correspondiente al botón clickeado
+      const selectorId = 'libreria_' + this.name;
+
+      // Mostrar el selector correspondiente al botón clickeado
+      const correspondingSelector = document.getElementById(selectorId);
+      if (correspondingSelector) {
+          correspondingSelector.style.display = 'block';
+      }
+    });
+  });
+});   
 // - ********************************* LIBRERIAS   ********************************** -
 
 

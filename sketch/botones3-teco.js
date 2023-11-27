@@ -7,7 +7,6 @@
 
 
 
-
 // - ********************************** INICIO   *********************************** -
 document.addEventListener('DOMContentLoaded', function() {                                                    
     // Obtener referencias a los elementos del DOM
