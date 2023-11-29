@@ -1,0 +1,35 @@
+// - ********************************* LIBRERIAS   ********************************** -
+document.addEventListener('DOMContentLoaded', function() {                                                     
+// Obtener referencias a los elementos
+const btnRecomendadosPY = document.getElementById('btnRecomendadosPY');
+const btnSoportePY = document.getElementById('btnSoportePY');
+const btnSoporteGC = document.getElementById('btnSoporteGC');
+
+const selectRecomendadosPY = document.getElementById('libreria_recomendados_py');
+const selectSoportePY = document.getElementById('libreria_soporte_py');
+const selectSoporteGC = document.getElementById('libreria_soporte_gc');
+
+// Ocultar todos los bloques de selección al inicio
+selectRecomendadosPY.style.display = 'none';
+selectSoportePY.style.display = 'none';
+selectSoporteGC.style.display = 'none';
+
+// Función para mostrar el bloque de selección correspondiente según el botón presionado
+function mostrarBloqueSeleccion(boton, select) {
+  boton.addEventListener('click', function() {
+    // Ocultar todos los bloques de selección
+    selectRecomendadosPY.style.display = 'none';
+    selectSoportePY.style.display = 'none';
+    selectSoporteGC.style.display = 'none';
+    
+    // Mostrar el bloque de selección correspondiente al botón presionado
+    select.style.display = 'block';
+  });
+}
+
+// Asociar eventos a los botones para mostrar los bloques de selección correspondientes
+mostrarBloqueSeleccion(btnRecomendadosPY, selectRecomendadosPY);
+mostrarBloqueSeleccion(btnSoportePY, selectSoportePY);
+mostrarBloqueSeleccion(btnSoporteGC, selectSoporteGC);
+});   
+// - ********************************* LIBRERIAS   ********************************** -

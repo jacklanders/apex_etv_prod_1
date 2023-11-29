@@ -328,51 +328,12 @@
         <div id="tab_librerias_fiber" class="tab-content">                   <!-- boton - librerias fiber -->
           <hr>                                                               <!-- 5 linea divisoria   -->                           
           <div class="librerias-row">
-            <button class="tab-btn" id="btnSO-entrante" name="sopy_entrante">SoportePymes - IN</button>
-            <button class="tab-btn" id="btnSO-saliente" name="sopy_saliente">SoportePymes - OUT</button>  
-            <button class="tab-btn" id="btnSO-tickets" name="sopy_tickets">SoportePymes - TK</button>
-          </div>
-          <div class="librerias-row">
-            <button class="tab-btn" id="btnRE-entrante" name="repy_entrante">RecoPymes - IN</button>
-            <button class="tab-btn" id="btnRE-saliente" name="repy_saliente">RecoPymes - OUT</button>
-            <button class="tab-btn" id="btnRE-tickets" name="repy_tickets">RecoPymes - TK</button>
-          </div>
-          <div class="librerias-row">
-            <button class="tab-btn" id="btnSOGC-entrante" name="sogc_entrante">SoporteGC - IN</button>
+            <button class="tab-btn" id="btnRecomendadosPY" name="recomendados_py">RecomendadosPymes</button>
+            <button class="tab-btn" id="btnSoportePY" name="soporte_py">SoportePymes</button>
+            <button class="tab-btn" id="btnSoporteGC" name="soporte_gc">SoporteGC</button>
           </div>
           <hr>                                                               <!-- 6 linea divisoria   -->  
-          <select id="libreria_sopy_entrante" class="modern">                <!-- selector de librerias macro -->   
-            <option value="nulo">Selecciona una opción</option>
-            <option value="IN-SO-PY-01.Ventas.(ND)">01. Ventas (ND)</option>
-            <option value="IN-SO-PY-02.Admin.(ND)">02. Admin (ND)</option>
-            <option value="IN-SO-PY-03.Encuesta.(ND)">03. Encuesta (ND)</option>
-            <option value="IN-SO-PY-04.Residencial.TECO">04. Residencial TECO</option>
-            <option value="IN-SO-PY-05.Residencial.HFC">05. Residencial HFC</option>
-            <option value="IN-SO-PY-06.Sin.DATOS.(FCL)">06. Sin.DATOS (FCL)</option>
-            <option value="IN-SO-PY-07.Enlace.PE.(generico1)">07. Enlace PE (generico1)</option>
-            <option value="IN-SO-PY-08.Enlace.PE.(generico2)">08. Enlace PE (generico2)</option>
-            <option value="IN-SO-PY-09.Enlace.PE.(contencion)">09. Enlace PE (contencion)</option>
-            <option value="IN-SO-PY-10.Enlace.UP.(cpe.particular)">10. Enlace UP (cpe particular)</option>
-            <option value="IN-SO-PY-11.Enlace.DOWN.(planilla.OT)">11. Enlace DOWN (planilla OT)</option>
-            <option value="IN-SO-PY-12.Enlace.DOWN.(agenda.OT)">12. Enlace DOWN (agenda OT)"</option>
-            <option value="IN-SO-PY-13.Enlace.DOWN.(reagenda.OT)">13. Enlace DOWN (reagenda OT)</option>
-            <option value="IN-SO-PY-14. Masivo.HFC">14. Masivo HFC"</option>
-            <option value="IN-SO-PY-15.NOC(escalamiento)">15. NOC (escalamiento)</option>
-            <option value="IN-SO-PY-16.NOC(pendiente)">16. NOC (pendiente)</option>
-            <option value="IN-SO-PY-17.NOC.(sin.ETR)">17. NOC (sin ETR)</option>
-            <option value="IN-SO-PY-18.NOC.(cloud-webmail)">18. NOC (cloud-webmail)</option>
-          </select> 
-          <select id="libreria_sopy_saliente" class="modern">                <!-- selector de librerias macro -->   
-            <option value="nulo">Selecciona una opción</option>
-            <option value="OUT-SO-PY-22.DMZ.SAGEMCOM.F@ST.5657">01. DMZ SAGEMCOM F@ST5657</option>
-            <option value="OUT-SO-PY-23.DMZ.NOKIA.G-240W-B">02. DMZ.NOKIA G-240W-B</option>
-            <option value="OUT-SO-PY-24.DMZ.ARCADYAN.PRV4439B">03. DMZ ARCADYAN PRV4439BT</option>
-            <option value="OUT-SO-PY-25.DMZ.HUAWEI.HG2845U">04. DMZ HUAWEI HG2845US</option>
-            <option value="OUT-SO-PY-26.DMZ.NOKIA.G-2425G-B">05. DMZ NOKIA G-2425G-B"</option>
-            <option value="OUT-SO-PY-27.DMZ.Huawei.HG8245W5-8T-V2">06. DMZ Huawei HG8245W5-8T-V2</option>
-            <option value="OUT-SO-PY-28.DMZ.NOKIA.G-240W-J">07. DMZ NOKIA G-240W-J</option>
-          </select> 
-          <select id="libreria_sopy_tickets" class="modern">                 <!-- selector de librerias macro -->   
+          <select id="libreria_recomendados_py" class="modern">                 <!-- selector de librerias macro -->   
             <option value="nulo">Selecciona una opción</option>
             <option value="TK-SO-PY-01.HFC-Seguimiento.(consulta.post.OT-gen1)">01. HFC-Seguimiento (consulta post OT-gen1)"</option>
             <option value="TK-SO-PY-02.HFC-Seguimiento.(consulta.post.OT-gen2)">02. HFC-Seguimiento (consulta post OT-gen2)</option>
@@ -394,6 +355,37 @@
             <option value="TK-SO-PY-18.OTHERS-Seguimiento.(carga.reglas-gen1)">18. OTHERS-Seguimiento (carga reglas-gen1)</option>
             <option value="TK-SO-PY-19.GOL-Seguimiento.(consulta.cuenta-gen1)">19. GOL-Seguimiento (consulta cuenta-gen1)</option>
             <option value="TK-SO-PY-20.GOL-Seguimiento.(carga registros-DNS)">20. GOL-Seguimiento (carga registros-DNS)</option>
+          </select> 
+          <select id="libreria_soporte_py" class="modern">                <!-- selector de librerias macro -->   
+            <option value="nulo">Selecciona una opción</option>
+            <option value="IN-SO-PY-01.Ventas.(ND)">01. Ventas (ND)</option>
+            <option value="IN-SO-PY-02.Admin.(ND)">02. Admin (ND)</option>
+            <option value="IN-SO-PY-03.Encuesta.(ND)">03. Encuesta (ND)</option>
+            <option value="IN-SO-PY-04.Residencial.TECO">04. Residencial TECO</option>
+            <option value="IN-SO-PY-05.Residencial.HFC">05. Residencial HFC</option>
+            <option value="IN-SO-PY-06.Sin.DATOS.(FCL)">06. Sin.DATOS (FCL)</option>
+            <option value="IN-SO-PY-07.Enlace.PE.(generico1)">07. Enlace PE (generico1)</option>
+            <option value="IN-SO-PY-08.Enlace.PE.(generico2)">08. Enlace PE (generico2)</option>
+            <option value="IN-SO-PY-09.Enlace.PE.(contencion)">09. Enlace PE (contencion)</option>
+            <option value="IN-SO-PY-10.Enlace.UP.(cpe.particular)">10. Enlace UP (cpe particular)</option>
+            <option value="IN-SO-PY-11.Enlace.DOWN.(planilla.OT)">11. Enlace DOWN (planilla OT)</option>
+            <option value="IN-SO-PY-12.Enlace.DOWN.(agenda.OT)">12. Enlace DOWN (agenda OT)"</option>
+            <option value="IN-SO-PY-13.Enlace.DOWN.(reagenda.OT)">13. Enlace DOWN (reagenda OT)</option>
+            <option value="IN-SO-PY-14. Masivo.HFC">14. Masivo HFC"</option>
+            <option value="IN-SO-PY-15.NOC(escalamiento)">15. NOC (escalamiento)</option>
+            <option value="IN-SO-PY-16.NOC(pendiente)">16. NOC (pendiente)</option>
+            <option value="IN-SO-PY-17.NOC.(sin.ETR)">17. NOC (sin ETR)</option>
+            <option value="IN-SO-PY-18.NOC.(cloud-webmail)">18. NOC (cloud-webmail)</option>
+          </select> 
+          <select id="libreria_soporte_gc" class="modern">                <!-- selector de librerias macro -->   
+            <option value="nulo">Selecciona una opción</option>
+            <option value="OUT-SO-PY-22.DMZ.SAGEMCOM.F@ST.5657">01. DMZ SAGEMCOM F@ST5657</option>
+            <option value="OUT-SO-PY-23.DMZ.NOKIA.G-240W-B">02. DMZ.NOKIA G-240W-B</option>
+            <option value="OUT-SO-PY-24.DMZ.ARCADYAN.PRV4439B">03. DMZ ARCADYAN PRV4439BT</option>
+            <option value="OUT-SO-PY-25.DMZ.HUAWEI.HG2845U">04. DMZ HUAWEI HG2845US</option>
+            <option value="OUT-SO-PY-26.DMZ.NOKIA.G-2425G-B">05. DMZ NOKIA G-2425G-B"</option>
+            <option value="OUT-SO-PY-27.DMZ.Huawei.HG8245W5-8T-V2">06. DMZ Huawei HG8245W5-8T-V2</option>
+            <option value="OUT-SO-PY-28.DMZ.NOKIA.G-240W-J">07. DMZ NOKIA G-240W-J</option>
           </select> 
           <div class="notepad-container-4">                                  <!-- conteiner bloc de notas 4 --> 
           <div class="notepad notepad-4">                                  <!-- notepad4 -->
