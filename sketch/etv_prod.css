@@ -96,9 +96,11 @@ body {                          /* Establece los estilos generales para el cuerp
   padding: 10px; 
   font-size: 10px; 
   cursor: pointer; 
+  text-decoration: none;        /* Quitar subrayado en los enlaces */
 }
 .tab-btn.active {               /* Estilos para el botón de pestaña activa */
   background-color: #1a1a1a; 
+  text-decoration: none;        /* Quitar subrayado en los enlaces */
 }
 .tab-content {                  /* Estilos para el contenido de las pestañas */
   display: none; 

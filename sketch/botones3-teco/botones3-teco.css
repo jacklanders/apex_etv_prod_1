@@ -107,9 +107,11 @@ body {                          /* Establece los estilos generales para el cuerp
     padding: 10px; 
     font-size: 10px; 
     cursor: pointer; 
+    text-decoration: none; /* Quitar subrayado en los enlaces */
   }
   .tab-btn.active {               /* Estilos para el botón de pestaña activa */
     background-color: #1a1a1a; 
+    text-decoration: none; /* Quitar subrayado en los enlaces */
   }
   .tab-content {                  /* Estilos para el contenido de las pestañas */
     display: block; 
@@ -263,3 +265,27 @@ body {                          /* Establece los estilos generales para el cuerp
     margin-bottom: 0.5px;
   }
   /* ***************************** PIE DE PAGINA ***************************** - */               
+
+
+
+      /* input_text label.html (configuracion ocultar) */
+.hidden-section {
+  display: none;                 /* - Oculta las secciones de información por defecto - */
+}
+.show-icon {
+  cursor: pointer;
+  float: right;                  /* - Alinea a la derecha usando float - */
+}
+
+/* background body.html (fondo de pantalla) */
+body {
+  background-image: url('2019-07-27\ 17.10.51.jpg');
+  background-size: cover;
+  background-attachment: local;  /* - Esta línea hace que el fondo sea fijo - */
+}
+img[alt=""] {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+    /* input_text label.html (configuracion ocultar) */

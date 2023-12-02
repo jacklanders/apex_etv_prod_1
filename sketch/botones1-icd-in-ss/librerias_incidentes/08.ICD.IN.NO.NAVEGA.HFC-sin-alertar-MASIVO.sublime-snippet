@@ -1,9 +1,0 @@
-************************************  
-Nombre en SITE:  | Tel. Ct.:  | Mail:  | Domicilio: 
-************************************
-Cliente indica sin servicio. Monitoreo preventivo:
-NXT: CM caido/degradado | Masivo sin alertar en OPEN.
-
-
-TB (Nodo NXT): se verifica valores fuera de parametros, en varios equipos dentro del CMTS. Se le informa al cliente, posible daño externo en zona y se manda consulta MAIL para corroborar estado del servicio.
-************************************
