@@ -1,13 +1,14 @@
-
-
-
-
-
-
-
-
-
- <div id="tab_fiber" class="tab-content">                                  <!-- codigo tab2 - MAILS FIBER*-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="botones2-fiber.js"></script> 
+  <link rel="stylesheet" href="botones2-fiber.css">  
+</head>
+<body>
+  <div id="tab_fiber" class="tab-content">                                 <!-- codigo tab2 - MAILS FIBER*-->
     <div class="container">                                                <!-- conteiner tab2 -->
       <div class="subcontainer">                                           <!-- subconteiner tab2 -->
         <button class="tab-btn" id="btngestion_fb_tab2" name="tab_gestion_fb">GESTION IN </button>     
@@ -20,15 +21,15 @@
           <label for="cuit_tab2">CUIT:</label>                             <!--   -->                                    
           <input type="text" id="cuit_tab2" value="-" >                    <!--   -->     
         </form>                                                            <!-- Boton 2 - 1. CUIT --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="cliente_tab2">CLIENTE:</label>                       <!--   -->                                    
-          <input type="text" id="cliente_tab2" value="-" >                 <!--   -->     
+        <form class="columna">                                             <!---   -->  
+          <label for="cliente_tab2">CLIENTE:</label>                       <!--   -->  
+          <input type="text" id="cliente_tab2" value="-" >                 <!--   -->         
         </form>                                                            <!-- Boton 2 - 2. CLIENTE --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="mercado_tab2">MERCADO:</label>                       <!--   -->                                    
-          <input type="text" id="mercado_tab2" value="-" >                 <!--   -->     
-        </form>                                                            <!-- Boton 2 - 3. MERCADO --> 
-        <hr>                                                               <!-- 1 linea divisoria --> 
+        <form class="columna">                                             <!--   -->  
+          <label for="mercado_tab2">MERCADO:</label>                       <!--   -->  
+          <input type="text" id="mercado_tab2" value="-" >                 <!--   -->         
+        </form>                                                            <!-- Boton 2 - 3. MERCADO -->
+        <hr>                                                               <!-- 1 linea divisoria -->  
         <form class="columna">                                             <!--   -->   
           <label for="referencia_tab2">REF.:</label>                       <!--   -->   
           <input type="text" id="referencia_tab2" value="-" >              <!--   -->   
@@ -67,7 +68,7 @@
           <select id="btAcceso_tab2">                                      <!--   -->   
             <option value="SI">SI</option>                                 <!--   -->   
             <option value="NO" selected>NO</option>                        <!-- Esta opción se seleccionará por defecto -->
-          </select>                                                        <!--   -->   
+        </select>                                                        <!--   -->   
         </form>                                                            <!-- Boton 2 - 12. Doc. Acceso --> 
         <form class="columna">                                             <!--   -->   
           <label for="btTerraza_tab2">ToT:</label>                         <!--   -->   
@@ -97,82 +98,30 @@
           <input type="text" id="ot_tab2" value="-" >                      <!--   -->   
         </form>                                                            <!-- Boton 2 - 17. OT --> 
         <hr>                                                               <!-- 4 linea divisoria  --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="cpe_mac_tab2">CPE - MAC:</label>                     <!--   -->   
-          <input type="text" id="cpe_mac_tab2" value="-" >                 <!--   -->   
-        </form>                                                            <!-- Boton 2 - 18. CPE - MAC --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="cpe_ip_tab2">CPE - IP:</label>                       <!--   -->   
-          <input type="text" id="cpe_ip_tab2" value="-" >                  <!--   -->   
-        </form>                                                            <!-- Boton 2 - 19. CPE - IP -->  
-        <form class="columna">                                             <!--   --> 
-          <label for="cpe_model_tab2">CPE:</label>                         <!--   --> 
-          <input type="text" id="cpe_model_tab2" value="-" >               <!--   -->  
-        </form>                                                            <!-- Boton 2 - 20. CPE - MODEL --> 
-        <hr>                                                               <!-- 5 linea divisoria  --> 
-       </div>                                                              <!-- finaliza botones input text  || sub-botones -->           
-       <div class="notepad-container-3">                                   <!-- conteiner bloc de notas 3 -->
-         <div class="notepad notepad-3">                                   <!-- notepad3 -->
-           <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad3 -->
-           <textarea id="notepad3" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 50px; max-height: 370px;"></textarea>
-         </div>                                                            <!-- finaliza notepad3 -->
-         <div>                                                             <!-- botones para notepad3  --> 
-          <input type="submit" value="Bajar Data" id="botonBajarD.tab2">         <!-- este boton baja el contenido de los input_tex al notepad3 -->
-          <input type="submit" value="Copiar Data" id="botonCopiarD.tab2">       <!-- este boton copia el contenido cargardo en notepad3 -->
-          <input type="submit" value="Subir Data" id="botonSubir.tab2">          <!-- este boton sube el contenido de los input_tex al notepad3 -->
-          <input type="submit" value="Clean Notes" id="botonCleanN.tab2">        <!-- este boton borra el texto cargado en notepad3 -->
-         </div>                                                            <!-- finalzia botones para notepad3  -->         
-         <hr>                                                              <!-- 6 linea divisoria   --> 
-       </div>   
+        </div>                                                             <!-- finaliza botones input text  || sub-botones -->           
+        <div class="notepad-container-3">                                  <!-- conteiner bloc de notas 3 -->
+          <div class="notepad notepad-3">                                   <!-- notepad3 -->
+            <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad3 -->
+            <textarea id="notepad3" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 50px; max-height: 370px;"></textarea>
+          </div>                                                            <!-- finaliza notepad3 -->
+          <div>                                                             <!-- botones para notepad3  --> 
+            <input type="submit" value="Bajar Data" id="botonBajarD.tab2">         <!-- este boton baja el contenido de los input_tex al notepad3 -->
+            <input type="submit" value="Copiar Data" id="botonCopiarD.tab2">       <!-- este boton copia el contenido cargardo en notepad3 -->
+            <input type="submit" value="Subir Data" id="botonSubir.tab2">          <!-- este boton sube el contenido de los input_tex al notepad3 -->
+            <input type="submit" value="Clean Notes" id="botonCleanN.tab2">        <!-- este boton borra el texto cargado en notepad3 -->
+          </div>                                                            <!-- finalzia botones para notepad3  -->         
+          <hr>                                                              <!-- 5 linea divisoria   --> 
+        </div>   
       </div>   
       <div id="tab_librerias_fiber" class="tab-content">                   <!-- boton - librerias fiber -->
-        <hr>                                                               <!-- 7 linea divisoria   -->                           
+        <hr>                                                               <!-- 5 linea divisoria   -->                           
         <div class="librerias-row">
-          <button class="tab-btn" id="btnSO-entrante" name="sopy_entrante">SoportePymes - IN</button>
-          <button class="tab-btn" id="btnSO-saliente" name="sopy_saliente">SoportePymes - OUT</button>  
-          <button class="tab-btn" id="btnSO-tickets" name="sopy_tickets">SoportePymes - TK</button>
+          <button class="tab-btn" id="btnRecomendadosPY" name="recomendados_py">RecomendadosPymes</button>
+          <button class="tab-btn" id="btnSoportePY" name="soporte_py">SoportePymes</button>
+          <button class="tab-btn" id="btnSoporteGC" name="soporte_gc">SoporteGC</button>
         </div>
-        <div class="librerias-row">
-          <button class="tab-btn" id="btnRE-entrante" name="repy_entrante">RecoPymes - IN</button>
-          <button class="tab-btn" id="btnRE-saliente" name="repy_saliente">RecoPymes - OUT</button>
-          <button class="tab-btn" id="btnRE-tickets" name="repy_tickets">RecoPymes - TK</button>
-        </div>
-        <div class="librerias-row">
-          <button class="tab-btn" id="btnSOGC-entrante" name="sogc_entrante">SoporteGC - IN</button>
-        </div>
-        <hr>                                                               <!-- 7 linea divisoria   -->  
-        <select id="libreria_sopy_entrante" class="modern">                <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-          <option value="IN-SO-PY-01.Ventas.(ND)">01. Ventas (ND)</option>
-          <option value="IN-SO-PY-02.Admin.(ND)">02. Admin (ND)</option>
-          <option value="IN-SO-PY-03.Encuesta.(ND)">03. Encuesta (ND)</option>
-          <option value="IN-SO-PY-04.Residencial.TECO">04. Residencial TECO</option>
-          <option value="IN-SO-PY-05.Residencial.HFC">05. Residencial HFC</option>
-          <option value="IN-SO-PY-06.Sin.DATOS.(FCL)">06. Sin.DATOS (FCL)</option>
-          <option value="IN-SO-PY-07.Enlace.PE.(generico1)">07. Enlace PE (generico1)</option>
-          <option value="IN-SO-PY-08.Enlace.PE.(generico2)">08. Enlace PE (generico2)</option>
-          <option value="IN-SO-PY-09.Enlace.PE.(contencion)">09. Enlace PE (contencion)</option>
-          <option value="IN-SO-PY-10.Enlace.UP.(cpe.particular)">10. Enlace UP (cpe particular)</option>
-          <option value="IN-SO-PY-11.Enlace.DOWN.(planilla.OT)">11. Enlace DOWN (planilla OT)</option>
-          <option value="IN-SO-PY-12.Enlace.DOWN.(agenda.OT)">12. Enlace DOWN (agenda OT)"</option>
-          <option value="IN-SO-PY-13.Enlace.DOWN.(reagenda.OT)">13. Enlace DOWN (reagenda OT)</option>
-          <option value="IN-SO-PY-14. Masivo.HFC">14. Masivo HFC"</option>
-          <option value="IN-SO-PY-15.NOC(escalamiento)">15. NOC (escalamiento)</option>
-          <option value="IN-SO-PY-16.NOC(pendiente)">16. NOC (pendiente)</option>
-          <option value="IN-SO-PY-17.NOC.(sin.ETR)">17. NOC (sin ETR)</option>
-          <option value="IN-SO-PY-18.NOC.(cloud-webmail)">18. NOC (cloud-webmail)</option>
-        </select> 
-        <select id="libreria_sopy_saliente" class="modern">                <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-          <option value="OUT-SO-PY-22.DMZ.SAGEMCOM.F@ST.5657">01. DMZ SAGEMCOM F@ST5657</option>
-          <option value="OUT-SO-PY-23.DMZ.NOKIA.G-240W-B">02. DMZ.NOKIA G-240W-B</option>
-          <option value="OUT-SO-PY-24.DMZ.ARCADYAN.PRV4439B">03. DMZ ARCADYAN PRV4439BT</option>
-          <option value="OUT-SO-PY-25.DMZ.HUAWEI.HG2845U">04. DMZ HUAWEI HG2845US</option>
-          <option value="OUT-SO-PY-26.DMZ.NOKIA.G-2425G-B">05. DMZ NOKIA G-2425G-B"</option>
-          <option value="OUT-SO-PY-27.DMZ.Huawei.HG8245W5-8T-V2">06. DMZ Huawei HG8245W5-8T-V2</option>
-          <option value="OUT-SO-PY-28.DMZ.NOKIA.G-240W-J">07. DMZ NOKIA G-240W-J</option>
-        </select> 
-        <select id="libreria_sopy_tickets" class="modern">                 <!-- selector de librerias macro -->   
+        <hr>                                                               <!-- 6 linea divisoria   -->  
+        <select id="libreria_recomendados_py" class="modern">                 <!-- selector de librerias macro -->   
           <option value="nulo">Selecciona una opción</option>
           <option value="TK-SO-PY-01.HFC-Seguimiento.(consulta.post.OT-gen1)">01. HFC-Seguimiento (consulta post OT-gen1)"</option>
           <option value="TK-SO-PY-02.HFC-Seguimiento.(consulta.post.OT-gen2)">02. HFC-Seguimiento (consulta post OT-gen2)</option>
@@ -195,37 +144,61 @@
           <option value="TK-SO-PY-19.GOL-Seguimiento.(consulta.cuenta-gen1)">19. GOL-Seguimiento (consulta cuenta-gen1)</option>
           <option value="TK-SO-PY-20.GOL-Seguimiento.(carga registros-DNS)">20. GOL-Seguimiento (carga registros-DNS)</option>
         </select> 
-        <select id="libreria_sopy_tickets" class="modern">                 <!-- selector de librerias macro -->   
+        <select id="libreria_soporte_py" class="modern">                <!-- selector de librerias macro -->   
           <option value="nulo">Selecciona una opción</option>
+          <option value="IN-SO-PY-01.Ventas.(ND)">01. Ventas (ND)</option>
+          <option value="IN-SO-PY-02.Admin.(ND)">02. Admin (ND)</option>
+          <option value="IN-SO-PY-03.Encuesta.(ND)">03. Encuesta (ND)</option>
+          <option value="IN-SO-PY-04.Residencial.TECO">04. Residencial TECO</option>
+          <option value="IN-SO-PY-05.Residencial.HFC">05. Residencial HFC</option>
+          <option value="IN-SO-PY-06.Sin.DATOS.(FCL)">06. Sin.DATOS (FCL)</option>
+          <option value="IN-SO-PY-07.Enlace.PE.(generico1)">07. Enlace PE (generico1)</option>
+          <option value="IN-SO-PY-08.Enlace.PE.(generico2)">08. Enlace PE (generico2)</option>
+          <option value="IN-SO-PY-09.Enlace.PE.(contencion)">09. Enlace PE (contencion)</option>
+          <option value="IN-SO-PY-10.Enlace.UP.(cpe.particular)">10. Enlace UP (cpe particular)</option>
+          <option value="IN-SO-PY-11.Enlace.DOWN.(planilla.OT)">11. Enlace DOWN (planilla OT)</option>
+          <option value="IN-SO-PY-12.Enlace.DOWN.(agenda.OT)">12. Enlace DOWN (agenda OT)"</option>
+          <option value="IN-SO-PY-13.Enlace.DOWN.(reagenda.OT)">13. Enlace DOWN (reagenda OT)</option>
+          <option value="IN-SO-PY-14. Masivo.HFC">14. Masivo HFC"</option>
+          <option value="IN-SO-PY-15.NOC(escalamiento)">15. NOC (escalamiento)</option>
+          <option value="IN-SO-PY-16.NOC(pendiente)">16. NOC (pendiente)</option>
+          <option value="IN-SO-PY-17.NOC.(sin.ETR)">17. NOC (sin ETR)</option>
+          <option value="IN-SO-PY-18.NOC.(cloud-webmail)">18. NOC (cloud-webmail)</option>
         </select> 
-        <select id="libreria_repy_entrante" class="modern">                 <!-- selector de librerias macro -->   
+        <select id="libreria_soporte_gc" class="modern">                <!-- selector de librerias macro -->   
           <option value="nulo">Selecciona una opción</option>
-        </select> 
-        <select id="libreria_repy_saliente" class="modern">                 <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-        </select> 
-        <select id="libreria_repy_tickets" class="modern">                 <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-        </select> 
-        <select id="libreria_sogc_entrante" class="modern">                 <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
+          <option value="OUT-SO-PY-22.DMZ.SAGEMCOM.F@ST.5657">01. DMZ SAGEMCOM F@ST5657</option>
+          <option value="OUT-SO-PY-23.DMZ.NOKIA.G-240W-B">02. DMZ.NOKIA G-240W-B</option>
+          <option value="OUT-SO-PY-24.DMZ.ARCADYAN.PRV4439B">03. DMZ ARCADYAN PRV4439BT</option>
+          <option value="OUT-SO-PY-25.DMZ.HUAWEI.HG2845U">04. DMZ HUAWEI HG2845US</option>
+          <option value="OUT-SO-PY-26.DMZ.NOKIA.G-2425G-B">05. DMZ NOKIA G-2425G-B"</option>
+          <option value="OUT-SO-PY-27.DMZ.Huawei.HG8245W5-8T-V2">06. DMZ Huawei HG8245W5-8T-V2</option>
+          <option value="OUT-SO-PY-28.DMZ.NOKIA.G-240W-J">07. DMZ NOKIA G-240W-J</option>
         </select> 
         <div class="notepad-container-4">                                  <!-- conteiner bloc de notas 4 --> 
-          <div class="notepad notepad-4">                                  <!-- notepad4 -->
+        <div class="notepad notepad-4">                                  <!-- notepad4 -->
           <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad4 -->
           <textarea id="notepad4" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
-         </div>                                                            <!-- finaliza notepad4 -->
+        </div>                                                            <!-- finaliza notepad4 -->
         </div> 
         <div id="output"></div>                                            <!-- salida de texto -->
         <div>                                                              <!-- botones para notepad4  --> 
-         <input type="submit" value="Exportar" id="botonExportar.tab2">          <!-- este boton carga la libreria seleccionada en notepad4 -->
-         <input type="submit" value="Cargar" id="botonCargar.tab2">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad4  -->
-         <input type="submit" value="Copiar" id="botonCopiar.tab2">              <!-- este boton copia el texto cargado en notepad4 -->
-         <input type="submit" value="Limpiar" id="botonLimpiar.tab2">            <!-- este boton borra el texto cargado en notepad4 -->
+          <input type="submit" value="Exportar" id="botonExportar.tab2">          <!-- este boton carga la libreria seleccionada en notepad4 -->
+          <input type="submit" value="Cargar" id="botonCargar.tab2">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad4  -->
+          <input type="submit" value="Copiar" id="botonCopiar.tab2">              <!-- este boton copia el texto cargado en notepad4 -->
+          <input type="submit" value="Limpiar" id="botonLimpiar.tab2">            <!-- este boton borra el texto cargado en notepad4 -->
         </div>     
       </div>                  
       <div class="footer">                                                 <!-- footer-->
         <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
       </div>                                                               <!-- footer-->
     </div>                                                                 <!-- finaliza conteiner tab2 --> 
- </div>                                                                    <!-- finaliza tab2 - MAILS FIBER* --> 
+  </div>                                                                   <!-- finaliza tab2 - MAILS FIBER* --> 
+</body>
+</html>
+
+
+
+
+
+

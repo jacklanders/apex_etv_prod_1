@@ -151,7 +151,7 @@ function cargarLibreriaSeleccionada() {
     var selectElement = document.getElementById("librerias_incidentes");       // Obtener el elemento select 
     var selectedValue = selectElement.value;                                   // Obtener el valor seleccionado
     selectedValue = decodeURIComponent(selectedValue);                         // Decodificar la URL
-    var url = "librerias/02.ICD.IN.SS/" + selectedValue + ".sublime-snippet";  // Construir la URL del archivo .sublime-snippet
+    var url = "librerias_incidentes/" + selectedValue + ".sublime-snippet";  // Construir la URL del archivo .sublime-snippet
     fetch(url)                                                                 // Realizar la carga del contenido
     .then(response => response.text())
     .then(data => {                                                            // Muestra el contenido en el textarea notepad2

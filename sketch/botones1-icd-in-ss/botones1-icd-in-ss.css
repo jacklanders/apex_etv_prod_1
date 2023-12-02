@@ -1,0 +1,294 @@
+/* - ************************* CODGIGO CSS - TAB1 *************************** - 
+//
+//
+//
+//
+- ************************* CODGIGO CSS  - TAB1 ************************** - */
+
+
+
+
+/*   *********************** CODGIGO CSS || COMENTARIOS ********************** */
+  /* background-color: #060606;             /* Color de fondo */
+  /* color: #fff;                           /* Color del texto */
+  /* margin: 5px;                           /* Márgenes */
+  /* font-family: sans-serif;               /* Fuente */
+  /* font-size: 14px;                       /* Tamaño de fuente */
+  /* font-weight: 700;                      /* Grosor de fuente */
+  /* height: fit-content;                   /* Altura basada en el contenido */
+  /* margin-bottom: 5px;                    /* Márgen inferior */
+
+
+  /* min-width: 350px;                      /* Ancho mínimo */
+  /* max-width: 700px;                      /* Ancho máximo */
+  /* padding: 20px;                         /* Relleno interior */
+  /* border: 1px solid #00fad0;             /* Borde sólido */
+  /* line-height: 1.5;                      /* Altura de línea */
+  /* padding: 0 1em;                        /* Relleno superior e inferior y padding izquierdo y derecho */
+  /* background-color: #1a1a1a;             /* Color de fondo */
+  /* border-radius: 5px;                    /* Radio de borde */
+  /* position: relative;                    /* Posición relativa */
+  /* width: auto;                           /* Ancho automático */
+  /* height: auto;                          /* Altura automática */
+  /* margin-bottom: 3px;                    /* Márgen inferior */
+
+
+  /* margin-top: 5px;                       /* Márgen superior */
+  /* margin-bottom: 5px;                    /* Márgen inferior */
+  /* display: flex;                         /* Elementos flexibles */
+  /* flex: 1;                               /* Expansión en el espacio disponible */
+  /* background-color: #525151;             /* Color de fondo */
+  /* color: #fff;                           /* Color del texto */
+  /* border: none;                          /* Sin borde */
+  /* padding: 10px;                         /* Relleno */
+  /* font-size: 10px;                       /* Tamaño de fuente */
+  /* cursor: pointer;                       /* Cambio de cursor */
+  /* background-color: #1a1a1a;             /* Color de fondo */
+  /* display: none;                         /* Ocultar inicialmente */
+  /* display: flex;                         /* Mostrar como elementos flexibles */
+  /* align-items: flex-start;               /* Alineación de elementos secundarios en la parte superior */
+  /* display: inline-block;
+  /* width: 22%;
+  /* vertical-align: top;
+  /* margin-left: 2px;
+  /* margin-right: 3px;
+
+  /* align-items: center;                   /* Alinea verticalmente si es necesario */
+/*   *********************** CODGIGO CSS || COMENTARIOS ********************** */
+
+
+
+
+/* - ***************************** MAQUETA INICIAL ************************* - */
+body {                          /* Establece los estilos generales para el cuerpo de la página */
+    background-color: #060606; 
+    color: #fff;
+    margin: 5px; 
+    font-family: sans-serif; 
+    font-size: 14px; 
+    font-weight: 700; 
+    height: fit-content; 
+    margin-bottom: 5px; 
+    max-width: 800px;   /* verificar */
+    margin-left: auto;  /* verificar */
+    margin-right: auto; /* verificar */
+  
+  }
+  /* - ***************************** MAQUETA INICIAL ************************* - */
+  
+  
+  
+  /* - ******************************** CONTEINER **************************** - */
+  .container {                    /* Estilos para el contenedor principal */
+    min-width: 350px; 
+    max-width: 700px; 
+    padding: 20px; 
+    border: 1px solid #00fad0; 
+    line-height: 1.5; 
+    padding: 0 1em; 
+    background-color: #1a1a1a; 
+    border-radius: 5px; 
+    position: relative; 
+    width: auto; 
+    height: auto; 
+    margin-bottom: 10px; 
+  }
+  .tabs {                         /* Estilos para los botones superiores */
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    display: flex; 
+  }
+  .tab-btn {                      /* Estilos para los botones de pestañas */
+    flex: 1; 
+    background-color: #525151; 
+    color: #fff; 
+    border: none; 
+    padding: 10px; 
+    font-size: 10px; 
+    cursor: pointer; 
+  }
+  .tab-btn.active {               /* Estilos para el botón de pestaña activa */
+    background-color: #1a1a1a; 
+  }
+  .tab-content {                  /* Estilos para el contenido de las pestañas */
+    display: block; 
+  }
+  .tab-content.active {           /* Estilos para el contenido de pestañas activas */
+    display: flex; 
+    align-items: flex-start; 
+  }
+  .columna {                      /* Estilos para columnas en paralelo */
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    margin-left: 2px;
+    margin-right: 3px;
+  }
+  /* - ******************************** CONTEINER **************************** - */
+  
+  
+  
+  /* - ****************************** SUBCONTEINER *************************** - */
+  .subcontainer {                    /* Estilos para el contenedor principal */
+    min-width: 350px; 
+    max-width: 700px; 
+    padding: 20px; 
+    /*border: 1px solid #00fad0; */
+    /*line-height: 1.5; */
+    padding: 0 1em; 
+    background-color: #1a1a1a; 
+    border-radius: 5px; 
+    position: relative; 
+    width: auto; 
+    height: auto; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .subcontainer .tab-btn {
+    margin: 5px; 
+  }
+  
+  .icd {                          /* Estilos para el contenedor de columnas */
+    overflow: hidden;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    position: relative;
+  }
+  hr {                            /* Estilos para la línea divisoria HR */
+    border: 0;
+    width: 350px;
+    height: 1px;
+    background: #00fad0;
+    margin-top: 1px;
+  }
+  label {                         /* Estilos para etiquetas */
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 12px;
+    color: #01ffc8;
+  }
+  input[type="text"] {            /*  para cuadros de texto */
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    height: 5px;
+    border-radius: 5px;
+  }
+  /* - ****************************** SUBCONTEINER *************************** - */
+  
+  
+  
+  
+  /* - ***********************  NOTEPAD || bloc de notas ********************* - */
+  .notepad {                      /* Estilos para el bloc de notas */
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 45px;
+    max-height: auto;
+    background-color: #ffffff;
+    border: px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    color: #000000;
+    resize: initial;
+    overflow: auto;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 3px;
+  }
+  /* - ***********************  NOTEPAD || bloc de notas ********************* - */
+  
+  
+  
+  
+  /* ********************** NOTEPAD || botones y selector ******************** - */                  
+  input[type="submit"] {          /* Estilos para botones de envío */
+    background-color: #424242d4;
+    color: #fbeb95;
+    border: none;
+    padding: 8px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-top: 4px;
+    margin-left: 3px;
+    border-radius: 5px;
+  }
+  input[type="submit"]:active {   /* Estilos para botones de envío activos */
+    background-color: #1a1a1a;
+    box-shadow: 0 0px #424242d4;
+    transform: translateY(1px);
+  }
+  select.modern {                 /* Estilos para selectores */
+    width: 340px;
+    height: 35px;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 12px;
+    border: 2px solid #91955b;
+    border-radius: 8px;
+    background-color: #424242d4;
+    color: #fbeb95;
+  }
+  select.modern option {          /*  para opciones de selectores */
+    width: 340px;
+    height: 35px;
+    font-size: 12px;
+    border: 0px solid #f7f7f7;
+    background-color: #424242d4;
+    color: #fbeb95;
+  }
+  /* ********************** NOTEPAD || botones y selector ******************** - */                  
+  
+
+  
+  /* ***************************** PIE DE PAGINA ***************************** - */                  
+  .footer {
+    font-size: 10px;
+    color: #00fad0;
+    text-align: center;
+    margin-bottom: 0.5px;
+  }
+  /* ***************************** PIE DE PAGINA ***************************** - */               
+  
+  
+
+
+
+
+
+
+
+    /* input_text label.html (configuracion ocultar) */
+.hidden-section {
+  display: none;                 /* - Oculta las secciones de información por defecto - */
+}
+.show-icon {
+  cursor: pointer;
+  float: right;                  /* - Alinea a la derecha usando float - */
+}
+
+/* background body.html (fondo de pantalla) */
+body {
+  background-image: url('2019-07-27\ 17.10.51.jpg');
+  background-size: cover;
+  background-attachment: local;  /* - Esta línea hace que el fondo sea fijo - */
+}
+img[alt=""] {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+    /* input_text label.html (configuracion ocultar) */

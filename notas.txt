@@ -1,0 +1,181 @@
+    <div id="tab_icd-in-ss" class="tab-content">                             <!-- codigo tab1 - ICD IN-SS*-->
+     <div class="container">                                                 <!-- conteiner tab1 -->
+      <div class="subcontainer">                                             <!-- subconteiner tab1 -->
+       <button class="tab-btn" id="btngestion_in_tab1" name="tab_gestion_in">GESTION IN </button>     
+       <button class="tab-btn" id="btnlibrerias_incidentes_ss_tab1" name="tab_incidentes_ss">INCIDENTES</button>    
+       <button class="tab-btn" id="btnreturn_tab1" name="tab_return">&#x21A9</button>
+      </div>                                                                 <!-- finaliza subconteiner tab1 -->
+      <div id="tab_gestion_in" class="tab-content">                          <!-- conteiner tab 1 - gestion in -->
+      <div class="botones_incidentes">                                       <!-- botones input text || IN-SS --> 
+        <form class="columna">                                               <!--   -->  
+           <label for="cuit_tab1">CUIT:</label>                              <!--   -->  
+           <input type="text" id="cuit_tab1" value="-" >                     <!--   -->         
+        </form>                                                              <!-- Boton 1 - 1. CUIT --> 
+        <form class="columna">                                               <!---   -->  
+          <label for="cliente_tab1">CLIENTE:</label>                         <!--   -->  
+          <input type="text" id="cliente_tab1" value="-" >                   <!--   -->         
+        </form>                                                              <!-- Boton 1 - 2. CLIENTE --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="mercado_tab1">MERCADO:</label>                         <!--   -->  
+          <input type="text" id="mercado_tab1" value="-" >                   <!--   -->         
+        </form>                                                              <!-- Boton 1 - 3. MERCADO -->
+        <hr>                                                                 <!-- 1 linea divisoria -->  
+        <form class="columna">                                               <!--   -->  
+          <label for="referencia_tab1">REF.:</label>                         <!--   -->  
+          <input type="text" id="referencia_tab1" value="-" >                <!--   -->  
+        </form>                                                              <!-- Boton 1 - 4. REF. --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="linea_tab1">LINEA:</label>                             <!--   -->  
+          <input type="text" id="linea_tab1" value="-" >                     <!--   -->  
+        </form>                                                              <!-- Boton 1 - 5. LINEA --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="ticket_in_tab1">TICKET IN:</label>                     <!--   -->  
+          <input type="text" id="ticket_in_tab1" value="-" >                 <!--   -->  
+        </form>                                                              <!-- Boton 1 - 6. TICKET IN --> 
+        <hr>                                                                 <!-- 2 linea divisoria --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="nombre_tab1">Nombre:</label>                           <!--   -->  
+          <input type="text" id="nombre_tab1" value="-" >                    <!--   -->  
+        </form>                                                              <!-- Boton 1 - 7. Nombre --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="tel_contacto_tab1">Tel.Ct.:</label>                    <!--   -->  
+          <input type="text" id="tel_contacto_tab1" value="-" >              <!--   -->  
+        </form>                                                              <!-- Boton 1 - 8. Tel.Contacto --> 
+        <form class="columna">                                               <!--   --> 
+          <label for="mail_tab1">Mail:</label>                               <!--   -->  
+          <input type="text" id="mail_tab1" value="-" >                      <!--   -->  
+        </form>                                                              <!-- Boton 1 - 9. Mail --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="domicilio_tab1">Domicilio:</label>                     <!--   -->  
+          <input type="text" id="domicilio_tab1" value="-" >                 <!--   -->  
+        </form>                                                              <!-- Boton 1 - 19. Domicilio--> 
+        <form class="columna">                                               <!--   -->  
+          <label for="disponibilidad_tab1">H - D:</label>                    <!--   -->  
+          <input type="text" id="disponibilidad_tab1" value="08-16HS" >      <!--   -->   
+        </form>                                                              <!-- Boton 1 - 11. Disponibilidad --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="btAcceso_tab1">Doc.Acc.:</label>                       <!--   -->  
+          <select id="btAcceso_tab1">                                        <!--   -->  
+            <option value="SI">SI</option>                                   <!--   -->  
+            <option value="NO" selected>NO</option>                          <!-- Esta opción se seleccionará por defecto -->
+          </select>                                                          <!--   -->  
+        </form>                                                              <!-- Boton 1 - 12. Doc. Acceso --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="btTerraza_tab1">ToT:</label>                           <!--   -->  
+          <select id="btTerraza_tab1">                                       <!--   -->  
+            <option value="SI" selected>SI</option>                          <!-- Esta opción se seleccionará por defecto -->
+            <option value="NO">NO</option>                                   <!--   -->  
+          </select>                                                          <!--   -->  
+        </form>                                                              <!-- Boton 1 - 13. Techo o Terraza -->  
+        <form class="columna">                                               <!--   -->  
+          <label for="btCovid_tab1">Covid19:</label>                         <!--   -->  
+          <select id="btCovid_tab1">                                         <!--   -->  
+            <option value="SI">SI</option>                                   <!--   -->  
+            <option value="NO" selected>NO</option>                          <!-- Esta opción se seleccionará por defecto -->
+          </select>                                                          <!--   -->  
+        </form>                                                              <!-- Boton 1 - 14. Covid19 --> 
+        <hr>                                                                 <!-- 3 linea divisoria  --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="cm_tab1">CM MAC:</label>                               <!--   -->  
+          <input type="text" id="cm_tab1" value="-" >                        <!--   -->  
+        </form>                                                              <!-- Boton 1 - 15. CM MAC --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="nodo_tab1">NODO:</label>                               <!--   -->  
+          <input type="text" id="nodo_tab1" value="-" >                      <!--   -->  
+        </form>                                                              <!-- Boton 1 - 16. NODO --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="ot_tab1">OT:</label>                                   <!--   -->  
+          <input type="text" id="ot_tab1" value="-" >                        <!--   -->  
+        </form>                                                              <!-- Boton 1 - 17. OT --> 
+        <hr>                                                                 <!-- 4 linea divisoria   --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="cpe_mac_tab1">CPE - MAC:</label>                       <!--   -->  
+          <input type="text" id="cpe_mac_tab1" value="-" >                   <!--   -->  
+        </form>                                                              <!-- Boton 1 - 18. CPE - MAC --> 
+        <form class="columna">                                               <!--   -->  
+          <label for="cpe_ip_tab1">CPE - IP:</label>                         <!--   -->  
+          <input type="text" id="cpe_ip_tab1" value="-" >                    <!--   -->   
+        </form>                                                              <!-- Boton 1 - 18. CPE - IP -->  
+        <form class="columna">                                               <!--   -->  
+          <label for="cpe_model_tab1">CPE:</label>                           <!--   -->  
+          <input type="text" id="cpe_model_tab1" value="-" >                 <!--   -->     
+        </form>                                                              <!-- Boton 1 - 20. CPE - MODEL --> 
+        <hr>                                                                 <!-- 5 linea divisoria   --> 
+      </div>                                                                 <!-- finaliza botones input text -->
+      <div class="notepad-container-1">                                      <!-- conteiner bloc de notas 1 -->
+        <div class="notepad notepad-1">                                      <!-- notepad1 -->
+           <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad1 -->
+           <textarea id="notepad1" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 50px; max-height: 370px;"></textarea>
+        </div>                                                               <!-- finaliza notepad1 -->
+        <div>                                                                <!-- botones para notepad1  --> 
+          <input type="submit" value="Bajar Data" id="botonBajarD">               <!-- este boton baja el contenido de los input_tex al notepad1 -->
+          <input type="submit" value="Copiar Data" id="botonCopiarD">             <!-- este boton copia el contenido cargardo en notepad1 -->
+          <input type="submit" value="Subir Data" id="botonSubir">                <!-- este boton sube el contenido de los input_tex al notepad1 -->
+          <input type="submit" value="Clean Notes" id="botonCleanN">              <!-- este boton borra el texto cargado en notepad1 -->
+        </div>                                                               <!-- finalzia botones para notepad1  -->         
+        <hr>                                                                 <!-- 6 linea divisoria --> 
+      </div>                                                                 <!-- finaliza conteiner bloc de notas 1 --> 
+      </div>
+      <div id="tab_incidentes_ss" class="tab-content">                       <!-- conteiner tab1 - incidentes ss -->
+        <select id="librerias_incidentes" class="modern">                    <!-- selector de librerias macro -->   
+           <option value="nulo">Selecciona una opción</option>
+           <option value="01.ICD.IN.NO.NAVEGA.HFC-CCTV-(GC)">01. NO NAVEGA - HFC CCTV (GC)</option>
+           <option value="02.ICD.IN.NO.NAVEGA.HFC-sin-OT">02. NO NAVEGA - HFC sin OT</option>
+           <option value="03.ICD.IN.NO.NAVEGA.HFC-con-OT">03. NO NAVEGA - HFC con OT</option>
+           <option value="04.ICD.IN.NO.NAVEGA.HFC-sin-CORTES">04. NO NAVEGA - HFC sin  CORTES</option>
+           <option value="05.ICD.IN.NO.NAVEGA.HFC-con-CORTES">05. NO NAVEGA - HFC con CORTES</option>
+           <option value="06.ICD.IN.NO.NAVEGA.HFC-reset-CM">06. NO NAVEGA - HFC reset CM</option>
+           <option value="07.ICD.IN.NO.NAVEGA.HFC-ToIP">07. NO NAVEGA - HFC ToIP</option>
+           <option value="08.ICD.IN.NO.NAVEGA.HFC-sin-alertar-MASIVO">08. MASIVO - HFC sin alertar</option>
+           <option value="09.ICD.IN.NO.NAVEGA.HFC-alertado-MASIVO">09. MASIVO - HFC alertado</option>
+           <option value="10.ICD.IN.NO.NAVEGA.HFC-reitera-MASIVO">10. MASIVO - HFC reitera</option>
+           <option value="11.ICD.IN.NO.NAVEGA.FTTH-CCTV-(GC)">11. NO NAVEGA - FTTH CCTV</option>
+           <option value="12.ICD.IN.NO.NAVEGA.FTTH-sin-OT">12. NO NAVEGA - FTTH sin OT</option>
+           <option value="13.ICD.IN.NO.NAVEGA.FTTH-con-OT">13. NO NAVEGA - FTTH con OT</option>
+           <option value="14.ICD.IN.NO.NAVEGA.FTTH-ToIP">14. NO NAVEGA - FTTH ToIP</option>
+           <option value="15.ICD.IN.NO.NAVEGA.FTTH-NOC">15. NO NAVEGA - FTTH NOC</option>
+           <option value="16.ICD.IN.CATV.FLOW.HFC-con-OT">16. CATV FLOW - con OT</option>
+           <option value="17.ICD.IN.DECO.FLOW.HFC-sin-OT">17. DECO FLOW - sin OT</option>
+           <option value="18.ICD.IN.DECO.FLOW.HFC-con-OT">18. DECO FLOW - con OT</option>
+           <option value="19.ICD.IN.DECO.FLOW.HFC-NOC">19. DECO FLOW - NOC</option>
+           <option value="20.ICD.IN.NO.NAVEGA.TECO-ARNET-sin-OT">20. NO NAVEGA - TECO ARNET sin OT</option>
+           <option value="21.ICD.IN.NO.NAVEGA.TECO-ARNET-con-OT">21. NO NAVEGA - TECO ARNET con OT</option>
+           <option value="22.ICD.IN.SIN.TONO.TECO-sin-OT">22. SIN TONO - TECO sin OT</option>
+           <option value="23.ICD.IN.SIN.TONO.TECO-con-OT">23. SIN TONO - TECO con OT</option>
+           <option value="24.ICD.IN.SIN.TONO.TECO-TTL">24. SIN TONO - TECO TTL</option>
+           <option value="25.ICD.IN.ENLACE.FIBRA-Integra-Hyperway">25. ENLACE FIBRA - Integra/Hyperway</option>
+           <option value="26.ICD.IN.INTERNET.DEDICADO-sin-link-SCO">26. INTERNET DEDICADO - sin link SCO</option>
+           <option value="27.ICD.IN.INTERNET.DEDICADO-con link SCO">27. INTERNET DEDICADO - con link SCO</option>
+           <option value="28.ICD.IN.CLOUD.OFFICE-registrado">28. CLOUD OFFICE - registrado</option>
+           <option value="29.ICD.IN.CLOUD.OFFICE-no registrado">29. CLOUD OFFICE - no registrado</option>
+           <option value="30.ICD.IN.CLOUD.OFFICE-masivo">30. CLOUD OFFICE - masivo</option>
+           <option value="31.ICD.IN.OT-incumplida">31. OT - incumplida</option>
+           <option value="32.ICD.IN.OT.Adelanto.Agenda-sin-escalar">32. IN.OT - Adelanto/Agenda - sin escalar</option>
+           <option value="33.ICD.IN.OT.Adelanto.Agenda-escalado">33. IN-OT - Adelanto/Agenda - escalado</option>
+           <option value="34.ICD.SS.Config.WIFI">34. Config. Wifi</option>
+           <option value="35.ICD.SS.Config.NAT">35. Config NAT</option>
+           <option value="36.ICD.SS.Config.BRIDGE">36. Config BRIDGE</option>
+           <option value="37.ICD.SS.Config.IP-FIJA">37. Config IP-FIJA</option>
+           <option value="38.ICD.SS.Adelanto.Agenda-OT-escalado">38. SS.OT - Adelanto/Agenda - escalado (gen1)</option>
+           <option value="39.ICD.SS.Adelanto.Agenda-OT-escalado">39. SS.OT - Adelanto/Agenda - escalado (gen2)</option>
+        </select>
+        <div class="notepad-container-2">                                    <!-- conteiner bloc de notas 2 -->
+        <div class="notepad notepad-2">                                      <!-- notepad2 -->
+            <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad2 -->
+            <textarea id="notepad2" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+        </div>                                                               <!-- finaliza notepad2 -->
+        <div id="output"></div>                                              <!-- salida de texto -->
+        <div>                                                                <!-- botones para notepad2  --> 
+           <input type="submit" value="Exportar" id="botonExportar">               <!-- este boton carga la libreria seleccionada en notepad2 -->
+           <input type="submit" value="Cargar" id="botonCargar">                   <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad2  -->
+           <input type="submit" value="Copiar" id="botonCopiar">                   <!-- este boton copia el texto cargado en notepad2 -->
+           <input type="submit" value="Limpiar" id="botonLimpiar">                 <!-- este boton borra el texto cargado en notepad2 -->
+           <input type="submit" value="Clean All" id="botonCleanA">                <!-- este boton borra el texto cargado en input text y los notepad 1-2 -->
+        </div>                                                               <!-- finaliza botones para notepad2  -->         
+      </div>                                                                 <!-- finaliza conteiner bloc de notas2 --> 
+      </div>                                                                                                                                 
+      <div class="footer">                                                   <!-- footer-->
+         <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>    
+      </div>                                                                <!-- footer-->
+     </div>                                                                 <!-- finaliza conteiner tab1 --> 
+    </div>                                                                   <!-- finaliza tab1 - ICD IN-SS* --> 
