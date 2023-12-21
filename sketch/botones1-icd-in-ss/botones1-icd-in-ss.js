@@ -11,29 +11,40 @@
 document.addEventListener('DOMContentLoaded', function() {                                                    
     // Obtener referencias a los elementos del DOM
     var tabGestionIn = document.getElementById("tab_gestion_in");
-    var tabIncidentesSS = document.getElementById("tab_incidentes_ss");
+    var tabNotas = document.getElementById("tab_notas");
+    var tabRegistros = document.getElementById("tab_tickets");
     var btnGestionIn = document.getElementById("btngestion_in_tab1");
-    var btnIncidentesSS = document.getElementById("btnlibrerias_incidentes_ss_tab1");
+    var btnNotas = document.getElementById("btnnotas_tab1");
+    var btnRegistros= document.getElementById("btnlibrerias_tickets_tab1");
     var btnReturn = document.getElementById("btnreturn_tab1");
   
     // Función para mostrar la pestaña de "Gestión In"
     function mostrarGestionIn() {
       tabGestionIn.style.display = "block";
-      tabIncidentesSS.style.display = "none";
+      tabRegistros.style.display = "none";
+      tabNotas.style.display = "none";
     }
     // Función para mostrar la pestaña de "Incidentes SS"
-    function mostrarIncidentesSS() {
+    function mostrarRegistros() {
         tabGestionIn.style.display = "none";
-        tabIncidentesSS.style.display = "block";
+        tabRegistros.style.display = "block";
+        tabNotas.style.display = "none";
     }
+    function mostrarNotas() {
+        tabGestionIn.style.display = "none";
+        tabRegistros.style.display = "none";
+        tabNotas.style.display = "block";
+      }
     // Función para cerrar ambas pestañas
     function cerrarPestañas() {
       tabGestionIn.style.display = "none";
-      tabIncidentesSS.style.display = "none";
+      tabRegistros.style.display = "none";
+      tabNotas.style.display = "none";
     }
     // Agregar oyentes de clic a los botones
     btnGestionIn.addEventListener("click", mostrarGestionIn);
-    btnIncidentesSS.addEventListener("click", mostrarIncidentesSS);
+    btnNotas.addEventListener("click",mostrarNotas);
+    btnRegistros.addEventListener("click", mostrarRegistros);
     btnReturn.addEventListener("click", cerrarPestañas);
   
   
@@ -58,70 +69,127 @@ function autoAjustar(textarea) {
 
 // ******* BOTON BAJAR DATA ******* INICIO *******    
 document.getElementById("botonBajarD").addEventListener("click", function() { 
+    var mercado = document.getElementById("mercado_tab1").value;
+    var cliente = document.getElementById("cliente_tab1").value;
     var cuit = document.getElementById("cuit_tab1").value;
-    var referencia = document.getElementById("referencia_tab1").value;
+    var producto = document.getElementById("producto_tab1").value;
     var linea = document.getElementById("linea_tab1").value;
     var ticket_in = document.getElementById("ticket_in_tab1").value;
     var nombre = document.getElementById("nombre_tab1").value;
     var tel_contacto = document.getElementById("tel_contacto_tab1").value;
     var mail = document.getElementById("mail_tab1").value;
-    var domicilio = document.getElementById("domicilio_tab1").value;
     var disponibilidad = document.getElementById("disponibilidad_tab1").value;
     var docAcceso = document.getElementById("btAcceso_tab1").value;
     var tot = document.getElementById("btTerraza_tab1").value;
     var covid = document.getElementById("btCovid_tab1").value;
+    var domicilio = document.getElementById("domicilio_tab1").value;
+    var uptime = document.getElementById("uptime_tab1").value;
     var cm = document.getElementById("cm_tab1").value;
     var nodo = document.getElementById("nodo_tab1").value;
     var ot = document.getElementById("ot_tab1").value;
     var cpe_mac = document.getElementById("cpe_mac_tab1").value;
     var cpe_ip = document.getElementById("cpe_ip_tab1").value;
     var cpe_model = document.getElementById("cpe_model_tab1").value;
+    var ip_wan = document.getElementById("ip_wan_tab1").value;
+    var ip_sco= document.getElementById("ip_sco_tab1").value;
+    var port_sco = document.getElementById("port_sco_tab1").value;
+    var ticket_cliente = document.getElementById("tk_cliente_tab1").value;
+    var resumen = document.getElementById("resumen_tab1").value;
+    var ot_cliente = document.getElementById("ot_cliente_tab1").value;
 
-   
-    // Concatena los valores de los campos de entrada con "||" como separador
-    var clipboardText = cuit + " || " + referencia + " || " + linea + " || " + ticket_in + " || " +
-       nombre + " || " + tel_contacto + " || " + mail + " || " + domicilio + " || " + disponibilidad + " || " +
-       docAcceso + " || " + tot + " || " + covid + " || " + cm + " || " + nodo + " || " + ot + " || " + 
-       cpe_mac + " || " + cpe_ip + " || " + cpe_model;
-       
-     // Asigna el contenido concatenado a notepad1
-    var notepad1 = document.getElementById("notepad1");
-    notepad1.value = clipboardText;
-    // Ajusta la altura de notepad1 después de pegar los datos
-    autoAjustar(notepad1);
-    });
+    // Crear un array para almacenar los valores válidos
+    var valoresValidos = [];
+    
+      // Verificar cada campo y agregarlo al array solo si no está vacío o es diferente de "-"
+      if (mercado !== "" && mercado !== "-") valoresValidos.push(mercado);
+      if (cliente !== "" && cliente !== "-") valoresValidos.push(cliente);
+      if (cuit !== "" && cliente !== "-") valoresValidos.push(cuit);
+      if (producto !== "" && cliente !== "-") valoresValidos.push(producto);
+      if (linea !== "" && cliente !== "-") valoresValidos.push(linea);
+      if (ticket_in !== "" && cliente !== "-") valoresValidos.push(ticket_in);
+      if (nombre !== "" && cliente !== "-") valoresValidos.push(nombre);
+      if (tel_contacto !== "" && cliente !== "-") valoresValidos.push(tel_contacto);
+      if (mail !== "" && cliente !== "-") valoresValidos.push(mail);
+      if (disponibilidad !== "" && cliente !== "-") valoresValidos.push(disponibilidad);
+      if (docAcceso !== "" && cliente !== "-") valoresValidos.push(docAcceso);
+      if (tot !== "" && cliente !== "-") valoresValidos.push(tot);
+      if (covid !== "" && cliente !== "-") valoresValidos.push(covid);
+      if (domicilio !== "" && cliente !== "-") valoresValidos.push(domicilio);
+      if (uptime !== "" && cliente !== "-") valoresValidos.push(uptime);
+      if (cm !== "" && cliente !== "-") valoresValidos.push(cm);
+      if (nodo !== "" && cliente !== "-") valoresValidos.push(nodo);
+      if (ot !== "" && cliente !== "-") valoresValidos.push(ot);
+      if (cpe_mac !== "" && cliente !== "-") valoresValidos.push(cpe_mac);
+      if (cpe_ip !== "" && cliente !== "-") valoresValidos.push(cpe_ip);
+      if (cpe_model !== "" && cliente !== "-") valoresValidos.push(cpe_model);
+      if (ip_wan !== "" && cliente !== "-") valoresValidos.push(ip_wan);
+      if (ip_sco !== "" && cliente !== "-") valoresValidos.push(ip_sco);
+      if (port_sco !== "" && cliente !== "-") valoresValidos.push(port_sco);
+      if (ticket_cliente !== "" && cliente !== "-") valoresValidos.push(ticket_cliente);
+      if (resumen !== "" && cliente !== "-") valoresValidos.push(resumen);
+      if (ot_cliente !== "" && cliente !== "-") valoresValidos.push(ot_cliente);
+  
+      // Unir los valores válidos con " || " como separador
+      var clipboardText = valoresValidos.join(" || ");
+  
+      // Asignar el contenido concatenado a notepad1
+      var notepad1 = document.getElementById("notepad1");
+      notepad1.value = clipboardText;
+  
+      // Ajustar la altura de notepad1 después de pegar los datos
+      autoAjustar(notepad1);
+});
 // ******* BOTON COPIAR DATA ******* INICIO *******    
 document.getElementById("botonCopiarD").addEventListener("click", function() {  
     var notepad1 = document.getElementById("notepad1");
     notepad1.select();                                                  // Selecciona todo el texto en el notepad2
     document.execCommand("copy");                                       // Copia el texto seleccionado al portapapeles
     window.getSelection().removeAllRanges();                            // Deselecciona el texto para que no quede resaltado
-    alert("Texto copiado al portapapeles");                             // Puedes mostrar un mensaje indicando que el texto se copió al portapapeles  
-    });
+    
+    // Mostrar mensaje por un corto período de tiempo y cerrarlo automáticamente
+    var mensajeAlerta = "Texto copiado al portapapeles";
+    alert(mensajeAlerta);
+
+    // Cerrar el mensaje de alerta después de 2 segundos (2000 milisegundos)
+    setTimeout(function() {
+        // Una forma de cerrar el mensaje de alerta automáticamente
+        alertContainer.style.display = 'none';
+    }, 2000);
+});
 // ******* BOTON SUBIR DATA ******* INICIO *******    
- document.getElementById("botonSubir").addEventListener("click", function() { 
+document.getElementById("botonSubir").addEventListener("click", function() { 
     var clipboardText = document.getElementById("notepad1").value; 
     var fields = clipboardText.split(" || "); 
-    // Asigna los valores a los campos de entrada
-    document.getElementById("cuit_tab1").value = fields[0] || "-";
-    document.getElementById("referencia_tab1").value = fields[1] || "-";
-    document.getElementById("linea_tab1").value = fields[2] || "-";
-    document.getElementById("ticket_in_tab1").value = fields[3] || "-";
-    document.getElementById("nombre_tab1").value = fields[4] || "-";
-    document.getElementById("tel_contacto_tab1").value = fields[5] || "-";
-    document.getElementById("mail_tab1").value = fields[6] || "-";
-    document.getElementById("domicilio_tab1").value = fields[7] || "-";
-    document.getElementById("disponibilidad_tab1").value = fields[8] || "08-16HS";
-    document.getElementById("btAcceso_tab1").value = fields[9] || "NO";
-    document.getElementById("btTerraza_tab1").value = fields[10] || "SI";
-    document.getElementById("btCovid_tab1").value = fields[11] || "NO";
-    document.getElementById("cm_tab1").value = fields[12] || "-";
-    document.getElementById("nodo_tab1").value = fields[13] || "-";
-    document.getElementById("ot_tab1").value = fields[14] || "-";
-    document.getElementById("cpe_mac_tab1").value = fields[15] || "-";
-    document.getElementById("cpe_ip_tab1").value = fields[16] || "-";
-    document.getElementById("cpe_model_tab1").value = fields[17] || "-";
-    });
+
+    // Verificar si hay datos válidos para cada campo antes de asignarlos
+    document.getElementById("cuit_tab1").value = fields.length > 0 && fields[0] !== "" ? fields[0] : "-";
+    document.getElementById("cuit_tab1").value = fields.length > 1 && fields[1] !== "" ? fields[1] : "-";
+    document.getElementById("cuit_tab1").value = fields.length > 2 && fields[2] !== "" ? fields[2] : "-";
+    document.getElementById("referencia_tab1").value = fields.length > 3 && fields[3] !== "" ? fields[3] : "-";
+    document.getElementById("linea_tab1").value = fields.length > 4 && fields[4] !== "" ? fields[4] : "-";
+    document.getElementById("ticket_in_tab1").value = fields.length > 5 && fields[5] !== "" ? fields[5] : "-";
+    document.getElementById("nombre_tab1").value = fields.length > 6 && fields[6] !== "" ? fields[6] : "-";
+    document.getElementById("tel_contacto_tab1").value = fields.length > 7 && fields[7] !== "" ? fields[7] : "-";
+    document.getElementById("mail_tab1").value = fields.length > 8 && fields[8] !== "" ? fields[8] : "-";
+    document.getElementById("domicilio_tab1").value = fields.length > 9 && fields[9] !== "" ? fields[09] : "-";
+    document.getElementById("disponibilidad_tab1").value = fields.length > 10 && fields[10] !== "" ? fields[10] : "L-V / 08-16HS";
+    document.getElementById("btAcceso_tab1").value = fields.length > 11 && fields[11] !== "" ? fields[11] : "NO";
+    document.getElementById("btTerraza_tab1").value = fields.length > 12 && fields[12] !== "" ? fields[12] : "SI";
+    document.getElementById("btCovid_tab1").value = fields.length > 13 && fields[13] !== "" ? fields[13] : "NO";
+    document.getElementById("btCovid_tab1").value = fields.length > 14 && fields[14] !== "" ? fields[14] : "NO";
+    document.getElementById("cm_tab1").value = fields.length > 15 && fields[15] !== "" ? fields[15] : "-";
+    document.getElementById("nodo_tab1").value = fields.length > 16 && fields[16] !== "" ? fields[16] : "-";
+    document.getElementById("ot_tab1").value = fields.length > 17 && fields[17] !== "" ? fields[17] : "-";
+    document.getElementById("cpe_mac_tab1").value = fields.length > 18 && fields[18] !== "" ? fields[18] : "-";
+    document.getElementById("cpe_ip_tab1").value = fields.length > 19 && fields[19] !== "" ? fields[19] : "-";
+    document.getElementById("cpe_model_tab1").value = fields.length > 20 && fields[20] !== "" ? fields[20] : "-";
+    document.getElementById("ip_wan_tab1").value = fields.length > 21 && fields[21] !== "" ? fields[21] : "-";
+    document.getElementById("ip_sco_tab1").value = fields.length > 22 && fields[22] !== "" ? fields[22] : "-";
+    document.getElementById("port_sco_tab1").value = fields.length > 23 && fields[23] !== "" ? fields[23] : "-";
+    document.getElementById("tk_cliente_tab1").value = fields.length > 24 && fields[24] !== "" ? fields[24] : "-";
+    document.getElementById("resumen_tab1").value = fields.length > 25 && fields[25] !== "" ? fields[25] : "-";
+    document.getElementById("ot_cliente_tab1").value = fields.length > 26 && fields[26] !== "" ? fields[26] : "-";
+});
 // ******* BOTON LIMPIAR NOTEPAD 1 ******* INICIO *******    
 document.getElementById("botonCleanN").addEventListener("click", function() { 
     var notepad1 = document.getElementById("notepad1");
