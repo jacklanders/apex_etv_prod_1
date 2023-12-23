@@ -1,0 +1,132 @@
+casos unicos
+
+*****************************************
+Para: DRC_PE_COBRE@teco.com.ar
+CC: RecomendadosSoportePymes@teco.com.ar
+
+Asunto: Seguimiento TELECOM || LINEA: 1147410221 - 1147410885 || CUIT: 27233642202 || TICKET: 15033327 - 15033352
+Nro. Caso: 	6603437
+***************************************** 
+Estimados, buenas tardes.            
+
+Queremos consultar sobre la línea de referencia. Actualmente se observa la linea 1147410885, afectada al incidente global 14977165. No asi, la linea 1147410221 no se ligo a dicha afectacion, pero se encuentra en el mismo domicilio. ¿Nos pueden actualizar novedades? Nos encontramos atentos a sus comentarios.
+
+Ticket 15033327 - 15033352.
+
+Quedamos a disposicion.
+*****************************************
+
+
+
+
+***************************************** 
+Para:  GZ@AGROPATAGONICO.COM
+CC:  SoportePymesConectividad@teco.com.ar
+
+Asunto: Seguimiento TELECOM || CUIT: 30633641966 || IDPRODUCTO: 18503994 || TICKET: 15186388
+N° Caso: 6713250
+***************************************** 
+Estimados, buenas tardes.
+
+Continuando el seguimiento al caso en referencia, les compartimos lo remitido por nuestro sector de Abuse:
+
+Verificamos que la IP 201.212.202.102, se encuentra listada por la RBL UCEPROTECT, la cual utiliza un metodo de listado que se realiza de manera unilateral sin brindar informacion a la Compañia sobre los motivos de la misma.
+
+De todas maneras, le informamos que sus correos solo serán rechazados si el destinatario utiliza como RBL de confianza a UCERPROTECT. Comprendiendo que dicha web es de carácter estadístico, la misma no debería ser utilizada para catalogar el rechazo de correos, ya que su uso es recomendable para un sistema de scoring.
+
+En caso de recibir rebotes haciendo referencia al nivel 2 nivel 3 de la mencionada web, es recomendable hacer llegar el rebote al destino por otros medios para que verificaran si corresponde. De ser asi, sera necesario hacer llegar los mensajes por otros medios a ese destino en particular.
+
+Ticket 15186388.
+
+Quedamos a disposicion.
+Saludos cordiales.
+*****************************************
+
+
+
+
+
+*****************************************  
+-Mail SUC:    LAR.TMZ@ar.mcd.com	
+-Mail SUP:    eugenia.antonucci@ar.mcd.com
+-Supervisor:  Eugenia Antonucci  | SIN TEL CT.
+-Gerente:     FDaniela Andino    | 2615734348
+
+-Servicio:    Enlace de FiberCorp
+-Ref.:        120758
+-Sucursal:    TMZ
+-Domicilio:   
+
+-Datos ENLACE:
+IP WAN 10.109.252.81
+***************************************** 
+
+
+
+*****************************************
+Para:  OSMUNOZ1980@GMAIL.COM
+CC: SoportePymesConectividad@teco.com.ar
+
+Asunto: Seguimiento TELECOM || CUIT: 30709906212 || REFERENCIA: 1173856 || TICKET: 14856119
+Nro. Caso: 	 
+***************************************** 
+Estimados, buenas tardes.
+
+Nos encontramos realizando seguimiento al caso de referencia, donde nos habian reportando variaciones en cuanto a la velocidad de servicio contratada. En analisis del caso, desde nuestro NOC, nos remiten la siguiente informacion:
+
+En base a lo informado, requerimos que nos puedan remitir dichas pruebas en formato adjunto. Esto ultimo a fin de continuar con el tratamiento de la gestion actual. En caso de que el servicio ya se encuentre operativo, favor de darnos avisor para proceder al cierre de la misma.
+
+Ticket: 
+
+Aguardamos comentarios
+Saludos cordiales.
+*****************************************
+
+
+
+*****************************************
+FLOW REGISTRACION:
+
+Estimado cliente, buenas tardes.
+                  
+Muchas gracias por las capturas remitidas, le comento que anteriormente no le ha tomado el código dado que el mismo tiene un plazo de 2 minutos para ser utilizado pasado dicho tiempo ya no es valido. Favor de acceder a la plataforma de Flow app desde este link https://keyrec.telecom.com.ar/micuenta/recuperocontrasena coloque su usuario: c.lantonio@hotmail.com. Una vez le de a la opción de recuperar, deberá acceder a su correo y verificar tanto en la bandeja de entrada como en mail no deseados/spam el mail con el código e ingresarlo desde la plataforma. Esto le permitirá realizar el blanqueo de contraseña, una vez aplicado podrá acceder a la plataforma.
+
+Ticket: 14619570
+
+Quedamos a disposición.
+
+Saludos cordiales.
+*****************************************
+
+
+
+*****************************************
+CPANEL -FTP
+Telecom: Reclamo nro. 14735171 || CPanel y FTP || SERENA COTTET PATRICIO EDUARDO
+
+Estimado Patricio, buenas tardes.
+
+CPanel: Url para gestion clientes: https://cloudweb.fibercorp.com.ar:2083/ (utlizar en browser chrome o edge, y de encontrar inconvenientes probar desde sesion segura)
+
+Credenciales
+User: prontosoluciones
+Pass: G7vx3AZnw4r8A
+
+FTP: Url para gestion: 
+https://winscp.net/download/WinSCP-5.21.7-Setup.exe
+
+* configuración de la conexión: file protocol: FTP
+* enctription: TLS/SSL explicit encryption
+* hostname: 201.212.2.192
+* port number:21
+* username: prontosoluciones
+* pass: G7vx3AZnw4r8A
+
+Nota: luego del primer ingreso, aparecerá una advertencia de certificados la cual deben aceptar para tener acceso a sus carpetas.
+
+En caso de fallas, remitir por este medio una captura de pantalla.
+
+Saludos cordiales.
+*****************************************
+
+

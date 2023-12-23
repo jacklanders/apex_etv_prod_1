@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+************************************
+GESTION TICKETS - 1 -
+************************************
+Estimado, buenas tardes.
+
+Solicito desde ya las disculpas pertinentes por las demoras en la resolucion del caso. La problematica que nos plantea nos hace referencia a problemas con accesos a hosts especificos. Bajo esa casuistica, requerimos que nos remita pruebas ping/tracert donde se vea reflajada la ip de origen y la ip de destino de cada pagina afectada. Con dichas pruebas podremos realizar un analisis y/o tratamiento de la gestion solicitada.
+
+Ticket .
+
+Quedamos a disposicion.
+Saludos cordiales.
+************************************
+GESTION TICKETS - 2 -
+************************************
+Estimados, buenas tardes.
+
+Sobre la IP indicada se observan blacklist, las cuales no afectan la navegacion y/o uso del servicio. En el caso de multiples sitios con invenientes, se requieren al menos 2 pruebas ping/tracert sobre 2 paginas con dicha afectacion. De esta forma podremos dar avances en el analisis y/o tratamiento del caso.
+
+Ticket .
+
+Quedamos a disposicion.
+************************************
+GESTION TICKETS - 3 -
+************************************
+Estimados, buenas tardes.
+
+Continuando el seguimiento al caso en referencia, les compartimos lo remitido por nuestro sector de Abuse:
+
+Verificamos que la IP xxxxxxxxxxxx, se encuentra listada por la RBL UCEPROTECT, la cual utiliza un metodo de listado que se realiza de manera unilateral sin brindar informacion a la Compañia sobre los motivos de la misma.
+
+De todas maneras, le informamos que sus correos solo serán rechazados si el destinatario utiliza como RBL de confianza a UCERPROTECT. Comprendiendo que dicha web es de carácter estadístico, la misma no debería ser utilizada para catalogar el rechazo de correos, ya que su uso es recomendable para un sistema de scoring.
+
+En caso de recibir rebotes haciendo referencia al nivel 2 nivel 3 de la mencionada web, es recomendable hacer llegar el rebote al destino por otros medios para que verificaran si corresponde. De ser asi, sera necesario hacer llegar los mensajes por otros medios a ese destino en particular.
+
+Ticket .
+
+Quedamos a disposicion.
+Saludos cordiales.
+************************************
+]]></content>
+<tabTrigger>NOTES MAIL ABUSE</tabTrigger>
+<description>NOTES ABUSE</description>
+</snippet>

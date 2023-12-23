@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+******************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+******************************************
+Caso Nº 01: *GESTION MONITOREO PREVENTIVO* 
+SDAD MON. PRE. - SUC:  
+******************************************                  
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº TICKET:  
+Nº TICKET:  
+************************************
+Para: 
+CC: SoporteITRestaurantes@ar.mcd.com | christian.lopez@ar.mcd.com | telcoit.argentina@ar.mcd.com | bpscrmargarcosmdan1@dxc.com  | mequintana@teco.com.ar | jlbruna@teco.com.ar | SDAD@teco.com.ar | 	Alejandro.Sassone@ar.proveedor-mcd.com | matias.heck@ar.proveedor-mcd.com
+
+Asunto: MONITOREO PREVENTIVO || ARCOS DORADOS || Nº DE INCIDENTE:  || SUCURSAL: 
+N° Caso: 
+************************************ 
+]]></content>
+<tabTrigger>10.NUEVA GESTION</tabTrigger>
+<description>MAIL SDAD - MONITOREO PREVENTIVO</description>
+</snippet>

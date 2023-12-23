@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+************************************************
+for OPEN: \\delfos\Grandes Clientes\Doc_Clientes
+************************************************
+Caso Nº 01:              
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº LIN.: 
+Nº TICKET:  
+Nº TICKET:  
+Nº TICKET:     
+N° iTracker: 
+N° iTickets:
+N° Bizagi: 
+N° Maximo:
+************************************
+*GESTION DEL LLAMADO* 
+*GESTION SOPORTE PYMES* 
+*GESTION RECOMENDADOS PYMES*
+*GESTION TICKETS* 
+*GESTION SOPORTE GC* 
+*GESTION RECOMENDADOS GC*
+
+Para:
+CC: 
+Asunto:
+N° Caso:  
+
+
+************************************               
+]]></content>
+<tabTrigger>02.GESTION reducida</tabTrigger>
+<description>GESTION versiones</description>
+</snippet>

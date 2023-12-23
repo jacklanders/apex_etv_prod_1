@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+Caso Nº 01: *GESTION RECOMENDADOS PYMES* 
+****************************************  
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº LIN.: 
+Nº TICKET:  
+Nº TICKET:  
+N° iTracker: 
+N° iTickets:
+************************************
+Para:
+CC: 
+
+Asunto: MERCADO:  | CLIENTE:  | CUIT:  | TICKET: 
+N° Caso: 
+************************************
+
+************************************
+]]></content>
+<tabTrigger>08.NUEVA GESTION</tabTrigger>
+<description>MAIL RECOMENDADOS PYMES</description>
+</snippet>

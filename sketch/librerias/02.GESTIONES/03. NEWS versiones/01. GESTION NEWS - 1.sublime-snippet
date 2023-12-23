@@ -1,0 +1,57 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+*GESTION DEL LLAMADO*      
+*GESTION TICKET* 
+*GESTION CAMPANA OT* 
+*GESTION SOPORTE PYMES*
+*GESTION RECOMENDADOS PYMES* 
+*GESTION SOPORTE* 
+*GESTION RECOMENDADOS* 
+*GESTION MONITOREO PREVENTIVO* 
+*GESTION SDAD*  
+*GESTION ABUSE* 
+*GESTION CAMBIO IP* 
+****************************************  
+**********************
+- TICKET:  || (gestion)
+- TICKET:     
+- iTracker: 
+- iTickets:
+**********************
+- CM MAC:
+- OT:
+- NODO:
+**********************
+**********************             
+- CUIT:  
+- IDPROD.:                  
+- REF.:
+- LIN.: 
+****************************************             
+************************************
+Para: 
+CC:
+
+Asunto: 
+N° Caso: 
+************************************
+
+
+**********************
+- Nombre en SITE: 
+- Tel. Ct.: 
+- Mail: 
+- H-D: L-V / 08-16HS
+- Doc. Acc.: NO
+- ToT: SI
+- Covid-19: NO 
+- Domicilio:     
+**********************
+****************************************
+]]></content>
+<tabTrigger>01.GESTION NEWS - GEN1</tabTrigger>
+<description>GESTION GENERAL</description>
+</snippet>

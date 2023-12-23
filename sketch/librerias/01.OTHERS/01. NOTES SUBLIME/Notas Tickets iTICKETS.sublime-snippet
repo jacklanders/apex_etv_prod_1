@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+************************************
+GESTION TICKETS - 1 - novedades
+************************************
+Se piden novedades: REQ000000368789
+
+Estimados buenas tardes. ¿Contamos con novedades al caso en referencia?
+************************************
+************************************
+GESTION TICKETS - 2 - planning
+************************************
+No se puede reiterar pedido de novedades.
+
+REQ000000368007: estado - Planning
+************************************
+Pendiente de respuesta SIC REQ000000423191 - dentro del SLA 72HS
+************************************
+************************************
+GESTION TICKETS - 3 - ticket
+************************************
+En seguimiento procesos, bajo asunto:
+
+Actualizado xx/xx
+************************************
+]]></content>
+<tabTrigger>NOTES ICD iTICKETS</tabTrigger>
+<description>NOTES iTICKETS</description>
+</snippet>

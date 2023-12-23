@@ -7,6 +7,7 @@
 
 
 
+
 // - ********************************** INICIO   *********************************** -
 /* document.addEventListener('DOMContentLoaded', function() {                                                    
     // Obtener referencias a los elementos del DOM
@@ -52,7 +53,8 @@
     mostrarGestionIn();
   });  
   */
-
+// - ********************************** INICIO   *********************************** -
+// - ********************************** INICIO   *********************************** -
   document.addEventListener('DOMContentLoaded', function() {
     var tabGestionIn = document.getElementById("tab_gestion_in");
     var tabNotas = document.getElementById("tab_notas");
@@ -99,10 +101,11 @@
   
 
 
-// - ***************************** BLOC DE NOTAS - NOTEPAD 1 - 2 *********************** - 
+
+// - ***************************** BLOC DE NOTAS - NOTEPAD 1-2 *********************** - 
 document.addEventListener('DOMContentLoaded', function() {                                                    
      const notepad1 = document.getElementById("notepad1");
-    const notepad2 = document.getElementById("notepad2");
+     const notepad2 = document.getElementById("notepad2");
 
     aplicarAjustes(notepad1);
     aplicarAjustes(notepad2);
@@ -204,24 +207,14 @@ document.getElementById("botonBajarDatos").addEventListener("click", function() 
 
     // Ajustar la altura de notepad1 después de pegar los datos
     autoAjustar(notepad1);
-});
+   });
 // ******* BOTON COPIAR DATA ******* INICIO *******    
 document.getElementById("botonCopiarDatos").addEventListener("click", function() {  
     var notepad1 = document.getElementById("notepad1");
     notepad1.select();                                                  // Selecciona todo el texto en el notepad2
     document.execCommand("copy");                                       // Copia el texto seleccionado al portapapeles
     window.getSelection().removeAllRanges();                            // Deselecciona el texto para que no quede resaltado
-    
-    // Mostrar mensaje por un corto período de tiempo y cerrarlo automáticamente
-    var mensajeAlerta = "Texto copiado al portapapeles";
-    alert(mensajeAlerta);
-
-    // Cerrar el mensaje de alerta después de 2 segundos (2000 milisegundos)
-    setTimeout(function() {
-        // Una forma de cerrar el mensaje de alerta automáticamente
-        alertContainer.style.display = 'none';
-    }, 2000);
-});
+   });
 // ******* BOTON SUBIR DATA ******* INICIO *******    
 document.getElementById("botonSubirDatos").addEventListener("click", function() { 
     var clipboardText = document.getElementById("notepad1").value; 
@@ -349,15 +342,47 @@ document.getElementById("botonSubirDatos").addEventListener("click", function() 
             }
         }
     }
-});
+   });
 // ******* BOTON LIMPIAR NOTEPAD 1 ******* INICIO *******    
 document.getElementById("botonBorrarDatos").addEventListener("click", function() { 
     var notepad1 = document.getElementById("notepad1");
     notepad1.value = "";            // Borra el contenido de notepad1
     notepad1.style.height = 'auto'; // Restablece la altura de notepad1
+   });
+// ******* BOTON SUMAR REGISTRO ******* INICIO *******    
+document.getElementById("botonSumarReg").addEventListener("click", function() { 
+    var notepad1 = document.getElementById("notepad1").value;
+    var notepad2 = document.getElementById("notepad2");
+
+    if (notepad2.value !== '') {
+        // Si notepad2 ya tiene contenido, desplaza el texto hacia abajo y agrega un separador
+        notepad2.value = '***********************************\n' + notepad1 + '\n***********************************\n' + notepad2.value + '\n***********************************\n';
+    } else {
+        // Si notepad2 está vacío, copia directamente el contenido de notepad1
+        notepad2.value = notepad1;
+    }
+
+    // Ajusta la altura de notepad2 según el contenido
+    notepad2.style.height = 'auto';
+    notepad2.style.height = (notepad2.scrollHeight) + 'px';
+   });
+// ******* BOTON COPIAR REGISTRO ******* INICIO *******    
+document.getElementById("botonCopiarReg").addEventListener("click", function() {  
+    var notepad2 = document.getElementById("notepad2");
+    notepad2.select();                                                  // Selecciona todo el texto en el notepad3
+    document.execCommand("copy");                                       // Copia el texto seleccionado al portapapeles
+    window.getSelection().removeAllRanges();                            // Deselecciona el texto para que no quede resaltado
+    
+    // No se muestra ningún mensaje ni se cierra automáticamente después de copiar
     });
-});   
-// - ***************************** BLOC DE NOTAS - NOTEPAD 1 - 2 *********************** - 
+// ******* BOTON BORRAR REGISTRO ******* INICIO *******    
+document.getElementById("botonCleanReg").addEventListener("click", function() { 
+    var notepad2 = document.getElementById("notepad2");
+    notepad2.value = "";            // Borra el contenido de notepad2
+    notepad2.style.height = 'auto'; // Restablece la altura de notepad2 si es necesario
+   });
+});
+// - ***************************** BLOC DE NOTAS - NOTEPAD 1-2 *********************** - 
 
 
 
@@ -390,8 +415,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 */
 // - ***************************** SELECTOR LIBRERIAS *********************** - 
-
-
 // - ***************************** SELECTOR LIBRERIAS *********************** - 
 document.addEventListener('DOMContentLoaded', function() {
     const container = document.querySelector('.grid-subcontainer');
@@ -428,44 +451,173 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
 // ***************************** BLOC DE NOTAS - NOTEPAD 3 *************************  -
-document.addEventListener('DOMContentLoaded', function() {                                                    
-const notepad2 = document.getElementById("notepad2");      
-    // JavaScript para controlar la visibilidad del notepad 2
-const notepad2Container = document.querySelector('.notepad-2');
-notepad2.addEventListener('input', function() {   autoAjustar(notepad2); });
-function autoAjustar(textarea) {                          
-    // Lógica para limpiar notepad 1 (por agregar)
-    textarea.style.height = 'auto';
-    textarea.style.height = (textarea.scrollHeight) + 'px'; 
+document.addEventListener('DOMContentLoaded', function() {
+    const notepad3 = document.getElementById("notepad3");
+    const selectElement = document.getElementById("librerias_incidentes");
+
+    function cargarLibreriaSeleccionada() {
+        var selectedValue = selectElement.value;
+        selectedValue = decodeURIComponent(selectedValue);
+
+        // Construir la URL según la selección del usuario
+        var url;
+        switch(selectedValue) {
+            case '01.TK-IN-NO.NAVEGA.HFC.CCTV.(GC)':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/01.TK-IN-NO.NAVEGA.HFC.CCTV.(GC).sublime-snippet";
+                break;
+            case '02.TK-IN-NO.NAVEGA.HFC-sin-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/02.TK-IN-NO.NAVEGA.HFC-sin-OT.sublime-snippet";
+                break;
+            case '03.TK-IN-NO.NAVEGA.HFC-con-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/03.TK-IN-NO.NAVEGA.HFC-con-OT.sublime-snippet";
+                break;
+            case '04.TK-IN-NO.NAVEGA.HFC-sin-CORTES':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/04.TK-IN-NO.NAVEGA.HFC-sin-CORTES.sublime-snippet";
+                break;
+            case '05.TK-IN-NO.NAVEGA.HFC-con-CORTES':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/05.TK-IN-NO.NAVEGA.HFC-con-CORTES.sublime-snippet";
+                break;
+            case '06.TK-IN-NO.NAVEGA.HFC-reset-CM':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/06.TK-IN-NO.NAVEGA.HFC-reset-CM.sublime-snippet";
+                break;
+            case '07.TK-IN-NO.NAVEGA.HFC-ToIP':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/07.TK-IN-NO.NAVEGA.HFC-ToIP.sublime-snippet";
+                break;
+            case '08.TK-IN-NO.NAVEGA.HFC-sin-alertar-MASIVO':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/08.TK-IN-NO.NAVEGA.HFC-sin-alertar-MASIVO.sublime-snippet";
+                break;
+            case '09.TK-IN-NO.NAVEGA.HFC-alertado-MASIVO':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/09.TK-IN-NO.NAVEGA.HFC-alertado-MASIVO.sublime-snippet";
+                break;
+            case '10.TK-IN-NO.NAVEGA.HFC-reitera-MASIVO':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/10.TK-IN-NO.NAVEGA.HFC-reitera-MASIVO.sublime-snippet";
+                break;
+            case '11.TK-IN-NO.NAVEGA.FTTH-CCTV-(GC)':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/11.TK-IN-NO.NAVEGA.FTTH-CCTV-(GC).sublime-snippet";
+                break;
+            case '12.TK-IN-.NO.NAVEGA.FTTH-sin-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/12.TK-IN-.NO.NAVEGA.FTTH-sin-OT.sublime-snippet";
+                break;
+            case '13.TK-IN-NO.NAVEGA.FTTH-con-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/13.TK-IN-NO.NAVEGA.FTTH-con-OT.sublime-snippet";
+                break;
+            case '14.TK-IN-NO.NAVEGA.FTTH-ToIP':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/14.TK-IN-NO.NAVEGA.FTTH-ToIP.sublime-snippet";
+                break;
+            case '15.TK-IN-NO.NAVEGA.FTTH-NOC':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/15.TK-IN-NO.NAVEGA.FTTH-NOC.sublime-snippet";
+                break;
+            case '16.TK-IN-CATV.FLOW.HFC-con-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/16.TK-IN-CATV.FLOW.HFC-con-OT.sublime-snippet";
+                break;
+            case '17.TK-IN-DECO.FLOW.HFC-sin-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/17.TK-IN-DECO.FLOW.HFC-sin-OT.sublime-snippet";
+                break;
+            case '18.TK-IN-DECO.FLOW.HFC-con-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/18.TK-IN-DECO.FLOW.HFC-con-OT.sublime-snippet";
+                break;
+            case '19.TK-IN-DECO.FLOW.HFC-NOC':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/19.TK-IN-DECO.FLOW.HFC-NOC.sublime-snippet";
+                break;
+            case '20.TK-IN-NO.NAVEGA.TECO-ARNET-sin-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/20.TK-IN-NO.NAVEGA.TECO-ARNET-sin-OT.sublime-snippet";
+                break;
+            case '21.TK-IN-NO.NAVEGA.TECO-ARNET-con-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/21.TK-IN-NO.NAVEGA.TECO-ARNET-con-OT.sublime-snippet";
+                break;
+             case '22.TK-IN-SIN.TONO.TECO-sin-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/22.TK-IN-SIN.TONO.TECO-sin-OT.sublime-snippet";
+                break;
+            case '23.TK-IN-SIN.TONO.TECO-con-OT':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/23.TK-IN-SIN.TONO.TECO-con-OT.sublime-snippet";
+                break;
+            case '24.TK-IN-SIN.TONO.TECO-TTL':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/24.TK-IN-SIN.TONO.TECO-TTL.sublime-snippet";
+                break;
+            case '25.TK-IN-ENLACE.FIBRA-Integra-Hyperway':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/25.TK-IN-ENLACE.FIBRA-Integra-Hyperway.sublime-snippet";
+                break;
+            case '26.TK-IN-INTERNET.DEDICADO-sin-link-SCO':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/26.TK-IN-INTERNET.DEDICADO-sin-link-SCO.sublime-snippet";
+                break;
+            case '27.TK-IN-INTERNET.DEDICADO-con link SCO':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/27.TK-IN-INTERNET.DEDICADO-con link SCO.sublime-snippet";
+                break;
+            case '28.TK-IN-CLOUD.OFFICE-registrado':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/28.TK-IN-CLOUD.OFFICE-registrado.sublime-snippet";
+                break;
+            case '29.TK-IN-CLOUD.OFFICE-no registrado':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/29.TK-IN-CLOUD.OFFICE-no registrado.sublime-snippet";
+                break;
+            case '30.TK-IN-CLOUD.OFFICE-masivo':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/30.TK-IN-CLOUD.OFFICE-masivo.sublime-snippet";
+                break;
+            case '31.TK-IN-OT-incumplida':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/31.TK-IN-OT-incumplida.sublime-snippet";
+                break;
+            case '32.TK-IN-OT.Adelanto.Agenda-sin-escalar':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/32.TK-IN-OT.Adelanto.Agenda-sin-escalar.sublime-snippet";
+                break;
+            case '33.TK-IN-OT.Adelanto.Agenda-escalado':
+                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/33.TK-IN-OT.Adelanto.Agenda-escalado.sublime-snippet";
+                break;
+             case '34.TK-SS-Config.WIFI':
+                url = "../librerias/03.TICKETS.IN/02.tickets.solicitudes/01.TK-SS-Config.WIFI.sublime-snippet";
+                break;
+            case '35.TK-SS-Config.NAT':
+                url = "../librerias/03.TICKETS.IN/02.tickets.solicitudes/35.TK-SS-Config.NAT.sublime-snippet";
+                break;
+            case '01.TK-SS-Config.WIFI':
+                url = "../librerias/03.TICKETS.IN/02.tickets.solicitudes/01.TK-SS-Config.WIFI.sublime-snippet";
+                break;
+            case '02.TK-SS-Config.NAT':
+                url = "../librerias/03.TICKETS.IN/02.tickets.solicitudes/02.TK-SS-Config.NAT.sublime-snippet";
+                break;
+            case '03.TK-SS-Config.BRIDGE':
+                url = "../librerias/03.TICKETS.IN/02.tickets.solicitudes/03.TK-SS-Config.BRIDGE.sublime-snippet";
+                break;
+            case '04.TK-SS-Config.IP-FIJA':
+                url = "../librerias/03.TICKETS.IN/02.tickets.solicitudes/04.TK-SS-Config.IP-FIJA.sublime-snippet";
+                break;
+            case '05.TK-SS-Adelanto.Agenda-OT-escalado':
+                url = "../librerias/03.TICKETS.IN/02.tickets.solicitudes/05.TK-SS-Adelanto.Agenda-OT-escalado.sublime-snippet";
+                break;
+            case '06.TK-SS-Adelanto.Agenda-OT-escalado':
+                url = "../librerias/03.TICKETS.IN/02.tickets.solicitudes/06.TK-SS-Adelanto.Agenda-OT-escalado.sublime-snippet";
+                break;
+            default:
+                console.error("Opción no válida seleccionada");
+                return; // Salir de la función si no se selecciona una opción válida
+        }
+
+        // Cargar el contenido de la librería usando fetch
+        fetch(url)
+            .then(response => response.text())
+            .then(data => {
+                notepad3.value = data;
+                autoAjustar(notepad3);
+            })
+            .catch(error => {
+                console.error("Error al cargar la librería:", error);
+            });
     }
-notepad2.style.display = "block";                                           
-    // Haz que notepad2 sea visible   
-function cargarLibreriaSeleccionada() {
-    var selectElement = document.getElementById("librerias_incidentes");       // Obtener el elemento select 
-    var selectedValue = selectElement.value;                                   // Obtener el valor seleccionado
-    selectedValue = decodeURIComponent(selectedValue);                         // Decodificar la URL
-    var url = "../librerias/02.ICD.IN.SS/" + selectedValue + ".sublime-snippet";  // Construir la URL del archivo .sublime-snippet
-    fetch(url)                                                                 // Realizar la carga del contenido
-    .then(response => response.text())
-    .then(data => {                                                            // Muestra el contenido en el textarea notepad2
-    document.getElementById("notepad2").value = data; })                       // Corrección: Usamos document.getElementById("notepad2")
-    .catch(error => {
-    console.error("Error al cargar la librería:", error);  });
+
+    function autoAjustar(textarea) {
+        textarea.style.height = 'auto';
+        textarea.style.height = (textarea.scrollHeight) + 'px';
     }
 
 // ******* BOTON EXPORTAR LIBRERIAS******* INICIO *******    
-document.getElementById("botonExportar").addEventListener("click", function() { 
-    // Haz que notepad2 sea visible
-    notepad2.style.display = "block"; 
-    // Luego, ejecuta el código para cargar la librería. Esto activará la carga de la librería y mostrará el contenido en notepad2
-    cargarLibreriaSeleccionada();      
-    }); 
+document.getElementById("botonExportar").addEventListener("click", function() {
+    cargarLibreriaSeleccionada();
+    });
 // ******* BOTON CARGAR LIBRERIAS ******* INICIO *******    
 document.getElementById("botonCargar").addEventListener("click", function() { 
     var selectedValue = document.getElementById("librerias_incidentes").value;                       // Obtén el valor seleccionado nuevamente
     var cuit = document.getElementById("cuit_tab1").value;                                           // Obtener los valores de los input text
-    var referencia = document.getElementById("referencia_tab1").value;                               // Obtener los valores de los input text
+    var referencia = document.getElementById("producto_tab1").value;                               // Obtener los valores de los input text
     var linea = document.getElementById("linea_tab1").value;                                         // Obtener los valores de los input text
     var ticket = document.getElementById("ticket_in_tab1").value;                                    // Obtener los valores de los input text
     
@@ -486,14 +638,22 @@ document.getElementById("botonCargar").addEventListener("click", function() {
     var cpe_ip= document.getElementById("cpe_ip_tab1").value;                                        // Obtener los valores de los input text                                        
     var cpe_model= document.getElementById("cpe_model_tab1").value;                                  // Obtener los valores de los input text     
 
+    var ip_wan= document.getElementById("ip_sco_tab1").value;                                  // Obtener los valores de los input text     
+    var ip_sco= document.getElementById("cpe_model_tab1").value;                                  // Obtener los valores de los input text     
+    var port_sco= document.getElementById("port_sco_tab1").value;                                  // Obtener los valores de los input text     
+
+    var tk_cliente= document.getElementById("tk_cliente_tab1").value;                                  // Obtener los valores de los input text     
+    var resumen= document.getElementById("resumen_tab1").value;                                  // Obtener los valores de los input text     
+    var ot_cliente= document.getElementById("ot_cliente_tab1").value;                                  // Obtener los valores de los input text     
+
       
     var output = "";
     if (selectedValue === "nulo") {
-        document.getElementById("notepad2").value = "Selecciona una librería primero.";
+        document.getElementById("notepad3").value = "Selecciona una librería primero.";
         return;
     }
     switch (selectedValue) {                                                                           // Aquí puedes manejar diferentes casos basados en el valor seleccionado
-    case "01.ICD.IN.NO.NAVEGA.HFC-CCTV-(GC)":
+    case "01.TK-IN-NO.NAVEGA.HFC.CCTV.(GC)":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -503,27 +663,27 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CM MAC: " + cm + " | NODO: " + nodo + "\n"; 
         output += "************************************";
         break; 
-    case "02.ICD.IN.NO.NAVEGA.HFC-sin-OT":
+    case "02.TK-IN-NO.NAVEGA.HFC-sin-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/operativo con uptime:  | Reinicio CM: NO/SI\n\n\n";
+        output += "NXT: CM caido/CM operativo con uptime:  | Reinicio CM: SI\n\n\n";
         output += "TB: CM levanta enlance, se prueba navegacion del lado del cliente y CM esta operativo.\n";
         output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe_mac + " | CPE IP: " + cpe_ip + " | CPE (model): " + cpe_model + "\n"; 
         output += "************************************";
         break; 
-    case "03.ICD.IN.NO.NAVEGA.HFC-con-OT":
+    case "03.TK-IN-NO.NAVEGA.HFC-con-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/operativo con uptime:  | Reinicio CM: NO/SI\n\n\n";
+        output += "NXT: CM caido/operativo con uptime:  | Reinicio CM: SI\n\n\n";
         output += "TB: CM dañado, caido o con valores fuera de los parametros. Se agenda OT.\n";
         output += "CM MAC: " + cm + " | NODO: " + nodo + " | OT: " + ot + "\n"; 
         output += "************************************";
         break;  
-    case "04.ICD.IN.NO.NAVEGA.HFC-sin-CORTES":
+    case "04.TK-IN-NO.NAVEGA.HFC-sin-CORTES":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -533,7 +693,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe_mac + " | CPE IP: " + cpe_ip + " | CPE (model): " + cpe_model + "\n"; 
         output += "************************************";
         break; 
-    case "05.ICD.IN.NO.NAVEGA.HFC-con-CORTES":
+    case "05.TK-IN-NO.NAVEGA.HFC-con-CORTES":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -543,7 +703,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CM MAC: " + cm + " | NODO: " + nodo + "\n"; 
         output += "************************************";
         break; 
-   case "06.ICD.IN.NO.NAVEGA.HFC-reset-CM":
+   case "06.TK-IN-NO.NAVEGA.HFC-reset-CM":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -557,7 +717,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CM MAC: " + cm + " | NODO: " + nodo + "\n"; 
         output += "************************************";
         break;
-    case "07.ICD.IN.NO.NAVEGA.HFC-ToIP":
+    case "07.TK-IN-NO.NAVEGA.HFC-ToIP":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -567,7 +727,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "IDProducto: " + referencia + " | CM MAC: " + cm + " | LINEA: " + linea + "\n"; 
         output += "************************************";
         break;      
-    case "08.ICD.IN.NO.NAVEGA.HFC-sin-alertar-MASIVO":
+    case "08.TK-IN-NO.NAVEGA.HFC-sin-alertar-MASIVO":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -576,7 +736,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "TB (Nodo NXT): se verifica valores fuera de parametros, en varios equipos dentro del CMTS. Se le informa al cliente, posible daño externo en zona y se manda consulta MAIL para corroborar estado del servicio.\n";
         output += "************************************";
         break;
-    case "09.ICD.IN.NO.NAVEGA.HFC-alertado-MASIVO":
+    case "09.TK-IN-NO.NAVEGA.HFC-alertado-MASIVO":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -585,7 +745,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Se le informa al cliente daño externo en zona.\n";
         output += "************************************";
         break;
-    case "10.ICD.IN.NO.NAVEGA.HFC-reitera-MASIVO":
+    case "10.TK-IN-NO.NAVEGA.HFC-reitera-MASIVO":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -594,7 +754,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Se le reitera la continuidad del daño, con las novedades del caso.\n";
         output += "************************************";
         break;
-    case "11.ICD.IN.NO.NAVEGA.FTTH-CCTV-(GC)":
+    case "11.TK-IN-NO.NAVEGA.FTTH-CCTV-(GC)":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -604,7 +764,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "ONT MAC: " + cm + "\n"; 
         output += "************************************";
         break;
-    case "12.ICD.IN.NO.NAVEGA.FTTH-sin-OT":
+    case "12.TK-IN-.NO.NAVEGA.FTTH-sin-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -617,7 +777,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "ONT MAC: " + cm + "\n"; 
         output += "************************************";
         break;
-    case "13.ICD.IN.NO.NAVEGA.FTTH-con-OT":
+    case "13.TK-IN-NO.NAVEGA.FTTH-con-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -627,7 +787,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "ONT MAC: " + cm + " | NODO: " + nodo + " | OT: " + ot + "\n";
         output += "************************************";
         break;
-    case "14.ICD.IN.NO.NAVEGA.FTTH-ToIP":
+    case "14.TK-IN-NO.NAVEGA.FTTH-ToIP":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -637,7 +797,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "IDProducto: " + referencia + " | ONT MAC: " + cm + " | LINEA: " + linea + " | MTA: " + "\n"; 
         output += "************************************";
         break;
-    case "15.ICD.IN.NO.NAVEGA.FTTH-NOC":
+    case "15.TK-IN-NO.NAVEGA.FTTH-NOC":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -647,7 +807,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CSOT: Estimados, escalamos el caso para solicitar feedback por el inconveniente actual de la ONT. \n";
         output += "************************************";
         break;
-    case "16.ICD.IN.CATV.FLOW.HFC-con-OT":
+    case "16.TK-IN-CATV.FLOW.HFC-con-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -656,7 +816,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "IDProducto: " + referencia + " | NODO: " + nodo + " | OT: " + ot + "\n"; 
         output += "************************************";
         break;  
-    case "17.ICD.IN.DECO.FLOW.HFC-sin-OT":
+    case "17.TK-IN-DECO.FLOW.HFC-sin-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -666,17 +826,17 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "IDProducto: " + referencia + " | SN DECO: " + cm + "\n"; 
         output += "************************************";
         break;
-    case "18.ICD.IN.DECO.FLOW.HFC-con-OT":
+    case "18.TK-IN-DECO.FLOW.HFC-con-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
         output += "OPEN: Deco con fallas | Pruebas recalculo: Recalculo de parametros TV / INIT CAT TV.\n\n";
         output += "TB: Deco no levanta señal, se asigna OT.\n";
-        output += "IDProducto: " + referencia + " | SN DECO: " + cm + "\n"; 
+        output += "IDProducto: " + referencia + " | SN DECO: " + cm + " | NODO: " + nodo + " | OT: " + ot + "\n";
         output += "************************************";
         break;
-    case "19.ICD.IN.DECO.FLOW.HFC-NOC":
+    case "19.TK-IN-DECO.FLOW.HFC-NOC":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -687,7 +847,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CSOT: Estimados, escalamos el caso para solicitar feedback por el inconveniente actual del deco.\n";
         output += "************************************";
         break;
-    case "20.ICD.IN.NO.NAVEGA.TECO-ARNET-sin-OT":
+    case "20.TK-IN-NO.NAVEGA.TECO-ARNET-sin-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -697,7 +857,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "TB: CM arnet levanta sesion nuevamente, se prueba con cliente y esta operativo. Se deja registro.\n"; 
         output += "************************************";
         break;
-    case "21.ICD.IN.NO.NAVEGA.TECO-ARNET-con-OT":
+    case "21.TK-IN-NO.NAVEGA.TECO-ARNET-con-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -707,7 +867,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "TB: CM arnet con cortes/fallas/sin servicio. Se asigna OT para revision | OT:\n"; 
         output += "************************************";
         break;
-    case "22.ICD.IN.SIN.TONO.TECO-sin-OT":
+    case "22.TK-IN-SIN.TONO.TECO-sin-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -715,7 +875,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Linea: " + linea + " | Cambio equipo: SI/NO | Central: SI/NO | Actor (prueba SUR): v= (cc) - v= (sc)\n\n\n";
         output += "TB: Cliente no esta en sitio. Se le explica pruebas a realizar y remitir consulta, una vez realizadas las mismas. De persistir fallo posteriormente, asignar OT.\n";        output += "************************************";
         break;
-    case "23.ICD.IN.SIN.TONO.TECO-con-OT":
+    case "23.TK-IN-SIN.TONO.TECO-con-OT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -724,7 +884,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "TB: Persiste fallo de linea, se asigna OT.\n";
         output += "************************************";
         break;
-    case "24.ICD.IN.SIN.TONO.TECO-TTL":
+    case "24.TK-IN-SIN.TONO.TECO-TTL":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -732,7 +892,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Linea (origen): " + linea + " | Linea (destino):  | Nro: EQ.:\n";
         output += "************************************";
         break;
-    case "25.ICD.IN.ENLACE.FIBRA-Integra-Hyperway":
+    case "25.TK-IN-ENLACE.FIBRA-Integra-Hyperway":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -742,25 +902,25 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "WebNi:\n\n";
         output += "**************";
         break;
-    case "26.ICD.IN.INTERNET.DEDICADO-sin-link-SCO":
+    case "26.TK-IN-INTERNET.DEDICADO-sin-link-SCO":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente FIBER REF.: " + referencia + ", indica con el enlace. Monitoreo preventivo:\n\n";
         output += "TB: SCO sin enlace. Se agregan los datos del alta del servicio (delfos) y se le informa al cliente, del tratamiento del caso.\n";
-        output += "IP WAN:  | IP SCO:  | port SCO:  | MAC equipo:\n";
+        output += "IP WAN: " + ip_wan + " | IP SCO: " + ip_sco + " | port SCO: " + port_sco + " | MAC equipo:\n";
         output += "************************************";
         break;
-    case "27.ICD.IN.INTERNET.DEDICADO-con link SCO":
+    case "27.TK-IN-INTERNET.DEDICADO-con link SCO":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente FIBER REF.: " + referencia + ", indica con el enlace. Monitoreo preventivo:\n\n";
         output += "TB: SCO con enlace. Se le solicita al cliente reinicio de equipos. De persistir fallo, pruebas PING/TRACERT de manera directa, para corroborar la falta del servicio. Se indica de remitir por casilla soporte, dichas pruebas.\n";
-        output += "IP WAN:  | IP SCO:  | port SCO:  | MAC equipo:\n";
+        output += "IP WAN: " + ip_wan + " | IP SCO: " + ip_sco + " | port SCO: " + port_sco + " | MAC equipo:\n";
         output += "************************************";
         break;
-    case "28.ICD.IN.CLOUD.OFFICE-registrado":
+    case "28.TK-IN-CLOUD.OFFICE-registrado":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -773,7 +933,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "TB: Se validan los datos del cliente. Se solicita en formato adjunto, via mail, el rebote/fallo suscitado.\n";
         output += "************************************";
         break;
-    case "29.ICD.IN.CLOUD.OFFICE-no registrado":
+    case "29.TK-IN-CLOUD.OFFICE-no registrado":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -786,7 +946,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "TB: No se encuentra el dominio reclamado en nuestra base de datos. Se indica al cliente, de canalizar de forma particuar el fallo suscitado. Ya que no tiene contratado con nosotros, el servicio.\n";
         output += "************************************";
         break;
-    case "30.ICD.IN.CLOUD.OFFICE-masivo":
+    case "30.TK-IN-CLOUD.OFFICE-masivo":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -797,35 +957,35 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "cloud office  - \n";
         output += "************************************";
         break;
-    case "31.ICD.IN.OT-incumplida":
+    case "31.TK-IN-OT-incumplida":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
-        output += "Cliente indica OT incumplida | viene del Ticket:  | OT: " + ot + " | CM Tecnicos:\n";
+        output += "Cliente indica OT incumplida | viene del Ticket: " + ticket_cliente + " | OT: " + ot_cliente + " | CM Tecnicos: " + resumen + "\n";
         output += "NXT: CM caido/operativo con uptime:  | Reinicio CM: SI\n\n";
         output += "TB. Se procede a consultar y validar en open, nueva agenda OT para el cliente.\n";
         output += "CM MAC: " + cm + " | NODO: " + nodo + " | OT (nueva): " + ot + "\n"; 
         output += "************************************";
         break;
-    case "32.ICD.IN.OT.Adelanto.Agenda-sin-escalar":
+    case "32.TK-IN-OT.Adelanto.Agenda-sin-escalar":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
-        output += "Cliente solicita adelanto de OT | viene del Ticket: " + ticket + " | OT: " + ot + "\n\n";
+        output += "Cliente solicita adelanto de OT | viene del Ticket: " + tk_cliente + " | OT: " + ot_cliente + "\n\n";
         output += "TB: Se procede a consultar y validar en open, nueva agenda OT para el cliente.\n";
         output += "CM MAC: " + cm + " | NODO: " + nodo + " | OT (nueva): " + ot + "\n"; 
         output += "************************************";
         break;
-    case "33.ICD.IN.OT.Adelanto.Agenda-escalado":
+    case "33.TK-IN-OT.Adelanto.Agenda-escalado":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente solicita adelanto de OT | viene del Ticket: " + ticket + " | OT: " + ot + "\n\n";
         output += "TB: la agenda solicitada no se encuentra disponible en OPEN. Se indica al cliente, que se va escalar el caso y quedara pendiente a confirmar por la BASE correspondiente.\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + " | OT (nueva): " + ot + "\n"; 
+        output += "CM MAC: " + cm + " | NODO: " + nodo + " | OT: " + ot + "\n"; 
         output += "************************************";
         break;
-    case "34.ICD.SS.Config.WIFI":
+    case "01.TK-SS-Config.WIFI":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -838,7 +998,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CM: se corrobora con el cliente los cambios realizados, y CM queda operativo.\n";
         output += "************************************";
         break;
-    case "35.ICD.SS.Config.NAT":
+    case "02.TK-SS-Config.NAT":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -846,7 +1006,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CM MAC: " + cm + " | IDProducto: " + referencia + "\n"; 
         output += "************************************";
         break;
-    case "36.ICD.SS.Config.BRIDGE":
+    case "03.TK-SS-Config.BRIDGE":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -854,7 +1014,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe_mac + " | CPE IP: " + cpe_ip + " | CPE (model): " + cpe_model + "\n"; 
         output += "************************************";
         break;
-    case "37.ICD.SS.Config.IP-FIJA":
+    case "04.TK-SS-Config.IP-FIJA":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -862,7 +1022,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe_mac + " | CPE IP: " + cpe_ip + " | CPE (model): " + cpe_model + "\n"; 
         output += "************************************";
         break;
-    case "38.ICD.SS.Adelanto.Agenda-OT-escalado":
+    case "05.TK-SS-Adelanto.Agenda-OT-escalado":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -871,7 +1031,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "CM MAC: " + cm + " | NODO: " + nodo + "\n"; 
         output += "************************************";
         break;
-    case "39.ICD.SS.Adelanto.Agenda-OT-escalado":
+    case "06.TK-SS-Adelanto.Agenda-OT-escalado":
         output += "************************************\n";
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
@@ -882,54 +1042,23 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         default:
             output = "Librería no encontrada.";
         }     
-        notepad2.value = output; 
+        notepad3.value = output; 
     }); 
 // ******* BOTON COPIAR NOTEPAD 2 ******* INICIO *******    
 document.getElementById("botonCopiar").addEventListener("click", function() {  
-    var notepad2 = document.getElementById("notepad2");
-    notepad2.select();                                                  // Selecciona todo el texto en el notepad2
+    var notepad3 = document.getElementById("notepad3");
+    notepad3.select();                                                  // Selecciona todo el texto en el notepad3
     document.execCommand("copy");                                       // Copia el texto seleccionado al portapapeles
     window.getSelection().removeAllRanges();                            // Deselecciona el texto para que no quede resaltado
-    alert("Texto copiado al portapapeles");                             // Puedes mostrar un mensaje indicando que el texto se copió al portapapeles  
+    
+    // No se muestra ningún mensaje ni se cierra automáticamente después de copiar
     });
-// ******* BOTON LIMPIAR NOTEPAD 2 ******* INICIO *******    
+// ******* BOTON LIMPIAR NOTEPAD 3 ******* INICIO *******    
 document.getElementById("botonLimpiar").addEventListener("click", function() {
-    var notepad2 = document.getElementById("notepad2");
-    notepad2.value = "";                                                // Borra el contenido del notepad2
-    });
-// ******* BOTON LIMPIAR TODO ******* INICIO *******    
-document.getElementById("botonCleanA").addEventListener("click", function() { 
-    // Limpia los campos de entrada
-    document.getElementById("cuit_tab1").value = "-";
-    document.getElementById("referencia_tab1").value = "-";
-    document.getElementById("linea_tab1").value = "-";
-    document.getElementById("ticket_in_tab1").value = "-";
-    document.getElementById("nombre_tab1").value = "-";
-    document.getElementById("tel_contacto_tab1").value = "-";
-    document.getElementById("mail_tab1").value = "-";
-    document.getElementById("domicilio_tab1").value = "-";
-    document.getElementById("disponibilidad_tab1").value = "08-16HS";
-    document.getElementById("btAcceso_tab1").value = "NO";
-    document.getElementById("btTerraza_tab1").value = "SI";
-    document.getElementById("btCovid_tab1").value = "NO";
-    document.getElementById("cm_tab1").value = "-";
-    document.getElementById("nodo_tab1").value = "-";
-    document.getElementById("ot_tab1").value = "-";
-    document.getElementById("cpe_mac_tab1").value = "-";
-    document.getElementById("cpe_ip_tab1").value = "-";
-    document.getElementById("cpe_model_tab1").value = "-";
-  
-    // Limpia los notepads
-    var notepad1 = document.getElementById("notepad1");
-    var notepad2 = document.getElementById("notepad2");
-    notepad1.value = "";
-    notepad2.value = "";
-    // notepad1.style.height = 'auto';
-    // notepad2.style.height = 'auto';
-    // Oculta notepad2
-    notepad2.style.display = "none";
-    });      
+    var notepad3 = document.getElementById("notepad3");
+    notepad3.value = "";                                                // Borra el contenido del notepad2
+    }); 
 });     
-// - ***************************** BLOC DE NOTAS - NOTEPAD 2 *********************** -
+// - ***************************** BLOC DE NOTAS - NOTEPAD 3 *********************** -
    
 

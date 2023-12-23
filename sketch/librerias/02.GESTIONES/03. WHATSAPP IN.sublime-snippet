@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+Caso Nº 01: *GESTION WHATSAPP*      
+****************************************               
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº LIN.: 
+Nº TICKET:  
+Nº CM MAC: 
+Nº NODO:
+Nº OT:
+************************************ 
+Nombre en SITE: 
+Tel. Ct.: 
+Mail:N° 
+Domicilio:        
+************************************ 
+
+
+************************************
+]]></content>
+<tabTrigger>03.NUEVA GESTION</tabTrigger>
+<description>WHATSAPP IN</description>
+</snippet>

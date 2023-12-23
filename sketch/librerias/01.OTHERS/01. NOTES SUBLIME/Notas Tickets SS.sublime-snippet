@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+************************************
+GESTION TICKETS - 1 - FO legales
+************************************
+Sobre la SS: xxxxx, se verifica que estos casos provienen del area de "legales". Se consulta cual es dicha area para continuar o finalizar la gestion.
+************************************
+]]></content>
+<tabTrigger>NOTES ICD SS</tabTrigger>
+<description>NOTES SS</description>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+Caso Nº 01: *GESTION TICKET* 
+****************************************  
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº LIN.:   
+N° MAC:
+N° OT:
+N° NODO:               
+Nº TICKET: || (gestion)
+Nº TICKET: || (masivo)  
+N° iTracker: 
+N° iTickets:
+************************************
+Para:
+CC: 
+
+Asunto:
+N° Caso: 
+************************************
+
+************************************  
+]]></content>
+<tabTrigger>05.NUEVA GESTION</tabTrigger>
+<description>MAIL TICKET</description>
+</snippet>

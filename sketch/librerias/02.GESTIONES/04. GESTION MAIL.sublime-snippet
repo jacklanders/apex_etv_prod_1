@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+************************************
+Para: 
+CC:
+
+Asunto: 
+N° Caso: 
+************************************
+]]></content>
+<tabTrigger>04.NUEVA GESTION</tabTrigger>
+<description>MAIL</description>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+snippet>
+	<content><![CDATA[
+<snippet>
+	<content><![CDATA[
+************************************
+GESTION MAIL - 1 - respuesta BT (masivo confirmado)
+************************************
+Estimados, buenas tardes.
+
+Agradecemos el feedback brindado. Estaremos a atentos a las novedades que surjan, respecto a la resolución del caso.
+
+Ticket actualizado bajo IN .
+
+Quedamos a disposición.
+************************************
+]]></content>
+<tabTrigger>NOTES MAIL</tabTrigger>
+<description>NOTES MAIL</description>
+</snippet>

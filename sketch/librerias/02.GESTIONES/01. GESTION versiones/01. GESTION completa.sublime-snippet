@@ -1,0 +1,59 @@
+<snippet>
+	<content><![CDATA[
+************************************************
+for OPEN: \\delfos\Grandes Clientes\Doc_Clientes
+************************************************
+Caso Nº 01:       
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº LIN.: 
+Nº TICKET:  
+Nº TICKET:  
+Nº TICKET:     
+N° iTracker: 
+N° iTickets:
+N° Bizagi: 
+N° Maximo:
+************************************
+*GESTION DEL LLAMADO* 
+*GESTION SOPORTE PYMES* 
+*GESTION RECOMENDADOS PYMES*
+*GESTION TICKETS* 
+*GESTION SOPORTE GC* 
+*GESTION RECOMENDADOS GC*
+
+Para:
+CC: 
+Asunto:
+N° Caso:  
+
+
+************************************            
+CM MAC:
+CM IP: 
+NODO:	
+
+CPE MAC:
+CPE IP:
+CPE:
+
+IP Wan:
+IP sco:
+port SCO:
+
+Nombre en SITE:
+Tel. Ct.: 
+Mail: 
+H-D: 
+Doc. Acc.:
+ToT:  
+Covid-19: 
+Domicilio:	
+
+N° OT:
+************************************
+]]></content>
+<tabTrigger>01.GESTION completa</tabTrigger>
+<description>GESTION versiones</description>
+</snippet>

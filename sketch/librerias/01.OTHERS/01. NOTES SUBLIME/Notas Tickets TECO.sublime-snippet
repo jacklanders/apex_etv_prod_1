@@ -1,0 +1,68 @@
+<snippet>
+	<content><![CDATA[
+************************************
+GESTION TICKETS - 1 - OT incumpl. adelanto
+************************************
+Se verifica OT J0000000000004317109 - 12/07 incumplida. Se procede a brindar nueva agenda OT: 01/08, se escala itracker 1932230 por adelanto
+************************************
+iTracker (comentario): Estimados buenas tardes. Cliente cuenta con varias reagendas incumplidas, la actual se encuentra pactada para el dia 01/08. Solicitamos puedan adelantarla en caso de contar con la disponibilidad en zona. Aguardamos comentarios
+************************************
+************************************
+GESTION TICKETS - 2 - OT incump. asegura.
+************************************
+Se verifica OT J0000000000003913758 - 11/07 incumplida. Se procede a brindar nueva agenda OT: 24/07, se escala itracker 1932237 por aseguramiento de la OT
+************************************
+iTracker (comentario): Estimados buenas noches. Cliente cuenta con agenda pactada para el dia 24/07. Solicitamos puedan asegurar dicha cita, a fin de poder rectificar la gestion actual del caso. Aguardamos sus comentarios
+************************************
+************************************
+GESTION TICKETS - 3 - OT en curso
+************************************
+Se verifica OT J0000000000004317131	 - 02/08 en curso. Se escala itracker 1932217 por adelanto
+************************************
+iTracker (comentario): Estimados buenas tardes. Cliente cuenta con agenda pactada para el dia 02/08. Solicitamos puedan adelantarla en caso de contar con la disponibilidad en zona. Aguardamos comentarios
+************************************
+************************************
+GESTION TICKETS - 4 - OT incumpl.
+************************************
+Se verifica OT J0000000000004317104 - 05/07 incumplida. Se procede a brindar nueva agenda OT: 19/07, se aguarda intervencion
+************************************
+************************************
+GESTION TICKETS - 5 - error ICD
+************************************
+Se verifica OT: J0000000000004149761 - 20/07, con mal flujo ICD. Se recitifica y se aguarda intervencion
+************************************
+************************************
+GESTION TICKETS - 6 - error OT
+************************************
+Se verifica OT J0000000000004317112 - 05/07 anulada bajo casuistica "720 - Sin Acceso (PID)". 
+
+Estimados, buenas noches.
+¿Nos podrian actualizar novedades respecto al caso? Muchas gracias
+************************************
+************************************
+GESTION TICKETS - 7 - pase PMP - error 1
+************************************
+Estimados, buenas noches.
+
+Bajo registro ICD17746220, verificamos la tarea "RED - COBRE - PMP Par Mal Primario / Rigido" en el dia 05/06. 
+
+Posteriormente se observa el comentario "Ot no se encontro en CSG Error: psdi.util.MXSystemException: BMXAA1482E - The response code received from the HTTP request from the endpoint is not successful.	Internal Server Error"
+
+¿Nos podrian actualizar novedades respecto al caso? Muchas gracias
+************************************
+************************************
+GESTION TICKETS - 8 - pase PMP - error 2
+************************************
+Estimados, buenas noches.
+
+Bajo registro ICD17484101, verificamos la tarea "PI - PX - DPT Degradacion Equipo - Plataforma Telefonia" en el dia 24/05. 
+
+Posteriormente se observa el comentario "Ot no se encontro en CSG Error: psdi.util.MXSystemException: BMXAA1482E - The response code received from the HTTP request from the endpoint is not successful.	Internal Server Error"
+
+
+¿Nos podrian actualizar novedades respecto al caso? Muchas gracias
+************************************
+]]></content>
+<tabTrigger>NOTES ICD TECO</tabTrigger>
+<description>NOTES TECO</description>
+</snippet>

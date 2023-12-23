@@ -1,0 +1,22 @@
+************************************
+Para: 
+CC: abuse-telecom@teco.com.ar | SoportePymesConectividad@teco.com.ar
+
+Asunto: Seguimiento TELECOM | CLIENTE:  | CUIT:  | TICKET:  
+Nro. Caso: 	
+************************************ 
+Estimados, buenas tardes.
+
+Continuando el seguimiento al caso en referencia, les compartimos lo remitido por nuestro sector de Abuse:
+
+Verificamos que la IP xxxxxxxxxxxx, se encuentra listada por la RBL UCEPROTECT, la cual utiliza un metodo de listado que se realiza de manera unilateral sin brindar informacion a la Compañia sobre los motivos de la misma.
+
+De todas maneras, le informamos que sus correos solo serán rechazados si el destinatario utiliza como RBL de confianza a UCERPROTECT. Comprendiendo que dicha web es de carácter estadístico, la misma no debería ser utilizada para catalogar el rechazo de correos, ya que su uso es recomendable para un sistema de scoring.
+
+En caso de recibir rebotes haciendo referencia al nivel 2 nivel 3 de la mencionada web, es recomendable hacer llegar el rebote al destino por otros medios para que verificaran si corresponde. De ser asi, sera necesario hacer llegar los mensajes por otros medios a ese destino en particular.
+
+Ticket .
+
+Quedamos a disposicion.
+Saludos cordiales.
+************************************ 

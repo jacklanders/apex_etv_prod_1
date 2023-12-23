@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+Caso Nº 01: *GESTION SOPORTE* 
+****************************************                
+Nº CUIT:  
+N° IDPROD.:                  
+Nº REF.:
+Nº LIN.: 
+Nº TICKET:  
+Nº TICKET:  
+N° iTracker: 
+N° iTickets:     
+************************************
+Para:
+CC: 
+
+Asunto:
+N° Caso: 
+************************************
+
+************************************
+]]></content>
+<tabTrigger>07.NUEVA GESTION</tabTrigger>
+<description>MAIL SOPORTE GC</description>
+</snippet>

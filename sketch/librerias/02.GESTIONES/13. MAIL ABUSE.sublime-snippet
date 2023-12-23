@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+****************************************
+\ \delfos\Grandes Clientes\Doc_Clientes
+****************************************
+Caso Nº 01: *GESTION ABUSE* 
+****************************************    
+Nº CUIT:  
+N° PROD.:                  
+Nº REF.:
+Nº TICKET:  
+Nº TICKET:  
+************************************
+Para: 
+CC: 
+
+Asunto:
+N° Caso: 
+************************************
+
+************************************ 
+]]></content>
+<tabTrigger>13.NUEVA GESTION</tabTrigger>
+<description>MAIL ABUSE</description>
+</snippet>
