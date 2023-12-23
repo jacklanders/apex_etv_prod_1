@@ -8,7 +8,7 @@
 
 
 // - ********************************** INICIO   *********************************** -
-document.addEventListener('DOMContentLoaded', function() {                                                    
+/* document.addEventListener('DOMContentLoaded', function() {                                                    
     // Obtener referencias a los elementos del DOM
     var tabGestionIn = document.getElementById("tab_gestion_in");
     var tabNotas = document.getElementById("tab_notas");
@@ -51,24 +51,79 @@ document.addEventListener('DOMContentLoaded', function() {
     // Mostrar "Gestión In" por defecto al cargar la página
     mostrarGestionIn();
   });  
+  */
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var tabGestionIn = document.getElementById("tab_gestion_in");
+    var tabNotas = document.getElementById("tab_notas");
+    var tabRegistros = document.getElementById("tab_tickets");
+    var btnReturn = document.getElementById("btnreturn_tab1");
+  
+    var tabs = [tabGestionIn, tabRegistros, tabNotas];
+    var currentTab = 0;
+  
+    function mostrarPestana(index) {
+      tabs.forEach(tab => {
+        tab.style.display = "none";
+      });
+      tabs[index].style.display = "block";
+      currentTab = index;
+    }
+  
+    function avanzarPestana() {
+      currentTab = (currentTab + 1) % tabs.length;
+      mostrarPestana(currentTab);
+    }
+  
+    function retrocederPestana() {
+      currentTab = (currentTab - 1 + tabs.length) % tabs.length;
+      mostrarPestana(currentTab);
+    }
+    function cerrarPestañas() {
+        tabGestionIn.style.display = "none";
+        tabRegistros.style.display = "none";
+        tabNotas.style.display = "none";
+      }
+  
+    var btnLeftArrow = document.getElementById("btnleftarrow_tab1");
+    var btnRightArrow = document.getElementById("btnrightarrow_tab1");
+  
+    btnLeftArrow.addEventListener("click", retrocederPestana);
+    btnRightArrow.addEventListener("click", avanzarPestana);
+    btnReturn.addEventListener("click", cerrarPestañas);
+  
+    // Mostrar la primera pestaña al cargar la página
+    mostrarPestana(currentTab);
+  });
 // - ********************************** INICIO   *********************************** -
   
 
 
-// - ***************************** BLOC DE NOTAS - NOTEPAD 1 *********************** - 
+// - ***************************** BLOC DE NOTAS - NOTEPAD 1 - 2 *********************** - 
 document.addEventListener('DOMContentLoaded', function() {                                                    
-const notepad1 = document.getElementById("notepad1");      
-    // JavaScript para controlar la visibilidad del notepads 1 
-const notepad1Container = document.querySelector('.notepad-1');
-notepad1.addEventListener('input', function() {   autoAjustar(notepad1); });
-function autoAjustar(textarea) {                          
-    // Lógica para limpiar notepad 1 (por agregar)
-    textarea.style.height = 'auto';
-    textarea.style.height = (textarea.scrollHeight) + 'px'; 
-    } 
+     const notepad1 = document.getElementById("notepad1");
+    const notepad2 = document.getElementById("notepad2");
 
+    aplicarAjustes(notepad1);
+    aplicarAjustes(notepad2);
+
+    function aplicarAjustes(textarea) {
+        textarea.addEventListener('input', function() {
+            autoAjustar(textarea);
+            ajustarAnchoMaximo(textarea);
+        });
+    }
+
+    function autoAjustar(textarea) {
+        textarea.style.height = 'auto';
+        textarea.style.height = (textarea.scrollHeight) + 'px';
+    }
+
+    function ajustarAnchoMaximo(textarea) {
+        textarea.style.maxWidth = '340px'; // Fijar el ancho máximo
+    }
 // ******* BOTON BAJAR DATA ******* INICIO *******    
-document.getElementById("botonBajarD").addEventListener("click", function() { 
+document.getElementById("botonBajarDatos").addEventListener("click", function() { 
     var mercado = document.getElementById("mercado_tab1").value;
     var cliente = document.getElementById("cliente_tab1").value;
     var cuit = document.getElementById("cuit_tab1").value;
@@ -100,47 +155,58 @@ document.getElementById("botonBajarD").addEventListener("click", function() {
     // Crear un array para almacenar los valores válidos
     var valoresValidos = [];
     
-      // Verificar cada campo y agregarlo al array solo si no está vacío o es diferente de "-"
-      if (mercado !== "" && mercado !== "-") valoresValidos.push(mercado);
-      if (cliente !== "" && cliente !== "-") valoresValidos.push(cliente);
-      if (cuit !== "" && cliente !== "-") valoresValidos.push(cuit);
-      if (producto !== "" && cliente !== "-") valoresValidos.push(producto);
-      if (linea !== "" && cliente !== "-") valoresValidos.push(linea);
-      if (ticket_in !== "" && cliente !== "-") valoresValidos.push(ticket_in);
-      if (nombre !== "" && cliente !== "-") valoresValidos.push(nombre);
-      if (tel_contacto !== "" && cliente !== "-") valoresValidos.push(tel_contacto);
-      if (mail !== "" && cliente !== "-") valoresValidos.push(mail);
-      if (disponibilidad !== "" && cliente !== "-") valoresValidos.push(disponibilidad);
-      if (docAcceso !== "" && cliente !== "-") valoresValidos.push(docAcceso);
-      if (tot !== "" && cliente !== "-") valoresValidos.push(tot);
-      if (covid !== "" && cliente !== "-") valoresValidos.push(covid);
-      if (domicilio !== "" && cliente !== "-") valoresValidos.push(domicilio);
-      if (uptime !== "" && cliente !== "-") valoresValidos.push(uptime);
-      if (cm !== "" && cliente !== "-") valoresValidos.push(cm);
-      if (nodo !== "" && cliente !== "-") valoresValidos.push(nodo);
-      if (ot !== "" && cliente !== "-") valoresValidos.push(ot);
-      if (cpe_mac !== "" && cliente !== "-") valoresValidos.push(cpe_mac);
-      if (cpe_ip !== "" && cliente !== "-") valoresValidos.push(cpe_ip);
-      if (cpe_model !== "" && cliente !== "-") valoresValidos.push(cpe_model);
-      if (ip_wan !== "" && cliente !== "-") valoresValidos.push(ip_wan);
-      if (ip_sco !== "" && cliente !== "-") valoresValidos.push(ip_sco);
-      if (port_sco !== "" && cliente !== "-") valoresValidos.push(port_sco);
-      if (ticket_cliente !== "" && cliente !== "-") valoresValidos.push(ticket_cliente);
-      if (resumen !== "" && cliente !== "-") valoresValidos.push(resumen);
-      if (ot_cliente !== "" && cliente !== "-") valoresValidos.push(ot_cliente);
-  
-      // Unir los valores válidos con " || " como separador
-      var clipboardText = valoresValidos.join(" || ");
-  
-      // Asignar el contenido concatenado a notepad1
-      var notepad1 = document.getElementById("notepad1");
-      notepad1.value = clipboardText;
-  
-      // Ajustar la altura de notepad1 después de pegar los datos
-      autoAjustar(notepad1);
+      // Función para agregar texto personalizado al array si el campo no está vacío
+      function agregarValor(valor, textoPersonalizado) {
+        if (valor !== "" && valor !== "-") {
+            valoresValidos.push(`${textoPersonalizado}: ${valor}`);
+        }
+    }
+
+    // Agregar cada valor con su texto personalizado correspondiente
+    agregarValor(mercado, "Mercado");
+    agregarValor(cliente, "Cliente");
+    agregarValor(cuit, "Cuit");
+    agregarValor(producto, "Producto");
+    agregarValor(linea, "Linea");
+    agregarValor(ticket_in, "Ticket");
+
+    agregarValor(nombre, "Nombre");
+    agregarValor(tel_contacto, "Tel. Contacto");
+    agregarValor(mail, "Mail");
+    agregarValor(disponibilidad, "Disponibilidad");
+    agregarValor(docAcceso, "Doc. acceso");
+    agregarValor(tot, "ToT");
+    agregarValor(covid, "Covid19");
+    agregarValor(domicilio, "Domicilio");
+
+
+    agregarValor(uptime, "estad/uptime");
+    agregarValor(cm, "CM MAC");
+    agregarValor(nodo, "NODO");
+    agregarValor(ot, "OT");
+    agregarValor(cpe_ip, "CPE-MAC");
+    agregarValor(cpe_mac, "CPE-IP");
+    agregarValor(cpe_model, "CPE");
+    agregarValor(ip_wan, "IP-WAN");
+    agregarValor(ip_sco, "IP-SCO");
+    agregarValor(port_sco, "port-SCO");
+    agregarValor(ticket_cliente, "Ticket (cliente)");
+    agregarValor(resumen, "Resumen");
+    agregarValor(ot_cliente, "OT (cliente)");
+
+
+    // Unir los valores válidos con " || " como separador
+    var clipboardText = valoresValidos.join(" || ");
+
+    // Asignar el contenido concatenado a notepad1
+    var notepad1 = document.getElementById("notepad1");
+    notepad1.value = clipboardText;
+
+    // Ajustar la altura de notepad1 después de pegar los datos
+    autoAjustar(notepad1);
 });
 // ******* BOTON COPIAR DATA ******* INICIO *******    
-document.getElementById("botonCopiarD").addEventListener("click", function() {  
+document.getElementById("botonCopiarDatos").addEventListener("click", function() {  
     var notepad1 = document.getElementById("notepad1");
     notepad1.select();                                                  // Selecciona todo el texto en el notepad2
     document.execCommand("copy");                                       // Copia el texto seleccionado al portapapeles
@@ -157,52 +223,212 @@ document.getElementById("botonCopiarD").addEventListener("click", function() {
     }, 2000);
 });
 // ******* BOTON SUBIR DATA ******* INICIO *******    
-document.getElementById("botonSubir").addEventListener("click", function() { 
+document.getElementById("botonSubirDatos").addEventListener("click", function() { 
     var clipboardText = document.getElementById("notepad1").value; 
     var fields = clipboardText.split(" || "); 
 
-    // Verificar si hay datos válidos para cada campo antes de asignarlos
-    document.getElementById("cuit_tab1").value = fields.length > 0 && fields[0] !== "" ? fields[0] : "-";
-    document.getElementById("cuit_tab1").value = fields.length > 1 && fields[1] !== "" ? fields[1] : "-";
-    document.getElementById("cuit_tab1").value = fields.length > 2 && fields[2] !== "" ? fields[2] : "-";
-    document.getElementById("referencia_tab1").value = fields.length > 3 && fields[3] !== "" ? fields[3] : "-";
-    document.getElementById("linea_tab1").value = fields.length > 4 && fields[4] !== "" ? fields[4] : "-";
-    document.getElementById("ticket_in_tab1").value = fields.length > 5 && fields[5] !== "" ? fields[5] : "-";
-    document.getElementById("nombre_tab1").value = fields.length > 6 && fields[6] !== "" ? fields[6] : "-";
-    document.getElementById("tel_contacto_tab1").value = fields.length > 7 && fields[7] !== "" ? fields[7] : "-";
-    document.getElementById("mail_tab1").value = fields.length > 8 && fields[8] !== "" ? fields[8] : "-";
-    document.getElementById("domicilio_tab1").value = fields.length > 9 && fields[9] !== "" ? fields[09] : "-";
-    document.getElementById("disponibilidad_tab1").value = fields.length > 10 && fields[10] !== "" ? fields[10] : "L-V / 08-16HS";
-    document.getElementById("btAcceso_tab1").value = fields.length > 11 && fields[11] !== "" ? fields[11] : "NO";
-    document.getElementById("btTerraza_tab1").value = fields.length > 12 && fields[12] !== "" ? fields[12] : "SI";
-    document.getElementById("btCovid_tab1").value = fields.length > 13 && fields[13] !== "" ? fields[13] : "NO";
-    document.getElementById("btCovid_tab1").value = fields.length > 14 && fields[14] !== "" ? fields[14] : "NO";
-    document.getElementById("cm_tab1").value = fields.length > 15 && fields[15] !== "" ? fields[15] : "-";
-    document.getElementById("nodo_tab1").value = fields.length > 16 && fields[16] !== "" ? fields[16] : "-";
-    document.getElementById("ot_tab1").value = fields.length > 17 && fields[17] !== "" ? fields[17] : "-";
-    document.getElementById("cpe_mac_tab1").value = fields.length > 18 && fields[18] !== "" ? fields[18] : "-";
-    document.getElementById("cpe_ip_tab1").value = fields.length > 19 && fields[19] !== "" ? fields[19] : "-";
-    document.getElementById("cpe_model_tab1").value = fields.length > 20 && fields[20] !== "" ? fields[20] : "-";
-    document.getElementById("ip_wan_tab1").value = fields.length > 21 && fields[21] !== "" ? fields[21] : "-";
-    document.getElementById("ip_sco_tab1").value = fields.length > 22 && fields[22] !== "" ? fields[22] : "-";
-    document.getElementById("port_sco_tab1").value = fields.length > 23 && fields[23] !== "" ? fields[23] : "-";
-    document.getElementById("tk_cliente_tab1").value = fields.length > 24 && fields[24] !== "" ? fields[24] : "-";
-    document.getElementById("resumen_tab1").value = fields.length > 25 && fields[25] !== "" ? fields[25] : "-";
-    document.getElementById("ot_cliente_tab1").value = fields.length > 26 && fields[26] !== "" ? fields[26] : "-";
+    // Asociar los mensajes personalizados con los campos correspondientes
+    var mensajesPersonalizados = [
+        "Mercado",
+        "Cliente",
+        "Cuit",
+        "Producto",
+        "Linea",
+        "Ticket",
+        "Nombre",
+        "Tel. Contacto",
+        "Mail",
+        "Disponibilidad",
+        "Doc. acceso",
+        "ToT",
+        "Covid19",
+        "Domicilio",
+        "estad/uptime",
+        "CM MAC",
+        "NODO",
+        "OT",
+        "CPE-MAC",
+        "CPE-IP",
+        "CPE",
+        "IP-WAN",
+        "IP-SCO",
+        "port-SCO",
+        "Ticket (cliente)",
+        "Resumen",
+        "OT (cliente)"
+    ];
+
+    // Asociar los datos a los campos correspondientes según los mensajes personalizados
+    for (var i = 0; i < fields.length; i++) {
+        // Buscar el índice del mensaje personalizado en el array
+        var index = mensajesPersonalizados.indexOf(fields[i].split(":")[0]);
+        
+        // Si se encuentra el mensaje, asignar el valor al campo correspondiente
+        if (index !== -1) {
+            switch (index) {
+                case 0:
+                    document.getElementById("mercado_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 1:
+                    document.getElementById("cliente_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 2:
+                    document.getElementById("cuit_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 3:
+                    document.getElementById("producto_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 4:
+                    document.getElementById("linea_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 5:
+                    document.getElementById("ticket_in_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 6:
+                    document.getElementById("nombre_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 7:
+                    document.getElementById("tel_contacto_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 8:
+                    document.getElementById("mail_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 9:
+                    document.getElementById("disponibilidad_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 10:
+                    document.getElementById("btAcceso_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 11:
+                    document.getElementById("btTerraza_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 12:
+                    document.getElementById("btCovid_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 13:
+                    document.getElementById("domicilio_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 14:
+                    document.getElementById("cm_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 15:
+                    document.getElementById("nodo_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 16:
+                    document.getElementById("ot_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 17:
+                    document.getElementById("cpe_mac_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 18:
+                    document.getElementById("cpe_ip_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 19:
+                    document.getElementById("cpe_model_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 20:
+                    document.getElementById("ip_wan_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 21:
+                    document.getElementById("ip_sco_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 22:
+                    document.getElementById("port_sco_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 23:
+                    document.getElementById("tk_cliente_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 24:
+                    document.getElementById("resumen_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                case 25:
+                    document.getElementById("ot_cliente_tab1").value = fields[i].split(":")[1].trim();
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
 });
 // ******* BOTON LIMPIAR NOTEPAD 1 ******* INICIO *******    
-document.getElementById("botonCleanN").addEventListener("click", function() { 
+document.getElementById("botonBorrarDatos").addEventListener("click", function() { 
     var notepad1 = document.getElementById("notepad1");
     notepad1.value = "";            // Borra el contenido de notepad1
     notepad1.style.height = 'auto'; // Restablece la altura de notepad1
     });
 });   
-// ***************************** BLOC DE NOTAS - NOTEPAD 1 ************************** - 
+// - ***************************** BLOC DE NOTAS - NOTEPAD 1 - 2 *********************** - 
 
 
 
 
-// ***************************** BLOC DE NOTAS - NOTEPAD 2 *************************  -
+// - ***************************** SELECTOR LIBRERIAS *********************** - 
+/*
+document.addEventListener('DOMContentLoaded', function() {
+    const incidentesButton = document.getElementById('botonIncidentes');
+    const solicitudesButton = document.getElementById('botonSolicitudes');
+    const incidentesSelect = document.getElementById('librerias_incidentes');
+    const solicitudesSelect = document.getElementById('librerias_solicitudes');
+  
+    // Función para ocultar todos los selectores
+    function hideAllSelectors() {
+      incidentesSelect.style.display = 'none';
+      solicitudesSelect.style.display = 'none';
+    }
+  
+    hideAllSelectors(); // Ocultar todos los selectores inicialmente
+  
+    incidentesButton.addEventListener('click', function() {
+      hideAllSelectors(); // Ocultar todos los selectores
+      incidentesSelect.style.display = 'block'; // Mostrar el selector de Incidentes
+    });
+  
+    solicitudesButton.addEventListener('click', function() {
+      hideAllSelectors(); // Ocultar todos los selectores
+      solicitudesSelect.style.display = 'block'; // Mostrar el selector de Solicitudes
+    });
+  });
+*/
+// - ***************************** SELECTOR LIBRERIAS *********************** - 
+
+
+// - ***************************** SELECTOR LIBRERIAS *********************** - 
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.grid-subcontainer');
+
+    container.addEventListener('click', function(event) {
+        const incidentesButton = document.getElementById('botonIncidentes');
+        const solicitudesButton = document.getElementById('botonSolicitudes');
+        const selector = document.getElementById('librerias_incidentes');
+
+        if (event.target === incidentesButton) {
+            selector.dataset.type = 'incidentes';
+            mostrarOpciones(selector);
+        } else if (event.target === solicitudesButton) {
+            selector.dataset.type = 'solicitudes';
+            mostrarOpciones(selector);
+        }
+    });
+
+    function mostrarOpciones(selector) {
+        const opciones = selector.querySelectorAll('option');
+        const tipo = selector.dataset.type;
+
+        opciones.forEach(opcion => {
+            if (opcion.value === 'nulo') {
+                opcion.style.display = 'block'; // Mostrar la opción por defecto
+            } else {
+                // Mostrar u ocultar según el tipo de selector
+                opcion.style.display = (opcion.dataset.type === tipo || opcion.value === 'nulo') ? 'block' : 'none';
+            }
+        });
+    }
+});
+// - ***************************** SELECTOR LIBRERIAS *********************** - 
+
+
+
+// ***************************** BLOC DE NOTAS - NOTEPAD 3 *************************  -
 document.addEventListener('DOMContentLoaded', function() {                                                    
 const notepad2 = document.getElementById("notepad2");      
     // JavaScript para controlar la visibilidad del notepad 2
