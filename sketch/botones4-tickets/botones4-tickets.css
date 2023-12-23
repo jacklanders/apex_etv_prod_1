@@ -5,3 +5,269 @@
 /* -                                                                          - */ 
 /* -                                                                          - */ 
 /* - ************************* CODGIGO CSS  - TAB4 ************************** - */
+
+
+
+/* - ***************************** MAQUETA INICIAL ************************* - */
+body {                          /* Establece los estilos generales para el cuerpo de la página */
+    background-color: #060606; 
+    color: #fff;
+    margin: 5px; 
+    font-family: sans-serif; 
+    font-size: 14px; 
+    font-weight: 700; 
+    height: fit-content; 
+    margin-bottom: 5px; 
+    min-width: 350px;
+    max-width: 500px;   /* verificar */
+    margin-left: 10px;  /* verificar */
+    margin-right: 10px; /* verificar */ 
+  }
+  /* - ***************************** MAQUETA INICIAL ************************* - */
+      
+      
+    
+  /* - ******************************** CONTEINER **************************** - */
+  .container {                    /* Estilos para el contenedor principal */
+    min-width: 350px; 
+    max-width: 500px; 
+    padding: 20px; 
+    border: 1px solid #00fad0; 
+    line-height: 1.5; 
+    padding: 0 1em; 
+    background-color: #1a1a1a; 
+    border-radius: 5px; 
+    position: relative; 
+    height: auto; 
+    max-width: auto; 
+    margin-bottom: 10px; 
+  }
+  .tabs {                         /* Estilos para los botones superiores */
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    display: flex; 
+  }
+  .tab-btn {                      /* Estilos para los botones de pestañas */
+    flex: 1; 
+    background-color: #525151; 
+    color: #fff; 
+    border: none; 
+    padding: 10px; 
+    font-size: 10px; 
+    cursor: pointer; 
+    text-decoration: none;        /* Quitar subrayado en los enlaces */
+  }
+  .tab-btn.active {               /* Estilos para el botón de pestaña activa */
+    background-color: #1a1a1a; 
+    text-decoration: none;        /* Quitar subrayado en los enlaces */
+  }
+  .tab-content {                  /* Estilos para el contenido de las pestañas */
+    display: block; 
+  }
+  .tab-content.active {           /* Estilos para el contenido de pestañas activas */
+    display: flex; 
+    align-items: flex-start; 
+  }
+  .columna {                      /* Estilos para columnas en paralelo */
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    margin-left: 2px;
+    margin-right: 3px;
+  }
+  /* - ******************************** CONTEINER **************************** - */
+      
+      
+      
+  /* - ****************************** SUBCONTEINER *************************** - */
+  .subcontainer {                    /* Estilos para el contenedor principal */
+    min-width: 350px; 
+    max-width: 500px; 
+    padding: 20px; 
+    padding: 0 1em; 
+    background-color: #1a1a1a; 
+    border-radius: 5px; 
+    position: relative; 
+    width: auto; 
+    height: auto; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .subcontainer #btnproductividad {
+    margin: 2px; 
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    height: 31px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .subcontainer #btnherramientas_icd {
+    margin: 2px; 
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    height: 31px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  .subcontainer #btnherramientas_mail {
+    margin: 2px; 
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  /* Aplicar estilo para ocultar visualmente los botones
+    #btngestion_in_tab1,         
+    #btnnotas_tab1,
+    #btnlibrerias_tickets_tab1 {
+      position: absolute;
+      left: -9999px;
+  }
+  */
+  .subcontainer #btnleftarrow_tab5 {
+    margin: 2px; 
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    max-width: 60px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .subcontainer #btnrightarrow_tab5 {
+    margin: 2px; 
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    max-width: 60px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .subcontainer #btnreturn_tab5 {
+    margin: 2px; 
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    max-width: 60px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+  }
+  /* - ****************************** SUBCONTEINER *************************** - */
+      
+  
+    
+  
+  /* - ***********************  NOTEPAD || bloc de notas ********************* - */
+  .notepad {                      /* Estilos para el bloc de notas */
+    min-width: 350px;
+    max-width: 350px; /* Ancho máximo del bloc de notas */
+    min-height: 45px;
+    max-height: auto;
+    background-color: #ffffff;
+    border: px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    color: #000000;
+    resize: initial;
+    overflow: auto;
+    margin-bottom: 10px;
+    margin-top: 8px;
+  }
+    
+  .notepad-container-20,
+  .notepad-container-21,
+  .notepad-container-22  {
+    width: 350px; /* Ancho máximo del contenedor del bloc de notas */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    margin-right: 20px; /* Agrega un margen derecho mínimo */
+  }
+  /* - ***********************  NOTEPAD || bloc de notas ********************* - */
+      
+      
+  /* ********************** NOTEPAD 20 ******************** - */     
+  input[type="submit"] {          /* Estilos para botones de envío */
+    background-color: #424242d4;
+    color: #fbeb95;
+    border: none;
+    padding: 8px 12px;
+    font-size: 9px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-top: 4px;
+    margin-left: 1px;
+    border-radius: 5px;
+  }
+  input[type="submit"]:active {   /* Estilos para botones de envío activos */
+    background-color: #1a1a1a;
+    box-shadow: 0 0px #424242d4;
+    transform: translateY(1px);
+  }
+  .notepad-container-20 > div,
+  .notepad-container-21 > div {
+    display: inline-block; /* Mostrar los elementos en línea */
+    vertical-align: top; /* Alinearlos en la parte superior */
+  }
+  #botonCopiarProd. {
+    margin-left: 10px;
+    /* background-color: red; /* Cambia el color de fondo a rojo */
+    /* color: white; /* Cambia el color del texto a blanco */
+    /* Agrega más estilos personalizados si es necesario */
+  }
+  /* ********************** NOTEPAD 20 ******************** - */     
+      
+    
+    
+    
+  /* ***************************** PIE DE PAGINA ***************************** - */                  
+  .footer {
+    font-size: 10px;
+    color: #00fad0;
+    text-align: center;
+    margin-bottom: 0.5px;
+  }
+  /* ***************************** PIE DE PAGINA ***************************** - */               
+      
+    
+    
+    
+    
+  /* ***************************** FONDO DE PANTALLA ***************************** - */               
+  /* input_text label.html (configuracion ocultar) */
+  .hidden-section {
+    display: none;                 /* - Oculta las secciones de información por defecto - */
+  }
+  .show-icon {
+    cursor: pointer;
+    float: right;                  /* - Alinea a la derecha usando float - */
+  }
+    
+  /* background body.html (fondo de pantalla) */
+  body {
+    background-image: url('2019-07-27\ 17.10.51.jpg');
+    background-size: cover;
+    background-attachment: local;  /* - Esta línea hace que el fondo sea fijo - */
+  }
+  img[alt=""] {
+    display: block;               
+    margin: 0;
+    padding: 0; 
+  }
+  /* ***************************** FONDO DE PANTALLA ***************************** - */               

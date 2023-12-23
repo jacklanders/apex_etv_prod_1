@@ -1061,5 +1061,3 @@ document.getElementById("botonLimpiar").addEventListener("click", function() {
     }); 
 });     
 // - ***************************** BLOC DE NOTAS - NOTEPAD 3 *********************** -
-   
-
