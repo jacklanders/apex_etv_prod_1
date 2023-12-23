@@ -1,6 +1,7 @@
 // - *****************************  SECCION 1 - INCIDENTES ************************* -
 // -                                                                                 - 
-// -                  Codigo js del boton TICKETS, de la extension: ETV_PROD         -  
+// -                                                                                 - 
+// -                                  Codigo js principal                            -  
 // -                                                                                 -  
 // -                                                                                 -
 // - *****************************  SECCION 1 - INCIDENTES ************************* -

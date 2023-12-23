@@ -1,9 +1,10 @@
-// - *****************************  SECCION 2 - MAILS FIBER ************************ -
+// - *****************************  SECCION 2 - MAILS FIBERS ************************* -
+// -                                                                                   - 
 // -                                                                                 - 
-// -                  Codigo js del boton FIBER, de la extension: ETV_PROD           -  
-// -                                                                                 -  
-// -                                                                                 -  
-// - *****************************  SECCION 2 - MAILS FIBER ************************ -
+// -                                  Codigo js principal                              -  
+// -                                                                                   -  
+// -                                                                                   -
+// - *****************************  SECCION 2 - MAILS FIBERS ************************* -
 
 
 

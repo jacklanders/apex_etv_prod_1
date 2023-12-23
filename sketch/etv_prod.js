@@ -1,10 +1,10 @@
 // - *******************************  CODGIGO JAVASCRIPT *************************** -
 // -                                                                                 - 
+// -                                                                                 - 
 // -                                 Codigo js principal                             -  
 // -                                                                                 -  
 // -                                                                                 - 
 // - *******************************  CODGIGO JAVASCRIPT *************************** -
-
 
 
 
@@ -18,10 +18,12 @@ function alcerrar() {                                              // El evento 
 document.write('<script src="botones1-icd-in-ss.js"></script>');   // Importa el archivo de funcionalidad incidentes - solicitudes
 document.write('<script src="botones2-fiber.js"></script>');       // Importa el archivo de funcionalidad fiber
 document.write('<script src="botones3-teco.js"></script>');        // Importa el archivo de funcionalidad teco
-//document.write('<script src="botones4-arcos.js"></script>');        // Importa el archivo de funcionalidad arcos dorados
-//document.write('<script src="botones5-others.js"></script>');      // Importa el archivo de funcionalidad herramientas
+document.write('<script src="botones4-tickets.js"></script>');     // Importa el archivo de funcionalidad ticket
+document.write('<script src="botones5-extras.js"></script>');      // Importa el archivo de funcionalidad herramientas
 //document.write('<script src="botones-return.js"></script>');       // Importa el archivo de funcionalidad tecO
 // - ***************************** Funcion Principal ******************************* -
+
+
 
 
 
@@ -35,9 +37,11 @@ function seleccionarCheckbox(checkboxIndex, name) {
     checkbox.checked = (index + 1 === checkboxIndex);
   });
 }   
-document.getElementById('btnTickets').addEventListener('click', function (event) {openTab(event, 'tab_icd-in-ss');})    // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
-document.getElementById('btnFiber').addEventListener('click', function(event) { openTab(event, 'tab_fiber'); });        // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
-document.getElementById('btnTeco').addEventListener('click', function(event) {openTab(event, 'tab_teco'); });           // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
+document.getElementById('btnllamadas').addEventListener('click', function (event) {openTab(event, 'tab_icd-in-ss');})   // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
+document.getElementById('btnfiber').addEventListener('click', function(event) { openTab(event, 'tab_fiber'); });        // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
+document.getElementById('btnteco').addEventListener('click', function(event) {openTab(event, 'tab_teco'); });           // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
+document.getElementById('btntickets').addEventListener('click', function(event) {openTab(event, 'tab_tickets'); });     // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
+document.getElementById('btnextras').addEventListener('click', function(event) {openTab(event, 'tab_extras'); });       // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
 // ******* Funcion OpenTAB ******* INICIO *******    
 var activeTab = '';
 function openTab(evt, tabName) {
@@ -62,14 +66,14 @@ function openTab(evt, tabName) {
   // Update the active tab variable
   activeTab = tabName; 
 }
-document.getElementById('btnTickets').addEventListener('click', function (event) { openTab(event, 'tab_icd-in-ss'); });
-document.getElementById('btnFiber').addEventListener('click', function (event) { openTab(event, 'tab_fiber'); });
-document.getElementById('btnTeco').addEventListener('click', function (event) { openTab(event, 'tab_teco'); });
-document.getElementById('btnArcos').addEventListener('click', function (event) { openTab(event, 'tab_arcos'); });
-document.getElementById('btnTools').addEventListener('click', function (event) { openTab(event, 'tab_tools'); });
+document.getElementById('btnllamadas').addEventListener('click', function (event) { openTab(event, 'tab_icd-in-ss'); });
+document.getElementById('btnfiber').addEventListener('click', function (event) { openTab(event, 'tab_fiber'); });
+document.getElementById('btnteco').addEventListener('click', function (event) { openTab(event, 'tab_teco'); });
+document.getElementById('btntickets').addEventListener('click', function (event) { openTab(event, 'tab_tickets'); });
+document.getElementById('btnextras').addEventListener('click', function (event) { openTab(event, 'tab_extras'); });
 document.getElementById('btnreturn').addEventListener('click', function (event) {
   // When the "return" button is clicked, close all tabs and reset the state
-  var allTabs = ["tab_icd-in-ss", "tab_fiber", "tab_teco", "tab_arcos", "tab_tools", "tab_return"];
+  var allTabs = ["tab_icd-in-ss", "tab_fiber", "tab_teco", "tab_tickets", "tab_extras", "tab_return"];
   for (var i = 0; i < allTabs.length; i++) {
     var tabElement = document.getElementById(allTabs[i]);
     if (tabElement) {
