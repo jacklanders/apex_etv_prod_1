@@ -144,7 +144,7 @@ body {                          /* Establece los estilos generales para el cuerp
 }
 #btngestion_in_tab1,             /* Aplicar estilo para ocultar visualmente los botones */
 #btnnotas_tab1,
-#btnlibrerias_tickets_tab1 {
+#btnlibrerias_incidentes_tab1 {
   position: absolute;
   left: -9999px;
 }
@@ -248,6 +248,15 @@ select option[value="SI"] {
 }
 select option[value="NO"] {
   background-color: lightcoral; /* Color de fondo para la opción NO */
+}
+select option[value="CRECIMIENDO"] {
+  background-color: 32c3b7; /* Color de fondo para la opción SI */
+}
+select option[value="AMBA"] {
+  background-color: lightcoral; /* Color de fondo para la opción NO */
+}
+select option[value="INTERIOR"] {
+  background-color: lightgreen; /* Color de fondo para la opción SI */
 }
 /* ***************************** GRID CONFIG ***************************** - */               
               
@@ -360,25 +369,28 @@ select option[value="NO"] {
 
 
 /* ***************************** GRID INPUTS ***************************** - */               
-#tab_gestion_in #mercado_tab1 {
+#btmercado_tab1 {
+  background-color: #debd03 ; /* Color de fondo gris */
+  color: black; /* Color del texto */
+  border: 1px solid black; /* Borde negro */
+  font-weight: bold;
+  width: 100px;
+  height: 26px;
+  margin-bottom: 2px;
+}
+#cliente_tab1 {
   background-color: #debd03; /* Color de fondo dorado */
   color: black; /* Color del texto */
   border: 1px solid black; /* Borde negro */
   font-weight: bold;
 }
-#tab_gestion_in  #cliente_tab1 {
+#cuit_tab1 {
   background-color: #debd03; /* Color de fondo dorado */
   color: black; /* Color del texto */
   border: 1px solid black; /* Borde negro */
   font-weight: bold;
 }
-#tab_gestion_in #cuit_tab1 {
-  background-color: #debd03; /* Color de fondo dorado */
-  color: black; /* Color del texto */
-  border: 1px solid black; /* Borde negro */
-  font-weight: bold;
-}
-#tab_gestion_in #producto_tab1 {
+#producto_tab1 {
   background-color: #debd03; /* Color de fondo gris */
   color: black; /* Color del texto */
   border: 1px solid black; /* Borde negro */
@@ -455,12 +467,7 @@ select option[value="NO"] {
   font-weight: bold;
 }
 /* separador de inputs grid */
-#uptime_tab1 {
-  background-color: #32c3b7 ; /* Color de fondo gris */
-  color: black; /* Color del texto */
-  border: 1px solid black; /* Borde negro */
-  font-weight: bold;
-}
+
 #cm_tab1 {
   background-color: #32c3b7 ; /* Color de fondo gris */
   color: black; /* Color del texto */
@@ -478,22 +485,28 @@ select option[value="NO"] {
   color: black; /* Color del texto */
   border: 1px solid black; /* Borde negro */
   font-weight: bold;
+}
+#uptime_tab1 {
+  background-color: #32c3b7 ; /* Color de fondo gris */
+  color: black; /* Color del texto */
+  border: 1px solid black; /* Borde negro */
+  font-weight: bold;
   max-width: 80px;
   margin-right: 80px;
 }
-#cpe_mac_tab1 {
+#cpe_tab1 {
   background-color: #32c3b7 ; /* Color de fondo gris */
   color: black; /* Color del texto */
   border: 1px solid black; /* Borde negro */
   font-weight: bold;
 }
-#cpe_ip_tab1 {
+#ip_tab1 {
   background-color: #32c3b7 ; /* Color de fondo gris */
   color: black; /* Color del texto */
   border: 1px solid black; /* Borde negro */
   font-weight: bold;
 }
-#cpe_model_tab1 {
+#model_tab1 {
   background-color: #32c3b7 ; /* Color de fondo gris */
   color: black; /* Color del texto */
   border: 1px solid black; /* Borde negro */

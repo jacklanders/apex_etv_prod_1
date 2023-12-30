@@ -10,7 +10,7 @@
 <body>
   <div class="container">                                                    <!-- conteiner de los botones superiores 1 - 2 - 3 - 4 --> 
     <div class="tabs">                                                       <!-- apertura del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | -->
-      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd-in-ss">TICKETS</a>   <!-- button tab1 - ICD IN-SS*-->
+      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd_in_ss">TICKETS</a>   <!-- button tab1 - ICD IN-SS*-->
       <a class="tab-btn" href="../botones2-fiber/botones2-fiber.html" id="btnfiber" name="_fiber">FIBER</a>                    <!-- button tab2 - FIBER*-->
       <a class="tab-btn" href="../botones3-teco/botones3-teco.html" id="btnteco" name="_teco">TECO</a>                         <!-- button tab3 - TECO*-->
       <a class="tab-btn" href="../botones4-tickets/botones4-tickets.html" id="btntickets" name="_tickets">TICKETS</a>          <!-- button tab4 - TICKETS*-->
@@ -18,5 +18,199 @@
       <button class="tab-btn" id="btnreturn" name="_return">&#x21A9</button>  
     </div>                                                                   <!-- cierre del bloque: titulos de pestañas | IN-SS | FIBER | TECO | TICKETS | EXTRAS | --> 
   </div>                                                                     <!-- cierre del conteiner | pestañas | IN-SS | FIBER | TECO | TICKETS | EXTRAS | --> 
+  <div id="tab_tickets" class="tab-content">                                 <!-- codigo tab4 - MAILS TICKETS*-->
+    <div class="container">                                                  <!-- conteiner tab4 -->
+      <div class="subcontainer">                                             <!-- subconteiner tab4 -->
+        <button class="tab-btn" id="btnleftarrow_tab4" name="tab_leftarrow">&#x2190;</button>
+        <button class="tab-btn" id="btniniciar_tab4" name="tab_iniciar">Iniciar Gestion</button>
+        <button class="tab-btn" id="btndescartar_tab4" name="tab_descartar">Descargar Gestion</button>
+        <button class="tab-btn" id="btnfinalizar_tab4" name="tab_finalizar">Finalizar Gestion</button>
+        <button class="tab-btn" id="btnlibrerias_tickets_tab4" name="tab_librerias_tickets">REGISTROS</button>    
+        <button class="tab-btn" id="btngestion_in_tab4" name="tab_gestion_in">GESTION IN</button>     
+        <button class="tab-btn" id="btnnotas_tab4" name="tab_notas">NOTAS</button>    
+        <button class="tab-btn" id="btnrightarrow_tab4" name="tab_rightarrow">&#x2192;</button> 
+        <button class="tab-btn" id="btnreturn_tab4" name="tab_return">&#x21A9</button>
+      </div>                                                               <!-- finaliza subconteiner tickets -->
+      <div id="tab_librerias_tickets" class="tab-content">                    <!-- boton tab4 - librerias tickets -->
+        <div class="grid-subcontainer">          
+          <div class="button-container">
+            <button class="grid-item" id="botonRecomendados">Recomendados</button>
+            <button class="grid-item" id="botonSoporte">Soporte</button>
+          </div>     
+          <div class="select-container">
+           <select id="librerias_mails_teco">                    <!-- selector de librerias macro -->   
+            <option value="nulo">Selecciona una opción</option>
+            <option value="nulo">Recomendados TICKETS</option>
+            <option value="01.TK-BASE-Consulta.novedades.(generico1)" data-type="recomendados">01.TK-BASE-Consulta.novedades.(generico1)</option>
+            <option value="02.TK-BASE-Consulta.novedades.(generico2)" data-type="recomendados">02.TK-BASE-Consulta.novedades.(generico2)</option>
+            <option value="03.TK-BASE-Consulta.novedades.(generico3)" data-type="recomendados">03.TK-BASE-Consulta.novedades.(generico3)</option>
+            <option value="04.TK-BASE-Consulta.novedades.(reitera)" data-type="recomendados">04.TK-BASE-Consulta.novedades.(reitera)</option>
+            <option value="05.TK-SIC-Consulta-novedades.(generico1)" data-type="recomendados">05.TK-SIC-Consulta-novedades.(generico1)</option>
+            <option value="06.TK-SIC-Consulta-novedades.(generico2)" data-type="recomendados">06.TK-SIC-Consulta-novedades.(generico2)</option>
+            <option value="07.TK-SIC-Consulta-novedades.(error SIC)" data-type="recomendados">07.TK-SIC-Consulta-novedades.(error SIC)</option>
+            <option value="08.TK-SIC-Consulta-novedades.(error SIC-GOL)" data-type="recomendados">08.TK-SIC-Consulta-novedades.(error SIC-GOL)</option>
+            <option value="nulo">Soporte TICKETS</option>
+            <option value="01.TK.HFC-Seguimiento.(consulta.post.OT-gen1)" data-type="soporte">01.TK.HFC-Seguimiento.(consulta.post.OT-gen1)</option>
+            <option value="02.TK-HFC-Seguimiento.(consulta.post OT-gen2)" data-type="soporte" >02.TK-HFC-Seguimiento.(consulta.post OT-gen2)</option>
+            <option value="03.TK-HFC-Seguimiento.(consulta.post.OT-gen3)" data-type="soporte">03.TK-HFC-Seguimiento.(consulta.post.OT-gen3)</option>
+            <option value="04.TK-HFC-Seguimiento.(anulacion.OT-gen1)" data-type="soporte">04.TK-HFC-Seguimiento.(anulacion.OT-gen1)</option>
+            <option value="05.TK-HFC-Seguimiento.(anulacion.OT-gen2)" data-type="soporte">05.TK-HFC-Seguimiento.(anulacion.OT-gen2)</option>
+            <option value="06.TK-HFC-Seguimiento.(anulacion.OT-gen3)" data-type="soporte" >06.TK-HFC-Seguimiento.(anulacion.OT-gen3)</option>
+            <option value="07.TK-HFC-Seguimiento.(anulacion.OT-masivo)" data-type="soporte">07.TK-HFC-Seguimiento.(anulacion.OT-masivo)</option>
+            <option value="08.TK-HFC-Seguimiento.(agendaOT-gen1)" data-type="soporte">08.TK-HFC-Seguimiento.(agendaOT-gen1)</option>
+            <option value="09.TK-HFC-Seguimiento.(regenda.OT-gen1)" data-type="soporte">09.TK-HFC-Seguimiento.(regenda.OT-gen1)</option>
+            <option value="10.TK-HFC-Seguimiento.(regenda.OT-contencion)" data-type="soporte">10.TK-HFC-Seguimiento.(regenda.OT-contencion)</option>
+            <option value="11.TK-ToIP-Seguimiento.(pruebas-NOC)" data-type="soporte">11.TK-ToIP-Seguimiento.(pruebas-NOC)</option>
+            <option value="12.TK-ToIP-Seguimiento.(agenda.OT-NOC)" data-type="soporte">12.TK-ToIP-Seguimiento.(agenda.OT-NOC)</option>
+            <option value="13.TK-FLOW-Seguimiento.(consulta.servicio-gen1)" data-type="soporte">13.TK-FLOW-Seguimiento.(consulta.servicio-gen1)</option>
+            <option value="14.TK-FLOW-Seguimiento.(pruebas-gen2)" data-type="soporte">14.TK-FLOW-Seguimiento.(pruebas-gen2)</option>
+            <option value="15.TK-FLOW-Seguimiento.(consulta.NOC-gen3)" data-type="soporte">15.TK-FLOW-Seguimiento.(consulta.NOC-gen3)</option>
+            <option value="16.TK-FLOW-Seguimiento.(anulacion.OT-gen4)" data-type="soporte">16.TK-FLOW-Seguimiento.(anulacion.OT-gen4)</option>
+            <option value="17.TK-CLOUD-Seguimiento.(consulta.cuenta-gen1)" data-type="soporte">17.TK-CLOUD-Seguimiento.(consulta.cuenta-gen1)</option>
+            <option value="18.TK-CLOUD-Seguimiento.(carga.registros-MX-SFP)" data-type="soporte">18.TK-CLOUD-Seguimiento.(carga.registros-MX-SFP)</option>
+            <option value="19.TK-OTHERS-Seguimiento.(carga.registros-gen1)" data-type="soporte">19.TK-OTHERS-Seguimiento.(carga.registros-gen1)</option>
+            <option value="20.TK-OTHERS-Seguimiento.(carga reglas-gen1)" data-type="soporte">20.TK-OTHERS-Seguimiento.(carga reglas-gen1)</option>
+            <option value="21.TK-GOL-Seguimiento.(consulta.cuenta-gen1)" data-type="soporte">21.TK-GOL-Seguimiento.(consulta.cuenta-gen1)</option>
+            <option value="22.TK-GOL-Seguimiento.(carga.registros-DNS)" data-type="soporte">22.TK-GOL-Seguimiento.(carga.registros-DNS)</option>
+           </select>
+          </div>
+        </div>    
+        <div class="notepad-container-10">                                         <!-- conteiner bloc de notas 10 --> 
+            <div class="notepad notepad-10">                                       <!-- notepad10 -->
+            <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad10 -->
+            <textarea id="notepad10" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+            </div>                                                                <!-- finaliza notepad10 -->
+        </div>   
+        <div id="output"></div>                                                   <!-- salida de texto -->
+        <div>                                                                     <!-- botones para notepad10  --> 
+            <input type="submit" value="Exportar" id="botonExportar.tab4">          <!-- este boton carga la libreria seleccionada en notepad10 -->
+            <input type="submit" value="Cargar" id="botonCargar.tab4">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad10  -->
+            <input type="submit" value="Copiar" id="botonCopiar.tab4">              <!-- este boton copia el texto cargado en notepad10 -->
+            <input type="submit" value="Limpiar" id="botonLimpiar.tab4">            <!-- este boton borra el texto cargado en notepad10 -->
+        </div>     
+      </div>  
+      <div id="tab_gestion_in" class="tab-content">                        <!-- boton tab4 - gestion in -->
+        <hr>                                                               <!-- 1 linea divisoria -->  
+        <div class="grid-container">
+          <div class="grid-item-header datos-in-1">DATOS IN</div>
+          <div class="grid-item-header datos-in-2">DATOS IN</div>
+        </div>
+        <div class="grid-container">                                          <!-- botones GRID text || IN-SS -->  
+          <label for="mercado_tab4">MERCADO:</label>
+          <select id="btmercado_tab4">
+            <option value="INTERIOR">INTERIOR</option>
+            <option value="AMBA">AMBA</option>
+            <option value="CRECIMIENTO" selected>CRECIMIENTO</option>
+          </select>
+          <input type="text" class="grid-item" id="producto_tab4" placeholder="-">
+          <label for="producto_tab4">:PRODUCTO</label>
+        </div>
+        <div class="grid-container">
+          <label for="cliente_tab4">CLIENTE:</label>
+          <input type="text" class="grid-item" id="cliente_tab4" placeholder="-">
+          <input type="text" class="grid-item" id="linea_tab4" placeholder="-">
+          <label for="linea_tab4">:LINEA</label>
+        </div>
+        <div class="grid-container">
+          <label for="cuit_tab4">CUIT:</label>
+          <input type="text" class="grid-item" id="cuit_tab4" placeholder="-">
+          <input type="text" class="grid-item" id="ticket_in_tab4" placeholder="-">
+          <label for="ticket_in_tab4">:TICKET IN</label>
+        </div>
+        <hr>                                                                 <!-- 2 linea divisoria --> 
+        <div class="grid-container">
+          <div class="grid-item-header datos-de-contacto-1">DATOS DE CONTACTO</div>
+          <div class="grid-item-header datos-de-contacto-2">DATOS DE CONTACTO</div>
+        </div>
+        <div class="grid-container">                                       
+          <label for="nombre_tab4">Nombre:</label>
+          <input type="text" class="grid-item" id="nombre_tab4" placeholder="-">
+          <select id="btAcceso_tab4">
+            <option value="SI">SI</option>
+            <option value="NO" selected>NO</option>
+          </select>
+          <label for="btAcceso_tab4">:Doc.Acc.</label>
+        </div>
+        <div class="grid-container">
+          <label for="tel_contacto_tab4">Tel.Ct.:</label>
+          <input type="text" class="grid-item" id="tel_contacto_tab4" placeholder="-">
+          <select id="btTerraza_tab4">
+            <option value="SI" selected>SI</option>
+            <option value="NO">NO</option>
+          </select>
+          <label for="btTerraza_tab4">:ToT</label>
+        </div>
+        <div class="grid-container">
+          <label for="mail_tab4">Mail:</label>
+          <input type="text" class="grid-item" id="mail_tab4" placeholder="-">
+          <select id="btCovid_tab4">
+            <option value="SI">SI</option>
+            <option value="NO" selected>NO</option>
+          </select>
+          <label for="btCovid_tab4 ">:Covid19</label>
+        </div> 
+        <div class="grid-container">
+          <label for="disponibilidad_tab4">H - D:</label>
+          <input type="text" class="grid-item" id="disponibilidad_tab4" value="L-V / 08-16HS">
+          <input type="text" class="grid-item" id="domicilio_tab4" placeholder="-">
+          <label for="domicilio_tab4">:Domicilio</label>
+        </div> 
+        <hr>                                                                 <!-- 3 linea divisoria --> 
+        <div class="grid-container">
+          <div class="grid-item-header datos-tecnicos-hfc-1">DATOS TECNICOS HFC</div>
+          <div class="grid-item-header datos-tecnicos-hfc-2">DATOS TECNICOS HFC</div>
+        </div>
+        <div class="grid-container">                                       
+          <label for="cm_tab4">CM MAC:</label>
+          <input type="text" class="grid-item" id="cm_tab4" placeholder="-">
+          <input type="text" class="grid-item" id="ip_tab4" placeholder="-">
+          <label for="ip_tab4">IP:</label>
+        </div>
+        <div class="grid-container">
+          <label for="nodo_tab4">NODO:</label>
+          <input type="text" class="grid-item" id="nodo_tab4" placeholder="-">
+          <input type="text" class="grid-item" id="ot_tab4" placeholder="-">
+          <label for="ot_tab4">OT:</label>
+        </div>
+        <div class="grid-container">
+          <label for="masivo_tab4">MASIVO -TICKET:</label>
+          <input type="text" class="grid-item" id="masivo_tab4" placeholder="-">
+          <input type="text" class="grid-item" id="uptime_tab4" placeholder="-">
+          <label for="uptime_tab4">estado -uptime:</label>
+        <hr>                                                                  <!-- 4 linea divisoria --> 
+        </div>  
+      </div>  
+      <div id="tab_notas" class="tab-content">                             <!-- boton tab4 - notas -->
+        <div class="notepad-container-11">                                          <!-- conteiner bloc de notas 11 -->
+          <div class="notepad notepad-11">                                          <!-- notepad11 -->
+            <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad11 -->
+            <textarea id="notepad11" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 110px; max-height: 370px;"></textarea>
+          </div>                                                                   <!-- finaliza notepad11 -->
+          <div id="output"></div>                                                  <!-- salida de texto -->
+          <div>                                                                    <!-- botones para notepad11  --> 
+            <input type="submit" value="Bajar Datos" id="botonBajarDatos.tab4">         <!-- este boton baja el contenido de los input_tex al notepad11 -->
+            <input type="submit" value="Copiar Data" id="botonCopiarDatos.tab4">        <!-- este boton copia el contenido cargardo en notepad11 -->
+            <input type="submit" value="Subir Datos" id="botonSubirDatos.tab4">         <!-- este boton sube el contenido de los input_tex al notepad11 -->
+            <input type="submit" value="Borrar Datos" id="botonBorrarDatos.tab4">       <!-- este boton borra el contenido de los input_tex al notepad11 -->
+          </div>     
+        </div>                                                                     <!-- finalzia botones para notepad11  -->         
+        <div class="notepad-container-12">                                          <!-- conteiner bloc de notas 12 -->
+          <div class="notepad notepad-12">                                          <!-- notepad12 -->
+            <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad12 -->
+            <textarea id="notepad12" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 110px; max-height: 370px;"></textarea>
+          </div>                                                                   <!-- finaliza notepad12 -->
+          <div id="output"></div>                                                  <!-- salida de texto -->
+          <div>                                                                    <!-- botones para notepad12  --> 
+            <input type="submit" value="Sumar Registro" id="botonSumarReg.tab4">               <!-- este boton baja el contenido de los input_tex al notepad12 -->
+            <input type="submit" value="Copiar Registro" id="botonCopiarReg.tab4">             <!-- este boton copia el contenido cargardo en notepad12 -->
+            <input type="submit" value="Borrar Registro" id="botonCleanReg.tab4">              <!-- este boton borra el texto cargado en notepad12 -->
+          </div>                                                                   <!-- finaliza conteiner bloc de notepad12 --> 
+        </div>                                                                     <!-- finalzia botones para notepad12  -->         
+      </div>
+      <div class="footer">                                                 <!-- footer-->
+        <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
+      </div>                                                               <!-- footer-->
+    </div>                                                                 <!-- finaliza conteiner tab4 --> 
+  </div>                                                                   <!-- finaliza tab4 - MAILS TICKETS* -->    
 </body>
 </html>  

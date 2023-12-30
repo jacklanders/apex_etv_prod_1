@@ -55,11 +55,13 @@
   });  
   */
 // - ********************************** INICIO   *********************************** -
+
+
 // - ********************************** INICIO   *********************************** -
   document.addEventListener('DOMContentLoaded', function() {
     var tabGestionIn = document.getElementById("tab_gestion_in");
     var tabNotas = document.getElementById("tab_notas");
-    var tabRegistros = document.getElementById("tab_tickets");
+    var tabRegistros = document.getElementById("tab_librerias_incidentes");
     var btnReturn = document.getElementById("btnreturn_tab1");
   
     var tabs = [tabGestionIn, tabRegistros, tabNotas];
@@ -128,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 // ******* BOTON BAJAR DATA ******* INICIO *******    
 document.getElementById("botonBajarDatos").addEventListener("click", function() { 
-    var mercado = document.getElementById("mercado_tab1").value;
+    var mercado = document.getElementById("btmercado_tab1").value;
     var cliente = document.getElementById("cliente_tab1").value;
     var cuit = document.getElementById("cuit_tab1").value;
     var producto = document.getElementById("producto_tab1").value;
@@ -142,13 +144,13 @@ document.getElementById("botonBajarDatos").addEventListener("click", function() 
     var tot = document.getElementById("btTerraza_tab1").value;
     var covid = document.getElementById("btCovid_tab1").value;
     var domicilio = document.getElementById("domicilio_tab1").value;
-    var uptime = document.getElementById("uptime_tab1").value;
     var cm = document.getElementById("cm_tab1").value;
     var nodo = document.getElementById("nodo_tab1").value;
     var ot = document.getElementById("ot_tab1").value;
-    var cpe_mac = document.getElementById("cpe_mac_tab1").value;
-    var cpe_ip = document.getElementById("cpe_ip_tab1").value;
-    var cpe_model = document.getElementById("cpe_model_tab1").value;
+    var uptime = document.getElementById("uptime_tab1").value;
+    var ip = document.getElementById("ip_tab1").value;
+    var cpe = document.getElementById("cpe_tab1").value;
+    var model = document.getElementById("model_tab1").value;
     var ip_wan = document.getElementById("ip_wan_tab1").value;
     var ip_sco= document.getElementById("ip_sco_tab1").value;
     var port_sco = document.getElementById("port_sco_tab1").value;
@@ -184,13 +186,13 @@ document.getElementById("botonBajarDatos").addEventListener("click", function() 
     agregarValor(domicilio, "Domicilio");
 
 
-    agregarValor(uptime, "estad/uptime");
     agregarValor(cm, "CM MAC");
     agregarValor(nodo, "NODO");
     agregarValor(ot, "OT");
-    agregarValor(cpe_ip, "CPE-MAC");
-    agregarValor(cpe_mac, "CPE-IP");
-    agregarValor(cpe_model, "CPE");
+    agregarValor(uptime, "estado - uptime");
+    agregarValor(ip, "IP");
+    agregarValor(cpe, "CPE");
+    agregarValor(model, "MODEL");
     agregarValor(ip_wan, "IP-WAN");
     agregarValor(ip_sco, "IP-SCO");
     agregarValor(port_sco, "port-SCO");
@@ -237,13 +239,13 @@ document.getElementById("botonSubirDatos").addEventListener("click", function() 
         "ToT",
         "Covid19",
         "Domicilio",
-        "estad/uptime",
         "CM MAC",
         "NODO",
         "OT",
-        "CPE-MAC",
-        "CPE-IP",
+        "estado - uptime",
+        "IP",
         "CPE",
+        "MODEL",
         "IP-WAN",
         "IP-SCO",
         "port-SCO",
@@ -261,7 +263,7 @@ document.getElementById("botonSubirDatos").addEventListener("click", function() 
         if (index !== -1) {
             switch (index) {
                 case 0:
-                    document.getElementById("mercado_tab1").value = fields[i].split(":")[1].trim();
+                    document.getElementById("btmercado_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 case 1:
                     document.getElementById("cliente_tab1").value = fields[i].split(":")[1].trim();
@@ -312,30 +314,33 @@ document.getElementById("botonSubirDatos").addEventListener("click", function() 
                     document.getElementById("ot_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 case 17:
-                    document.getElementById("cpe_mac_tab1").value = fields[i].split(":")[1].trim();
-                    break;
+                    document.getElementById("uptime_tab1").value = fields[i].split(":")[1].trim();
+                    break;                    
                 case 18:
-                    document.getElementById("cpe_ip_tab1").value = fields[i].split(":")[1].trim();
+                    document.getElementById("ip_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 case 19:
-                    document.getElementById("cpe_model_tab1").value = fields[i].split(":")[1].trim();
+                    document.getElementById("cpe_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 case 20:
-                    document.getElementById("ip_wan_tab1").value = fields[i].split(":")[1].trim();
+                    document.getElementById("model_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 case 21:
-                    document.getElementById("ip_sco_tab1").value = fields[i].split(":")[1].trim();
+                    document.getElementById("ip_wan_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 case 22:
-                    document.getElementById("port_sco_tab1").value = fields[i].split(":")[1].trim();
+                    document.getElementById("ip_sco_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 case 23:
-                    document.getElementById("tk_cliente_tab1").value = fields[i].split(":")[1].trim();
+                    document.getElementById("port_sco_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 case 24:
-                    document.getElementById("resumen_tab1").value = fields[i].split(":")[1].trim();
+                    document.getElementById("tk_cliente_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 case 25:
+                    document.getElementById("resumen_tab1").value = fields[i].split(":")[1].trim();
+                    br6ak;
+                case 26:
                     document.getElementById("ot_cliente_tab1").value = fields[i].split(":")[1].trim();
                     break;
                 default:
@@ -416,6 +421,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 */
 // - ***************************** SELECTOR LIBRERIAS *********************** - 
+
+
 // - ***************************** SELECTOR LIBRERIAS *********************** - 
 document.addEventListener('DOMContentLoaded', function() {
     const container = document.querySelector('.grid-subcontainer');
@@ -617,6 +624,7 @@ document.getElementById("botonExportar").addEventListener("click", function() {
 // ******* BOTON CARGAR LIBRERIAS ******* INICIO *******    
 document.getElementById("botonCargar").addEventListener("click", function() { 
     var selectedValue = document.getElementById("librerias_incidentes").value;                       // Obtén el valor seleccionado nuevamente
+    var mercado = document.getElementById("btmercado_tab1").value; 
     var cuit = document.getElementById("cuit_tab1").value;                                           // Obtener los valores de los input text
     var referencia = document.getElementById("producto_tab1").value;                               // Obtener los valores de los input text
     var linea = document.getElementById("linea_tab1").value;                                         // Obtener los valores de los input text
@@ -634,13 +642,14 @@ document.getElementById("botonCargar").addEventListener("click", function() {
     var cm = document.getElementById("cm_tab1").value;                                               // Obtener los valores de los input text     
     var nodo = document.getElementById("nodo_tab1").value;                                           // Obtener los valores de los input text
     var ot = document.getElementById("ot_tab1").value;                                               // Obtener los valores de los input text
+    var uptime = document.getElementById("uptime_tab1").value;                                               // Obtener los valores de los input text
 
-    var cpe_mac= document.getElementById("cpe_mac_tab1").value;                                      // Obtener los valores de los input text                                        
-    var cpe_ip= document.getElementById("cpe_ip_tab1").value;                                        // Obtener los valores de los input text                                        
-    var cpe_model= document.getElementById("cpe_model_tab1").value;                                  // Obtener los valores de los input text     
+    var ip= document.getElementById("ip_tab1").value;                                        // Obtener los valores de los input text                                        
+    var cpe= document.getElementById("cpe_tab1").value;                                      // Obtener los valores de los input text                                        
+    var model= document.getElementById("model_tab1").value;                                  // Obtener los valores de los input text     
 
-    var ip_wan= document.getElementById("ip_sco_tab1").value;                                  // Obtener los valores de los input text     
-    var ip_sco= document.getElementById("cpe_model_tab1").value;                                  // Obtener los valores de los input text     
+    var ip_wan= document.getElementById("ip_wan_tab1").value;                                  // Obtener los valores de los input text     
+    var ip_sco= document.getElementById("ip_sco_tab1").value;                                  // Obtener los valores de los input text     
     var port_sco= document.getElementById("port_sco_tab1").value;                                  // Obtener los valores de los input text     
 
     var tk_cliente= document.getElementById("tk_cliente_tab1").value;                                  // Obtener los valores de los input text     
@@ -659,7 +668,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/operativo con uptime:  | Reinicio CM: NO/SI\n\n\n";
+        output += "NXT: CM caido/operativo con uptime: " + uptime + " | Reinicio CM: NO/SI\n\n\n";
         output += "TB: CM sin enlace, se solicita al cliente chequear energia en sitio y reinicio general de los equipos.\n";
         output += "CM MAC: " + cm + " | NODO: " + nodo + "\n"; 
         output += "************************************";
@@ -669,9 +678,9 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/CM operativo con uptime:  | Reinicio CM: SI\n\n\n";
+        output += "NXT: CM caido/CM operativo con uptime: " + uptime + " | Reinicio CM: SI\n\n\n";
         output += "TB: CM levanta enlance, se prueba navegacion del lado del cliente y CM esta operativo.\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe_mac + " | CPE IP: " + cpe_ip + " | CPE (model): " + cpe_model + "\n"; 
+        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe + " | CPE IP: " + ip + " | CPE (model): " + model + "\n"; 
         output += "************************************";
         break; 
     case "03.TK-IN-NO.NAVEGA.HFC-con-OT":
@@ -679,7 +688,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/operativo con uptime:  | Reinicio CM: SI\n\n\n";
+        output += "NXT: CM caido/operativo con uptime: " + uptime + " | Reinicio CM: SI\n\n\n";
         output += "TB: CM dañado, caido o con valores fuera de los parametros. Se agenda OT.\n";
         output += "CM MAC: " + cm + " | NODO: " + nodo + " | OT: " + ot + "\n"; 
         output += "************************************";
@@ -689,9 +698,9 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM operativo con uptime:  | Reinicio CM: SI\n\n\n";
+        output += "NXT: CM operativo con uptime: " + uptime + " | Reinicio CM: SI\n\n\n";
         output += "TB: CM esta operativo, sin degradacion actual. Se solicita al cliente pruebas ping-t/tracert, donde se convalide la degradacion/microcortes/cortes en el servicio.\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe_mac + " | CPE IP: " + cpe_ip + " | CPE (model): " + cpe_model + "\n"; 
+        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe + " | CPE IP: " + ip + " | CPE (model): " + model + "\n"; 
         output += "************************************";
         break; 
     case "05.TK-IN-NO.NAVEGA.HFC-con-CORTES":
@@ -723,7 +732,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/CM operativo con uptime:  | Reinicio CM: SI/NO | Reset CM: SI/NO\n\n\n";
+        output += "NXT: CM caido/CM operativo con uptime: " + uptime + " | Reinicio CM: SI/NO | Reset CM: SI/NO\n\n\n";
         output += "TB: Se le indica al cliente que se le remite via mail, una grilla de pruebas/chequeos a realizar por su parte. Con las mismas se iniciara el analisis del ToIP.\n";
         output += "IDProducto: " + referencia + " | CM MAC: " + cm + " | LINEA: " + linea + "\n"; 
         output += "************************************";
@@ -963,7 +972,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente indica OT incumplida | viene del Ticket: " + ticket_cliente + " | OT: " + ot_cliente + " | CM Tecnicos: " + resumen + "\n";
-        output += "NXT: CM caido/operativo con uptime:  | Reinicio CM: SI\n\n";
+        output += "NXT: CM caido/operativo con uptime: " + uptime + " | Reinicio CM: SI\n\n";
         output += "TB. Se procede a consultar y validar en open, nueva agenda OT para el cliente.\n";
         output += "CM MAC: " + cm + " | NODO: " + nodo + " | OT (nueva): " + ot + "\n"; 
         output += "************************************";
@@ -1012,7 +1021,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente se comunica para cambiar config. de modo NAT a BRIDGE. Se toman datos y se procede:\n\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe_mac + " | CPE IP: " + cpe_ip + " | CPE (model): " + cpe_model + "\n"; 
+        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe + " | CPE IP: " + ip + " | CPE (model): " + model + "\n"; 
         output += "************************************";
         break;
     case "04.TK-SS-Config.IP-FIJA":
@@ -1020,7 +1029,7 @@ document.getElementById("botonCargar").addEventListener("click", function() {
         output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
         output += "************************************\n";
         output += "Cliente se comunica para fijar IP. Se toman datos del cpe y se procede:\n\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe_mac + " | CPE IP: " + cpe_ip + " | CPE (model): " + cpe_model + "\n"; 
+        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe + " | CPE IP: " + ip + " | CPE (model): " + model + "\n"; 
         output += "************************************";
         break;
     case "05.TK-SS-Adelanto.Agenda-OT-escalado":

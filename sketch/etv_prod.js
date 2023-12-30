@@ -37,7 +37,7 @@ function seleccionarCheckbox(checkboxIndex, name) {
     checkbox.checked = (index + 1 === checkboxIndex);
   });
 }   
-document.getElementById('btnllamadas').addEventListener('click', function (event) {openTab(event, 'tab_icd-in-ss');})   // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
+document.getElementById('btnllamadas').addEventListener('click', function (event) {openTab(event, 'tab_icd_in_ss');})   // Despliega tab1. Funcion de los botones input_text (cuit, linea, refrencia)
 document.getElementById('btnfiber').addEventListener('click', function(event) { openTab(event, 'tab_fiber'); });        // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
 document.getElementById('btnteco').addEventListener('click', function(event) {openTab(event, 'tab_teco'); });           // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
 document.getElementById('btntickets').addEventListener('click', function(event) {openTab(event, 'tab_tickets'); });     // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
@@ -66,14 +66,14 @@ function openTab(evt, tabName) {
   // Update the active tab variable
   activeTab = tabName; 
 }
-document.getElementById('btnllamadas').addEventListener('click', function (event) { openTab(event, 'tab_icd-in-ss'); });
+document.getElementById('btnllamadas').addEventListener('click', function (event) { openTab(event, 'tab_icd_in_ss'); });
 document.getElementById('btnfiber').addEventListener('click', function (event) { openTab(event, 'tab_fiber'); });
 document.getElementById('btnteco').addEventListener('click', function (event) { openTab(event, 'tab_teco'); });
 document.getElementById('btntickets').addEventListener('click', function (event) { openTab(event, 'tab_tickets'); });
 document.getElementById('btnextras').addEventListener('click', function (event) { openTab(event, 'tab_extras'); });
 document.getElementById('btnreturn').addEventListener('click', function (event) {
   // When the "return" button is clicked, close all tabs and reset the state
-  var allTabs = ["tab_icd-in-ss", "tab_fiber", "tab_teco", "tab_tickets", "tab_extras", "tab_return"];
+  var allTabs = ["tab_icd_in_ss", "tab_fiber", "tab_teco", "tab_tickets", "tab_extras", "tab_return"];
   for (var i = 0; i < allTabs.length; i++) {
     var tabElement = document.getElementById(allTabs[i]);
     if (tabElement) {

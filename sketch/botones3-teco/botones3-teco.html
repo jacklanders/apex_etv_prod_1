@@ -10,7 +10,7 @@
 <body>
   <div class="container">                                                    <!-- conteiner de los botones superiores 1 - 2 - 3 - 4 --> 
     <div class="tabs">                                                       <!-- apertura del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | -->
-      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd-in-ss">TICKETS</a>   <!-- button tab1 - ICD IN-SS*-->
+      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd_in_ss">TICKETS</a>   <!-- button tab1 - ICD IN-SS*-->
       <a class="tab-btn" href="../botones2-fiber/botones2-fiber.html" id="btnfiber" name="_fiber">FIBER</a>                    <!-- button tab2 - FIBER*-->
       <a class="tab-btn" href="../botones3-teco/botones3-teco.html" id="btnteco" name="_teco">TECO</a>                         <!-- button tab3 - TECO*-->
       <a class="tab-btn" href="../botones4-tickets/botones4-tickets.html" id="btntickets" name="_tickets">TICKETS</a>          <!-- button tab4 - TICKETS*-->
@@ -21,148 +21,185 @@
   <div id="tab_teco" class="tab-content">                                    <!-- codigo tab3 - MAILS TECO*-->
     <div class="container">                                                <!-- conteiner tab3 -->
       <div class="subcontainer">                                           <!-- subconteiner tab3 -->
-        <button class="tab-btn" id="btngestion_tc_tab3" name="tab_gestion_tc">GESTION IN </button>     
-        <button class="tab-btn" id="btnlibrerias_teco_tab3" name="tab_librerias_teco">LIBRERIAS TECO</button>    
+        <button class="tab-btn" id="btnleftarrow_tab3" name="tab_leftarrow">&#x2190;</button>
+        <button class="tab-btn" id="btniniciar_tab3" name="tab_iniciar">Iniciar Gestion</button>
+        <button class="tab-btn" id="btndescartar_tab3" name="tab_descartar">Descargar Gestion</button>
+        <button class="tab-btn" id="btnfinalizar_tab3" name="tab_finalizar">Finalizar Gestion</button>
+        <button class="tab-btn" id="btnlibrerias_teco_tab3" name="tab_librerias_teco">REGISTROS</button>    
+        <button class="tab-btn" id="btngestion_in_tab3" name="tab_gestion_in">GESTION IN</button>     
+        <button class="tab-btn" id="btnnotas_tab3" name="tab_notas">NOTAS</button>    
+        <button class="tab-btn" id="btnrightarrow_tab3" name="tab_rightarrow">&#x2192;</button> 
         <button class="tab-btn" id="btnreturn_tab3" name="tab_return">&#x21A9</button>
-      </div>                                                               <!-- finaliza subconteiner tab3 -->
-      <div id="tab_gestion_tc" class="tab-content">                        <!-- boton tab3 - gestion tc -->
-       <div class="botones_mails_teco">                                    <!-- botones input text || TECO --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="cuit_tab3">CUIT:</label>                             <!--   -->                                    
-          <input type="text" id="cuit_tab3" value="-" >                    <!--   -->     
-        </form>                                                            <!-- Boton 3 - 1. CUIT --> 
-        <form class="columna">                                             <!---   -->  
-          <label for="cliente_tab3">CLIENTE:</label>                       <!--   -->  
-          <input type="text" id="cliente_tab3" value="-" >                 <!--   -->         
-        </form>                                                            <!-- Boton 3 - 2. CLIENTE --> 
-        <form class="columna">                                             <!--   -->  
-          <label for="mercado_tab3">MERCADO:</label>                       <!--   -->  
-          <input type="text" id="mercado_tab3" value="-" >                 <!--   -->         
-        </form>                                                            <!-- Boton 3 - 3. MERCADO -->
-        <hr>                                                               <!-- 1 linea divisoria -->  
-        <form class="columna">                                             <!--   -->   
-          <label for="referencia_tab3">REF.:</label>                       <!--   -->   
-          <input type="text" id="referencia_tab3" value="-" >              <!--   -->   
-        </form>                                                            <!-- Boton 3 - 4. REF. --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="linea_tab3">LINEA:</label>                           <!--   -->   
-          <input type="text" id="linea_tab3" value="-" >                   <!--   -->   
-        </form>                                                            <!-- Boton 3 - 5. LINEA --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="ticket_in_tab3">TICKET IN:</label>                   <!--   -->   
-          <input type="text" id="ticket_in_tab3" value="-" >               <!--   -->   
-        </form>                                                            <!-- Boton 3 - 6. TICKET IN --> 
-        <hr>                                                               <!-- 1 linea divisoria --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="nombre_tab3">Nombre:</label>                         <!--   -->   
-          <input type="text" id="nombre_tab3" value="-" >                  <!--   -->    
-        </form>                                                            <!-- Boton 3 - 7. Nombre --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="tel_contacto_tab3">Tel.Ct.:</label>                  <!--   -->   
-          <input type="text" id="tel_contacto_tab3" value="-" >            <!--   -->   
-        </form>                                                            <!-- Boton 3 - 8. Tel.Contacto --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="mail_tab3">Mail:</label>                             <!--   -->   
-          <input type="text" id="mail_tab3" value="-" >                    <!--   -->   
-        </form>                                                            <!-- Boton 3 - 9. Mail --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="domicilio_tab3">Domicilio:</label>                   <!--   -->  
-          <input type="text" id="domicilio_tab3" value="-" >               <!--   -->   
-        </form>                                                            <!-- Boton 3 - 10. Domicilio--> 
-        <form class="columna">                                             <!--   -->   
-          <label for="disponibilidad_tab3">H - D:</label>                  <!--   -->   
-          <input type="text" id="disponibilidad_tab3" value="08-16HS" >    <!--   -->      
-        </form>                                                            <!-- Boton 3 - 11. Disponibilidad --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="btAcceso_tab3">Doc.Acc.:</label>                     <!--   -->   
-          <select id="btAcceso_tab3">                                      <!--   -->   
-            <option value="SI">SI</option>                                 <!--   -->   
-            <option value="NO" selected>NO</option>                        <!-- Esta opción se seleccionará por defecto -->
-          </select>                                                        <!--   -->   
-        </form>                                                            <!-- Boton 3 - 12. Doc. Acceso --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="btTerraza_tab3">ToT:</label>                         <!--   -->   
-          <select id="btTerraza_tab3">                                     <!--   -->   
-            <option value="SI" selected>SI</option>                        <!-- Esta opción se seleccionará por defecto -->
-            <option value="NO">NO</option>                                 <!--   -->   
-          </select>                                                        <!--   -->   
-        </form>                                                            <!-- Boton 3 - 13. Techo o Terraza -->  
-        <form class="columna">                                             <!--   -->   
-          <label for="btCovid_tab3">Covid19:</label>                       <!--   -->   
-          <select id="btCovid_tab3">                                       <!--   -->   
-            <option value="SI">SI</option>                                 <!--   -->   
-            <option value="NO" selected>NO</option>                        <!-- Esta opción se seleccionará por defecto -->
-          </select>                                                        <!--   -->   
-        </form>                                                            <!-- Boton 3 - 14. Covid19 --> 
-        <hr>                                                               <!-- 2 linea divisoria  --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="cm_tab3">CM MAC:</label>                             <!--   -->   
-          <input type="text" id="cm_tab3" value="-" >                      <!--   -->   
-        </form>                                                            <!-- Boton 3 - 15. CM MAC -->                                                          
-        <form class="columna">                                             <!--   -->   
-          <label for="nodo_tab3">NODO:</label>                             <!--   -->   
-          <input type="text" id="nodo_tab3" value="-" >                    <!--   -->   
-        </form>                                                            <!-- Boton 3 - 16. NODO --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="ot_tab3">OT:</label>                                 <!--   -->   
-          <input type="text" id="ot_tab3" value="-" >                      <!--   -->   
-        </form>                                                            <!-- Boton 3 - 17. OT --> 
-        <hr>                                                               <!-- 3 linea divisoria  --> 
-       </div>                                                              <!-- finaliza botones input text  || sub-botones -->           
-       <div class="notepad-container-5">                                   <!-- conteiner bloc de notas 5 -->
-         <div class="notepad notepad-5">                                   <!-- notepad5 -->
-           <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad5 -->
-           <textarea id="notepad5" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 50px; max-height: 370px;"></textarea>
-         </div>                                                            <!-- finaliza notepad5 -->
-         <div>                                                             <!-- botones para notepad5  --> 
-          <input type="submit" value="Bajar Data" id="botonBajarD.tab3">         <!-- este boton baja el contenido de los input_tex al notepad5 -->
-          <input type="submit" value="Copiar Data" id="botonCopiarD.tab3">       <!-- este boton copia el contenido cargardo en notepad5 -->
-          <input type="submit" value="Subir Data" id="botonSubir.tab3">          <!-- este boton sube el contenido de los input_tex al notepad5 -->
-          <input type="submit" value="Clean Notes" id="botonCleanN.tab3">        <!-- este boton borra el texto cargado en notepad5 -->
-         </div>                                                            <!-- finalzia botones para notepad5  -->         
-         <hr>                                                              <!-- 4 linea divisoria   --> 
-       </div>   
-      </div>   
-      <div id="tab_librerias_teco" class="tab-content">                    <!-- boton - librerias teco -->
-        <hr>                                                               <!-- 5 linea divisoria   -->                           
-        <div class="librerias-row">
-          <button class="tab-btn" id="btnTECO-soporte" name="teco_soporte">TECO - SO</button>
-          <button class="tab-btn" id="btnTECO-recomendados" name="teco_recomendados">TECO - RE</button>  
-          <button class="tab-btn" id="btnTECO-tickets" name="teco_tickets">TECO - TK</button>
-        </div>
-        <hr>                                                               <!-- 6 linea divisoria   --> 
-        <select id="libreria_teco_soporte" class="modern">                 <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-          <option value="IN-SO-PY-01.Ventas.(ND)">01. Ventas (ND)</option>
-          <option value="IN-SO-PY-02.Admin.(ND)">02. Admin (ND)</option>
-          <option value="IN-SO-PY-03.Encuesta.(ND)">03. Encuesta (ND)</option>
-        </select> 
-        <select id="libreria_teco_recomendados" class="modern">                <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-          <option value="OUT-SO-PY-22.DMZ.SAGEMCOM.F@ST.5657">01. DMZ SAGEMCOM F@ST5657</option>
-          <option value="OUT-SO-PY-23.DMZ.NOKIA.G-240W-B">02. DMZ.NOKIA G-240W-B</option>
-          <option value="OUT-SO-PY-24.DMZ.ARCADYAN.PRV4439B">03. DMZ ARCADYAN PRV4439BT</option>
-        </select> 
-        <select id="libreria_teco_tickets" class="modern">                 <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-          <option value="TK-SO-PY-01.HFC-Seguimiento.(consulta.post.OT-gen1)">01. HFC-Seguimiento (consulta post OT-gen1)"</option>
-          <option value="TK-SO-PY-02.HFC-Seguimiento.(consulta.post.OT-gen2)">02. HFC-Seguimiento (consulta post OT-gen2)</option>
-          <option value="TK-SO-PY-03.HFC-Seguimiento.(consulta.post.OT-gen3)">03. HFC-Seguimiento (consulta post OT-gen3)</option>
-        </select> 
-        <div class="notepad-container-6">                                  <!-- conteiner bloc de notas 6 --> 
-          <div class="notepad notepad-6">                                  <!-- notepad6 -->
-          <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad6 -->
-          <textarea id="notepad6" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
-         </div>                                                            <!-- finaliza notepad6 -->
-        </div> 
-        <div id="output"></div>                                            <!-- salida de texto -->
-        <div>                                                              <!-- botones para notepad6  --> 
-         <input type="submit" value="Exportar" id="botonExportar.tab3">          <!-- este boton carga la libreria seleccionada en notepad6 -->
-         <input type="submit" value="Cargar" id="botonCargar.tab3">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad6  -->
-         <input type="submit" value="Copiar" id="botonCopiar.tab3">              <!-- este boton copia el texto cargado en notepad6 -->
-         <input type="submit" value="Limpiar" id="botonLimpiar.tab3">            <!-- este boton borra el texto cargado en notepad6 -->
+      </div>                                                               <!-- finaliza subconteiner teco -->
+      <div id="tab_librerias_teco" class="tab-content">                    <!-- boton tab3 - librerias teco -->
+        <div class="grid-subcontainer">          
+          <div class="button-container">
+            <button class="grid-item" id="botonRecomendados">Recomendados</button>
+            <button class="grid-item" id="botonSoporte">Soporte</button>
+          </div>     
+          <div class="select-container">
+           <select id="librerias_mails_teco">                    <!-- selector de librerias macro -->   
+            <option value="nulo">Selecciona una opción</option>
+            <option value="nulo">Recomendados TECO</option>
+            <option value="01.TECO-RECO-TTL.Teco" data-type="recomendados">01.TECO-RECO-TTL.Teco</option>
+            <option value="02.TECO-RECO-Aseguramiento.(adelanto)" data-type="recomendados" >02.TECO-RECO-Aseguramiento.(adelanto)</option>
+            <option value="03.TECO-RECO-Aseguramiento.(OT.bloqueada)" data-type="recomendados">03.TECO-RECO-Aseguramiento.(OT.bloqueada)</option>
+            <option value="04.TECO-RECO-Novedades.c-pase(sin.OT)" data-type="recomendados">04.TECO-RECO-Novedades.c-pase(sin.OT)</option>
+            <option value="05.TECO-RECO-Novedades.c-pase.MDA" data-type="recomendados">05.TECO-RECO-Novedades.c-pase.MDA</option>
+            <option value="06.TECO-RECO-Novedades.c-pase.PMS" data-type="recomendados" >06.TECO-RECO-Novedades.c-pase.PMS</option>
+            <option value="07.TECO-RECO-Novedades.c-pase.PMP" data-type="recomendados">07.TECO-RECO-Novedades.c-pase.PMP</option>
+            <option value="08.TECO-RECO-Novedades.c-pase.PMP.(error.OT)" data-type="recomendados">08.TECO-RECO-Novedades.c-pase.PMP.(error.OT)</option>
+            <option value="09.TECO-RECO-Novedades.c-pase(generico1)" data-type="recomendados">09.TECO-RECO-Novedades.c-pase(generico1)</option>
+            <option value="10.TECO-RECO-Novedades.c-pase.(generico2)" data-type="recomendados">10.TECO-RECO-Novedades.c-pase.(generico2)</option>
+            <option value="11.TECO-RECO-Novedades.c-pase.(gerenico.reitera)" data-type="recomendados">11.TECO-RECO-Novedades.c-pase.(gerenico.reitera)</option>
+            <option value="12.TECO-RECO-Novedades.Masivo.(consulta)" data-type="recomendados">12.TECO-RECO-Novedades.Masivo.(consulta)</option>
+            <option value="13.TECO-RECO-Novedades.Masivo.(reitera)" data-type="recomendados">13.TECO-RECO-Novedades.Masivo.(reitera)</option>
+            <option value="14.TECO-RECO-Red.NO.Reparable.MIGRACION.(vanlismo)" data-type="recomendados">14.TECO-RECO-Red.NO.Reparable.MIGRACION.(vanlismo)</option>
+            <option value="15.TECO-RECO-Red.NO.Reparable.MIGRACION.(genenerico)" data-type="recomendados">15.TECO-RECO-Red.NO.Reparable.MIGRACION.(genenerico)</option>
+            <option value="16.TECO-RECO-Poste.DAÑADO.CAIDO" data-type="recomendados">16.TECO-RECO-Poste.DAÑADO.CAIDO</option>
+            <option value="17.TECO-RECO-RR.Luis.Ferragut.(TK)" data-type="recomendados">17.TECO-RECO-RR.Luis.Ferragut.(TK)</option>
+            <option value="nulo">Soporte TECO</option>
+            <option value="01.TECO-SOPORTE-Gestion.LN.(pedido.de.datos.LN)" data-type="soporte">01.TECO-SOPORTE-Gestion.LN.(pedido.de.datos.LN)</option>
+            <option value="02.TECO-SOPORTE-Gestion.LN.(1.Linea)" data-type="soporte">02.TECO-SOPORTE-Gestion.LN.(1.Linea)</option>
+            <option value="03.TECO-SOPORTE-Gestion.LN.(2.o.3.Lineas)" data-type="soporte">03.TECO-SOPORTE-Gestion.LN.(2.o.3.Lineas)</option>
+            <option value="04.TECO-SOPORTE-Gestion.LN.(post.OT)" data-type="soporte">04.TECO-SOPORTE-Gestion.LN.(post.OT)</option>
+            <option value="05.TECO-SOPORTE-Gestion.TB.(troubleshooting)" data-type="soporte">05.TECO-SOPORTE-Gestion.TB.(troubleshooting)</option>
+            <option value="06.TECO-SOPORTE-Gestion.TB.(pedido.de.datos.TB)" data-type="soporte">06.TECO-SOPORTE-Gestion.TB.(pedido.de.datos.TB)</option>
+           </select>
+          </div>
+        </div>    
+        <div class="notepad-container-7">                                         <!-- conteiner bloc de notas 7 --> 
+            <div class="notepad notepad-7">                                       <!-- notepad7 -->
+            <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad7 -->
+            <textarea id="notepad7" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+            </div>                                                                <!-- finaliza notepad7 -->
+        </div>   
+        <div id="output"></div>                                                   <!-- salida de texto -->
+        <div>                                                                     <!-- botones para notepad7  --> 
+            <input type="submit" value="Exportar" id="botonExportar.tab3">          <!-- este boton carga la libreria seleccionada en notepad7 -->
+            <input type="submit" value="Cargar" id="botonCargar.tab3">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad7  -->
+            <input type="submit" value="Copiar" id="botonCopiar.tab3">              <!-- este boton copia el texto cargado en notepad7 -->
+            <input type="submit" value="Limpiar" id="botonLimpiar.tab3">            <!-- este boton borra el texto cargado en notepad7 -->
         </div>     
-      </div>                  
+      </div>  
+      <div id="tab_gestion_in" class="tab-content">                        <!-- boton tab3 - gestion in -->
+        <hr>                                                               <!-- 1 linea divisoria -->  
+        <div class="grid-container">
+          <div class="grid-item-header datos-in-1">DATOS IN</div>
+          <div class="grid-item-header datos-in-2">DATOS IN</div>
+        </div>
+        <div class="grid-container">                                          <!-- botones GRID text || IN-SS -->  
+          <label for="mercado_tab3">MERCADO:</label>
+          <select id="btmercado_tab3">
+            <option value="INTERIOR">INTERIOR</option>
+            <option value="AMBA">AMBA</option>
+            <option value="CRECIMIENTO" selected>CRECIMIENTO</option>
+          </select>
+          <input type="text" class="grid-item" id="producto_tab3" placeholder="-">
+          <label for="producto_tab3">:PRODUCTO</label>
+        </div>
+        <div class="grid-container">
+          <label for="cliente_tab3">CLIENTE:</label>
+          <input type="text" class="grid-item" id="cliente_tab3" placeholder="-">
+          <input type="text" class="grid-item" id="linea_tab3" placeholder="-">
+          <label for="linea_tab3">:LINEA</label>
+        </div>
+        <div class="grid-container">
+          <label for="cuit_tab3">CUIT:</label>
+          <input type="text" class="grid-item" id="cuit_tab3" placeholder="-">
+          <input type="text" class="grid-item" id="ticket_in_tab3" placeholder="-">
+          <label for="ticket_in_tab3">:TICKET IN</label>
+        </div>
+        <hr>                                                                 <!-- 2 linea divisoria --> 
+        <div class="grid-container">
+          <div class="grid-item-header datos-de-contacto-1">DATOS DE CONTACTO</div>
+          <div class="grid-item-header datos-de-contacto-2">DATOS DE CONTACTO</div>
+        </div>
+        <div class="grid-container">                                       
+          <label for="nombre_tab3">Nombre:</label>
+          <input type="text" class="grid-item" id="nombre_tab3" placeholder="-">
+          <select id="btAcceso_tab3">
+            <option value="SI">SI</option>
+            <option value="NO" selected>NO</option>
+          </select>
+          <label for="btAcceso_tab3">:Doc.Acc.</label>
+        </div>
+        <div class="grid-container">
+          <label for="tel_contacto_tab3">Tel.Ct.:</label>
+          <input type="text" class="grid-item" id="tel_contacto_tab3" placeholder="-">
+          <select id="btTerraza_tab3">
+            <option value="SI" selected>SI</option>
+            <option value="NO">NO</option>
+          </select>
+          <label for="btTerraza_tab3">:ToT</label>
+        </div>
+        <div class="grid-container">
+          <label for="mail_tab3">Mail:</label>
+          <input type="text" class="grid-item" id="mail_tab3" placeholder="-">
+          <select id="btCovid_tab3">
+            <option value="SI">SI</option>
+            <option value="NO" selected>NO</option>
+          </select>
+          <label for="btCovid_tab3 ">:Covid19</label>
+        </div> 
+        <div class="grid-container">
+          <label for="disponibilidad_tab3">H - D:</label>
+          <input type="text" class="grid-item" id="disponibilidad_tab3" value="L-V / 08-16HS">
+          <input type="text" class="grid-item" id="domicilio_tab3" placeholder="-">
+          <label for="domicilio_tab3">:Domicilio</label>
+        </div> 
+        <hr>                                                                 <!-- 3 linea divisoria --> 
+        <div class="grid-container">
+          <div class="grid-item-header datos-tecnicos-teco-1">DATOS TECNICOS TECO</div>
+          <div class="grid-item-header datos-tecnicos-teco-2">DATOS TECNICOS TECO</div>
+        </div>
+        <div class="grid-container">                                       
+          <label for="ttl_tab3">TTL:</label>
+          <input type="text" class="grid-item" id="ttl_tab3" placeholder="-">
+          <input type="text" class="grid-item" id="eq_tab3" placeholder="-">
+          <label for="eq_tab3">EQ:</label>
+        </div>
+        <div class="grid-container">
+          <label for="registro_tab3">REGISTRO:</label>
+          <input type="text" class="grid-item" id="registro_tab3" placeholder="-">
+          <input type="text" class="grid-item" id="pase_tab3" placeholder="-">
+          <label for="pase_tab3">c/PASE:</label>
+        </div>
+        <div class="grid-container">
+          <label for="masivo_tab3">MASIVO -TICKET:</label>
+          <input type="text" class="grid-item" id="masivo_tab3" placeholder="-">
+          <input type="text" class="grid-item" id="error_tab3" placeholder="-">
+          <label for="error_tab3">ERROR -TICKET:</label>
+        </div> 
+        <hr>                                                                  <!-- 4 linea divisoria --> 
+      </div>         
+      <div id="tab_notas" class="tab-content">                             <!-- boton tab3 - notas -->
+        <div class="notepad-container-8">                                          <!-- conteiner bloc de notas 8 -->
+          <div class="notepad notepad-8">                                          <!-- notepad8 -->
+            <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad8 -->
+            <textarea id="notepad8" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 110px; max-height: 370px;"></textarea>
+          </div>                                                                   <!-- finaliza notepad8 -->
+          <div id="output"></div>                                                  <!-- salida de texto -->
+          <div>                                                                    <!-- botones para notepad8  --> 
+            <input type="submit" value="Bajar Datos" id="botonBajarDatos.tab3">         <!-- este boton baja el contenido de los input_tex al notepad8 -->
+            <input type="submit" value="Copiar Data" id="botonCopiarDatos.tab3">        <!-- este boton copia el contenido cargardo en notepad8 -->
+            <input type="submit" value="Subir Datos" id="botonSubirDatos.tab3">         <!-- este boton sube el contenido de los input_tex al notepad8 -->
+            <input type="submit" value="Borrar Datos" id="botonBorrarDatos.tab3">       <!-- este boton borra el contenido de los input_tex al notepad8 -->
+          </div>     
+        </div>                                                                     <!-- finalzia botones para notepad8  -->         
+        <div class="notepad-container-9">                                          <!-- conteiner bloc de notas 9 -->
+          <div class="notepad notepad-9">                                          <!-- notepad9 -->
+            <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad9 -->
+            <textarea id="notepad9" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 110px; max-height: 370px;"></textarea>
+          </div>                                                                   <!-- finaliza notepad9 -->
+          <div id="output"></div>                                                  <!-- salida de texto -->
+          <div>                                                                    <!-- botones para notepad9  --> 
+            <input type="submit" value="Sumar Registro" id="botonSumarReg.tab3">               <!-- este boton baja el contenido de los input_tex al notepad9 -->
+            <input type="submit" value="Copiar Registro" id="botonCopiarReg.tab3">             <!-- este boton copia el contenido cargardo en notepad9 -->
+            <input type="submit" value="Borrar Registro" id="botonCleanReg.tab3">              <!-- este boton borra el texto cargado en notepad9 -->
+          </div>                                                                   <!-- finaliza conteiner bloc de notepad9 --> 
+        </div>                                                                     <!-- finalzia botones para notepad9  -->         
+      </div>
       <div class="footer">                                                 <!-- footer-->
         <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
       </div>                                                               <!-- footer-->
@@ -170,3 +207,5 @@
   </div>                                                                     <!-- finaliza tab3 - MAILS TECO* -->    
 </body>
 </html>
+
+

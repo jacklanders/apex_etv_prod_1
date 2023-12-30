@@ -10,7 +10,7 @@
 <body>
   <div class="container">                                                    <!-- conteiner de los botones superiores 1 - 2 - 3 - 4 --> 
     <div class="tabs">                                                       <!-- apertura del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | -->
-      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd-in-ss">LLAMADAS</a>   <!-- button tab1 - ICD IN-SS*-->
+      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd_in_ss">LLAMADAS</a>   <!-- button tab1 - ICD IN-SS*-->
       <a class="tab-btn" href="../botones2-fiber/botones2-fiber.html" id="btnfiber" name="_fiber">FIBER</a>                     <!-- button tab2 - FIBER*-->
       <a class="tab-btn" href="../botones3-teco/botones3-teco.html" id="btnteco" name="_teco">TECO</a>                          <!-- button tab3 - TECO*-->
       <a class="tab-btn" href="../botones4-tickets/botones4-tickets.html" id="btntickets" name="_tickets">TICKETS</a>           <!-- button tab4 - TICKETS*-->
@@ -18,20 +18,87 @@
       <button class="tab-btn" id="btnreturn" name="_return">&#x21A9</button>  
     </div>                                                                   <!-- cierre del bloque: titulos de pestañas | IN-SS | FIBER | TECO | TICKETS | EXTRAS | --> 
   </div>                                                                     <!-- cierre del conteiner | pestañas | IN-SS | FIBER | TECO | TICKETS | EXTRAS | --> 
-  <div id="tab_icd-in-ss" class="tab-content">                               <!-- codigo tab1 - ICD IN-SS*-->
-        <div class="container">                                                 <!-- conteiner tab1 -->
-         <div class="subcontainer">                                             <!-- subconteiner tab1 -->
+  <div id="tab_icd_in_ss" class="tab-content">                               <!-- codigo tab1 - ICD IN-SS*-->
+      <div class="container">                                                <!-- conteiner tab1 -->
+         <div class="subcontainer">                                          <!-- subconteiner tab1 -->
           <button class="tab-btn" id="btnleftarrow_tab1" name="tab_leftarrow">&#x2190;</button>
           <button class="tab-btn" id="btniniciar_tab1" name="tab_iniciar">Iniciar Gestion</button>
           <button class="tab-btn" id="btndescartar_tab1" name="tab_descartar">Descargar Gestion</button>
           <button class="tab-btn" id="btnfinalizar_tab1" name="tab_finalizar">Finalizar Gestion</button>
-          <button class="tab-btn" id="btngestion_in_tab1" name="tab_gestion_in">GESTION IN</button>     
-          <button class="tab-btn" id="btnlibrerias_tickets_tab1" name="tab_tickets">REGISTROS</button>    
+          <button class="tab-btn" id="btnlibrerias_incidentes_tab1" name="tab_librerias_incidentes">REGISTROS</button>    
+          <button class="tab-btn" id="btngestion_in_tab1" name="tab_gestion_in">GESTION IN</button>    
           <button class="tab-btn" id="btnnotas_tab1" name="tab_notas">NOTAS</button>    
           <button class="tab-btn" id="btnrightarrow_tab1" name="tab_rightarrow">&#x2192;</button> 
           <button class="tab-btn" id="btnreturn_tab1" name="tab_return">&#x21A9</button>
-         </div>                                                                 <!-- finaliza subconteiner tab1 -->
-         <div id="tab_gestion_in" class="tab-content">                          <!-- conteiner tab 1 - gestion in -->
+         </div>      
+         <div id="tab_librerias_incidentes" class="tab-content">                <!-- boton tab1 - librerias incidentes -->
+          <!-- <input type="submit" value="Incidentes" id="botonIncidentes" class="custom-button">  --> 
+          <!-- <input type="submit" value="Solicitudes" id="botonSolicitudes" class="custom-button">  -->      
+          <div class="grid-subcontainer">          
+           <div class="button-container">
+             <button class="grid-item" id="botonIncidentes">Incidentes</button>
+             <button class="grid-item" id="botonSolicitudes">Solicitudes</button>
+           </div>     
+           <div class="select-container">
+            <select id="librerias_incidentes" class="custom-select">                    <!-- selector de librerias macro -->   
+             <option value="nulo">Selecciona una opción</option>
+             <option value="01.TK-IN-NO.NAVEGA.HFC.CCTV.(GC)" data-type="incidentes">01. NO NAVEGA - HFC CCTV (GC)</option>
+             <option value="02.TK-IN-NO.NAVEGA.HFC-sin-OT" data-type="incidentes" >02. NO NAVEGA - HFC sin OT</option>
+             <option value="03.TK-IN-NO.NAVEGA.HFC-con-OT" data-type="incidentes">03. NO NAVEGA - HFC con OT</option>
+             <option value="04.TK-IN-NO.NAVEGA.HFC-sin-CORTES" data-type="incidentes">04. NO NAVEGA - HFC sin  CORTES</option>
+             <option value="05.TK-IN-NO.NAVEGA.HFC-con-CORTES" data-type="incidentes">05. NO NAVEGA - HFC con CORTES</option>
+             <option value="06.TK-IN-NO.NAVEGA.HFC-reset-CM" data-type="incidentes" >06. NO NAVEGA - HFC reset CM</option>
+             <option value="07.TK-IN-NO.NAVEGA.HFC-ToIP" data-type="incidentes">07. NO NAVEGA - HFC ToIP</option>
+             <option value="08.TK-IN-NO.NAVEGA.HFC-sin-alertar-MASIVO" data-type="incidentes">08. MASIVO - HFC sin alertar</option>
+             <option value="09.TK-IN-NO.NAVEGA.HFC-alertado-MASIVO" data-type="incidentes">09. MASIVO - HFC alertado</option>
+             <option value="10.TK-IN-NO.NAVEGA.HFC-reitera-MASIVO" data-type="incidentes">10. MASIVO - HFC reitera</option>
+             <option value="11.TK-IN-NO.NAVEGA.FTTH-CCTV-(GC)" data-type="incidentes">11. NO NAVEGA - FTTH CCTV</option>
+             <option value="12.TK-IN-.NO.NAVEGA.FTTH-sin-OT" data-type="incidentes">12. NO NAVEGA - FTTH sin OT</option>
+             <option value="13.TK-IN-NO.NAVEGA.FTTH-con-OT" data-type="incidentes">13. NO NAVEGA - FTTH con OT</option>
+             <option value="14.TK-IN-NO.NAVEGA.FTTH-ToIP" data-type="incidentes">14. NO NAVEGA - FTTH ToIP</option>
+             <option value="15.TK-IN-NO.NAVEGA.FTTH-NOC" data-type="incidentes">15. NO NAVEGA - FTTH NOC</option>
+             <option value="16.TK-IN-CATV.FLOW.HFC-con-OT" data-type="incidentes">16. CATV FLOW - con OT</option>
+             <option value="17.TK-IN-DECO.FLOW.HFC-sin-OT" data-type="incidentes">17. DECO FLOW - sin OT</option>
+             <option value="18.TK-IN-DECO.FLOW.HFC-con-OT" data-type="incidentes">18. DECO FLOW - con OT</option>
+             <option value="19.TK-IN-DECO.FLOW.HFC-NOC" data-type="incidentes">19. DECO FLOW - NOC</option>
+             <option value="20.TK-IN-NO.NAVEGA.TECO-ARNET-sin-OT" data-type="incidentes">20. NO NAVEGA - TECO ARNET sin OT</option>
+             <option value="21.TK-IN-NO.NAVEGA.TECO-ARNET-con-OT" data-type="incidentes">21. NO NAVEGA - TECO ARNET con OT</option>
+             <option value="22.TK-IN-SIN.TONO.TECO-sin-OT" data-type="incidentes">22. SIN TONO - TECO sin OT</option>
+             <option value="23.TK-IN-SIN.TONO.TECO-con-OT" data-type="incidentes">23. SIN TONO - TECO con OT</option>
+             <option value="24.TK-IN-SIN.TONO.TECO-TTL" data-type="incidentes">24. SIN TONO - TECO TTL</option>
+             <option value="25.TK-IN-ENLACE.FIBRA-Integra-Hyperway" data-type="incidentes">25. ENLACE FIBRA - Integra/Hyperway</option>
+             <option value="26.TK-IN-INTERNET.DEDICADO-sin-link-SCO" data-type="incidentes">26. INTERNET DEDICADO - sin link SCO</option>
+             <option value="27.TK-IN-INTERNET.DEDICADO-con link SCO" data-type="incidentes">27. INTERNET DEDICADO - con link SCO</option>
+             <option value="28.TK-IN-CLOUD.OFFICE-registrado" data-type="incidentes">28. CLOUD OFFICE - registrado</option>
+             <option value="29.TK-IN-CLOUD.OFFICE-no registrado" data-type="incidentes">29. CLOUD OFFICE - no registrado</option>
+             <option value="30.TK-IN-CLOUD.OFFICE-masivo" data-type="incidentes">30. CLOUD OFFICE - masivo</option>
+             <option value="31.TK-IN-OT-incumplida" data-type="incidentes">31. OT - incumplida</option>
+             <option value="32.TK-IN-OT.Adelanto.Agenda-sin-escalar" data-type="incidentes">32. OT - Adelanto/Agenda - sin escalar</option>
+             <option value="33.TK-IN-OT.Adelanto.Agenda-escalado" data-type="incidentes">33. OT - Adelanto/Agenda - escalado</option>
+             <option value="01.TK-SS-Config.WIFI" data-type="solicitudes">01. Config. Wifi</option>
+             <option value="02.TK-SS-Config.NAT" data-type="solicitudes">02. Config NAT</option>
+             <option value="03.TK-SS-Config.BRIDGE" data-type="solicitudes">03. Config BRIDGE</option>
+             <option value="04.TK-SS-Config.IP-FIJA" data-type="solicitudes">04. Config IP-FIJA</option>
+             <option value="05.TK-SS-Adelanto.Agenda-OT-escalado" data-type="solicitudes">05. OT - Adelanto/Agenda - escalado (gen1)</option>
+             <option value="06.TK-SS-Adelanto.Agenda-OT-escalado" data-type="solicitudes">06. OT - Adelanto/Agenda - escalado (gen2)</option>
+            </select>
+           </div>
+          </div>
+          <div class="notepad-container-3">                                  <!-- conteiner bloc de notas 3 -->
+            <div class="notepad notepad-3">                                      <!-- notepad3 -->
+              <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad3 -->
+              <textarea id="notepad3" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+            </div>                                                               <!-- finaliza notepad3 -->
+            <div id="output"></div>                                              <!-- salida de texto -->
+            <div>                                                                <!-- botones para notepad3  --> 
+             <input type="submit" value="Exportar" id="botonExportar">               <!-- este boton carga la libreria seleccionada en notepad3 -->
+             <input type="submit" value="Cargar" id="botonCargar">                   <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad3  -->
+             <input type="submit" value="Copiar" id="botonCopiar">                   <!-- este boton copia el texto cargado en notepad3 -->
+             <input type="submit" value="Limpiar" id="botonLimpiar">                 <!-- este boton borra el texto cargado en notepad3 -->
+            </div>                                                           <!-- finaliza botones para notepad3  -->         
+          </div>                                                             <!-- finaliza conteiner bloc de notas3 --> 
+         </div>                                                            
+         <div id="tab_gestion_in" class="tab-content">                       <!-- boton tab1 - gestion in -->
           <hr>                                                                  <!-- 1 linea divisoria -->  
           <div class="grid-container">
             <div class="grid-item-header datos-in-1">DATOS IN</div>
@@ -39,7 +106,11 @@
           </div>
           <div class="grid-container">                                          <!-- botones GRID text || IN-SS -->  
             <label for="mercado_tab1">MERCADO:</label>
-            <input type="text" class="grid-item" id="mercado_tab1" placeholder="-">
+            <select id="btmercado_tab1">
+              <option value="INTERIOR">INTERIOR</option>
+              <option value="AMBA">AMBA</option>
+              <option value="CRECIMIENTO" selected>CRECIMIENTO</option>
+            </select>
             <input type="text" class="grid-item" id="producto_tab1" placeholder="-">
             <label for="producto_tab1">:PRODUCTO</label>
           </div>
@@ -55,7 +126,7 @@
             <input type="text" class="grid-item" id="ticket_in_tab1" placeholder="-">
             <label for="ticket_in_tab1">:TICKET IN</label>
           </div>
-          <hr>                                                                 <!-- 2 linea divisoria --> 
+          <hr>                                                                  <!-- 2 linea divisoria --> 
           <div class="grid-container">
             <div class="grid-item-header datos-de-contacto-1">DATOS DE CONTACTO</div>
             <div class="grid-item-header datos-de-contacto-2">DATOS DE CONTACTO</div>
@@ -93,122 +164,55 @@
             <input type="text" class="grid-item" id="domicilio_tab1" placeholder="-">
             <label for="domicilio_tab1">:Domicilio</label>
           </div> 
-          <hr>                                                                 <!-- 3 linea divisoria --> 
+          <hr>                                                                  <!-- 3 linea divisoria --> 
           <div class="grid-container">
             <div class="grid-item-header datos-tecnicos-hfc">DATOS TECNICOS HFC</div>
             <div class="grid-item-header datos-tecnicos-fo">DATOS TECNICOS FO</div>
           </div>
           <div class="grid-container">                                       
-            <label for="uptime_tab1">estado / uptime:</label>
-            <input type="text" class="grid-item" id="uptime_tab1" placeholder="-">
+            <label for="cm_tab1">CM MAC:</label>
+            <input type="text" class="grid-item" id="cm_tab1" placeholder="-">
             <input type="text" class="grid-item" id="ip_wan_tab1" placeholder="-">
             <label for="ip_wan_tab1">:IP-WAN</label>
           </div>
           <div class="grid-container">
-            <label for="cm_tab1">CM MAC:</label>
-            <input type="text" class="grid-item" id="cm_tab1" placeholder="-">
+            <label for="nodo_tab1">NODO:</label>
+            <input type="text" class="grid-item" id="nodo_tab1" placeholder="-">
             <input type="text" class="grid-item" id="ip_sco_tab1" placeholder="-">
             <label for="ip_sco_tab1">:IP-SCO</label>
           </div>
           <div class="grid-container">
-            <label for="nodo_tab1">NODO:</label>
-            <input type="text" class="grid-item" id="nodo_tab1" placeholder="-">
+            <label for="ot_tab1">OT:</label>
+            <input type="text" class="grid-item" id="ot_tab1" placeholder="-">
             <input type="text" class="grid-item" id="port_sco_tab1" placeholder="-">
             <label for="port_sco_tab1">:port-SCO</label>
           </div> 
           <div class="grid-container">
-            <label for="ot_tab1">OT:</label>
-            <input type="text" class="grid-item" id="ot_tab1" placeholder="-">
+            <label for="uptime_tab1">estado -uptime:</label>
+            <input type="text" class="grid-item" id="uptime_tab1" placeholder="-">
             <div class="grid-item-header datos-reagenda-hfc">DATOS REAGENDA HFC</div>
           </div> 
           <div class="grid-container">
-            <label for="cpe_mac_tab1">CPE-MAC:</label>
-            <input type="text" class="grid-item" id="cpe_mac_tab1" placeholder="-">
+            <label for="ip_tab1">IP:</label>
+            <input type="text" class="grid-item" id="ip_tab1" placeholder="-">
             <input type="text" class="grid-item" id="tk_cliente_tab1" placeholder="-">
             <label for="tk_cliente_tab1">:Ticket (cliente)</label>
           </div> 
           <div class="grid-container">
-            <label for="cpe_ip_tab1">CPE-IP:</label>
-            <input type="text" class="grid-item" id="cpe_ip_tab1" placeholder="-">
+            <label for="cpe_tab1">CPE:</label>
+            <input type="text" class="grid-item" id="cpe_tab1" placeholder="-">
             <input type="text" class="grid-item" id="resumen_tab1" placeholder="-">
             <label for="resumen_tab1">:Resumen</label>
           </div> 
           <div class="grid-container">
-            <label for="cpe_model_tab1">CPE:</label>
-            <input type="text" class="grid-item" id="cpe_model_tab1" placeholder="-">
+            <label for="model_tab1">MODEL:</label>
+            <input type="text" class="grid-item" id="model_tab1" placeholder="-">
             <input type="text" class="grid-item" id="ot_cliente_tab1" placeholder="-">
             <label for="ot_cliente_tab1">:OT (cliente)</label>
           </div> 
-          <hr>                                                                 <!-- 4 linea divisoria --> 
-         </div>                                                                 <!-- finaliza botones input text -->
-         <div id="tab_tickets" class="tab-content">                       <!-- conteiner tab1 - incidentes ss -->
-           <!-- <input type="submit" value="Incidentes" id="botonIncidentes" class="custom-button">  --> 
-           <!-- <input type="submit" value="Solicitudes" id="botonSolicitudes" class="custom-button">  -->      
-           <div class="grid-subcontainer">          
-            <div class="button-container">
-              <button class="grid-item" id="botonIncidentes">Incidentes</button>
-              <button class="grid-item" id="botonSolicitudes">Solicitudes</button>
-            </div>     
-            <div class="select-container">
-             <select id="librerias_incidentes" class="custom-select">                    <!-- selector de librerias macro -->   
-              <option value="nulo">Selecciona una opción</option>
-              <option value="01.TK-IN-NO.NAVEGA.HFC.CCTV.(GC)" data-type="incidentes">01. NO NAVEGA - HFC CCTV (GC)</option>
-              <option value="02.TK-IN-NO.NAVEGA.HFC-sin-OT" data-type="incidentes" >02. NO NAVEGA - HFC sin OT</option>
-              <option value="03.TK-IN-NO.NAVEGA.HFC-con-OT" data-type="incidentes">03. NO NAVEGA - HFC con OT</option>
-              <option value="04.TK-IN-NO.NAVEGA.HFC-sin-CORTES" data-type="incidentes">04. NO NAVEGA - HFC sin  CORTES</option>
-              <option value="05.TK-IN-NO.NAVEGA.HFC-con-CORTES" data-type="incidentes">05. NO NAVEGA - HFC con CORTES</option>
-              <option value="06.TK-IN-NO.NAVEGA.HFC-reset-CM" data-type="incidentes" >06. NO NAVEGA - HFC reset CM</option>
-              <option value="07.TK-IN-NO.NAVEGA.HFC-ToIP" data-type="incidentes">07. NO NAVEGA - HFC ToIP</option>
-              <option value="08.TK-IN-NO.NAVEGA.HFC-sin-alertar-MASIVO" data-type="incidentes">08. MASIVO - HFC sin alertar</option>
-              <option value="09.TK-IN-NO.NAVEGA.HFC-alertado-MASIVO" data-type="incidentes">09. MASIVO - HFC alertado</option>
-              <option value="10.TK-IN-NO.NAVEGA.HFC-reitera-MASIVO" data-type="incidentes">10. MASIVO - HFC reitera</option>
-              <option value="11.TK-IN-NO.NAVEGA.FTTH-CCTV-(GC)" data-type="incidentes">11. NO NAVEGA - FTTH CCTV</option>
-              <option value="12.TK-IN-.NO.NAVEGA.FTTH-sin-OT" data-type="incidentes">12. NO NAVEGA - FTTH sin OT</option>
-              <option value="13.TK-IN-NO.NAVEGA.FTTH-con-OT" data-type="incidentes">13. NO NAVEGA - FTTH con OT</option>
-              <option value="14.TK-IN-NO.NAVEGA.FTTH-ToIP" data-type="incidentes">14. NO NAVEGA - FTTH ToIP</option>
-              <option value="15.TK-IN-NO.NAVEGA.FTTH-NOC" data-type="incidentes">15. NO NAVEGA - FTTH NOC</option>
-              <option value="16.TK-IN-CATV.FLOW.HFC-con-OT" data-type="incidentes">16. CATV FLOW - con OT</option>
-              <option value="17.TK-IN-DECO.FLOW.HFC-sin-OT" data-type="incidentes">17. DECO FLOW - sin OT</option>
-              <option value="18.TK-IN-DECO.FLOW.HFC-con-OT" data-type="incidentes">18. DECO FLOW - con OT</option>
-              <option value="19.TK-IN-DECO.FLOW.HFC-NOC" data-type="incidentes">19. DECO FLOW - NOC</option>
-              <option value="20.TK-IN-NO.NAVEGA.TECO-ARNET-sin-OT" data-type="incidentes">20. NO NAVEGA - TECO ARNET sin OT</option>
-              <option value="21.TK-IN-NO.NAVEGA.TECO-ARNET-con-OT" data-type="incidentes">21. NO NAVEGA - TECO ARNET con OT</option>
-              <option value="22.TK-IN-SIN.TONO.TECO-sin-OT" data-type="incidentes">22. SIN TONO - TECO sin OT</option>
-              <option value="23.TK-IN-SIN.TONO.TECO-con-OT" data-type="incidentes">23. SIN TONO - TECO con OT</option>
-              <option value="24.TK-IN-SIN.TONO.TECO-TTL" data-type="incidentes">24. SIN TONO - TECO TTL</option>
-              <option value="25.TK-IN-ENLACE.FIBRA-Integra-Hyperway" data-type="incidentes">25. ENLACE FIBRA - Integra/Hyperway</option>
-              <option value="26.TK-IN-INTERNET.DEDICADO-sin-link-SCO" data-type="incidentes">26. INTERNET DEDICADO - sin link SCO</option>
-              <option value="27.TK-IN-INTERNET.DEDICADO-con link SCO" data-type="incidentes">27. INTERNET DEDICADO - con link SCO</option>
-              <option value="28.TK-IN-CLOUD.OFFICE-registrado" data-type="incidentes">28. CLOUD OFFICE - registrado</option>
-              <option value="29.TK-IN-CLOUD.OFFICE-no registrado" data-type="incidentes">29. CLOUD OFFICE - no registrado</option>
-              <option value="30.TK-IN-CLOUD.OFFICE-masivo" data-type="incidentes">30. CLOUD OFFICE - masivo</option>
-              <option value="31.TK-IN-OT-incumplida" data-type="incidentes">31. OT - incumplida</option>
-              <option value="32.TK-IN-OT.Adelanto.Agenda-sin-escalar" data-type="incidentes">32. OT - Adelanto/Agenda - sin escalar</option>
-              <option value="33.TK-IN-OT.Adelanto.Agenda-escalado" data-type="incidentes">33. OT - Adelanto/Agenda - escalado</option>
-              <option value="01.TK-SS-Config.WIFI" data-type="solicitudes">01. Config. Wifi</option>
-              <option value="02.TK-SS-Config.NAT" data-type="solicitudes">02. Config NAT</option>
-              <option value="03.TK-SS-Config.BRIDGE" data-type="solicitudes">03. Config BRIDGE</option>
-              <option value="04.TK-SS-Config.IP-FIJA" data-type="solicitudes">04. Config IP-FIJA</option>
-              <option value="05.TK-SS-Adelanto.Agenda-OT-escalado" data-type="solicitudes">05. OT - Adelanto/Agenda - escalado (gen1)</option>
-              <option value="06.TK-SS-Adelanto.Agenda-OT-escalado" data-type="solicitudes">06. OT - Adelanto/Agenda - escalado (gen2)</option>
-             </select>
-            </div>
-           </div>
-           <div class="notepad-container-3">                                    <!-- conteiner bloc de notas 3 -->
-             <div class="notepad notepad-3">                                      <!-- notepad3 -->
-               <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad3 -->
-               <textarea id="notepad3" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
-             </div>                                                               <!-- finaliza notepad3 -->
-             <div id="output"></div>                                              <!-- salida de texto -->
-             <div>                                                                <!-- botones para notepad3  --> 
-              <input type="submit" value="Exportar" id="botonExportar">               <!-- este boton carga la libreria seleccionada en notepad3 -->
-              <input type="submit" value="Cargar" id="botonCargar">                   <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad3  -->
-              <input type="submit" value="Copiar" id="botonCopiar">                   <!-- este boton copia el texto cargado en notepad3 -->
-              <input type="submit" value="Limpiar" id="botonLimpiar">                 <!-- este boton borra el texto cargado en notepad3 -->
-             </div>                                                               <!-- finaliza botones para notepad3  -->         
-           </div>                                                                 <!-- finaliza conteiner bloc de notas3 --> 
-         </div>                                                                                                                                 
-         <div id="tab_notas" class="tab-content">
+          <hr>                                                                  <!-- 4 linea divisoria --> 
+         </div>                                                                                                                                                                                                       
+         <div id="tab_notas" class="tab-content">                            <!--  boton tab1 - notas -->
           <div class="notepad-container-1">                                      <!-- conteiner bloc de notas 1 -->
             <div class="notepad notepad-1">                                      <!-- notepad1 -->
               <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad1 -->
@@ -235,10 +239,10 @@
             </div>                                                               <!-- finaliza conteiner bloc de notas 2 --> 
           </div>                                                                 <!-- finalzia botones para notepad2  -->         
          </div>
-         <div class="footer">                                                   <!-- footer-->
+         <div class="footer">                                                <!-- footer-->
             <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>    
-         </div>                                                                <!-- footer-->
-        </div>                                                                 <!-- finaliza conteiner tab1 --> 
+         </div>                                                              <!-- footer-->
+      </div>                                                                 <!-- finaliza conteiner tab1 --> 
   </div>                                                                     <!-- finaliza tab1 - ICD IN-SS* --> 
 </body>
 </html>

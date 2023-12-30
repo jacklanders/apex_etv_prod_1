@@ -10,7 +10,7 @@
 <body>
   <div class="container">                                                    <!-- conteiner de los botones superiores 1 - 2 - 3 - 4 --> 
     <div class="tabs">                                                       <!-- apertura del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | -->
-      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd-in-ss">TICKETS</a>   <!-- button tab1 - ICD IN-SS*-->
+      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd_in_ss">TICKETS</a>   <!-- button tab1 - ICD IN-SS*-->
       <a class="tab-btn" href="../botones2-fiber/botones2-fiber.html" id="btnfiber" name="_fiber">FIBER</a>                    <!-- button tab2 - FIBER*-->
       <a class="tab-btn" href="../botones3-teco/botones3-teco.html" id="btnteco" name="_teco">TECO</a>                         <!-- button tab3 - TECO*-->
       <a class="tab-btn" href="../botones4-tickets/botones4-tickets.html" id="btntickets" name="_tickets">TICKETS</a>          <!-- button tab4 - TICKETS*-->
@@ -19,190 +19,234 @@
     </div>                                                                   <!-- cierre del bloque: titulos de pestañas | IN-SS | FIBER | TECO | TICKETS | EXTRAS | --> 
   </div>                                                                     <!-- cierre del conteiner | pestañas | IN-SS | FIBER | TECO | TICKETS | EXTRAS | --> 
   <div id="tab_fiber" class="tab-content">                                   <!-- codigo tab2 - MAILS FIBER*-->
-    <div class="container">                                                <!-- conteiner tab2 -->
+    <div class="container">                                                  <!-- conteiner tab2 -->
       <div class="subcontainer">                                           <!-- subconteiner tab2 -->
-        <button class="tab-btn" id="btngestion_fb_tab2" name="tab_gestion_fb">GESTION IN </button>     
-        <button class="tab-btn" id="btnlibrerias_fiber_tab2" name="tab_librerias_fiber">LIBRERIAS FIBER</button>    
-        <button class="tab-btn" id="btnreturn_tab2" name="tab_return">&#x21A9</button>
+       <button class="tab-btn" id="btnleftarrow_tab2" name="tab_leftarrow">&#x2190;</button>
+       <button class="tab-btn" id="btniniciar_tab2" name="tab_iniciar">Iniciar Gestion</button>
+       <button class="tab-btn" id="btndescartar_tab2" name="tab_descartar">Descargar Gestion</button>
+       <button class="tab-btn" id="btnfinalizar_tab2" name="tab_finalizar">Finalizar Gestion</button>
+       <button class="tab-btn" id="btnlibrerias_fiber_tab2" name="tab_librerias_fiber">REGISTROS</button>    
+       <button class="tab-btn" id="btngestion_in_tab2" name="tab_gestion_in">GESTION IN</button>     
+       <button class="tab-btn" id="btnnotas_tab2" name="tab_notas">NOTAS</button>    
+       <button class="tab-btn" id="btnrightarrow_tab2" name="tab_rightarrow">&#x2192;</button> 
+       <button class="tab-btn" id="btnreturn_tab2" name="tab_return">&#x21A9</button>
       </div>                                                               <!-- finaliza subconteiner tab2 -->
-      <div id="tab_gestion_fb" class="tab-content">                        <!-- boton tab2 - gestion fb -->
-       <div class="botones_mails_fiber">                                   <!-- botones input text || FIBER --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="cuit_tab2">CUIT:</label>                             <!--   -->                                    
-          <input type="text" id="cuit_tab2" value="-" >                    <!--   -->     
-        </form>                                                            <!-- Boton 2 - 1. CUIT --> 
-        <form class="columna">                                             <!---   -->  
-          <label for="cliente_tab2">CLIENTE:</label>                       <!--   -->  
-          <input type="text" id="cliente_tab2" value="-" >                 <!--   -->         
-        </form>                                                            <!-- Boton 2 - 2. CLIENTE --> 
-        <form class="columna">                                             <!--   -->  
-          <label for="mercado_tab2">MERCADO:</label>                       <!--   -->  
-          <input type="text" id="mercado_tab2" value="-" >                 <!--   -->         
-        </form>                                                            <!-- Boton 2 - 3. MERCADO -->
-        <hr>                                                               <!-- 1 linea divisoria -->  
-        <form class="columna">                                             <!--   -->   
-          <label for="referencia_tab2">REF.:</label>                       <!--   -->   
-          <input type="text" id="referencia_tab2" value="-" >              <!--   -->   
-        </form>                                                            <!-- Boton 2 - 4. REF. --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="linea_tab2">LINEA:</label>                           <!--   -->   
-          <input type="text" id="linea_tab2" value="-" >                   <!--   -->   
-        </form>                                                            <!-- Boton 2 - 5. LINEA --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="ticket_in_tab2">TICKET IN:</label>                   <!--   -->   
-          <input type="text" id="ticket_in_tab2" value="-" >               <!--   -->   
-        </form>                                                            <!-- Boton 2 - 6. TICKET IN --> 
-        <hr>                                                               <!-- 2 linea divisoria --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="nombre_tab2">Nombre:</label>                         <!--   -->   
-          <input type="text" id="nombre_tab2" value="-" >                  <!--   -->    
-        </form>                                                            <!-- Boton 2 - 7. Nombre --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="tel_contacto_tab2">Tel.Ct.:</label>                  <!--   -->   
-          <input type="text" id="tel_contacto_tab2" value="-" >            <!--   -->   
-        </form>                                                            <!-- Boton 2 - 8. Tel.Contacto --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="mail_tab2">Mail:</label>                             <!--   -->   
-          <input type="text" id="mail_tab2" value="-" >                    <!--   -->   
-        </form>                                                            <!-- Boton 2 - 9. Mail --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="domicilio_tab2">Domicilio:</label>                   <!--   -->  
-          <input type="text" id="domicilio_tab2" value="-" >               <!--   -->   
-        </form>                                                            <!-- Boton 2 - 10. Domicilio--> 
-        <form class="columna">                                             <!--   -->   
-          <label for="disponibilidad_tab2">H - D:</label>                  <!--   -->   
-          <input type="text" id="disponibilidad_tab2" value="08-16HS" >    <!--   -->      
-        </form>                                                            <!-- Boton 2 - 11. Disponibilidad --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="btAcceso_tab2">Doc.Acc.:</label>                     <!--   -->   
-          <select id="btAcceso_tab2">                                      <!--   -->   
-            <option value="SI">SI</option>                                 <!--   -->   
-            <option value="NO" selected>NO</option>                        <!-- Esta opción se seleccionará por defecto -->
-        </select>                                                        <!--   -->   
-        </form>                                                            <!-- Boton 2 - 12. Doc. Acceso --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="btTerraza_tab2">ToT:</label>                         <!--   -->   
-          <select id="btTerraza_tab2">                                     <!--   -->   
-            <option value="SI" selected>SI</option>                        <!-- Esta opción se seleccionará por defecto -->
-            <option value="NO">NO</option>                                 <!--   -->   
-          </select>                                                        <!--   -->   
-        </form>                                                            <!-- Boton 2 - 13. Techo o Terraza -->  
-        <form class="columna">                                             <!--   -->   
-          <label for="btCovid_tab2">Covid19:</label>                       <!--   -->   
-          <select id="btCovid_tab2">                                       <!--   -->   
-            <option value="SI">SI</option>                                 <!--   -->   
-            <option value="NO" selected>NO</option>                        <!-- Esta opción se seleccionará por defecto -->
-          </select>                                                        <!--   -->   
-        </form>                                                            <!-- Boton 2 - 14. Covid19 --> 
-        <hr>                                                               <!-- 3 linea divisoria  --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="cm_tab2">CM MAC:</label>                             <!--   -->   
-          <input type="text" id="cm_tab2" value="-" >                      <!--   -->   
-        </form>                                                            <!-- Boton 2 - 15. CM MAC -->                                                          
-        <form class="columna">                                             <!--   -->   
-          <label for="nodo_tab2">NODO:</label>                             <!--   -->   
-          <input type="text" id="nodo_tab2" value="-" >                    <!--   -->   
-        </form>                                                            <!-- Boton 2 - 16. NODO --> 
-        <form class="columna">                                             <!--   -->   
-          <label for="ot_tab2">OT:</label>                                 <!--   -->   
-          <input type="text" id="ot_tab2" value="-" >                      <!--   -->   
-        </form>                                                            <!-- Boton 2 - 17. OT --> 
-        <hr>                                                               <!-- 4 linea divisoria  --> 
-        </div>                                                             <!-- finaliza botones input text  || sub-botones -->           
-        <div class="notepad-container-3">                                  <!-- conteiner bloc de notas 3 -->
-          <div class="notepad notepad-3">                                   <!-- notepad3 -->
-            <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad3 -->
-            <textarea id="notepad3" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 50px; max-height: 370px;"></textarea>
-          </div>                                                            <!-- finaliza notepad3 -->
-          <div>                                                             <!-- botones para notepad3  --> 
-            <input type="submit" value="Bajar Data" id="botonBajarD.tab2">         <!-- este boton baja el contenido de los input_tex al notepad3 -->
-            <input type="submit" value="Copiar Data" id="botonCopiarD.tab2">       <!-- este boton copia el contenido cargardo en notepad3 -->
-            <input type="submit" value="Subir Data" id="botonSubir.tab2">          <!-- este boton sube el contenido de los input_tex al notepad3 -->
-            <input type="submit" value="Clean Notes" id="botonCleanN.tab2">        <!-- este boton borra el texto cargado en notepad3 -->
-          </div>                                                            <!-- finalzia botones para notepad3  -->         
-          <hr>                                                              <!-- 5 linea divisoria   --> 
-        </div>   
-      </div>   
-      <div id="tab_librerias_fiber" class="tab-content">                   <!-- boton - librerias fiber -->
-        <hr>                                                               <!-- 5 linea divisoria   -->                           
-        <div class="librerias-row">
-          <button class="tab-btn" id="btnRecomendadosPY" name="recomendados_py">RecomendadosPymes</button>
-          <button class="tab-btn" id="btnSoportePY" name="soporte_py">SoportePymes</button>
-          <button class="tab-btn" id="btnSoporteGC" name="soporte_gc">SoporteGC</button>
+      <div id="tab_librerias_fiber" class="tab-content">                   <!-- boton tab2 - librerias fiber -->
+        <div class="grid-subcontainer">          
+          <div class="button-container">
+            <button class="grid-item" id="botonRecomendados">Recomendados</button>
+            <button class="grid-item" id="botonSoporte">Soporte</button>
+          </div>     
+          <div class="select-container">
+           <select id="librerias_mails_fiber">                    <!-- selector de librerias macro -->   
+            <option value="nulo">Selecciona una opción</option>
+            <option value="nulo">Recomendados FIBER</option>
+            <option value="01.IN-RECO-admin.(ND)" data-type="recomendados">01.IN-RECO-admin.(ND)</option>
+            <option value="02.IN-RECO-ventas.(ND)" data-type="recomendados" >02.IN-RECO-ventas.(ND)</option>
+            <option value="03.IN-RECO-cliente.(ND)" data-type="recomendados">03.IN-RECO-cliente.(ND)</option>
+            <option value="04.IN-RECO-novedades.(generico1)" data-type="recomendados">04.IN-RECO-novedades.(generico1)</option>
+            <option value="05.IN-RECO-novedades.(generico2)" data-type="recomendados">05.IN-RECO-novedades.(generico2)</option>
+            <option value="06.IN-RECO-agradecimiento.(generico1)" data-type="recomendados" >06.IN-RECO-agradecimiento.(generico1)</option>
+            <option value="07.IN-RECO-agredecimiento.(generico2)" data-type="recomendados">07.IN-RECO-agredecimiento.(generico2)</option>
+            <option value="08.IN-RECO-contacto.cliente.(generico1)" data-type="recomendados">08.IN-RECO-contacto.cliente.(generico1)</option>
+            <option value="nulo">****************************************</option>
+            <option value="09.SL-RECO-Adel.AMBA-HFC" data-type="recomendados">09.SL-RECO-Adel.AMBA-HFC</option>
+            <option value="10.SL-RECO-Adel.INTERIOR-HFC" data-type="recomendados">10.SL-RECO-Adel.INTERIOR-HFC</option>
+            <option value="11.SL-RECO-Adel.Base.Cobertura-HFC" data-type="recomendados">11.SL-RECO-Adel.Base.Cobertura-HFC</option>
+            <option value="12.SL-RECO-Aseg.AMBA-HFC" data-type="recomendados">12.SL-RECO-Aseg.AMBA-HFC</option>
+            <option value="13.SL-RECO-Aseg.INTERIOR-HFC" data-type="recomendados">13.SL-RECO-Aseg.INTERIOR-HFC</option>
+            <option value="14.SL-RECO-Aseg.Base.Cobertura-HFC" data-type="recomendados">14.SL-RECO-Aseg.Base.Cobertura-HFC</option>
+            <option value="15.SL-RECO-Adel.AMBA-FTTH" data-type="recomendados">15.SL-RECO-Adel.AMBA-FTTH</option>
+            <option value="16.SL-RECO-Adel.INTERIOR-FTTH" data-type="recomendados">16.SL-RECO-Adel.INTERIOR-FTTH</option>
+            <option value="17.SL-RECO-Aseg.AMBA-FTTH" data-type="recomendados">17.SL-RECO-Aseg.AMBA-FTTH</option>
+            <option value="18.SL-RECO-Aseg.INTERIOR-FTTH" data-type="recomendados">18.SL-RECO-Aseg.INTERIOR-FTTH</option>
+            <option value="19.SL-RECO-Garantia.REINST.AMBA-HFC" data-type="recomendados">19.SL-RECO-Garantia.REINST.AMBA-HFC</option>
+            <option value="20.SL-RECO-Garantia.REINST.AMBA-FTTH" data-type="recomendados">20.SL-RECO-Garantia.REINST.AMBA-FTTH</option>
+            <option value="21.SL-RECO-DespachoHFCB2B.Interior-Error.de.agenda-HFC" data-type="recomendados">21.SL-RECO-DespachoHFCB2B.Interior-Error.de.agenda-HFC</option>
+            <option value="22.SL-RECO-DECSupervisores-Error.de.agenda-FTTH" data-type="recomendados">22.SL-RECO-DECSupervisores-Error.de.agenda-FTTH</option>
+            <option value="24.SL-RECO-Masivo.consulta.MDR-HFC" data-type="recomendados">24.SL-RECO-Masivo.consulta.MDR-HFC</option>
+            <option value="25.SL-RECO-Masivo.consulta.BASE.COBERTURA-HFC" data-type="recomendados">25.SL-RECO-Masivo.consulta.BASE.COBERTURA-HFC</option>
+            <option value="26.SL-RECO-Masivos.reiterados-HFC" data-type="recomendados">26.SL-RECO-Masivos.reiterados-HFC</option>
+            <option value="27.SL-RECO-Masivo cerrado-HFC" data-type="recomendados">27.SL-RECO-Masivo cerrado-HFC</option>
+            <option value="28.SL-RECO-NOC.FO.(escalamiento.mail)" data-type="recomendados">28.SL-RECO-NOC.FO.(escalamiento.mail)</option>
+            <option value="29.SL-RECO-NOC.FO.(consulta.novedades)" data-type="recomendados">29.SL-RECO-NOC.FO.(consulta.novedades)</option>
+            <option value="30.SL-RECO-NOC.ATCORP.(consulta.novedades)" data-type="recomendados">30.SL-RECO-NOC.ATCORP.(consulta.novedades)</option>
+            <option value="31.SL-RECO-NOC.PVL(consulta.novedades.ToIP)" data-type="recomendados">31.SL-RECO-NOC.PVL(consulta.novedades.ToIP)</option>
+            <option value="nulo">Soporte FIBER</option>
+            <option value="01.IN-SOPORTE.Ventas.(ND)" data-type="soporte">01.IN-SOPORTE.Ventas.(ND)</option>
+            <option value="02.IN-SOPORTE.Admin.(ND)" data-type="soporte">02.IN-SOPORTE.Admin.(ND)</option>
+            <option value="03.IN-SOPORTE.Encuesta.(ND)" data-type="soporte">03.IN-SOPORTE.Encuesta.(ND)</option>
+            <option value="04.IN-SOPORTE.Residencial.TECO" data-type="soporte">04.IN-SOPORTE.Residencial.TECO</option>
+            <option value="05.IN-SOPORTE.Residencial.HFC" data-type="soporte">05.IN-SOPORTE.Residencial.HFC</option>
+            <option value="06.IN-SOPORTE.Sin.DATOS.(FCL)" data-type="soporte">06.IN-SOPORTE.Sin.DATOS.(FCL)</option>
+            <option value="07.IN-SOPORTE.Enlace.PE.(generico1)" data-type="soporte">07.IN-SOPORTE.Enlace.PE.(generico1)</option>
+            <option value="08.IN-SOPORTE.Enlace.PE(generico2)" data-type="soporte">08.IN-SOPORTE.Enlace.PE(generico2)</option>
+            <option value="09.IN-SOPORTE.Enlace.PE.(contencion)" data-type="soporte">09.IN-SOPORTE.Enlace.PE.(contencion)</option>
+            <option value="10.IN-SOPORTE.Enlace.UP.(cpe particular)" data-type="soporte">10.IN-SOPORTE.Enlace.UP.(cpe particular)</option>
+            <option value="11.IN-SOPORTE.Enlace.DOWN.(planilla.OT)" data-type="soporte">11.IN-SOPORTE.Enlace.DOWN.(planilla.OT)</option>
+            <option value="12.IN-SOPORTE.Enlace.DOWN.(agenda.OT)" data-type="soporte">12.IN-SOPORTE.Enlace.DOWN.(agenda.OT)</option>
+            <option value="13.IN-SOPORTE.Enlace.DOWN.(reagenda.OTl)" data-type="soporte">13.IN-SOPORTE.Enlace.DOWN.(reagenda.OTl)</option>
+            <option value="14.IN-SOPORTE.Masivo.HFC" data-type="soporte">14.IN-SOPORTE.Masivo.HFC</option>
+            <option value="15.IN-SOPORTE.NOC.(escalamiento)" data-type="soporte">15.IN-SOPORTE.NOC.(escalamiento)</option>
+            <option value="16.IN-SOPORTE.NOC.(pendiente)" data-type="soporte">16.IN-SOPORTE.NOC.(pendiente)</option>
+            <option value="17.IN-SOPORTE.NOC.(sin.ETR)" data-type="soporte">17.IN-SOPORTE.NOC.(sin.ETR)</option>
+            <option value="18.IN-SOPORTE.NOC.(cloud-webmail)" data-type="soporte">18.IN-SOPORTE.NOC.(cloud-webmail)</option>
+            <option value="nulo">"****************************************</option>
+            <option value="19.SL-SOPORTE.DMZ.SAGEMCOM.F@ST.5657" data-type="soporte">19.SL-SOPORTE.DMZ.SAGEMCOM.F@ST.5657</option>
+            <option value="20.SL-SOPORTE.DMZ.NOKIA.G-240W-B" data-type="soporte">20.SL-SOPORTE.DMZ.NOKIA.G-240W-B</option>
+            <option value="21.SL-SOPORTE.DMZ.ARCADYAN.PRV4439B" data-type="soporte">21.SL-SOPORTE.DMZ.ARCADYAN.PRV4439B</option>
+            <option value="22.SL-SOPORTE.DMZ.HUAWEI.HG2845U" data-type="soporte">22.SL-SOPORTE.DMZ.HUAWEI.HG2845U</option>
+            <option value="23.SL-SOPORTE.DMZ.NOKIA.G-2425G-B" data-type="soporte">23.SL-SOPORTE.DMZ.NOKIA.G-2425G-B</option>
+            <option value="24.SL-SOPORTE.DMZ.HUAWEI.HG8245W5-8T-V2" data-type="soporte">24.SL-SOPORTE.DMZ.HUAWEI.HG8245W5-8T-V2</option>
+            <option value="25.SL-SOPORTE.DMZ.NOKIA.G-240W-J2" data-type="soporte">25.SL-SOPORTE.DMZ.NOKIA.G-240W-J</option>
+            <option value="nulo">"****************************************</option>
+            <option value="01.IN-GC.speech.(sin.ICD)" data-type="soporte">01.IN-GC.speech.(sin.ICD)</option>
+            <option value="02.IN-GC.contencion(ND)" data-type="soporte">02.IN-GC.contencion(ND)</option>
+            <option value="03.IN-GC.Masivo.HFC" data-type="soporte">03.IN-GC.Masivo.HFC</option>
+            <option value="04.IN-GC.Masivo.FO" data-type="soporte">04.IN-GC.Masivo.FO</option>
+            <option value="05.IN-GC.Monitoreo.UP.(cctv)" data-type="soporte">05.IN-GC.Monitoreo.UP.(cctv)</option>
+            <option value="06.IN-GC.Monitoreo.DOWN.(cctv)" data-type="soporte">06.IN-GC.Monitoreo.DOWN.(cctv)</option>
+            <option value="07.IN-GC.NOC.(sin.ETR)" data-type="soporte">07.IN-GC.NOC.(sin.ETR)</option>
+            <option value="08.IN-GC.PROSEGUR.(aviso.OT)" data-type="soporte">08.IN-GC.PROSEGUR.(aviso.OT)</option>
+           </select>
+          </div>
         </div>
-        <hr>                                                               <!-- 6 linea divisoria   -->  
-        <select id="libreria_recomendados_py" class="modern">                 <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-          <option value="TK-SO-PY-01.HFC-Seguimiento.(consulta.post.OT-gen1)">01. HFC-Seguimiento (consulta post OT-gen1)"</option>
-          <option value="TK-SO-PY-02.HFC-Seguimiento.(consulta.post.OT-gen2)">02. HFC-Seguimiento (consulta post OT-gen2)</option>
-          <option value="TK-SO-PY-03.HFC-Seguimiento.(consulta.post.OT-gen3)">03. HFC-Seguimiento (consulta post OT-gen3)</option>
-          <option value="TK-SO-PY-04.HFC-Seguimiento.(anulacion.OT-gen1)">04. HFC-Seguimiento (anulacion OT-gen1)</option>
-          <option value="TK-SO-PY-05.HFC-Seguimiento.(anulacion.OT-gen2)">05. HFC-Seguimiento (anulacion OT-gen2)</option>
-          <option value="TK-SO-PY-06.HFC-Seguimiento.(agenda.OT-gen1)">06. HFC-Seguimiento (agenda OT-gen1)</option>
-          <option value="TK-SO-PY-07.HFC-Seguimiento.(regenda.OT-gen1)">07. HFC-Seguimiento (regenda OT-gen1)</option>
-          <option value="TK-SO-PY-08.HFC-Seguimiento.(regenda.OT-contencion)">08. MASIVO - HFC sin alertar</option>
-          <option value="TK-SO-PY-09.ToIP-Seguimiento.(pruebas-NOC)">09. ToIP-Seguimiento (pruebas-NOC)</option>
-          <option value="TK-SO-PY-10.ToIP-Seguimiento.(agenda.OT-NOC)">10. ToIP-Seguimiento (agenda OT-NOC)</option>
-          <option value="TK-SO-PY-11.FLOW-Seguimiento.(consultaSERV.-gen1)">11. FLOW-Seguimiento (consulta SERV-gen1)</option>
-          <option value="TK-SO-PY-12.FLOW-Seguimiento.(pruebas-gen2)">12. FLOW-Seguimiento (pruebas-gen2)</option>
-          <option value="TK-SO-PY-13.FLOW-Seguimiento.(consulta.NOC-gen3)">13. FLOW-Seguimiento (consulta NOC-gen3)</option>
-          <option value="TK-SO-PY-14.FLOW-Seguimiento.(anulacion.OT-gen4)">14. FLOW-Seguimiento (anulacion OT-gen4)"</option>
-          <option value="TK-SO-PY-15.CLOUD-Seguimiento.(consultacuenta-gen1)">15. CLOUD-Seguimiento (consulta cuenta-gen1)</option>
-          <option value="TK-SO-PY-16.CLOUD-Seguimiento.(carga.registros-MX-SFP)">16. CLOUD-Seguimiento (carga registros-MX-SFP)</option>
-          <option value="TK-SO-PY-17.OTHERS-Seguimiento.(carga.registros-gen1)">17. OTHERS-Seguimiento (carga registros-gen1)</option>
-          <option value="TK-SO-PY-18.OTHERS-Seguimiento.(carga.reglas-gen1)">18. OTHERS-Seguimiento (carga reglas-gen1)</option>
-          <option value="TK-SO-PY-19.GOL-Seguimiento.(consulta.cuenta-gen1)">19. GOL-Seguimiento (consulta cuenta-gen1)</option>
-          <option value="TK-SO-PY-20.GOL-Seguimiento.(carga registros-DNS)">20. GOL-Seguimiento (carga registros-DNS)</option>
-        </select> 
-        <select id="libreria_soporte_py" class="modern">                <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-          <option value="IN-SO-PY-01.Ventas.(ND)">01. Ventas (ND)</option>
-          <option value="IN-SO-PY-02.Admin.(ND)">02. Admin (ND)</option>
-          <option value="IN-SO-PY-03.Encuesta.(ND)">03. Encuesta (ND)</option>
-          <option value="IN-SO-PY-04.Residencial.TECO">04. Residencial TECO</option>
-          <option value="IN-SO-PY-05.Residencial.HFC">05. Residencial HFC</option>
-          <option value="IN-SO-PY-06.Sin.DATOS.(FCL)">06. Sin.DATOS (FCL)</option>
-          <option value="IN-SO-PY-07.Enlace.PE.(generico1)">07. Enlace PE (generico1)</option>
-          <option value="IN-SO-PY-08.Enlace.PE.(generico2)">08. Enlace PE (generico2)</option>
-          <option value="IN-SO-PY-09.Enlace.PE.(contencion)">09. Enlace PE (contencion)</option>
-          <option value="IN-SO-PY-10.Enlace.UP.(cpe.particular)">10. Enlace UP (cpe particular)</option>
-          <option value="IN-SO-PY-11.Enlace.DOWN.(planilla.OT)">11. Enlace DOWN (planilla OT)</option>
-          <option value="IN-SO-PY-12.Enlace.DOWN.(agenda.OT)">12. Enlace DOWN (agenda OT)"</option>
-          <option value="IN-SO-PY-13.Enlace.DOWN.(reagenda.OT)">13. Enlace DOWN (reagenda OT)</option>
-          <option value="IN-SO-PY-14. Masivo.HFC">14. Masivo HFC"</option>
-          <option value="IN-SO-PY-15.NOC(escalamiento)">15. NOC (escalamiento)</option>
-          <option value="IN-SO-PY-16.NOC(pendiente)">16. NOC (pendiente)</option>
-          <option value="IN-SO-PY-17.NOC.(sin.ETR)">17. NOC (sin ETR)</option>
-          <option value="IN-SO-PY-18.NOC.(cloud-webmail)">18. NOC (cloud-webmail)</option>
-        </select> 
-        <select id="libreria_soporte_gc" class="modern">                <!-- selector de librerias macro -->   
-          <option value="nulo">Selecciona una opción</option>
-          <option value="OUT-SO-PY-22.DMZ.SAGEMCOM.F@ST.5657">01. DMZ SAGEMCOM F@ST5657</option>
-          <option value="OUT-SO-PY-23.DMZ.NOKIA.G-240W-B">02. DMZ.NOKIA G-240W-B</option>
-          <option value="OUT-SO-PY-24.DMZ.ARCADYAN.PRV4439B">03. DMZ ARCADYAN PRV4439BT</option>
-          <option value="OUT-SO-PY-25.DMZ.HUAWEI.HG2845U">04. DMZ HUAWEI HG2845US</option>
-          <option value="OUT-SO-PY-26.DMZ.NOKIA.G-2425G-B">05. DMZ NOKIA G-2425G-B"</option>
-          <option value="OUT-SO-PY-27.DMZ.Huawei.HG8245W5-8T-V2">06. DMZ Huawei HG8245W5-8T-V2</option>
-          <option value="OUT-SO-PY-28.DMZ.NOKIA.G-240W-J">07. DMZ NOKIA G-240W-J</option>
-        </select> 
-        <div class="notepad-container-4">                                  <!-- conteiner bloc de notas 4 --> 
-        <div class="notepad notepad-4">                                  <!-- notepad4 -->
-          <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad4 -->
-          <textarea id="notepad4" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
-        </div>                                                            <!-- finaliza notepad4 -->
-        </div> 
-        <div id="output"></div>                                            <!-- salida de texto -->
-        <div>                                                              <!-- botones para notepad4  --> 
+        <div class="notepad-container-4">                                         <!-- conteiner bloc de notas 4 --> 
+            <div class="notepad notepad-4">                                       <!-- notepad4 -->
+            <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad4 -->
+            <textarea id="notepad4" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+            </div>                                                                <!-- finaliza notepad4 -->
+        </div>   
+        <div id="output"></div>                                                   <!-- salida de texto -->
+        <div>                                                                     <!-- botones para notepad4  --> 
           <input type="submit" value="Exportar" id="botonExportar.tab2">          <!-- este boton carga la libreria seleccionada en notepad4 -->
           <input type="submit" value="Cargar" id="botonCargar.tab2">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad4  -->
           <input type="submit" value="Copiar" id="botonCopiar.tab2">              <!-- este boton copia el texto cargado en notepad4 -->
           <input type="submit" value="Limpiar" id="botonLimpiar.tab2">            <!-- este boton borra el texto cargado en notepad4 -->
         </div>     
-      </div>                  
+      </div>    
+      <div id="tab_gestion_in" class="tab-content">                        <!-- boton tab2 - gestion in -->
+        <hr>                                                                  <!-- 1 linea divisoria -->  
+        <div class="grid-container">
+          <div class="grid-item-header datos-in-1">DATOS IN</div>
+          <div class="grid-item-header datos-in-2">DATOS IN</div>
+        </div>
+        <div class="grid-container">                                          <!-- botones GRID text || IN-SS -->  
+          <label for="mercado_tab2">MERCADO:</label>
+          <select id="btmercado_tab2">
+            <option value="INTERIOR">INTERIOR</option>
+            <option value="AMBA">AMBA</option>
+            <option value="CRECIMIENTO" selected>CRECIMIENTO</option>
+          </select>
+          <input type="text" class="grid-item" id="producto_tab2" placeholder="-">
+          <label for="producto_tab2">:PRODUCTO</label>
+        </div>
+        <div class="grid-container">
+          <label for="cliente_tab2">CLIENTE:</label>
+          <input type="text" class="grid-item" id="cliente_tab2" placeholder="-">
+          <input type="text" class="grid-item" id="linea_tab2" placeholder="-">
+          <label for="linea_tab2">:LINEA</label>
+        </div>
+        <div class="grid-container">
+          <label for="cuit_tab2">CUIT:</label>
+          <input type="text" class="grid-item" id="cuit_tab2" placeholder="-">
+          <input type="text" class="grid-item" id="ticket_in_tab2" placeholder="-">
+          <label for="ticket_in_tab2">:TICKET IN</label>
+        </div>
+        <hr>                                                                 <!-- 2 linea divisoria --> 
+        <div class="grid-container">
+          <div class="grid-item-header datos-de-contacto-1">DATOS DE CONTACTO</div>
+          <div class="grid-item-header datos-de-contacto-2">DATOS DE CONTACTO</div>
+        </div>
+        <div class="grid-container">                                       
+          <label for="nombre_tab2">Nombre:</label>
+          <input type="text" class="grid-item" id="nombre_tab2" placeholder="-">
+          <select id="btAcceso_tab2">
+            <option value="SI">SI</option>
+            <option value="NO" selected>NO</option>
+          </select>
+          <label for="btAcceso_tab2">:Doc.Acc.</label>
+        </div>
+        <div class="grid-container">
+          <label for="tel_contacto_tab2">Tel.Ct.:</label>
+          <input type="text" class="grid-item" id="tel_contacto_tab2" placeholder="-">
+          <select id="btTerraza_tab2">
+            <option value="SI" selected>SI</option>
+            <option value="NO">NO</option>
+          </select>
+          <label for="btTerraza_tab2">:ToT</label>
+        </div>
+        <div class="grid-container">
+          <label for="mail_tab2">Mail:</label>
+          <input type="text" class="grid-item" id="mail_tab2" placeholder="-">
+          <select id="btCovid_tab2">
+            <option value="SI">SI</option>
+            <option value="NO" selected>NO</option>
+          </select>
+          <label for="btCovid_tab2">:Covid19</label>
+        </div> 
+        <div class="grid-container">
+          <label for="disponibilidad_tab2">H - D:</label>
+          <input type="text" class="grid-item" id="disponibilidad_tab2" value="L-V / 08-16HS">
+          <input type="text" class="grid-item" id="domicilio_tab2" placeholder="-">
+          <label for="domicilio_tab2">:Domicilio</label>
+        </div> 
+        <hr>                                                                 <!-- 3 linea divisoria --> 
+        <div class="grid-container">
+          <div class="grid-item-header datos-tecnicos-hfc-1">DATOS TECNICOS HFC</div>
+          <div class="grid-item-header datos-tecnicos-hfc-2">DATOS TECNICOS HFC</div>
+        </div>
+        <div class="grid-container">                                       
+          <label for="cm_tab2">CM MAC:</label>
+          <input type="text" class="grid-item" id="cm_tab2" placeholder="-">
+          <input type="text" class="grid-item" id="ip_tab2" placeholder="-">
+          <label for="ip_tab2">IP:</label>
+        </div>
+        <div class="grid-container">
+          <label for="nodo_tab2">NODO:</label>
+          <input type="text" class="grid-item" id="nodo_tab2" placeholder="-">
+          <input type="text" class="grid-item" id="ot_tab2" placeholder="-">
+          <label for="ot_tab2">OT:</label>
+        </div>
+        <div class="grid-container">
+          <label for="cpe_tab2">CPE:</label>
+          <input type="text" class="grid-item" id="cpe_tab2" placeholder="-">
+          <input type="text" class="grid-item" id="uptime_tab2" placeholder="-">
+          <label for="uptime_tab2">estado -uptime:</label>
+        </div> 
+        <hr>                                                                  <!-- 4 linea divisoria --> 
+      </div>   
+      <div id="tab_notas" class="tab-content">                             <!-- boton tab2 - notas -->
+        <div class="notepad-container-5">                                          <!-- conteiner bloc de notas 5 -->
+          <div class="notepad notepad-5">                                          <!-- notepad5 -->
+            <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad5 -->
+            <textarea id="notepad5" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 110px; max-height: 370px;"></textarea>
+          </div>                                                                   <!-- finaliza notepad5 -->
+          <div id="output"></div>                                                  <!-- salida de texto -->
+          <div>                                                                    <!-- botones para notepad5  --> 
+            <input type="submit" value="Bajar Datos" id="botonBajarDatos.tab2">         <!-- este boton baja el contenido de los input_tex al notepad5 -->
+            <input type="submit" value="Copiar Data" id="botonCopiarDatos.tab2">        <!-- este boton copia el contenido cargardo en notepad5 -->
+            <input type="submit" value="Subir Datos" id="botonSubirDatos.tab2">         <!-- este boton sube el contenido de los input_tex al notepad5 -->
+            <input type="submit" value="Borrar Datos" id="botonBorrarDatos.tab2">       <!-- este boton borra el contenido de los input_tex al notepad5 -->
+          </div>     
+        </div>                                                                     <!-- finalzia botones para notepad5  -->         
+        <div class="notepad-container-6">                                          <!-- conteiner bloc de notas 6 -->
+          <div class="notepad notepad-6">                                          <!-- notepad6 -->
+            <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad6 -->
+            <textarea id="notepad6" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 110px; max-height: 370px;"></textarea>
+          </div>                                                                   <!-- finaliza notepad6 -->
+          <div id="output"></div>                                                  <!-- salida de texto -->
+          <div>                                                                    <!-- botones para notepad6  --> 
+            <input type="submit" value="Sumar Registro" id="botonSumarReg.tab2">               <!-- este boton baja el contenido de los input_tex al notepad6 -->
+            <input type="submit" value="Copiar Registro" id="botonCopiarReg.tab2">             <!-- este boton copia el contenido cargardo en notepad6 -->
+            <input type="submit" value="Borrar Registro" id="botonCleanReg.tab2">              <!-- este boton borra el texto cargado en notepad6 -->
+          </div>                                                                   <!-- finaliza conteiner bloc de notas6 --> 
+        </div>                                                                     <!-- finalzia botones para notepad6  -->         
+      </div>
       <div class="footer">                                                 <!-- footer-->
         <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
       </div>                                                               <!-- footer-->
-    </div>                                                                 <!-- finaliza conteiner tab2 --> 
+    </div>                                                                   <!-- finaliza conteiner tab2 --> 
   </div>                                                                     <!-- finaliza tab2 - MAILS FIBER* --> 
 </body>
 </html>
