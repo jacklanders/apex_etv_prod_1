@@ -10,7 +10,7 @@
 <body>
   <div class="container">                                                    <!-- conteiner de los botones superiores 1 - 2 - 3 - 4 --> 
     <div class="tabs">                                                       <!-- apertura del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | -->
-      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd_in_ss">TICKETS</a>   <!-- button tab1 - ICD IN-SS*-->
+      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd_in_ss">LLAMADAS</a>  <!-- button tab1 - ICD IN-SS*-->
       <a class="tab-btn" href="../botones2-fiber/botones2-fiber.html" id="btnfiber" name="_fiber">FIBER</a>                    <!-- button tab2 - FIBER*-->
       <a class="tab-btn" href="../botones3-teco/botones3-teco.html" id="btnteco" name="_teco">TECO</a>                         <!-- button tab3 - TECO*-->
       <a class="tab-btn" href="../botones4-tickets/botones4-tickets.html" id="btntickets" name="_tickets">TICKETS</a>          <!-- button tab4 - TICKETS*-->
@@ -38,7 +38,7 @@
             <button class="grid-item" id="botonSoporte">Soporte</button>
           </div>     
           <div class="select-container">
-           <select id="librerias_mails_fiber">                    <!-- selector de librerias macro -->   
+           <select id="librerias_mails_fiber"  class="custom-select">      <!-- selector de librerias macro -->   
             <option value="nulo">Selecciona una opción</option>
             <option value="nulo">Recomendados FIBER</option>
             <option value="01.IN-RECO-admin.(ND)" data-type="recomendados">01.IN-RECO-admin.(ND)</option>
@@ -118,11 +118,28 @@
             </div>                                                                <!-- finaliza notepad4 -->
         </div>   
         <div id="output"></div>                                                   <!-- salida de texto -->
-        <div>                                                                     <!-- botones para notepad4  --> 
-          <input type="submit" value="Exportar" id="botonExportar.tab2">          <!-- este boton carga la libreria seleccionada en notepad4 -->
-          <input type="submit" value="Cargar" id="botonCargar.tab2">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad4  -->
-          <input type="submit" value="Copiar" id="botonCopiar.tab2">              <!-- este boton copia el texto cargado en notepad4 -->
-          <input type="submit" value="Limpiar" id="botonLimpiar.tab2">            <!-- este boton borra el texto cargado en notepad4 -->
+        <div class="grid-subcontainer botones-fiber-tab2">     
+          <div class="para_tab2">PARA:</div>
+          <input type="text" class="grid-item" id="para_tab2" placeholder="-">
+          <div class="cc_tab2">CC:</div>
+          <input type="text" class="grid-item" id="cc_tab2" placeholder="-">
+          <div class="asunto_tab2">ASUNTO:</div>
+          <input type="text" class="grid-item" id="asunto_tab2" placeholder="-">
+          <div class="caso_tab2">N° CASO:</div>
+          <input type="text" class="grid-item" id="caso_tab2" placeholder="-">
+        </div>  
+        <div class="notepad-container-13">                                        <!-- conteiner bloc de notas 13 --> 
+          <div class="notepad notepad-13">                                        <!-- notepad13 -->
+          <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad13 -->
+          <textarea id="notepad4" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+          </div>                                                                 <!-- finaliza notepad13 -->
+        </div>   
+        <div id="output"></div>                                                   <!-- salida de texto -->
+        <div>                                                                     <!-- botones para notepad 4-13  --> 
+          <input type="submit" value="Exportar" id="botonExportar.tab2">          <!-- este boton carga la libreria seleccionada en notepad  4-13 -->
+          <input type="submit" value="Cargar" id="botonCargar.tab2">              <!-- este boton carga los datos de los input text junto con la libreria seleccionada, al notepad  4-13  -->
+          <input type="submit" value="Copiar" id="botonCopiar.tab2">              <!-- este boton copia el texto cargado en notepad  4-13 -->
+          <input type="submit" value="Limpiar" id="botonLimpiar.tab2">            <!-- este boton borra el texto cargado en notepad  4-13 -->
         </div>     
       </div>    
       <div id="tab_gestion_in" class="tab-content">                        <!-- boton tab2 - gestion in -->

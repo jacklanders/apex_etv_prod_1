@@ -268,15 +268,15 @@ select option[value="INTERIOR"] {
 /* ***************************** GRID HEDADERS ***************************** - */               
 /*
 .grid-item-header {
-  /*background-color: rgb(236, 236, 236); /* Color de fondo para la opción SI */
-  /*border: 0px solid #ccc; /* Borde para simular una celda */
-  /*padding: 5px; /* Espaciado interno */
-  /*text-align: center; /* Alinea verticalmente los elementos */
-  /*width: 365px; /* Ocupar el 100% del ancho del contenedor */
+  /*background-color: rgb(236, 236, 236); /* Color de fondo para la opción SI 
+  /*border: 0px solid #ccc; /* Borde para simular una celda 
+  /*padding: 5px; /* Espaciado interno 
+  /*text-align: center; /* Alinea verticalmente los elementos
+  /*width: 365px; /* Ocupar el 100% del ancho del contenedor 
   /*height: 5px;
-  /*font-size: 10px; /* Tamaño de fuente para los elementos */
-  /*color: black; /* Cambiar el color del texto a blanco */
-  /*line-height: 5px; /* Igual al valor de height para centrar verticalmente */
+  /*font-size: 10px; /* Tamaño de fuente para los elementos 
+  /*color: black; /* Cambiar el color del texto a blanco 
+  /*line-height: 5px; /* Igual al valor de height para centrar verticalmente 
   /*font-weight: bold; 
 }
 */
@@ -377,6 +377,7 @@ select option[value="INTERIOR"] {
   width: 100px;
   height: 26px;
   margin-bottom: 2px;
+  font-size: 10px;
 }
 #cliente_tab1 {
   background-color: #debd03; /* Color de fondo dorado */
@@ -586,7 +587,7 @@ select option[value="INTERIOR"] {
   
   
 /* ********************** botones y selector ******************** - */     
-#tab_tickets .grid-subcontainer {
+#tab_librerias_incidentes .grid-subcontainer {
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -617,7 +618,6 @@ select option[value="INTERIOR"] {
   border-radius: 5px;
   padding: 8px 12px;
 }
-
 /* Estilos para los elementos select */
 .custom-select {  
   width: 250x;
@@ -639,6 +639,8 @@ select option[value="INTERIOR"] {
   color: #fbeb95;
 }
 /* ********************** botones y selector ******************** - */     
+
+
 
 
 /* ********************** NOTEPAD 1-2 ******************** - */     
@@ -664,6 +666,12 @@ input[type="submit"]:active {   /* Estilos para botones de envío activos */
   display: inline-block; /* Mostrar los elementos en línea */
   vertical-align: top; /* Alinearlos en la parte superior */
 }
+#botonExportar {
+  margin-left: 50px;
+  /* background-color: red; /* Cambia el color de fondo a rojo */
+  /* color: white; /* Cambia el color del texto a blanco */
+  /* Agrega más estilos personalizados si es necesario */
+}
 #botonBajarDatos {
   margin-left: 15px;
   /* background-color: red; /* Cambia el color de fondo a rojo */
@@ -676,12 +684,7 @@ input[type="submit"]:active {   /* Estilos para botones de envío activos */
   /* color: white; /* Cambia el color del texto a blanco */
   /* Agrega más estilos personalizados si es necesario */
 }
-#botonExportar {
-  margin-left: 50px;
-  /* background-color: red; /* Cambia el color de fondo a rojo */
-  /* color: white; /* Cambia el color del texto a blanco */
-  /* Agrega más estilos personalizados si es necesario */
-}
+
 select.modern {                 /* Estilos para selectores */
   width: 340px;
   height: 25px;
