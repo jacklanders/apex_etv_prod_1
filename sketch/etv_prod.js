@@ -20,6 +20,7 @@ document.write('<script src="botones2-fiber.js"></script>');       // Importa el
 document.write('<script src="botones3-teco.js"></script>');        // Importa el archivo de funcionalidad teco
 document.write('<script src="botones4-tickets.js"></script>');     // Importa el archivo de funcionalidad ticket
 document.write('<script src="botones5-extras.js"></script>');      // Importa el archivo de funcionalidad herramientas
+document.write('<script src="botones6-ots.js"></script>');      // Importa el archivo de funcionalidad ordenes tecnicas
 //document.write('<script src="botones-return.js"></script>');       // Importa el archivo de funcionalidad tecO
 // - ***************************** Funcion Principal ******************************* -
 
@@ -42,6 +43,7 @@ document.getElementById('btnfiber').addEventListener('click', function(event) { 
 document.getElementById('btnteco').addEventListener('click', function(event) {openTab(event, 'tab_teco'); });           // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
 document.getElementById('btntickets').addEventListener('click', function(event) {openTab(event, 'tab_tickets'); });     // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
 document.getElementById('btnextras').addEventListener('click', function(event) {openTab(event, 'tab_extras'); });       // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
+document.getElementById('btnots').addEventListener('click', function(event) {openTab(event, 'tab_ots'); });       // Despliega tab2. Funcion de los botones input_text (cuit, linea, refrencia)
 // ******* Funcion OpenTAB ******* INICIO *******    
 var activeTab = '';
 function openTab(evt, tabName) {
@@ -71,9 +73,10 @@ document.getElementById('btnfiber').addEventListener('click', function (event) {
 document.getElementById('btnteco').addEventListener('click', function (event) { openTab(event, 'tab_teco'); });
 document.getElementById('btntickets').addEventListener('click', function (event) { openTab(event, 'tab_tickets'); });
 document.getElementById('btnextras').addEventListener('click', function (event) { openTab(event, 'tab_extras'); });
+document.getElementById('btnots').addEventListener('click', function (event) { openTab(event, 'tab_ots'); });
 document.getElementById('btnreturn').addEventListener('click', function (event) {
   // When the "return" button is clicked, close all tabs and reset the state
-  var allTabs = ["tab_icd_in_ss", "tab_fiber", "tab_teco", "tab_tickets", "tab_extras", "tab_return"];
+  var allTabs = ["tab_icd_in_ss", "tab_fiber", "tab_teco", "tab_tickets", "tab_extras", "tab_ots", "tab_return"];
   for (var i = 0; i < allTabs.length; i++) {
     var tabElement = document.getElementById(allTabs[i]);
     if (tabElement) {

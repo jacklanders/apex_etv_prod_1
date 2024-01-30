@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="botones6-ots.js"></script> 
+  <link rel="stylesheet" href="botones6-ots.css">  
+</head>
+<body>
+  <div class="container">                                                    <!-- conteiner de los botones superiores 1 - 2 - 3 - 4 --> 
+    <div class="tabs">                                                       <!-- apertura del bloque: titulos de pestañas | IN-SS | FIBER | TECO | ARCOS | EXTRAS | -->
+      <a class="tab-btn" href="../botones1-icd-in-ss/botones1-icd-in-ss.html" id="btnllamadas" name="_icd_in_ss">LLAMADAS</a>  <!-- button tab1 - ICD IN-SS*-->
+      <a class="tab-btn" href="../botones2-fiber/botones2-fiber.html" id="btnfiber" name="_fiber">FIBER</a>                    <!-- button tab2 - FIBER*-->
+      <a class="tab-btn" href="../botones3-teco/botones3-teco.html" id="btnteco" name="_teco">TECO</a>                         <!-- button tab3 - TECO*-->
+      <a class="tab-btn" href="../botones4-tickets/botones4-tickets.html" id="btntickets" name="_tickets">TICKETS</a>          <!-- button tab4 - TICKETS*-->
+      <a class="tab-btn" href="../botones5-extras/botones5-extras.html" id="btnextras" name="_extras">EXTRAS</a>               <!-- button tab5 - EXTRAS*-->
+      <a class="tab-btn" href="../botones6-extras/botones6-ots.html" id="btnots" name="_ots">OTS</a>                           <!-- button tab6 - OTS*-->
+      <button class="tab-btn" id="btnreturn" name="_return">&#x21A9</button>  
+    </div>                                                                   <!-- cierre del bloque: titulos de pestañas | IN-SS | FIBER | TECO | TICKETS | EXTRAS | --> 
+  </div>                                                                     <!-- cierre del conteiner | pestañas | IN-SS | FIBER | TECO | TICKETS | EXTRAS | --> 
+  <div id="tab_ots" class="tab-content">                                 <!-- codigo tab4 - MAILS TICKETS*-->
+    <div class="container">                                                  <!-- conteiner tab6 -->
+      <div class="subcontainer">                                             <!-- subconteiner tab6 -->
+        <button class="tab-btn" id="btnleftarrow_tab6" name="tab_leftarrow">&#x2190;</button>
+        <button class="tab-btn" id="btniniciar_tab6" name="tab_iniciar">Iniciar Gestion</button>
+        <button class="tab-btn" id="btndescartar_tab6" name="tab_descartar">Descargar Gestion</button>
+        <button class="tab-btn" id="btnfinalizar_tab6" name="tab_finalizar">Finalizar Gestion</button>
+        <button class="tab-btn" id="btnlibrerias_ots_tab6" name="tab_librerias_ots">REGISTROS</button>    
+        <button class="tab-btn" id="btnrightarrow_tab6" name="tab_rightarrow">&#x2192;</button> 
+        <button class="tab-btn" id="btnreturn_tab6" name="tab_return">&#x21A9</button>
+      </div>                                                               <!-- finaliza subconteiner tickets -->
+      <div id="tab_librerias_ots" class="tab-content">                     <!-- boton tab6 - librerias tickets -->
+        <div class="grid-subcontainer">          
+          <button class="grid-item" id="botonot">OTS</button>
+          <div class="select-container">
+           <select id="librerias_mails_ot"  class="custom-select">      <!-- selector de librerias macro -->   
+            <option value="nulo">Selecciona una opción</option>
+            <option value="01.CM.HFC.operativo" data-type="ots">01.CM operativo (anulacion OT) </option>
+            <option value="02.CM.HFC.masivo" data-type="ots">02.CM masivo (anulacion OT)</option>
+            <option value="03.ONT.FTTH.operativo" data-type="ots">03.FTTH operativo (anulacion OT)</option>
+            <option value="04.ONT.FTTH.masivo" data-type="ots">04.FTTH masivo (anulacion OT)</option>
+            <option value="05.DECO.operativo" data-type="ots">05.DECO masivo (anulacion OT)</option>
+            <option value="06.OT.sin.datos" data-type="ots">06.SIN DATOS OT</option>
+            <option value="07.OT.nuevo.tb" data-type="ots">07.NUEVO TB OT</option>
+            <option value="08.OT.reagenda" data-type="ots">08.REAGENDA OT</option>
+           </select>
+          </div>
+        </div>  
+        <div class="notepad-container-21">                                         <!-- conteiner bloc de notas 21 --> 
+          <div class="notepad notepad-21">                                       <!-- notepad21 -->
+            <!-- Agrega aquí elementos de entrada para cargar datos y modificar la librería en notepad21 -->
+            <textarea id="notepad21" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 175px; max-height: 370px;"></textarea>          
+          </div>                                                                <!-- finaliza notepad21 -->
+        </div>   
+        <div id="output"></div>                                                   <!-- salida de texto -->
+        <div>                                                                     <!-- botones para notepad21  --> 
+            <input type="submit" value="Exportar" id="botonExportar_tab6">          <!-- este boton carga la libreria seleccionada en notepad21 -->
+            <input type="submit" value="Copiar" id="botonCopiar_tab6">              <!-- este boton copia el texto cargado en notepad21 -->
+            <input type="submit" value="Limpiar" id="botonLimpiar_tab6">            <!-- este boton borra el texto cargado en notepad21 -->
+        </div>     
+        <hr>                                                               <!-- 1 linea divisoria -->  
+      <div id="tab_gestion_in" class="tab-content">                        <!-- boton tab6 - gestion in -->
+        <hr>                                                               <!-- 2 linea divisoria -->  
+        <div class="grid-container">
+          <div class="grid-item-header datos-in-1">DATOS OT</div>
+          <div class="grid-item-header datos-in-2">DATOS OT</div>
+        </div>
+        <div class="grid-container">                                       <!-- botones GRID text || IN-SS -->  
+          <label for="cliente_tab6">CLIENTE:</label>
+          <input type="text" class="grid-item" id="cliente_tab6" placeholder="-">
+          <input type="text" class="grid-item" id="para_tab6" placeholder="-">
+          <label for="para_tab6">:PARA</label>
+        </div>
+        <div class="grid-container">
+          <label for="cuit_tab6">CUIT:</label>
+          <input type="text" class="grid-item" id="cuit_tab6" placeholder="-">
+          <select id="btcc_tab6">
+            <option value="pymes" selected>SoportePymesConectividad@teco.com.ar</option> 
+            <option value="gc">SoporteGrandesEmpresasConectividad@teco.com.ar</option> 
+          </select>
+          <label for="cc_tab6">:CC</label>
+        </div>
+        <div class="grid-container">
+          <label for="producto_tab6">IDPROD.:</label>
+          <input type="text" class="grid-item" id="producto_tab6" placeholder="-">
+                    
+          <input type="text" class="grid-item" id="fecha_tab6" placeholder="-">
+          <label for="fecha_tab6">:FECHA OT</label>
+        </div>
+        <div class="grid-container">
+          <label for="cm_tab6">MAC CM:</label>
+          <input type="text" class="grid-item" id="cm_tab6" placeholder="-">
+          <input type="text" class="grid-item" id="reagenda_tab6" placeholder="-">
+          <label for="reagenda_tab6">:REAGENDA OT</label>
+        </div>
+        <hr>                                                               <!-- 3 linea divisoria --> 
+      </div>  
+      </div>  
+      <div id="tab_notas" class="tab-content">                             <!-- boton tab6 - notas -->
+        <div class="grid-subcontainer botones-ots-tab6">     
+          <div class="para2_tab6">PARA:</div>
+          <input type="text" class="grid-item" id="para2_tab6" placeholder="-">
+          <div class="cc2_tab6">CC:</div>
+          <input type="text" class="grid-item" id="cc2_tab6" placeholder="-">
+          <div class="asunto_tab6">ASUNTO:</div>
+          <input type="text" class="grid-item" id="asunto_tab6" placeholder="-">
+          <div class="caso_tab6">N° CASO:</div>
+          <input type="text" class="grid-item" id="caso_tab6" placeholder="-">
+        </div>  
+        <div class="notepad-container-22">                                          <!-- conteiner bloc de notas 22 -->
+          <div class="notepad notepad-22">                                          <!-- notepad22 -->
+            <!-- Agrega aquí un botón de limpiar o cualquier otro contenido necesario para notepad22 -->
+            <textarea id="notepad22" class="notepad-textarea" style="width: 340px;  max-width: 340px; height: 110px; max-height: 370px;"></textarea>
+          </div>                                                                   <!-- finaliza notepad22 -->
+          <div id="output"></div>                                                  <!-- salida de texto -->
+          <div>                                                                    <!-- botones para notepad22  --> 
+            <input type="submit" value="Cargar Datos" id="botonCargarDatos_tab6">         <!-- este boton baja el contenido de los input_tex al notepad22 -->
+            <input type="submit" value="Copiar Datos" id="botonCopiarDatos_tab6">        <!-- este boton copia el contenido cargardo en notepad22 -->
+            <input type="submit" value="Borrar Datos" id="botonBorrarDatos_tab6">       <!-- este boton borra el contenido de los input_tex al notepad22 -->
+            <input type="submit" value="Guardar Datos" id="botonGurdarDatos_tab6">       <!-- este boton guarda el contenido de los input_tex al notepad22 -->
+          </div>     
+        </div>                                                                     <!-- finalzia botones para notepad11  -->         
+      </div>
+      <div class="footer">                                                 <!-- footer-->
+        <p>&copy; 2023 Velozo - Taboada - Todos los derechos reservados.</p>
+      </div>                                                               <!-- footer-->
+    </div>                                                                 <!-- finaliza conteiner tab4 --> 
+  </div>                                                                   <!-- finaliza tab4 - MAILS TICKETS* -->    
+</body>
+</html>  
