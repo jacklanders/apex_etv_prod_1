@@ -7,16 +7,94 @@
 // - *****************************  SECCION 6 - OTS **************************** -
 
 
+
+// - ***************************** GUARDAR COOKIES *********************** - 
+// Guardar datos de entrada y salida en cookies
+function guardarDatosEnCookies() {
+    const camposDeEntrada = [
+        'cliente_tab6', 'cuit_tab6', 'btcc_tab6', 'producto_tab6', 'cm_tab6', 'uptime_tab6',
+        'direccion_tab6', 'bthora_tab6', 'fecha_tab6', 'reagenda_tab6', 'para_tab6'
+    ];
+
+    const camposDeSalida = [
+        'para2_tab6', 'cc2_tab6', 'asunto_tab6', 'caso_tab6', 'notepad21', 'output_librerias_ots',
+        'output_para_tab6', 'output_cc_tab6', 'output_asunto_tab6', 'output_caso_tab6'
+    ];
+
+    // Guardar campos de entrada en cookies
+    camposDeEntrada.forEach(campo => {
+        const valor = document.getElementById(campo).value;
+        document.cookie = `${campo}=${encodeURIComponent(valor)}; path=/`;
+    });
+
+    // Guardar campos de salida en cookies
+    camposDeSalida.forEach(campo => {
+        const valor = document.getElementById(campo).innerText;
+        document.cookie = `${campo}=${encodeURIComponent(valor)}; path=/`;
+    });
+}
+
+// Escuchar la descarga de la página para guardar datos en cookies
+window.addEventListener('beforeunload', guardarDatosEnCookies);
+// - ***************************** GUARDAR COOKIES *********************** - 
+
+// - ***************************** CARGAR COOKIES *********************** - 
+// Restaurar datos de entrada y salida desde cookies
+function restaurarDatosDesdeCookies() {
+    const camposDeEntrada = [
+        'cliente_tab6', 'cuit_tab6', 'btcc_tab6', 'producto_tab6', 'cm_tab6', 'uptime_tab6',
+        'direccion_tab6', 'bthora_tab6', 'fecha_tab6', 'reagenda_tab6', 'para_tab6'
+    ];
+
+    const camposDeSalida = [
+        'para2_tab6', 'cc2_tab6', 'asunto_tab6', 'caso_tab6', 'notepad21', 'output_librerias_ots',
+        'output_para_tab6', 'output_cc_tab6', 'output_asunto_tab6', 'output_caso_tab6'
+    ];
+
+    // Restaurar campos de entrada desde cookies
+    camposDeEntrada.forEach(campo => {
+        const valorCookie = obtenerValorCookie(campo);
+        if (valorCookie !== null) {
+            document.getElementById(campo).value = decodeURIComponent(valorCookie);
+        }
+    });
+
+    // Restaurar campos de salida desde cookies
+    camposDeSalida.forEach(campo => {
+        const valorCookie = obtenerValorCookie(campo);
+        if (valorCookie !== null) {
+            document.getElementById(campo).innerText = decodeURIComponent(valorCookie);
+        }
+    });
+}
+
+// Función auxiliar para obtener el valor de la cookie por nombre
+function obtenerValorCookie(nombreCookie) {
+    const cookies = document.cookie.split('; ');
+    for (const cookie of cookies) {
+        const [nombre, valor] = cookie.split('=');
+        if (nombre === nombreCookie) {
+            return valor;
+        }
+    }
+    return null;
+}
+
+// Escuchar la carga de la página para restaurar datos desde cookies
+window.addEventListener('load', restaurarDatosDesdeCookies);
+// - ***************************** CARGAR COOKIES *********************** - 
+
+
+
+
 // - ***************************** SELECTOR LIBRERIAS *********************** - 
 document.addEventListener('DOMContentLoaded', function() {
     const libreriasButton = document.getElementById('btnlibrerias_ots_tab6');
     const selector = document.getElementById('librerias_mails_ot');
+    const notepad21 = document.getElementById("notepad21");
 
     libreriasButton.addEventListener('click', function() {
-        // Obtén el valor del tipo de librería seleccionado
         const tipoLibreria = selector.value;
-
-        // Muestra u oculta las opciones según el tipo de librería
         mostrarOpciones(selector, tipoLibreria);
     });
 
@@ -25,236 +103,288 @@ document.addEventListener('DOMContentLoaded', function() {
 
         opciones.forEach(opcion => {
             if (opcion.value === 'nulo') {
-                opcion.style.display = 'block'; // Mostrar la opción por defecto
+                opcion.style.display = 'block';
             } else {
-                // Mostrar u ocultar según el tipo de librería
                 opcion.style.display = (opcion.dataset.type === tipo || opcion.value === 'nulo') ? 'block' : 'none';
             }
         });
     }
-});
-// - ***************************** SELECTOR LIBRERIAS *********************** - 
+
+
 
 // ***************************** BLOC DE NOTAS - NOTEPAD 21 *************************  -
-document.addEventListener('DOMContentLoaded', function() {
-    const notepad3 = document.getElementById("notepad3");
-    const selectElement = document.getElementById("librerias_incidentes");
+    aplicarAjustes(notepad21);
+
+    function aplicarAjustes(textarea) {
+        textarea.addEventListener('input', function() {
+            autoAjustar(textarea);
+            ajustarAnchoMaximo(textarea);
+        });
+    }
+
+    function autoAjustar(textarea) {
+        textarea.style.height = 'auto';
+        textarea.style.height = (textarea.scrollHeight) + 'px';
+    }
+
+    function ajustarAnchoMaximo(textarea) {
+        textarea.style.maxWidth = '340px'; // Fijar el ancho máximo
+    }
+
+// ******* BOTON CARGAR LIBRERIAS******* INICIO *******    
+    document.getElementById("botonCargarLibreria_tab6").addEventListener("click", function() {
+        cargarLibreriaSeleccionada();
+    });
 
     function cargarLibreriaSeleccionada() {
-        var selectedValue = selectElement.value;
+        var selectedValue = selector.value;
         selectedValue = decodeURIComponent(selectedValue);
 
-        // Construir la URL según la selección del usuario
         var url;
+
         switch(selectedValue) {
+            // Agrega casos para otras opciones según sea necesario
             case '01.CM.HFC.operativo':
-                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/01.TK-IN-NO.NAVEGA.HFC.CCTV.(GC).sublime-snippet";
+                url = "../librerias/09.MAILS.OT/01.CM.HFC.operativo";
                 break;
             case '02.CM.HFC.masivo':
-                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/02.TK-IN-NO.NAVEGA.HFC-sin-OT.sublime-snippet";
+                url = "../librerias/09.MAILS.OT/02.CM.HFC.masivo";
                 break;
             case '03.ONT.FTTH.operativo':
-                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/03.TK-IN-NO.NAVEGA.HFC-con-OT.sublime-snippet";
+                url = "../librerias/09.MAILS.OT/03.ONT.FTTH.operativo";
                 break;
             case '04.ONT.FTTH.masivo':
-                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/04.TK-IN-NO.NAVEGA.HFC-sin-CORTES.sublime-snippet";
+                url = "../librerias/09.MAILS.OT/04.ONT.FTTH.masivo";
                 break;
             case '05.DECO.operativo':
-                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/05.TK-IN-NO.NAVEGA.HFC-con-CORTES.sublime-snippet";
+                url = "../librerias/09.MAILS.OT/05.DECO.operativo";
                 break;
             case '06.OT.sin.datos':
-                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/06.TK-IN-NO.NAVEGA.HFC-reset-CM.sublime-snippet";
+                url = "../librerias/09.MAILS.OT/06.OT.sin.datos";
                 break;
             case '07.OT.nuevo.tb':
-                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/07.TK-IN-NO.NAVEGA.HFC-ToIP.sublime-snippet";
+                url = "../librerias/09.MAILS.OT/07.OT.nuevo.tb";
                 break;
-            case '08.OT.reagenda':
-                url = "../librerias/03.TICKETS.IN/01.tickets.incidentes/08.TK-IN-NO.NAVEGA.HFC-sin-alertar-MASIVO.sublime-snippet";
+            case '08.OT.reagenda.ot':
+                url = "../librerias/09.MAILS.OT/08.OT.reagenda.ot";
+                break;
+            case '09.OT.reagenda.bt':
+                url = "../librerias/09.MAILS.OT/09.OT.reagenda.bt";
                 break;
             default:
                 console.error("Opción no válida seleccionada");
-                return; // Salir de la función si no se selecciona una opción válida
-            }
-    
-            // Cargar el contenido de la librería usando fetch
-            fetch(url)
-                .then(response => response.text())
-                .then(data => {
-                    notepad3.value = data;
-                    autoAjustar(notepad3);
-                })
-                .catch(error => {
-                    console.error("Error al cargar la librería:", error);
-                });
+                return;
         }
+        fetch(url)
+            .then(response => response.text())
+            .then(data => {
+                notepad21.value = data;
+                autoAjustar(notepad21);
+            })
+            .catch(error => {
+                console.error("Error al cargar la librería:", error);
+            });
+    }
+// ******* BOTON COPIAR DATOS ******* INICIO *******    
+    document.getElementById("botonCopiarDatos_tab6").addEventListener("click", function() {  
+        notepad21.select();                                                 // Selecciona todo el texto en el notepad21
+        document.execCommand("copy");                                       // Copia el texto seleccionado al portapapeles
+        window.getSelection().removeAllRanges();                            // Deselecciona el texto para que no quede resaltado
+        // No se muestra ningún mensaje ni se cierra automáticamente después de copiar
+    });
+// ******* BOTON MACROS DATOS ******* INICIO *******    
+document.getElementById("botonCargarDatos_tab6").addEventListener("click", function() { 
+    var selectedValue = document.getElementById("librerias_mails_ot").value;                       
+    var cliente = document.getElementById("cliente_tab6").value; 
+    var cuit = document.getElementById("cuit_tab6").value;                                           
+    var producto = document.getElementById("producto_tab6").value;                              
+    var cmmac = document.getElementById("cm_tab6").value;             
+    var uptime = document.getElementById("uptime_tab6").value;                                                                     
+    var direccion = document.getElementById("direccion_tab6").value;                                    
     
-        function autoAjustar(textarea) {
-            textarea.style.height = 'auto';
-            textarea.style.height = (textarea.scrollHeight) + 'px';
-        }
-// ******* BOTON EXPORTAR LIBRERIAS******* INICIO *******    
-document.getElementById("botonExportar_tab6").addEventListener("click", function() {
-    cargarLibreriaSeleccionada();
-    });            
-// ******* BOTON CARGAR LIBRERIAS ******* INICIO *******    
-document.getElementById("botonCargar_tab6").addEventListener("click", function() { 
-    var selectedValue = document.getElementById("librerias_ots").value;  
-    var cliente = document.getElementById("cliente_tab6").value;                                        
-    var cuit = document.getElementById("cuit_tab6").value;                                         
-    var producto = document.getElementById("producto_tab6").value;                           
-    var cm = document.getElementById("cm_tab6").value;                                      
-
-    var para = document.getElementById("para_tab6").value;                                                                  
-    var cc = document.getElementById("cc_tab6").value;                                                                 
+    var para = document.getElementById("para_tab6").value;  
+    var cc = document.getElementById("btcc_tab6").value;                      
+    var asunto = document.getElementById("asunto_tab6").value;                      
     var fecha = document.getElementById("fecha_tab6").value;                               
-    var reagenda = document.getElementById("reagenda_tab6").value;                                
-
+    var reagenda = document.getElementById("reagenda_tab6").value;                                       
+    var hora = document.getElementById("bthora_tab6").value;                
+    
+    var output_para2_tab6 = "";
+    var output_cc2_tab6 = "";
+    var output_asunto_tab6 = "";
+    var output_caso_tab6
+    var output_librerias_ots = "";
       
-    var output = "";
     if (selectedValue === "nulo") {
-        document.getElementById("notepad3").value = "Selecciona una librería primero.";
+        document.getElementById("notepad21").value = "Selecciona una librería primero.";
         return;
     }
-    switch (selectedValue) {                                                                           // Aquí puedes manejar diferentes casos basados en el valor seleccionado
-    case "01.TK-IN-NO.NAVEGA.HFC.CCTV.(GC)":
-        output += "************************************\n";
-        output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
-        output += "************************************\n";
-        output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/operativo con uptime: " + uptime + " | Reinicio CM: NO/SI\n\n\n";
-        output += "TB: CM sin enlace, se solicita al cliente chequear energia en sitio y reinicio general de los equipos.\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + "\n"; 
-        output += "************************************";
+    switch (selectedValue) {                                                                          
+    case "01.CM.HFC.operativo":
+        document.getElementById("para2_tab6").value = para;
+        output_para2_tab6  += para;
+        document.getElementById("cc2_tab6").value = cc;
+        output_cc2_tab6 += cc;
+        document.getElementById("asunto_tab6").value = asunto;
+        output_asunto_tab6 += "Seguimiento TELECOM | CLIENTE: " + cliente + "| CUIT: " + cuit;
+        output_librerias_ots += hora + "\n\n";
+        output_librerias_ots += "Nos encontramos realizando el seguimiento sobre el servicio de internet. ¿Cómo perciben el mismo actualmente? Ya que, desde nuestros monitoreos, verificamos que el enlace bajo cm mac " + cmmac + ", se encuentra operativo y con uptime de " + uptime + ".\n\n";
+        output_librerias_ots += "En base a lo informado, la orden técnica reservada para el día " + fecha + ", se encuentra de momento, anulada. Estaremos atentos y al aguardo de sus comentarios.\n\n";
+        output_librerias_ots += "Quedamos a disposición.\n";
+        output_librerias_ots += "Saludos cordiales.-";
         break; 
-    case "02.TK-IN-NO.NAVEGA.HFC-sin-OT":
-        output += "************************************\n";
-        output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
-        output += "************************************\n";
-        output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/CM operativo con uptime: " + uptime + " | Reinicio CM: SI\n\n\n";
-        output += "TB: CM levanta enlance, se prueba navegacion del lado del cliente y CM esta operativo.\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe + " | CPE IP: " + ip + " | CPE (model): " + model + "\n"; 
-        output += "************************************";
+    case "02.CM.HFC.masivo":
+        document.getElementById("para2_tab6").value = para;
+        output_para2_tab6  += para;
+        document.getElementById("cc2_tab6").value = cc;
+        output_cc2_tab6 += cc;
+        document.getElementById("asunto_tab6").value = asunto;
+        output_asunto_tab6 += "Seguimiento TELECOM | CLIENTE: " + cliente + "| CUIT: " + cuit;
+        output_librerias_ots += hora + "\n\n";
+        output_librerias_ots += "Respecto el avance del caso, les informamos que el servicio bajo producto " + producto + ", se encuentra actualmente afectado por un inconveniente de tipo general sobre nuestra red de HFC. Nuestros referentes técnicos ya se encuentran trabajando en sitio.\n\n";
+        output_librerias_ots += "En base a lo informado, la orden técnica reservada para el día " + fecha + ", se encuentra de momento, anulada. Estaremos atentos y al aguardo de sus comentarios.\n\n";
+        output_librerias_ots += "Quedamos a disposición.\n";
+        output_librerias_ots += "Saludos cordiales.-";
         break; 
-    case "03.TK-IN-NO.NAVEGA.HFC-con-OT":
-        output += "************************************\n";
-        output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
-        output += "************************************\n";
-        output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/operativo con uptime: " + uptime + " | Reinicio CM: SI\n\n\n";
-        output += "TB: CM dañado, caido o con valores fuera de los parametros. Se agenda OT.\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + " | OT: " + ot + "\n"; 
-        output += "************************************";
-        break;  
-    case "04.TK-IN-NO.NAVEGA.HFC-sin-CORTES":
-        output += "************************************\n";
-        output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
-        output += "************************************\n";
-        output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM operativo con uptime: " + uptime + " | Reinicio CM: SI\n\n\n";
-        output += "TB: CM esta operativo, sin degradacion actual. Se solicita al cliente pruebas ping-t/tracert, donde se convalide la degradacion/microcortes/cortes en el servicio.\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + " | CPE MAC: " + cpe + " | CPE IP: " + ip + " | CPE (model): " + model + "\n"; 
-        output += "************************************";
+    case "03.ONT.FTTH.operativo":
+        document.getElementById("para2_tab6").value = para;
+        output_para2_tab6  += para;
+        document.getElementById("cc2_tab6").value = cc;
+        output_cc2_tab6 += cc;
+        document.getElementById("asunto_tab6").value = asunto;
+        output_asunto_tab6 += "Seguimiento TELECOM | CLIENTE: " + cliente + "| CUIT: " + cuit;
+        output_librerias_ots += hora + "\n\n";
+        output_librerias_ots += "Nos encontramos realizando el seguimiento sobre el servicio de internet. ¿Cómo perciben el mismo actualmente? Ya que, desde nuestros monitoreos, verificamos que el enlace bajo ont mac " + cmmac + ", se encuentra operativo y con uptime de " + uptime + ".\n\n";
+        output_librerias_ots += "En base a lo informado, la orden técnica reservada para el día " + fecha + ", se encuentra de momento, anulada. Estaremos atentos y al aguardo de sus comentarios.\n\n";
+        output_librerias_ots += "Quedamos a disposición.\n";
+        output_librerias_ots += "Saludos cordiales.-";
         break; 
-    case "05.TK-IN-NO.NAVEGA.HFC-con-CORTES":
-        output += "************************************\n";
-        output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + "| Mail: " + mail + " | H-D: " + disponibilidad + " | Doc. Acc.: " + docAcceso + " | ToT: " + tot + " | Covid: " + covid + " | Domicilio: " + domicilio + "\n";
-        output += "************************************\n";
-        output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "W2K: DHCP con multiples reconexiones en el dia | NXT: caidas reiteradas del CM (ultimos 7-15 dias) | Reinicio CM: SI\n\n\n";
-        output += "TB: la falla persiste por degradacion del enlace/equipo. Se agenda OT para reparacion o recambio de CM.\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + "\n"; 
-        output += "************************************";
+    case "04.ONT.FTTH.masivo":
+        document.getElementById("para2_tab6").value = para;
+        output_para2_tab6  += para;
+        document.getElementById("cc2_tab6").value = cc;
+        output_cc2_tab6 += cc;
+        document.getElementById("asunto_tab6").value = asunto;
+        output_asunto_tab6 += "Seguimiento TELECOM | CLIENTE: " + cliente + "| CUIT: " + cuit;
+        output_librerias_ots += hora + "\n\n";
+        output_librerias_ots += "Respecto el avance del caso, les informamos que el servicio bajo producto " + producto + ", se encuentra actualmente afectado por un inconveniente de tipo general sobre nuestra red de Fibra Optica. Nuestros referentes técnicos ya se encuentran trabajando en sitio.\n\n";
+        output_librerias_ots += "En base a lo informado, la orden técnica reservada para el día " + fecha + ", se encuentra de momento, anulada. Estaremos atentos y al aguardo de sus comentarios.\n\n";
+        output_librerias_ots += "Quedamos a disposición.\n";
+        output_librerias_ots += "Saludos cordiales.-";
         break; 
-   case "06.TK-IN-NO.NAVEGA.HFC-reset-CM":
-        output += "************************************\n";
-        output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
-        output += "************************************\n";
-        output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: prueba ping: FALLIDA - uptime: NO - status: offline | Reset CM: SI\n\n";
-        output += "- Wifi 2.4GHz:\n";
-        output += "- pass 2.4GHz:\n\n";
-        output += "- Wifi 5.8GHz:\n";
-        output += "- pass 5.8GHz:\n\n";
-        output += "TB: Se reconfigura las credenciales WIFI, posterior al reseteo. Se prueba navegacion del lado del cliente y CM esta operativo.\n";
-        output += "CM MAC: " + cm + " | NODO: " + nodo + "\n"; 
-        output += "************************************";
-        break;
-    case "07.TK-IN-NO.NAVEGA.HFC-ToIP":
-        output += "************************************\n";
-        output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
-        output += "************************************\n";
-        output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/CM operativo con uptime: " + uptime + " | Reinicio CM: SI/NO | Reset CM: SI/NO\n\n\n";
-        output += "TB: Se le indica al cliente que se le remite via mail, una grilla de pruebas/chequeos a realizar por su parte. Con las mismas se iniciara el analisis del ToIP.\n";
-        output += "IDProducto: " + referencia + " | CM MAC: " + cm + " | LINEA: " + linea + "\n"; 
-        output += "************************************";
-        break;      
-    case "08.TK-IN-NO.NAVEGA.HFC-sin-alertar-MASIVO":
-        output += "************************************\n";
-        output += "Nombre en SITE: " + nombre + " | Tel. Ct.: " + tel + " | Mail: " + mail + " | Domicilio: " + domicilio + "\n";
-        output += "************************************\n";
-        output += "Cliente indica sin servicio. Monitoreo preventivo:\n";
-        output += "NXT: CM caido/degradado | Masivo sin alertar en OPEN.\n\n\n";
-        output += "TB (Nodo NXT): se verifica valores fuera de parametros, en varios equipos dentro del CMTS. Se le informa al cliente, posible daño externo en zona y se manda consulta MAIL para corroborar estado del servicio.\n";
-        output += "************************************";
-        break;
-    default:
-            output = "Librería no encontrada.";
+    case "05.DECO.operativo":
+        document.getElementById("para2_tab6").value = para;
+        output_para2_tab6  += para;
+        document.getElementById("cc2_tab6").value = cc;
+        output_cc2_tab6 += cc;
+        document.getElementById("asunto_tab6").value = asunto;
+        output_asunto_tab6 += "Seguimiento TELECOM | CLIENTE: " + cliente + "| CUIT: " + cuit;
+        output_librerias_ots += hora + "\n\n";
+        output_librerias_ots += "Nos encontramos realizando el seguimiento sobre el servicio contratado. Queríamos validar con usted, ¿Cómo percibe el funcionamiento del decodificador " + cmmac + "? En caso de existir o persistir alguna falla, favor de remitirnos por este medio.\n\n";
+        output_librerias_ots += "En base a lo informado, la orden técnica reservada para el día " + fecha + ", se encuentra de momento, anulada. Estaremos atentos y al aguardo de sus comentarios.\n\n";
+        output_librerias_ots += "Quedamos a disposición.\n";
+        output_librerias_ots += "Saludos cordiales.-";
+        break; 
+    case "06.OT.sin.datos":
+        document.getElementById("para2_tab6").value = para;
+        output_para2_tab6  += para;
+        document.getElementById("cc2_tab6").value = cc;
+        output_cc2_tab6 += cc;
+        document.getElementById("asunto_tab6").value = asunto;
+        output_asunto_tab6 += "Seguimiento TELECOM | CLIENTE: " + cliente + "| CUIT: " + cuit;
+        output_librerias_ots += hora + "\n\n";
+        output_librerias_ots += "Nos encontramos realizando el seguimiento sobre el servicio de internet. Verificamos que el equipo " + cmmac + ", cuenta con problemas de conexión, pero no contamos con los datos correspondientes para la asignación de la orden al domicilio.\n\n";
+        output_librerias_ots += "Nombre de persona en sitio:\n";
+        output_librerias_ots += "Tel. Contacto:\n";
+        output_librerias_ots += "Mail:\n";
+        output_librerias_ots += "Horarios y Días:\n";
+        output_librerias_ots += "¿Doc. Acceso?:\n";
+        output_librerias_ots += "¿Acceso a techo o terraza?:\n";
+        output_librerias_ots += "¿Algún afectado reciente por Covid-19?:\n\n";
+        output_librerias_ots += "Favor de completar la siguiente grilla, a fin de asignar nuevamente un service de reparación. En base a lo informado, la orden técnica reservada para el día " + fecha + ", se encuentra de momento, anulada. Estaremos atentos y al aguardo de sus comentarios.\n\n";
+        output_librerias_ots += "Quedamos a disposición.\n";
+        output_librerias_ots += "Saludos cordiales.-";
+        break; 
+    case "07.OT.nuevo.tb":
+        document.getElementById("para2_tab6").value = para;
+        output_para2_tab6  += para;
+        document.getElementById("cc2_tab6").value = cc;
+        output_cc2_tab6 += cc;
+        document.getElementById("asunto_tab6").value = asunto;
+        output_asunto_tab6 += "Seguimiento TELECOM | CLIENTE: " + cliente + "| CUIT: " + cuit;
+        output_librerias_ots += hora + "\n\n";
+        output_librerias_ots += "Nos encontramos realizando el seguimiento sobre el servicio bajo producto " + producto + ". Verificamos una orden asignada, pero no contamos ni con el diagnóstico de la falla, ni con los datos correspondientes para la asignación de dicha orden.\n\n";
+        output_librerias_ots += "Favor de indicarnos primeramente, cuales son los errores suscitados. Adicionalmente, favor de completar la siguiente grilla, con los datos pertinentes de la persona que se encuentre en el domicilio.\n\n";
+        output_librerias_ots += "Nombre de persona en sitio:\n";
+        output_librerias_ots += "Tel. Contacto:\n";
+        output_librerias_ots += "Mail:\n";
+        output_librerias_ots += "Horarios y Días:\n";
+        output_librerias_ots += "¿Doc. Acceso?:\n";
+        output_librerias_ots += "¿Acceso a techo o terraza?:\n";
+        output_librerias_ots += "¿Algún afectado reciente por Covid-19?:\n\n";
+        output_librerias_ots += "Nos estaremos contactando a la brevedad y avanzaremos con los chequeos correspondientes. En base a lo informado, la orden técnica reservada para el día " + fecha + ", se encuentra de momento, anulada. Estaremos atentos y al aguardo de sus comentarios.\n\n";
+        output_librerias_ots += "Quedamos a disposición.\n";
+        output_librerias_ots += "Saludos cordiales.-";
+        break; 
+    case "08.OT.reagenda.ot":
+        document.getElementById("para2_tab6").value = para;
+        output_para2_tab6  += para;
+        document.getElementById("cc2_tab6").value = cc;
+        output_cc2_tab6 += cc;
+        document.getElementById("asunto_tab6").value = asunto;
+        output_asunto_tab6 += "Seguimiento TELECOM | CLIENTE: " + cliente + "| CUIT: " + cuit;
+        output_librerias_ots += hora + "\n\n";
+        output_librerias_ots += "Les informamos que cuenta con una nueva visita técnica en curso. La misma se encuentra reservada para el día " + reagenda + " y en la franja de 08 a 15 horas.\n\n";
+        output_librerias_ots += "Favor de confirmarnos si podrá aguardar a nuestros referentes técnicos en el domicilio de " + direccion + ". En caso contrario, favor de indicarnos en que día y horarios podemos brindarle una nueva reagenda.\n\n";
+        output_librerias_ots += "Quedamos a disposición.\n";
+        output_librerias_ots += "Saludos cordiales.-";
+        break; 
+    case "09.OT.reagenda.bt":
+        document.getElementById("para2_tab6").value = para;
+        output_para2_tab6  += para;
+        document.getElementById("cc2_tab6").value = cc;
+        output_cc2_tab6 += cc;
+        document.getElementById("asunto_tab6").value = asunto;
+        output_asunto_tab6 += "Seguimiento TELECOM | CLIENTE: " + cliente + "| CUIT: " + cuit;
+        output_librerias_ots += hora + "\n\n";
+        output_librerias_ots += "Les informamos que cuenta con una nueva visita técnica en curso. La misma se encuentra reservada para el día " + reagenda + " y con prioridad en la agenda de nuestros referentes. El motivo de este cambio, debido a que por cuestiones de tiempo, no hemos podido concretar la agenda previamente reservada en el día de hoy.\n\n";
+        output_librerias_ots += "Favor de confirmarnos si podrá aguardar a nuestros referentes técnicos en el domicilio de " + direccion + ". En caso contrario, favor de indicarnos en que día y horarios podemos brindarle una nueva reagenda.\n\n";
+        output_librerias_ots += "Quedamos a disposición.\n";
+        output_librerias_ots += "Saludos cordiales.-";
+        break; 
+        default:
+            output_librerias_ots = "Librería no encontrada.";
         }     
-        notepad22.value = output; 
-    });     
+    // Lógica común para todos los casos
+    document.getElementById("output_para_tab6").value = output_para2_tab6;
+    document.getElementById("output_cc_tab6").value = output_cc_tab6;
+    document.getElementById("asunto_tab6").value = output_asunto_tab6;
+    document.getElementById("output_caso_tab6").value = output_caso_tab6;
+    // Actualizar el contenido de notepad21
+    document.getElementById("notepad21").value = output_librerias_ots;
+    }); 
+// ******* BOTON BORRAR DATOS ******* INICIO *******    
+document.getElementById("botonBorrarDatos_tab6").addEventListener("click", function() {  
+    // Eliminar cookies
+    const camposDeEntrada = [
+        'cliente_tab6', 'cuit_tab6', 'btcc_tab6', 'producto_tab6', 'cm_tab6', 'uptime_tab6',
+        'direccion_tab6', 'bthora_tab6', 'fecha_tab6', 'reagenda_tab6', 'para_tab6'
+    ];
 
+    const camposDeSalida = [
+        'para2_tab6', 'cc2_tab6', 'asunto_tab6', 'caso_tab6', 'notepad21', 'output_librerias_ots',
+        'output_para_tab6', 'output_cc_tab6', 'output_asunto_tab6', 'output_caso_tab6'
+    ];
 
+    camposDeEntrada.forEach(campo => {
+        document.cookie = `${campo}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+        document.getElementById(campo).value = ''; // Limpiar el valor visualmente
+    });
 
-
-
-
-// - ***************************** BLOC DE NOTAS - NOTEPAD 21-22 *********************** - 
-document.addEventListener('DOMContentLoaded', function() {                                                    
-    const notepad1 = document.getElementById("notepad21");
-    const notepad2 = document.getElementById("notepad22");
-
-   aplicarAjustes(notepad1);
-   aplicarAjustes(notepad2);
-
-   function aplicarAjustes(textarea) {
-       textarea.addEventListener('input', function() {
-           autoAjustar(textarea);
-           ajustarAnchoMaximo(textarea);
-       });
-   }
-
-   function autoAjustar(textarea) {
-       textarea.style.height = 'auto';
-       textarea.style.height = (textarea.scrollHeight) + 'px';
-   }
-
-   function ajustarAnchoMaximo(textarea) {
-       textarea.style.maxWidth = '340px'; // Fijar el ancho máximo
-   }
-// ******* BOTON BAJAR DATA ******* INICIO *******    
-// ******* BOTON COPIAR DATA ******* INICIO *******    
-document.getElementById("botonCopiarDatos_tab6").addEventListener("click", function() {  
-    var notepad1 = document.getElementById("notepad1");
-    notepad1.select();                                                  // Selecciona todo el texto en el notepad2
-    document.execCommand("copy");                                       // Copia el texto seleccionado al portapapeles
-    window.getSelection().removeAllRanges();                            // Deselecciona el texto para que no quede resaltado
+    camposDeSalida.forEach(campo => {
+        document.cookie = `${campo}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+        document.getElementById(campo).innerText = ''; // Limpiar el valor visualmente
+    });
+    }); 
 });
-// ******* BOTON LIMPIAR NOTEPAD 21 y NOTEPAD 22 ******* INICIO *******    
-document.getElementById("botonBorrarDatos_tab6").addEventListener("click", function() { 
-    var notepad21 = document.getElementById("notepad21");
-    var notepad22 = document.getElementById("notepad22");
-
-    notepad21.value = "";            // Borra el contenido de notepad21
-    notepad22.value = "";            // Borra el contenido de notepad22
-
-    notepad21.style.height = 'auto'; // Restablece la altura de notepad21
-    notepad22.style.height = 'auto'; // Restablece la altura de notepad22
-});
-// ******* BOTON GUARDAR DATA ******* INICIO *******    
-
-});   
-// - ***************************** BLOC DE NOTAS - NOTEPAD 1-2 *********************** - 
-
-
+// ***************************** BLOC DE NOTAS - NOTEPAD 21 *************************  -

@@ -266,7 +266,22 @@ select option[value="pymes"] {
   background-color: #debd03 ; /* Color de fondo gris */
   color: black; /* Color del texto */
   border: 1px solid black; /* Borde negro */
-  font-weight: bold;
+  fon
+  t-weight: bold;
+}
+#uptime_tab6 {
+  background-color: #debd03 ; /* Color de fondo gris */
+  color: black; /* Color del texto */
+  border: 1px solid black; /* Borde negro */
+  fon
+  t-weight: bold;
+}
+#direccion_tab6 {
+  background-color: #debd03 ; /* Color de fondo gris */
+  color: black; /* Color del texto */
+  border: 1px solid black; /* Borde negro */
+  fon
+  t-weight: bold;
 }
 #para_tab6 {
   background-color: #FF7F50; /* Color de fondo gris */
@@ -292,6 +307,13 @@ select option[value="pymes"] {
   font-weight: bold;
 }
 #reagenda_tab6 {
+  background-color: #FF7F50 ; /* Color de fondo gris */
+  color: black; /* Color del texto */
+  border: 1px solid black; /* Borde negro */
+  font-wei
+  ght: bold;
+}
+#bthora_tab6 {
   background-color: #FF7F50 ; /* Color de fondo gris */
   color: black; /* Color del texto */
   border: 1px solid black; /* Borde negro */
